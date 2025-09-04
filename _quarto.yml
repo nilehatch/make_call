@@ -1,0 +1,50 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Making the Call"
+  subtitle: "Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship"
+  reader-mode: true
+  
+#  author: "Nile Hatch"
+#  date: "9/4/2025"
+
+#  site-url: https://ei.nilehatch.com/
+#  repo-url: https://github.com/nilehatch/exp_innov/
+
+  page-footer:
+    left: |
+      _Expeditionary Innovation_ was written by Nile Hatch.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+
+  sidebar:
+    style: "docked"   # or "floating"
+    collapse-level: 1
+  
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+#    include-after-body: collapse-parts.html
+    css:
+      - base.css
+      - custom.css
+    number-sections: true
+    number-depth: 1
+    fig-cap-location: margin
+    tbl-cap-location: margin
+#    embed-resources: true
+
+editor: source
+
+execute:
+  echo: false
