@@ -1,6 +1,34 @@
-.Rproj.user
+# Quarto output
+_site/
+*.html
+*.pdf
+*.docx
+
+# RStudio junk (safe to ignore if not using RStudio)
+.Rproj.user/
 .Rhistory
 .RData
-.Ruserdata
+*.Rproj
 
-/.quarto/
+# macOS system files
+.DS_Store
+
+# Cache or preview directories
+.cache/
+.quarto/
+
+# Log files
+*.log
+
+# Editor settings
+.vscode/
+.idea/
+
+# Netlify output (if building locally before deploy)
+netlify.toml
+
+# Thumbnails or previews
+*.png
+*.jpg
+*.jpeg
+*.svg
