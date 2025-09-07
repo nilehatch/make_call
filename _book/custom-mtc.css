@@ -1,0 +1,150 @@
+/* ===============================
+   Make the Call — custom-mtc.css
+   Purposeful styling from uncertainty → clarity
+   =============================== */
+
+/* ---------- Brand Colors ---------- */
+:root {
+  --mtc-primary: #007BA7;        /* Cerulean */
+  --mtc-primary-dark: #006B90;   /* Darker Cerulean */
+  --mtc-secondary: #008080;      /* Teal */
+  --mtc-accent: #E3A008;         /* Optional gold */
+  --mtc-muted: #6B7280;          /* Gray for text */
+  --mtc-bg-tint: #EAF4F7;        /* Soft teal tint */
+  --mtc-text: #1F2937;           /* Rich gray text */
+}
+
+/* ---------- Base Body & Headings ---------- */
+body {
+  color: var(--mtc-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--mtc-text);
+  scroll-margin-top: 90px;
+}
+
+/* Paragraph spacing */
+p + p {
+  margin-top: 0.6em;
+}
+
+/* Bolder chapter banner (gradient from Cerulean to deeper Cerulean) */
+.quarto-title-block {
+  background: linear-gradient(90deg, var(--mtc-primary) 0%, var(--mtc-primary-dark) 70%);
+  color: white;
+  padding: 1.2rem 1.2rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+.quarto-title-block h1.title,
+.quarto-title-block .subtitle {
+  color: white;
+  border-bottom: none !important;
+  margin: 0 !important;
+}
+
+.subtitle {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #e0f0f7;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+/* ---------- Section Divider (Asterism) ---------- */
+.asterism {
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--mtc-primary), transparent);
+  margin: 1.75rem 0;
+  border: 0;
+}
+
+/* ---------- Branded Callouts ---------- */
+.callout {
+  border-left-width: 4px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.callout-note    { border-left-color: var(--mtc-primary);    background: var(--mtc-bg-tint); }
+.callout-tip     { border-left-color: #16A34A;               background: #EAF7EF; }
+.callout-important{ border-left-color: #EA580C;              background: #FFF1E9; }
+.callout-caution { border-left-color: #DC2626;              background: #FDECEC; }
+
+.callout .callout-title-container {
+  font-weight: 600;
+  color: var(--mtc-text);
+}
+
+/* ---------- Links ---------- */
+a, .link-secondary {
+  color: var(--mtc-primary);
+  text-decoration-thickness: 0.06em;
+}
+a:hover, a:focus {
+  color: var(--mtc-primary-dark);
+  text-decoration-color: var(--mtc-primary-dark);
+}
+
+/* ---------- Code Blocks (light polish) ---------- */
+pre code {
+  background: #f8fafc;
+  border: 1px solid #eef2f7;
+  border-radius: 6px;
+  display: block;
+  padding: 0.75rem 1rem;
+}
+
+p code, li code, table code {
+  background: #f3f6fb;
+  border: 1px solid #e9eef7;
+  padding: 0.05rem 0.35rem;
+  border-radius: 4px;
+}
+
+/* ---------- Images ---------- */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Block Quotes ---------- */
+blockquote {
+  border-left: 4px solid var(--mtc-primary);
+  padding-left: 1rem;
+  color: var(--mtc-muted);
+  background: linear-gradient(to right, var(--mtc-bg-tint), transparent);
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+/* ---------- Pull Quotes ---------- */
+.pull-quote {
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--mtc-secondary); /* teal */
+  background: linear-gradient(to right, var(--mtc-bg-tint), transparent 60%);
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--mtc-text);
+}
+
+/* ---------- Method Divider ---------- */
+hr.method-divider {
+  border: 0;
+  height: 6px;
+  margin: 2rem 0 1.25rem;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--mtc-primary), var(--mtc-secondary));
+}
+
+@media (max-width: 640px), print {
+  hr.method-divider { height: 4px; }
+}
+
+
+

@@ -1,0 +1,105 @@
+/* ====== Typography and Heading Spacing ====== */
+
+/* Add space below main title */
+.quarto-title-block h1.title {
+  margin-bottom: 40px !important;
+}
+
+/* Add space above h2 headers and optional underline */
+.level2 h2.anchored {
+  margin-top: 40px;
+  border-bottom: 2px solid #ccc; /* subtle divider */
+}
+
+/* Add space before h3 headers */
+h3 {
+  margin-top: 30px;
+}
+
+/* ====== Figures and Captions ====== */
+
+/* Consistent image sizing on smaller screens */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Quarto figure captions */
+.figure-caption {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* ====== Footnotes ====== */
+
+/* Add clear "Footnotes" label above footnotes */
+.footnotes::before {
+  content: "Footnotes";
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Add space above the footnotes section */
+.footnotes {
+  margin-top: 2em;
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+}
+
+/* ====== Tables ====== */
+
+/* General table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+}
+
+th {
+  background-color: #f8f8f8;
+  text-align: left;
+}
+
+/* ====== Responsive Design ====== */
+
+/* Prevent floating elements from breaking layout on mobile */
+@media (max-width: 768px) {
+  .wrapfig {
+    float: none !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+  }
+}
+
+/* wrapfig stylings to manage text / fig interfaces */
+
+.wrapfig_left_30 {
+  float: left;
+  margin: 0 20px 10px 10px;
+  width: 30%;
+}
+
+.wrapfig_right_30 {
+  float: right;
+  margin: 0 0 10px 20px;
+  width: 30%;
+}
+
+.wrapfig_left_25 {
+  float: left;
+  margin: 0 20px 10px 10px;
+  width: 25%;
+}
+
+.wrapfig_right_25 {
+  float: right;
+  margin: 0 0 10px 20px;
+  width: 25%;
+}

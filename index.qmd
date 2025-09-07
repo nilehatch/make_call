@@ -1,5 +1,12 @@
-# Preface {.unnumbered}
 
-This is a Quarto book.
+This book helps entrepreneurs build the habits of mind and tools of reasoning they need to make smart decisions under uncertainty. It is designed to guide anyone seeking better judgment in the face of incomplete information.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+You’ll learn to:
+
+- Understand different types of uncertainty
+- Explore rational, empirical, and spiritual ways of knowing
+- Use data, models, and expert insight as sources of evidence
+- Apply Bayesian reasoning and decision frameworks
+- Develop the judgment and faith required to act wisely
+
+Let’s get to work.

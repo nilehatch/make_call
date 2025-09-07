@@ -1,0 +1,10 @@
+# Part IV: Judging, Deciding, and Acting {.unnumbered}
+
+Knowing is not enough. You have to make the call. This section is about synthesizing what you’ve learned, evaluating the credibility of your evidence, updating your beliefs, and stepping forward — not with certainty, but with confidence grounded in knowledge and good judgment.
+
+We’ll cover:
+
+- Bayesian reasoning in action
+- How to assess credibility and decide what counts
+- Decision rules, thresholds, and value of information
+- When to act, pivot, or stop

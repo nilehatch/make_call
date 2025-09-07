@@ -2,31 +2,313 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Making the Call",
+    "title": "Make the Call",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "This book helps entrepreneurs build the habits of mind and tools of reasoning they need to make smart decisions under uncertainty. It is designed to guide anyone seeking better judgment in the face of incomplete information.\nYou’ll learn to:\n\nUnderstand different types of uncertainty\nExplore rational, empirical, and spiritual ways of knowing\nUse data, models, and expert insight as sources of evidence\nApply Bayesian reasoning and decision frameworks\nDevelop the judgment and faith required to act wisely\n\nLet’s get to work.",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>index.html</span>"
     ]
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Making the Call",
+    "title": "2  Making the Call",
     "section": "",
-    "text": "This chapter is a placeholder for the introductory chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "text": "test\nThis chapter is a placeholder for the introductory chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.\nSome explanation…\nNow a new statistical concept begins…",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Making the Call</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Making the Call</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "part1-knowing-deciding.html",
+    "href": "part1-knowing-deciding.html",
+    "title": "Part I: Knowing and Deciding in Uncertainty",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n\n[1] 2",
+    "text": "Entrepreneurship starts with uncertainty — not as a problem to be avoided, but as the very terrain we walk. In this section, you’ll learn to recognize the difference between uncertainty and risk, explore how knowledge is formed, and develop the habits of mind needed to move forward even when you don’t have all the answers.\nWe’ll cover:\n\nThe nature of uncertainty (aleatory vs. epistemic)\nWhat it means to know (and why belief matters)\nHow different epistemologies shape your reasoning\nWhy judgment and faith are not weaknesses, but strengths",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "Part I: Knowing and Deciding in Uncertainty"
+    ]
+  },
+  {
+    "objectID": "ch01-uncertainty.html",
+    "href": "ch01-uncertainty.html",
+    "title": "3  Uncertainty",
+    "section": "",
+    "text": "This chapter is a placeholder for the Uncertainty chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Uncertainty</span>"
+    ]
+  },
+  {
+    "objectID": "ch02-knowledge.html",
+    "href": "ch02-knowledge.html",
+    "title": "4  Knowledge",
+    "section": "",
+    "text": "This chapter is a placeholder for the Knowledge chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Knowledge</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html",
+    "href": "ch03-epistemology.html",
+    "title": "5  Epistemology",
+    "section": "",
+    "text": "This chapter is a placeholder for the Epistemology chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Epistemology</span>"
+    ]
+  },
+  {
+    "objectID": "ch04-judgment.html",
+    "href": "ch04-judgment.html",
+    "title": "6  Judgment",
+    "section": "",
+    "text": "This chapter is a placeholder for the Judgment chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Judgment</span>"
+    ]
+  },
+  {
+    "objectID": "ch05-bayesian.html",
+    "href": "ch05-bayesian.html",
+    "title": "7  Bayesian",
+    "section": "",
+    "text": "This chapter is a placeholder for the Bayesian chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Bayesian</span>"
+    ]
+  },
+  {
+    "objectID": "part2-asking-right-questions.html",
+    "href": "part2-asking-right-questions.html",
+    "title": "Part II: Asking the Right Questions",
+    "section": "",
+    "text": "Before you can act wisely, you have to know what to ask. This section focuses on how entrepreneurs identify the most urgent unknowns, shape meaningful questions, and generate smart, informed hunches. We’ll also explore the value of exploration before jumping to solutions.\nWe’ll cover:\n\nHow to find the questions that matter most\nTurning unknowns into testable ideas\nThe role of abduction and intuition\nWhy premature hypotheses can backfire",
+    "crumbs": [
+      "Part II: Asking the Right Questions"
+    ]
+  },
+  {
+    "objectID": "ch06-urgent-unknowns.html",
+    "href": "ch06-urgent-unknowns.html",
+    "title": "8  Urgent Unknowns",
+    "section": "",
+    "text": "This chapter is a placeholder for the Urgent Unknowns of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part II: Asking the Right Questions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Urgent Unknowns</span>"
+    ]
+  },
+  {
+    "objectID": "ch07-hypotheses.html",
+    "href": "ch07-hypotheses.html",
+    "title": "9  Hypotheses",
+    "section": "",
+    "text": "This chapter is a placeholder for the Hypotheses chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part II: Asking the Right Questions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hypotheses</span>"
+    ]
+  },
+  {
+    "objectID": "ch08-exploration.html",
+    "href": "ch08-exploration.html",
+    "title": "10  Exploration",
+    "section": "",
+    "text": "This chapter is a placeholder for the Exploration chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part II: Asking the Right Questions",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Exploration</span>"
+    ]
+  },
+  {
+    "objectID": "part3-gather-evidence.html",
+    "href": "part3-gather-evidence.html",
+    "title": "Part III: Gathering Evidence from the World",
+    "section": "",
+    "text": "Once you know what you’re asking, it’s time to go looking for answers. This section explores the wide world of evidence: public data, private data, customer conversations, AI, models, financials, and more. We’ll treat each as a way of knowing — not just a source of facts.\nWe’ll cover:\n\nWhere to find useful, credible data\nWhen to trust experts, models, and machines\nWhat customers can tell you — and what they can’t\nHow to use accounting and structure as strategic insight",
+    "crumbs": [
+      "Part III: Gathering Evidence from the World"
+    ]
+  },
+  {
+    "objectID": "ch09-public-data.html",
+    "href": "ch09-public-data.html",
+    "title": "11  Public Data",
+    "section": "",
+    "text": "This chapter is a placeholder for the Uncertainty chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part III: Gathering Evidence from the World",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Public Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch10-private-data.html",
+    "href": "ch10-private-data.html",
+    "title": "12  Private Data",
+    "section": "",
+    "text": "This chapter is a placeholder for the Private Data chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part III: Gathering Evidence from the World",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Private Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch11-customer-evidence.html",
+    "href": "ch11-customer-evidence.html",
+    "title": "13  Customer Evidence",
+    "section": "",
+    "text": "This chapter is a placeholder for the Customer Evidence chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part III: Gathering Evidence from the World",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Customer Evidence</span>"
+    ]
+  },
+  {
+    "objectID": "ch12-ai-experts.html",
+    "href": "ch12-ai-experts.html",
+    "title": "14  AI and Human Experts",
+    "section": "",
+    "text": "This chapter is a placeholder for the AI and Human Experts chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part III: Gathering Evidence from the World",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>AI and Human Experts</span>"
+    ]
+  },
+  {
+    "objectID": "ch13-modeling.html",
+    "href": "ch13-modeling.html",
+    "title": "15  Modeling",
+    "section": "",
+    "text": "This chapter is a placeholder for the Modeling chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part III: Gathering Evidence from the World",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Modeling</span>"
+    ]
+  },
+  {
+    "objectID": "ch14-accounting.html",
+    "href": "ch14-accounting.html",
+    "title": "16  Accounting Data",
+    "section": "",
+    "text": "This chapter is a placeholder for the Accounting chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part III: Gathering Evidence from the World",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Accounting Data</span>"
+    ]
+  },
+  {
+    "objectID": "part4-judging-deciding-acting.html",
+    "href": "part4-judging-deciding-acting.html",
+    "title": "Part IV: Judging, Deciding, and Acting",
+    "section": "",
+    "text": "Knowing is not enough. You have to make the call. This section is about synthesizing what you’ve learned, evaluating the credibility of your evidence, updating your beliefs, and stepping forward — not with certainty, but with confidence grounded in knowledge and good judgment.\nWe’ll cover:\n\nBayesian reasoning in action\nHow to assess credibility and decide what counts\nDecision rules, thresholds, and value of information\nWhen to act, pivot, or stop",
+    "crumbs": [
+      "Part IV: Judging, Deciding, and Acting"
+    ]
+  },
+  {
+    "objectID": "ch15-updating.html",
+    "href": "ch15-updating.html",
+    "title": "17  Updating through Belief Revision",
+    "section": "",
+    "text": "This chapter is a placeholder for the Belief Revision chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part IV: Judging, Deciding, and Acting",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Updating through Belief Revision</span>"
+    ]
+  },
+  {
+    "objectID": "ch16-evaluating.html",
+    "href": "ch16-evaluating.html",
+    "title": "18  Evaluating",
+    "section": "",
+    "text": "This chapter is a placeholder for the Evaluating chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part IV: Judging, Deciding, and Acting",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Evaluating</span>"
+    ]
+  },
+  {
+    "objectID": "ch17-decision-rules.html",
+    "href": "ch17-decision-rules.html",
+    "title": "19  Decision Rules",
+    "section": "",
+    "text": "This chapter is a placeholder for the Decision Rules chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part IV: Judging, Deciding, and Acting",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Decision Rules</span>"
+    ]
+  },
+  {
+    "objectID": "ch18-judgment.html",
+    "href": "ch18-judgment.html",
+    "title": "20  Judgment",
+    "section": "",
+    "text": "This chapter is a placeholder for the Judgment chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part IV: Judging, Deciding, and Acting",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Judgment</span>"
+    ]
+  },
+  {
+    "objectID": "ch19-presenting.html",
+    "href": "ch19-presenting.html",
+    "title": "21  Presenting",
+    "section": "",
+    "text": "This chapter is a placeholder for the Presenting chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part IV: Judging, Deciding, and Acting",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Presenting</span>"
+    ]
+  },
+  {
+    "objectID": "part5-becoming.html",
+    "href": "part5-becoming.html",
+    "title": "Part V: Becoming Someone Who Knows and Acts Well",
+    "section": "",
+    "text": "Smart decisions don’t come from perfect data — they come from wise decision-makers. In this final section, we focus on who you are becoming: someone who integrates knowledge, judgment, and faith. We’ll explore lifelong learning, belief revision, and the spiritual side of entrepreneurship.\nWe’ll cover:\n\nHow faith and revelation inform decision-making\nBuilding habits of judgment and epistemic humility\nBecoming a leader of faith, intellect, and character\nWhere to go from here",
+    "crumbs": [
+      "Part V: Becoming Someone Who Knows and Acts Well"
+    ]
+  },
+  {
+    "objectID": "ch20-faith.html",
+    "href": "ch20-faith.html",
+    "title": "22  Faith",
+    "section": "",
+    "text": "This chapter is a placeholder for the Faith chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part V: Becoming Someone Who Knows and Acts Well",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Faith</span>"
+    ]
+  },
+  {
+    "objectID": "ch21-lifelong-learning.html",
+    "href": "ch21-lifelong-learning.html",
+    "title": "23  Lifelong Learning",
+    "section": "",
+    "text": "This chapter is a placeholder for the Lifelong Learning chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part V: Becoming Someone Who Knows and Acts Well",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Lifelong Learning</span>"
+    ]
+  },
+  {
+    "objectID": "ch22-leadership.html",
+    "href": "ch22-leadership.html",
+    "title": "24  Leadership",
+    "section": "",
+    "text": "This chapter is a placeholder for the Leadership chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "crumbs": [
+      "Part V: Becoming Someone Who Knows and Acts Well",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Leadership</span>"
     ]
   }
 ]

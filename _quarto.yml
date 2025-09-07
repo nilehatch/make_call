@@ -3,30 +3,65 @@ project:
   output-dir: _book
 
 book:
-  title: "Making the Call"
+  title: "Make the Call"
   subtitle: "Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship"
   reader-mode: true
-  
+
 #  author: "Nile Hatch"
 #  date: "9/4/2025"
 
-#  site-url: https://ei.nilehatch.com/
-#  repo-url: https://github.com/nilehatch/exp_innov/
+  site-url: https://mc.nilehatch.com/
+  repo-url: https://github.com/nilehatch/make_call/
 
   page-footer:
     left: |
-      _Expeditionary Innovation_ was written by Nile Hatch.
+      _Make the Call_ is written by Nile Hatch.
     right: |
-      This book was built with <a href="https://quarto.org/">Quarto</a>.
+      Built with <a href="https://quarto.org/">Quarto</a>.
 
   sidebar:
-    style: "docked"   # or "floating"
+    style: "docked"
     collapse-level: 1
-  
+
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - part: part1-knowing-deciding.qmd
+      chapters:
+        - ch01-uncertainty.qmd
+        - ch02-knowledge.qmd
+        - ch03-epistemology.qmd
+        - ch04-judgment.qmd
+        - ch05-bayesian.qmd
+
+    - part: part2-asking-right-questions.qmd
+      chapters:
+        - ch06-urgent-unknowns.qmd
+        - ch07-hypotheses.qmd
+        - ch08-exploration.qmd
+
+    - part: part3-gather-evidence.qmd
+      chapters:
+        - ch09-public-data.qmd
+        - ch10-private-data.qmd
+        - ch11-customer-evidence.qmd
+        - ch12-ai-experts.qmd
+        - ch13-modeling.qmd
+        - ch14-accounting.qmd
+
+    - part: part4-judging-deciding-acting.qmd
+      chapters:
+        - ch15-updating.qmd
+        - ch16-evaluating.qmd
+        - ch17-decision-rules.qmd
+        - ch18-judgment.qmd
+        - ch19-presenting.qmd
+
+    - part: part5-becoming.qmd
+      chapters:
+        - ch20-faith.qmd
+        - ch21-lifelong-learning.qmd
+        - ch22-leadership.qmd
     - references.qmd
 
 bibliography: references.bib
@@ -34,15 +69,13 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
-#    include-after-body: collapse-parts.html
     css:
       - base.css
-      - custom.css
+      - custom-mtc.css
     number-sections: true
     number-depth: 1
     fig-cap-location: margin
     tbl-cap-location: margin
-#    embed-resources: true
 
 editor: source
 

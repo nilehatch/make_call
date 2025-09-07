@@ -1,0 +1,18 @@
+
+/* ===============================
+   Make the Call — custom.css color update
+   Palette: Cerulean → Teal → White
+   =============================== */
+
+:root {
+  --mtc-primary: #007BA7;       /* Cerulean */
+  --mtc-primary-dark: #00688B;  /* Deeper Cerulean */
+  --mtc-primary-tint: #E6F7FA;  /* Pale blue/teal tint */
+  --mtc-accent: #38B2AC;        /* Teal */
+  --mtc-text: #1A202C;          /* Slate/Dark gray */
+  --mtc-muted: #718096;         /* Muted gray */
+  --mtc-success: #319795;       /* Teal green */
+  --mtc-warning: #ED8936;       /* Orange */
+  --mtc-danger: #E53E3E;        /* Red */
+  --mtc-spiritual: #6B46C1;     /* Deep purple (for spiritual highlights) */
+}

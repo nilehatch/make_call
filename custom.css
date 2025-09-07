@@ -1,0 +1,509 @@
+
+/* ===============================
+   Make the Call — custom.css color update
+   Palette: Cerulean → Teal → White
+   =============================== */
+
+:root {
+  --mtc-primary: #007BA7;       /* Cerulean */
+  --mtc-primary-dark: #00688B;  /* Deeper Cerulean */
+  --mtc-primary-tint: #E6F7FA;  /* Pale blue/teal tint */
+  --mtc-accent: #38B2AC;        /* Teal */
+  --mtc-text: #1A202C;          /* Slate/Dark gray */
+  --mtc-muted: #718096;         /* Muted gray */
+  --mtc-success: #319795;
+  --mtc-warning: #ED8936;
+  --mtc-danger: #E53E3E;
+  --mtc-spiritual: #6B46C1;     /* Purple for spiritual highlights */
+}
+
+/* ---------- Body & headings ---------- */
+body {
+  color: var(--mtc-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--mtc-text);
+  scroll-margin-top: 90px; /* nicer anchor jumps */
+}
+
+.quarto-title-block {
+  background: linear-gradient(90deg, var(--mtc-primary) 0%, var(--mtc-accent) 90%);
+  color: white;
+  padding: 1.2rem 1.2rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+
+.quarto-title-block h1.title,
+.quarto-title-block .subtitle {
+  color: white;
+  border-bottom: none !important;
+  margin: 0 !important;
+}
+
+
+/* Section headers: spacing + subtle underline for h2 only */
+.level2 h2.anchored {
+  margin-top: 40px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e5e7eb; /* light gray rule */
+}
+
+/* h3 spacing (as you used before) */
+h3 {
+  margin-top: 30px;
+}
+
+/* Paragraph rhythm */
+p + p {
+  margin-top: 0.6em;
+}
+
+/* ---------- Links ---------- */
+a, .link-secondary {
+  color: var(--mtc-primary);
+  text-decoration-thickness: 0.06em;
+}
+a:hover, a:focus {
+  color: var(--mtc-primary-dark);
+  text-decoration-color: var(--mtc-primary-dark);
+}
+
+/* ---------- Blockquotes ---------- */
+blockquote {
+  border-left: 4px solid var(--mtc-primary);
+  padding-left: 1rem;
+  color: var(--mtc-muted);
+  background: linear-gradient(to right, var(--mtc-primary-tint), transparent);
+}
+
+/* ---------- Code blocks ---------- */
+pre, code, kbd, samp {
+  font-variant-ligatures: none;
+}
+pre code {
+  background: #f8fafc; /* near-white */
+  border: 1px solid #eef2f7;
+  border-radius: 6px;
+  display: block;
+  padding: 0.75rem 1rem;
+}
+
+/* Inline code contrast */
+p code, li code, table code {
+  background: #f3f6fb;
+  border: 1px solid #e9eef7;
+  padding: 0.05rem 0.35rem;
+  border-radius: 4px;
+}
+
+/* ---------- Callouts ---------- */
+.callout {
+  border-left-width: 4px;
+}
+.callout-note, .callout-tip, .callout-important {
+  border-left-color: var(--mtc-primary);
+}
+.callout-title-container {
+  color: var(--mtc-primary-dark);
+}
+
+/* ---------- Figures & captions ---------- */
+/* Margin captions are set via Quarto; tweak typography only */
+.figure-caption, .quarto-title-meta, figcaption, .quarto-figure .caption {
+  color: var(--mtc-muted);
+  font-size: 0.92rem;
+  line-height: 1.25;
+}
+
+/* Ensure images scale well on mobile */
+.quarto-figure img, img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Tables ---------- */
+/* General table polish (non-typology) */
+.table, table.table {
+  font-size: 0.98rem;
+}
+table thead th {
+  background: #f7f7f9;
+}
+
+/* Footnotes within tables slightly smaller */
+table tfoot, table .footnotes {
+  font-size: 0.9rem;
+}
+
+/* ---------- Footnotes block ---------- */
+/* Insert a visible "Footnotes" label above the auto-generated notes */
+.footnotes::before {
+  content: "Footnotes";
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  color: var(--mtc-muted);
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+/* Horizontal rule styling near footnotes */
+.footnotes hr {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin-bottom: 0.75rem;
+}
+
+/* Footnote text size + spacing */
+.footnotes ol {
+  font-size: 0.95rem;
+  color: var(--mtc-muted);
+}
+.footnotes li {
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- Buttons (if used) ---------- */
+.btn-primary {
+  background-color: var(--mtc-primary);
+  border-color: var(--mtc-primary);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--mtc-primary-dark);
+  border-color: var(--mtc-primary-dark);
+}
+
+/* ---------- Utility: soft highlight class (for rare emphasis) ---------- */
+.mtc-highlight {
+  background: var(--mtc-primary-tint);
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+}
+
+/* ---------- Optional: deprecate legacy float wrap (wrapfig) on mobile ---------- */
+@media (max-width: 768px) {
+  .wrapfig {
+    float: none !important;
+    width: 100% !important;
+    margin: 0 0 1rem 0 !important;
+  }
+}
+
+
+/* ===============================
+   Expeditionary Innovation — visible-but-tasteful enhancements
+   =============================== */
+
+/* 1) Chapter title “banner” (subtle): colored underline + tiny top accent */
+.quarto-title-block {
+  position: relative;
+  padding-top: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+.quarto-title-block::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 56px; height: 4px;
+  background: var(--mtc-primary);
+  border-radius: 2px;
+}
+.quarto-title-block h1.title {
+  border-bottom: 3px solid var(--mtc-primary);
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.75rem !important;
+}
+
+/* Optional: make subtitles lighter and tighter under title */
+.quarto-title-block .subtitle {
+  color: var(--mtc-muted);
+  margin-top: -0.25rem;
+}
+
+/* 2) Section dividers for big breaks (use asterism class on a paragraph)
+   In qmd: write `::: {.asterism} :::` between big sections if desired. */
+.asterism {
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--mtc-primary), transparent);
+  margin: 1.75rem 0;
+  border: 0;
+}
+
+/* 3) Branded callouts: calmer fills and clear headers */
+.callout {
+  border-left-width: 5px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.callout-note    { border-left-color: var(--mtc-primary);    background: var(--mtc-primary-tint); }
+.callout-tip     { border-left-color: var(--mtc-success);    background: #EAF7EF; }
+.callout-important{ border-left-color: var(--mtc-warning);   background: #FFF1E9; }
+.callout-caution { border-left-color: var(--mtc-danger);     background: #FDECEC; }
+.callout .callout-title-container {
+  font-weight: 600;
+  color: var(--mtc-text);
+}
+
+/* 4) Pull quote (use sparingly)
+   In qmd:
+   ::: {.pull-quote}
+   Your short, resonant line.
+   :::
+*/
+.pull-quote {
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--mtc-primary);
+  background: linear-gradient(to right, var(--mtc-primary-tint), transparent 60%);
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--mtc-text);
+}
+
+/* 5) Figure & table captions: small brand accent bar */
+.quarto-figure .caption, figure figcaption, .table .caption, caption {
+  position: relative;
+  padding-left: 0.75rem;
+}
+.quarto-figure .caption::before,
+figure figcaption::before,
+.table .caption::before,
+caption::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.35em;
+  width: 4px; height: 0.9em;
+  background: var(--mtc-primary);
+  border-radius: 2px;
+}
+
+/* 6) Nav & link emphasis (slightly bolder on hover) */
+.sidebar .nav-link.active, .sidebar .nav-link:focus {
+  color: var(--mtc-primary) !important;
+}
+a:hover, a:focus {
+  text-decoration-thickness: 0.09em;
+}
+
+/* 7) Print: keep it clean (no heavy fills) */
+@media print {
+  .callout { background: #fff !important; }
+  .pull-quote { background: #fff !important; }
+  .quarto-title-block::before { background: #000; }
+  .quarto-title-block h1.title { border-bottom-color: #000; }
+}
+
+
+/* Bolder chapter banner (swap in if you want a stronger brand cue) */
+.quarto-title-block {
+  background: linear-gradient(90deg, var(--mtc-primary) 0%, var(--mtc-primary-dark) 70%);
+  color: white;
+  padding: 1.2rem 1.2rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+.quarto-title-block h1.title,
+.quarto-title-block .subtitle {
+  color: white;
+  border-bottom: none !important;
+  margin: 0 !important;
+}
+
+
+/* Example: soften callout styling */
+.callout-note {
+  border-left: 3px solid #5b8ec9;
+  background-color: #f7faff;
+}
+
+/* Custom style for Halo Alert blocks (if desired) */
+.callout-demo {
+  border-left: 3px solid #9b59b6;
+  background-color: #f9f4fb;
+}
+
+.callout-demo .callout-title {
+  font-weight: bold;
+}
+
+/* Subtitles under chapter headings */
+.subtitle {
+  display: block;         /* ensures it takes a full line */
+  font-size: 1.1rem;      /* slightly smaller than main heading */
+  font-weight: 400;       /* lighter than headings */
+  color: #666;            /* muted gray tone */
+  margin-top: -0.5em;     /* pulls subtitle closer to the title */
+  margin-bottom: 1em;     /* gives breathing room before body text */
+  font-style: italic;     /* optional — creates contrast */
+}
+
+
+/* ====== Breadcrumbs INSIDE banner: improved contrast ====== */
+.quarto-title-breadcrumbs {
+  color: rgba(255,255,255,0.85);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem; /* space before the main title */
+}
+
+.quarto-title-breadcrumbs a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+}
+.quarto-title-breadcrumbs a:hover,
+.quarto-title-breadcrumbs a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.quarto-title-breadcrumbs .bi,
+.quarto-title-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255,255,255,0.7);
+}
+
+/* subtle separator line below breadcrumbs (optional) */
+.quarto-title-breadcrumbs::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0.35rem;
+  background: linear-gradient(to right, rgba(255,255,255,0.25), rgba(255,255,255,0));
+}
+
+/* ========================
+   Breadcrumbs in title banner
+   Keep the part; hide the current chapter item
+   ======================== */
+
+/* Make breadcrumbs readable on the blue banner */
+.quarto-title-breadcrumbs {
+  color: rgba(255,255,255,0.92);
+}
+.quarto-title-breadcrumbs .breadcrumb-item a {
+  color: rgba(255,255,255,0.92);
+  text-decoration: none;
+}
+.quarto-title-breadcrumbs .breadcrumb-item a:hover,
+.quarto-title-breadcrumbs .breadcrumb-item a:focus {
+  text-decoration: underline;
+}
+
+/* Subtle separator color */
+.quarto-title-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255,255,255,0.65);
+  padding: 0 0.35rem; /* breathing room around the “>” */
+}
+
+/* Hide the current page (chapter) in the breadcrumb */
+.quarto-title-breadcrumbs .breadcrumb-item.active {
+  display: none;
+}
+
+/* === Quarto breadcrumbs inside the title banner === */
+
+/* 1) Put the crumbs inside the banner (you already like this) */
+.quarto-title-block .quarto-title-breadcrumbs {
+  position: static;            /* keep them in-flow inside the banner */
+  margin-bottom: 0.35rem;
+}
+
+/* 2) Make the text + separators legible on the blue banner */
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item,
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item a {
+  color: #ffffff !important;
+}
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  color: #ffffff !important;   /* the “>” (separator) */
+}
+
+/* Hide the last breadcrumb (the chapter title) */
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item:last-child {
+  display: none;
+}
+/* Make sure we don't leave a trailing separator behind */
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item:last-child::before {
+  content: none;
+}
+
+
+/* Branded divider for tool boundaries */
+hr.method-divider {
+  border: 0;
+  height: 6px;
+  margin: 2rem 0 1.25rem;     /* space before/after */
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--mtc-primary), var(--mtc-primary-dark));
+}
+
+/* Slightly lighter + thinner on small screens/print */
+@media (max-width: 640px), print {
+  hr.method-divider { height: 4px; }
+}
+
+/* Works for H2 or H3 with {.method-header} */
+h2.method-header, h3.method-header {
+  position: relative;
+  padding-left: 0.85rem; /* room for the stripe */
+}
+
+h2.method-header::before, h3.method-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3em;                 /* vertically aligns with text */
+  width: 6px;
+  height: 1.2em;              /* scales with line-height */
+  background: var(--mtc-primary);
+  border-radius: 3px;
+}
+
+/* Slightly softer on mobile/print */
+@media (max-width: 640px), print {
+  h2.method-header::before, h3.method-header::before { width: 5px; }
+}
+
+
+/* Base blank style */
+.blank {
+  display: inline-block;
+  border-bottom: 1.5px solid #444;  /* underline color + thickness */
+  min-width: 8ch;                   /* default length (characters) */
+  line-height: 1.2;
+  padding-bottom: 0.15em;           /* keeps the line visually separated */
+  background-color: transparent;    /* change if you want a filled box */
+  vertical-align: baseline;
+}
+
+/* Length variants — compose with the base .blank class */
+.blank-short  { min-width: 6ch;  }
+.blank-medium { min-width: 12ch; }
+.blank-long   { min-width: 20ch; }
+
+/* Optional filled style for “entry field” look */
+.blank-fill   { background-color: #f5f5f5; }
+
+
+
+
+/* Base custom callout variant */
+.callout.callout-example {
+  border-left: 4px solid #4caf50;     /* accent */
+  background-color: #f7fff7;          /* soft tint */
+}
+
+/* Title styling (matches Quarto structure) */
+.callout.callout-example .callout-title {
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+/* Optional: icon feel to match built-ins */
+.callout.callout-example .callout-icon::before {
+  content: "★";                        /* replace with preferred symbol */
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}

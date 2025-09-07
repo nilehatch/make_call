@@ -1,0 +1,10 @@
+# Part III: Gathering Evidence from the World {.unnumbered}
+
+Once you know what you're asking, it's time to go looking for answers. This section explores the wide world of evidence: public data, private data, customer conversations, AI, models, financials, and more. We’ll treat each as a way of knowing — not just a source of facts.
+
+We’ll cover:
+
+- Where to find useful, credible data
+- When to trust experts, models, and machines
+- What customers can tell you — and what they can’t
+- How to use accounting and structure as strategic insight
