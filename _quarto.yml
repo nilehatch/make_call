@@ -59,7 +59,7 @@ book:
 
     - part: part5-becoming.qmd
       chapters:
-        - ch20-faith.qmd
+        - ch20-conviction.qmd
         - ch21-lifelong-learning.qmd
         - ch22-leadership.qmd
     - references.qmd

@@ -1,0 +1,9 @@
+# Conviction {#sec-conviction-chapter}
+
+This chapter is a placeholder for the Conviction chapter of *Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship*. Content will fill in quickly.
+
+::: {.callout-note appearance="minimal"}
+Some traditions call this *faith* — a willingness to trust beyond evidence.\
+In this book we’ll use the word **conviction**, to keep it distinct from spiritual faith.\
+Conviction is the secular cousin: the inner drive that keeps entrepreneurs moving when evidence runs thin.
+:::

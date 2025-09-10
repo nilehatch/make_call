@@ -1,4 +1,252 @@
-# Knowledge
+# What Counts as Knowledge? {#sec-knowledge-chapter}
 
-This chapter is a placeholder for the Knowledge chapter of *Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship*. Content will fill in quickly.
+If uncertainty is the entrepreneur’s environment, the next question is obvious: how do we ever *know* enough to act?
 
+Most founders assume the answer is obvious: "I know it when I see it. I know it when I feel it." But dig a little deeper, and things get slippery. Was the customer nodding politely, or did they actually mean they’d pay? Did your mentor share truth, or just their own bias? Was your conviction evidence, or just adrenaline?  
+
+Knowledge is messier than most entrepreneurs admit. And yet, your venture depends on it. You don’t get to act on perfect knowledge — you act on the best knowledge you can assemble. That makes it worth asking: *what really counts as knowing?*
+
+<br>
+
+## Belief, Justification, and Evidence
+
+One way to think about knowledge is as a three-legged stool: belief, justification, and evidence.
+
+- **Belief** — You hold something as true. ("Customers will want this product.")  
+- **Justification** — You have reasons for holding it. ("Because five out of six interviews said the same thing.")  
+- **Evidence** — You have observations, data, or logic to back it up. ("We ran a test and 40% clicked the signup button.")  
+
+Knowledge, in its simplest sense, is when belief + justification + evidence line up.  
+
+But here’s the tension: in entrepreneurship, the line is blurry. Sometimes your belief outruns your evidence. Sometimes you have data but no conviction. And sometimes you *feel* certain without justification at all.  
+
+
+## The Blurry Edge of Knowing
+
+Entrepreneurs live on that blurry edge.  
+
+Think of three kinds of "knowing":  
+
+1. **Thin knowing** — you believe, but it’s fragile. (A hunch, a single customer comment.)  
+2. **Thicker knowing** — belief supported by evidence. (Prototype tests, sales data, customer patterns.)  
+3. **Unshakeable knowing** — belief that feels beyond evidence. (Faith in a mission, conviction about a future nobody else sees.)  
+
+Each plays a role:  
+
+- Thin knowing sparks exploration.  
+- Thicker knowing builds confidence.  
+- Unshakeable knowing keeps you moving when others doubt.  
+
+The trouble comes when you confuse one for the other — mistaking a hunch for proof, or dismissing conviction because it can’t be measured. Acting on thin knowing as if it were unshakeable can sink you. Treating unshakeable conviction as worthless because it lacks evidence can rob you of courage.  
+
+
+## Example: The Two Pitches
+
+::: {.callout-note appearance="minimal"}
+Imagine two founders pitching to investors.  
+
+- **Founder A** says, "We *believe* customers want this. We ran three surveys and two pilots, and here’s the data." They lean on justification and evidence.  
+- **Founder B** says, "I *know* this market is shifting. You can feel it in the way customers talk, even if the numbers aren’t there yet." They lean on conviction.  
+
+Neither is wrong. But each is only holding one piece of the puzzle. The strongest entrepreneurs find ways to balance belief, justification, and evidence — weaving conviction with proof.  
+:::
+
+
+## The Circle of Knowledge
+
+One of the clearest ways to see the limits of knowledge is through a series of simple diagrams, originally drawn by computer scientist Matt Might to explain what it feels like to earn a PhD.^[Adapted from the work of <a href="http://matt.might.net/">Matt Might</a>, a professor in
+<a href="http://www.cs.utah.edu/">Computer Science</a>
+at the <a href="http://www.utah.edu/">University of Utah</a>. He created 
+<a href="http://matt.might.net/articles/phd-school-in-pictures/">The
+Illustrated Guide to a Ph.D.</a> to explain what a Ph.D. is to new and
+aspiring graduate students. It is adapted here to explain uncertainty, knowledge, and the opportuntities available to entrepreneurs with AI. Matt has licensed the guide for sharing with 
+<a href="http://matt.might.net/articles/phd-school-in-pictures/#license">
+special terms under the Creative Commons license</a>. Adapted from Matt Might [-@might2010illustrated], "The Illustrated Guide to a PhD," 2010, http://matt.might.net/articles/phd-school-in-pictures/.]
+
+Imagine a circle that represents everything humanity could possibly know. What we’ve actually learned is only a tiny fraction of that possibility — and the gap grows wider as discovery opens new frontiers faster than we can master them. It’s humbling, and it’s motivating.
+
+```{r}
+#| label: fig-knowledge-possible-human
+#| fig-cap: "Human knowledge (gray- blue) shown as a speck inside all possible knowledge (light gray)."
+#| eval: true
+#| warning: false
+
+library(ggplot2)
+library(ggforce)
+
+# Colors
+COLORS <- list(
+  possible = "#f4f4f4",       # light grey E5E5E5, eaf2f8, d9dde6, f4f4f4
+  human = "#A0AEC0",          # medium grey-blue A0AEC0
+  hs = "#4299E1",             # pale blue BEE3F8 0072b2
+  gened = "#009e73",          # soft teal 81E6D9
+  major = "#f0e442",          # mid-blue 4299E1
+  phd_course = "#ED8936",     # deep indigo 5A67D8 cc79a0 8a3e61
+  phd_research = "#8a3e61"    # orange ED8936
+)
+
+# ---- Figure 1: All possible vs human knowledge ----
+df_possible <- data.frame(x0 = 0, y0 = 0, r = 10)
+df_human <- data.frame(x0 = 7.5, y0 = 0, r = 0.3)
+
+fig1 <- ggplot() +
+  geom_circle(data = df_possible, aes(x0 = x0, y0 = y0, r = r),
+              fill = COLORS$possible, color = "black", linewidth = 1) +
+  geom_circle(data = df_human, aes(x0 = x0, y0 = y0, r = r),
+              fill = COLORS$human, color = "black", linewidth = 0.25) +
+  coord_fixed(xlim = c(-10.5, 10.5), ylim = c(-10.5, 10.5)) +
+  theme_void() #+
+#  ggtitle("All Possible Knowledge (light grey) vs Human Knowledge (speck)")
+fig1
+#ggsave("figure1_possible_vs_human.png", fig1, width = 6, height = 6, dpi = 300)
+```
+
+If we zoom in on the sum total of human knowledge, education shows up as small but expanding circles. By the end of **high school**, you’ve gained a narrow slice at the center. A **college general education** broadens that slice further, giving you a wider view of the world.
+
+```{r}
+#| label: fig-knowledge-human-hc-gened
+#| fig-cap: "Human knowledge (gray-blue) with nested layers: high school (blue) at the center, expanded by college general education (green)."
+#| eval: true
+#| warning: false
+
+library(ggplot2)
+library(ggforce)
+
+
+# ---- Figure 2: Zoomed-in human knowledge with nested layers ----
+df_possible <- data.frame(x0 = 0, y0 = 0, r = 10)  # very large outer circle
+df_human_zoom <- data.frame(x0 = 0, y0 = 0, r = 5)
+
+fig2 <- ggplot() +
+
+    # Big possible-knowledge circle (light grey background)
+  geom_circle(data = df_possible, aes(x0 = x0, y0 = y0, r = r),
+              fill = COLORS$possible, color = NA) +
+
+    # Human knowledge circle
+  geom_circle(data = df_human_zoom, aes(x0 = x0, y0 = y0, r = r),
+              fill = COLORS$human, color = "black", linewidth = 1) +
+
+    # Nested education layers
+  geom_circle(aes(x0 = 0, y0 = 0, r = 1.2), fill = COLORS$gened,  color = "black", linewidth=.25) +
+  geom_circle(aes(x0 = 0, y0 = 0, r = 0.6), fill = COLORS$hs, color = "black", linewidth=.25) +
+
+  coord_fixed(xlim = c(-5.5, 5.5), ylim = c(-5.5, 5.8)) +
+  theme_void() #+
+#  ggtitle("Zoomed-In: Human Knowledge with Possible Knowledge as Background")
+fig2
+#ggsave("figure2_human_zoom_with_background.png", fig2, width = 6, height = 6, dpi = 300)
+```
+
+Choosing a **college major** expands your knowledge in a focused direction, giving you depth beyond general education. Graduate study takes that depth further: **PhD coursework** extends to the boundary of human knowledge, and **PhD research** pushes that boundary outward, creating a small new bump in the circle.
+
+```{r}
+#| label: fig-knowledge-major-phdcourses-phdresearch
+#| fig-cap: "Human knowledge (gray-blue) with successive expansions: college major (yellow), PhD coursework (orange ellipse), and PhD research (purple ellipse) pushing beyond the boundary."
+#| eval: true
+#| warning: false
+
+library(ggplot2)
+library(ggforce)
+
+
+# ---- Figure 2: Zoomed-in human knowledge with nested layers ----
+df_possible <- data.frame(x0 = 0, y0 = 0, r = 10)  # very large outer circle
+df_human_zoom <- data.frame(x0 = 0, y0 = 0, r = 5)
+
+fig2 <- ggplot() +
+
+    # Big possible-knowledge circle (light grey background)
+  geom_circle(data = df_possible, aes(x0 = x0, y0 = y0, r = r),
+              fill = COLORS$possible, color = NA) +
+
+    # Human knowledge circle
+  geom_circle(data = df_human_zoom, aes(x0 = x0, y0 = y0, r = r),
+              fill = COLORS$human, color = "black", linewidth = 1) +
+
+      # PhD research ellipse
+  geom_ellipse(aes(x0 = 1.4, y0 = 1.4, a = 3.2, b = 0.7, angle = pi/4),
+               fill = COLORS$phd_research, color = NA) +
+
+    # PhD coursework ellipse
+  geom_ellipse(aes(x0 = 1.4, y0 = 1.4, a = 3.0, b = .5, angle = pi/4),
+               fill = COLORS$phd_course, color = NA) +
+  
+    # Nested education layers
+  geom_circle(aes(x0 = .9, y0 = .9, r = 0.4), fill = COLORS$major,  color = "black", linewidth=.25) +
+  geom_circle(aes(x0 = 0, y0 = 0, r = 1.2), fill = COLORS$gened,  color = "black", linewidth=.25) +
+  geom_circle(aes(x0 = 0, y0 = 0, r = 0.6), fill = COLORS$hs, color = "black", linewidth=.25) +
+
+  coord_fixed(xlim = c(-5.5, 5.5), ylim = c(-5.5, 5.8)) +
+  theme_void() #+
+#  ggtitle("Zoomed-In: Human Knowledge with Possible Knowledge as Background")
+fig2
+#ggsave("figure2_human_zoom_with_background.png", fig2, width = 6, height = 6, dpi = 300)
+```
+
+The punchline? Even after years of advanced study, your bump is tiny compared to the vastness of the unknown. Humanity’s knowledge is a speck, and each contribution is just a pinprick on the edge.
+
+A PhD is one way of making that pinprick. Certain discoveries demand technical mastery and specialized tools: new particles, new drugs, new theorems. To move those boundaries, you need the depth and rigor of formal scholarship. That’s what the PhD is built for.
+
+But the frontier of knowledge is not only scientific. There are vast regions of the unknown that can be explored without a lab coat or dissertation. Entrepreneurs can discover things no one has mapped yet: which people carry unmet needs, how those needs show up in daily life, and what solutions could actually make a difference.
+
+In that sense, the entrepreneur is a different kind of researcher. Instead of microscopes or supercolliders, their instruments are curiosity, empathy, and careful listening. Instead of publishing papers, they publish products, services, and ventures.
+
+Both kinds of discovery — scientific and entrepreneurial — enlarge the circle of human knowledge. The PhD pushes on the technical edge. The entrepreneur pushes on the human edge. And the world needs both.
+
+That perspective is humbling — and for entrepreneurs, it’s liberating. You don’t need to know everything. You just need to know enough to make the next call.
+
+## What AI Knows (and Doesn’t)
+
+And now, a new player has entered the circle: artificial intelligence. AI changes the picture in an important way.  
+
+- **AI knows the inside of the circle.** It has read almost everything humanity has written, and it can synthesize, summarize, and combine that knowledge in seconds.  
+- **AI does not know beyond the edge.** It cannot see the future. It cannot resolve randomness. It often cannot resolve what has never been studied or recorded.  
+
+That’s where you come in.  
+
+The entrepreneur’s role is to partner with AI:  
+
+- Use AI to quickly access what is already known.  
+- Let AI free up your attention so you can push at the edges.  
+- Remember that only you — through observation, experiment, judgment, and courage — can expand the circle.  
+
+
+## The Entrepreneur’s Advantage
+
+Here’s the secret: AI makes the circle of knowledge more accessible, but it doesn’t shrink the unknown.  
+
+That means the entrepreneur’s advantage still comes from exploring where nobody knows yet. Your power lies in questions that haven’t been asked, signals that haven’t been tested, and opportunities that haven’t been mapped.  
+
+AI is a flashlight for the circle’s interior. You’re the one who dares to step into the fog beyond its edge.  
+
+
+## Reflection
+
+- When have you acted on thin knowing — and how did it turn out?  
+- Where in your venture right now do you have thicker knowing (belief backed by data)?  
+- What unshakeable convictions are keeping you moving, even when others doubt?  
+
+---
+
+## Try This: Your Circle of Knowing
+
+
+::: {.callout-tip appearance="minimal"}
+Grab a blank sheet of paper and draw a circle. That’s everything humanity could possibly know.  
+
+1. **Shade the inside.** Write down what you already *know* about your venture — facts, data, customer insights, or industry knowledge.  
+2. **Mark the edge.** Write down where you’re pushing into the unknown — the experiments you’re running, the questions you’re chasing.  
+3. **Note the beyond.** Outside the circle, jot the things nobody knows yet — shifts in culture, future tech, surprises that can’t be predicted.  
+
+Now look at your drawing. 
+
+- Are you leaning too hard on what’s already inside the circle?  
+- Are you actually pushing at the edge?  
+- Are you honest about what’s truly beyond anyone’s control?  
+
+This exercise isn’t about filling the circle — it’s about knowing where you stand, so you can partner with AI for what’s inside and focus your energy on the edges that matter.  
+:::
+
+
+> Entrepreneurs don’t act on certainty — they act on the strongest mix of belief, justification, and evidence they can assemble.

@@ -148,3 +148,89 @@ hr.method-divider {
 
 
 
+/* ====== Breadcrumbs INSIDE banner: improved contrast ====== */
+.quarto-title-breadcrumbs {
+  color: rgba(255,255,255,0.85);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem; /* space before the main title */
+}
+
+.quarto-title-breadcrumbs a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+}
+.quarto-title-breadcrumbs a:hover,
+.quarto-title-breadcrumbs a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.quarto-title-breadcrumbs .bi,
+.quarto-title-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255,255,255,0.7);
+}
+
+/* subtle separator line below breadcrumbs (optional) */
+.quarto-title-breadcrumbs::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0.35rem;
+  background: linear-gradient(to right, rgba(255,255,255,0.25), rgba(255,255,255,0));
+}
+
+/* ========================
+   Breadcrumbs in title banner
+   Keep the part; hide the current chapter item
+   ======================== */
+
+/* Make breadcrumbs readable on the blue banner */
+.quarto-title-breadcrumbs {
+  color: rgba(255,255,255,0.92);
+}
+.quarto-title-breadcrumbs .breadcrumb-item a {
+  color: rgba(255,255,255,0.92);
+  text-decoration: none;
+}
+.quarto-title-breadcrumbs .breadcrumb-item a:hover,
+.quarto-title-breadcrumbs .breadcrumb-item a:focus {
+  text-decoration: underline;
+}
+
+/* Subtle separator color */
+.quarto-title-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255,255,255,0.65);
+  padding: 0 0.35rem; /* breathing room around the “>” */
+}
+
+/* Hide the current page (chapter) in the breadcrumb */
+.quarto-title-breadcrumbs .breadcrumb-item.active {
+  display: none;
+}
+
+/* === Quarto breadcrumbs inside the title banner === */
+
+/* 1) Put the crumbs inside the banner (you already like this) */
+.quarto-title-block .quarto-title-breadcrumbs {
+  position: static;            /* keep them in-flow inside the banner */
+  margin-bottom: 0.35rem;
+}
+
+/* 2) Make the text + separators legible on the blue banner */
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item,
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item a {
+  color: #ffffff !important;
+}
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  color: #ffffff !important;   /* the “>” (separator) */
+}
+
+/* Hide the last breadcrumb (the chapter title) */
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item:last-child {
+  display: none;
+}
+/* Make sure we don't leave a trailing separator behind */
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item:last-child::before {
+  content: none;
+}

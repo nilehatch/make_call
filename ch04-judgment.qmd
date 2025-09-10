@@ -1,4 +1,90 @@
-# Judgment
+# Believing and Acting Before You Know {#sec-believing-acting}
 
-This chapter is a placeholder for the Judgment chapter of *Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship*. Content will fill in quickly.
+You know the feeling when you start something new?
 
+The clock is ticking. The numbers aren’t all there. Your gut says yes, but your head keeps throwing up questions. And yet, the lease needs signing, the product needs shipping, or the investor needs an answer.  
+
+This is the paradox of entrepreneurship: you need knowledge to act, but often you only get knowledge *after* you act.  
+
+
+## The Illusion of “Enough” Knowledge
+
+Some entrepreneurs wait for perfect clarity. They convince themselves that one more survey, one more advisor, one more test will finally settle the fog.  
+
+But certainty never fully arrives. You can learn a lot, yes. You can reduce uncertainty. But you can’t erase it. There will always be unknowns that data can’t touch — future shocks, customer quirks, timing quirks, the sheer unpredictability of people and markets.  
+
+The danger is paralysis. Waiting for certainty is often just a way of avoiding responsibility. By the time the picture is perfectly clear, the opportunity is usually gone.  
+
+
+## Acting on Judgment, Not Certainty
+
+So what’s the alternative?  
+
+Judgment.  
+
+Judgment is the entrepreneur’s superpower — the ability to act without full clarity, using the strongest mix of belief, justification, and evidence you’ve assembled so far.  
+
+That doesn’t mean reckless guessing. It means knowing when you’ve learned enough to move, even if you haven’t learned everything.  
+
+Think of three paths:  
+
+- **Reckless action** — ignoring evidence, charging ahead on nothing but adrenaline.  
+- **Paralyzed inaction** — waiting forever, mistaking incomplete knowledge for incompetence.  
+- **Judgment under uncertainty** — moving with courage when the knowledge is “good enough,” knowing you’ll learn more by acting.  
+
+It’s that third path that builds ventures.  
+
+### What We Mean by “Judgment”
+
+::: {.callout-note appearance="minimal"}
+When we say **judgment**, we don’t mean “judging others.”  
+We mean: **the act of making a decision under uncertainty when evidence is incomplete.**
+
+Judgment is different from guessing. Guessing ignores evidence. Judgment weighs the best mix of belief, justification, and evidence you have — then acts, knowing some uncertainty will always remain.  
+
+**A simple loop for practicing judgment:**  
+
+1. **Frame the decision.** What exactly are you choosing? Narrow it.  
+2. **Assemble what’s known.** Gather the facts, data, and convictions you already hold.  
+3. **Identify the gaps.** Name what’s unknown. Ask: is it learnable quickly, or irreducible?  
+4. **Set a threshold.** Decide how much clarity is “enough” to move forward.  
+5. **Make the call.** Act, knowing you’ll learn more after action than before.  
+6. **Review & revise.** Reflect on outcomes so your judgment grows sharper over time.  
+
+The goal isn’t to eliminate uncertainty. It’s to develop confidence that you can act *with it* — and improve your ability to make the next call.  
+:::
+
+## Example: The Two Bridges
+
+Picture two founders staring across a canyon.  
+
+- **Founder A** says, “We can’t step out until the bridge is fully built. We’ll keep testing, surveying, and waiting until every plank is nailed down.” By the time they’re satisfied, others have already crossed.  
+
+- **Founder B** says, “We’ve tested enough. The first planks look solid. We’ll learn as we go.” They step forward, building the bridge under their feet. To outsiders it looks reckless. From the inside, it’s a calculated act of judgment — a willingness to risk, to learn, and to keep moving before certainty arrives.  
+
+Most entrepreneurial breakthroughs look reckless to those on the sidelines. To those making the call, they are acts of judgment, calibrated by knowledge *and* courage.  
+
+
+## Reflection
+
+- Think of a time you acted with incomplete knowledge. How did it feel?  
+- When do you tend to lean too hard on data? When do you lean too much on conviction?  
+- What’s one decision in your venture right now that requires judgment rather than waiting?  
+
+
+## Try This: The Judgment Call
+
+::: {.callout-tip appearance="minimal"}
+Take a decision you’re stalling on.  
+
+1. **Write down what you *know*.** Facts, data, observations, evidence.  
+2. **Write down what you *believe*.** Convictions, intuitions, faith.  
+3. **Ask yourself:** What more could I realistically learn in the next week?  
+4. **Decide:** Is this enough to act, or is there one critical unknown worth waiting for?  
+
+By the end, you’ll have either the courage to move forward, or a clear plan for what to learn *before* you do. Both are progress.  
+:::
+
+---
+
+> Entrepreneurship isn’t about waiting for certainty. It’s about knowing enough to move — and having the courage to act before the map is drawn.

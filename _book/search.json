@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Make the Call",
     "section": "",
-    "text": "This book helps entrepreneurs build the habits of mind and tools of reasoning they need to make smart decisions under uncertainty. It is designed to guide anyone seeking better judgment in the face of incomplete information.\nYou’ll learn to:\n\nUnderstand different types of uncertainty\nExplore rational, empirical, and spiritual ways of knowing\nUse data, models, and expert insight as sources of evidence\nApply Bayesian reasoning and decision frameworks\nDevelop the judgment and faith required to act wisely\n\nLet’s get to work.",
+    "text": "1 Preface\nThis book helps entrepreneurs build the habits of mind and tools of reasoning they need to make smart decisions under uncertainty. It is designed to guide anyone seeking better judgment in the face of incomplete information.\nYou’ll learn to:\n\nUnderstand different types of uncertainty\nExplore rational, empirical, and spiritual ways of knowing\nUse data, models, and expert insight as sources of evidence\nApply Bayesian reasoning and decision frameworks\nDevelop the judgment and faith required to act wisely\n\nLet’s get to work.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>index.html</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
   },
   {
@@ -32,56 +32,397 @@
   {
     "objectID": "ch01-uncertainty.html",
     "href": "ch01-uncertainty.html",
-    "title": "3  Uncertainty",
+    "title": "3  Uncertainty in Entrepreneurship",
     "section": "",
-    "text": "This chapter is a placeholder for the Uncertainty chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "text": "Risk vs. True Uncertainty\nSpend five minutes in entrepreneurship and you’ll feel it.\nThe fog.\nYou look at the market, and it doesn’t make sense. Customers say one thing and do another. The numbers in your spreadsheet shift depending on which assumptions you tweak. Every expert seems confident — but their advice contradicts the last expert you spoke to.\nThat’s the fog. And still, the decision is yours.\nMost people hate this feeling. They crave certainty: a known playbook, a clean equation, a map with every landmark drawn in. But if you wanted that, you’d be running an established business. Entrepreneurship is different. It’s not about managing what’s already known — it’s about stepping into what isn’t.\nA lot of people confuse uncertainty with risk. They’ll say, “Entrepreneurship is risky,” and they’re not wrong. But risk has odds you can calculate. If you flip a coin a thousand times, you can predict how many heads will come up. Casinos run on that principle. So do insurance companies.\nEntrepreneurs don’t get the casino version. They get the fog of uncertainty.\nSometimes this uncertainty comes from randomness itself. No matter how much data you gather, you can’t predict whether a pandemic will hit, whether the next trend will be pickleball or padel, or whether a key employee will suddenly quit.\nBut more often, entrepreneurial uncertainty is about gaps in knowledge:\nThese gaps are not random — they’re addressable. You can learn. You can gather evidence. You can reduce uncertainty, even if you can never erase it completely.",
     "crumbs": [
       "Part I: Knowing and Deciding in Uncertainty",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Uncertainty</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Uncertainty in Entrepreneurship</span>"
+    ]
+  },
+  {
+    "objectID": "ch01-uncertainty.html#risk-vs.-true-uncertainty",
+    "href": "ch01-uncertainty.html#risk-vs.-true-uncertainty",
+    "title": "3  Uncertainty in Entrepreneurship",
+    "section": "",
+    "text": "You don’t know if customers will care.\n\nYou don’t know if your product will work.\n\nYou don’t know if you can pull it off.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Uncertainty in Entrepreneurship</span>"
+    ]
+  },
+  {
+    "objectID": "ch01-uncertainty.html#why-entrepreneurs-cant-escape-uncertainty",
+    "href": "ch01-uncertainty.html#why-entrepreneurs-cant-escape-uncertainty",
+    "title": "3  Uncertainty in Entrepreneurship",
+    "section": "Why Entrepreneurs Can’t Escape Uncertainty",
+    "text": "Why Entrepreneurs Can’t Escape Uncertainty\nHere’s the kicker: if you take uncertainty away, you take entrepreneurship away with it.\nImagine a world where every customer preference is mapped out, every business model already tested, every technology fully understood. In that world, there’s no room for new ventures. The future would already be settled.\nThe fog isn’t a flaw in entrepreneurship. It’s the feature.\nThat’s why you see a sharp divide between two kinds of entrepreneurs:\n\nSmall business owners, who step into proven markets with known patterns, and\n\nInnovators, who lean into uncertainty because it’s the only way to create something new.\n\nBoth are valid. Both take courage. But innovation lives where the maps run out.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Uncertainty in Entrepreneurship</span>"
+    ]
+  },
+  {
+    "objectID": "ch01-uncertainty.html#the-faces-of-entrepreneurial-uncertainty",
+    "href": "ch01-uncertainty.html#the-faces-of-entrepreneurial-uncertainty",
+    "title": "3  Uncertainty in Entrepreneurship",
+    "section": "The Faces of Entrepreneurial Uncertainty",
+    "text": "The Faces of Entrepreneurial Uncertainty\nWhen you’re staring into the fog, it can feel like everything is uncertain at once. But it helps to break it down. Most of what matters to an entrepreneur falls into three buckets:\n\nMarket uncertainty — Will people care?\nYou can have the slickest product in the world, but if the problem isn’t painful enough, customers won’t move. Markets are full of false signals: polite nods, survey responses that don’t match behavior, and hype cycles that vanish overnight.\nSolution uncertainty — Will it work?\nPrototypes break. Features flop. Whole categories get leapfrogged by something nobody saw coming. You can’t know in advance how technology, design, or systems will behave when they leave your laptop and meet the real world.\nExecution uncertainty — Can we pull it off?\nEven if the market wants it and the product works, there’s still the team, the funding, the timing, the thousand moving parts. Execution is where so many ideas die — not because they were bad, but because the founders couldn’t navigate the complexity of turning possibility into reality.\n\nThese three faces of uncertainty don’t show up one at a time. They pile on. That’s why the entrepreneur’s fog feels so thick: you’re juggling unknown customers, unproven solutions, and untested execution all at once.\n\n\n\n\n\n\nThe Garage and the Gamble\n\n\n\nPicture two founders in a garage. They’ve got an idea for a new kind of home fitness system.\n\nThe market uncertainty: Do people even want to work out at home, or will gyms bounce back stronger after the pandemic?\n\nThe solution uncertainty: Can they build a machine that feels real, durable, and worth the price tag?\n\nThe execution uncertainty: Can two people in a garage raise enough capital, hire a supply chain team, and compete with the giants already circling the space?\n\nThey don’t — and can’t — know the answers. But they have to move anyway. That’s the entrepreneurial condition: judgment before clarity, action before certainty.\nAnd if this sounds terrifying, here’s the paradox: it’s also the reason they might succeed. Every incumbent with resources is waiting for clarity. Every spreadsheet-driven competitor is stalling until the probabilities line up. By the time certainty arrives, the opportunity will be gone.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Uncertainty in Entrepreneurship</span>"
+    ]
+  },
+  {
+    "objectID": "ch01-uncertainty.html#why-uncertainty-is-the-doorway-to-opportunity",
+    "href": "ch01-uncertainty.html#why-uncertainty-is-the-doorway-to-opportunity",
+    "title": "3  Uncertainty in Entrepreneurship",
+    "section": "Why Uncertainty Is the Doorway to Opportunity",
+    "text": "Why Uncertainty Is the Doorway to Opportunity\nHere’s the part most people miss: uncertainty doesn’t just create anxiety. It creates room.\n\nIf the market were obvious, somebody else would already own it.\n\nIf the product were certain, it would already exist.\n\nIf the execution path were clear, a bigger player would already be running it.\n\nUncertainty is the open door. It keeps the space unclaimed long enough for new entrants to step through.\nThat’s why, if you’re drawn to entrepreneurship, you may find yourself strangely energized by the fog. Yes, it’s stressful. Yes, it can keep you up at night. But it also means you’re working in the one place that’s still unsettled, the place where something new can be born.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Uncertainty in Entrepreneurship</span>"
+    ]
+  },
+  {
+    "objectID": "ch01-uncertainty.html#from-fog-to-framework",
+    "href": "ch01-uncertainty.html#from-fog-to-framework",
+    "title": "3  Uncertainty in Entrepreneurship",
+    "section": "From Fog to Framework",
+    "text": "From Fog to Framework\nYou don’t have to love uncertainty to succeed as an entrepreneur. But you do have to learn how to work with it. That’s what this book is about.\nThere is no playbook that erases the fog. But there are tools that help you move through it.\n\nTell the difference between randomness and ignorance.\n\nTurn unknowns into questions you can actually investigate.\n\nGather evidence in a world where most signals are noisy.\n\nMake calls when certainty will never come.\n\nBecause here’s the truth: entrepreneurs who wait for certainty will always be too late.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Uncertainty in Entrepreneurship</span>"
+    ]
+  },
+  {
+    "objectID": "ch01-uncertainty.html#reflection",
+    "href": "ch01-uncertainty.html#reflection",
+    "title": "3  Uncertainty in Entrepreneurship",
+    "section": "Reflection",
+    "text": "Reflection\nTake a moment and ask yourself:\n\nWhich kind of uncertainty weighs on you most — market, solution, or execution?\nWhich kind excites you most?\nFor your venture, does the fog feel like a wall or like open space?",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Uncertainty in Entrepreneurship</span>"
+    ]
+  },
+  {
+    "objectID": "ch01-uncertainty.html#try-this-mapping-your-fog",
+    "href": "ch01-uncertainty.html#try-this-mapping-your-fog",
+    "title": "3  Uncertainty in Entrepreneurship",
+    "section": "Try This: Mapping Your Fog",
+    "text": "Try This: Mapping Your Fog\nHere’s an exercise to help you work with your uncertainty.\n\n\n\n\n\n\nUncertainty feels overwhelming when it’s a cloud in your head. Writing it down breaks it into pieces you can work with.\n\nDivide a page into three columns: Market, Solution, Execution.\n\nUnder each, list two or three things you don’t know yet. Don’t filter or soften it.\n\nCircle the one uncertainty in each column that feels most urgent.\n\nAsk yourself: Which of these could I reduce by learning? Which can I tolerate for now?\n\nBy the end, you’ll have a first map of your uncertainty. Instead of a fog, you’ll see specific unknowns you can start navigating.\n\n\n\n\nUncertainty is not a wall in your way. It’s the open space that makes entrepreneurship possible.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Uncertainty in Entrepreneurship</span>"
     ]
   },
   {
     "objectID": "ch02-knowledge.html",
     "href": "ch02-knowledge.html",
-    "title": "4  Knowledge",
+    "title": "4  What Counts as Knowledge?",
     "section": "",
-    "text": "This chapter is a placeholder for the Knowledge chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "text": "Belief, Justification, and Evidence\nIf uncertainty is the entrepreneur’s environment, the next question is obvious: how do we ever know enough to act?\nMost founders assume the answer is obvious: “I know it when I see it. I know it when I feel it.” But dig a little deeper, and things get slippery. Was the customer nodding politely, or did they actually mean they’d pay? Did your mentor share truth, or just their own bias? Was your conviction evidence, or just adrenaline?\nKnowledge is messier than most entrepreneurs admit. And yet, your venture depends on it. You don’t get to act on perfect knowledge — you act on the best knowledge you can assemble. That makes it worth asking: what really counts as knowing?\nOne way to think about knowledge is as a three-legged stool: belief, justification, and evidence.\nKnowledge, in its simplest sense, is when belief + justification + evidence line up.\nBut here’s the tension: in entrepreneurship, the line is blurry. Sometimes your belief outruns your evidence. Sometimes you have data but no conviction. And sometimes you feel certain without justification at all.",
     "crumbs": [
       "Part I: Knowing and Deciding in Uncertainty",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Knowledge</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>What Counts as Knowledge?</span>"
+    ]
+  },
+  {
+    "objectID": "ch02-knowledge.html#belief-justification-and-evidence",
+    "href": "ch02-knowledge.html#belief-justification-and-evidence",
+    "title": "4  What Counts as Knowledge?",
+    "section": "",
+    "text": "Belief — You hold something as true. (“Customers will want this product.”)\n\nJustification — You have reasons for holding it. (“Because five out of six interviews said the same thing.”)\n\nEvidence — You have observations, data, or logic to back it up. (“We ran a test and 40% clicked the signup button.”)",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>What Counts as Knowledge?</span>"
+    ]
+  },
+  {
+    "objectID": "ch02-knowledge.html#the-blurry-edge-of-knowing",
+    "href": "ch02-knowledge.html#the-blurry-edge-of-knowing",
+    "title": "4  What Counts as Knowledge?",
+    "section": "The Blurry Edge of Knowing",
+    "text": "The Blurry Edge of Knowing\nEntrepreneurs live on that blurry edge.\nThink of three kinds of “knowing”:\n\nThin knowing — you believe, but it’s fragile. (A hunch, a single customer comment.)\n\nThicker knowing — belief supported by evidence. (Prototype tests, sales data, customer patterns.)\n\nUnshakeable knowing — belief that feels beyond evidence. (Faith in a mission, conviction about a future nobody else sees.)\n\nEach plays a role:\n\nThin knowing sparks exploration.\n\nThicker knowing builds confidence.\n\nUnshakeable knowing keeps you moving when others doubt.\n\nThe trouble comes when you confuse one for the other — mistaking a hunch for proof, or dismissing conviction because it can’t be measured. Acting on thin knowing as if it were unshakeable can sink you. Treating unshakeable conviction as worthless because it lacks evidence can rob you of courage.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>What Counts as Knowledge?</span>"
+    ]
+  },
+  {
+    "objectID": "ch02-knowledge.html#example-the-two-pitches",
+    "href": "ch02-knowledge.html#example-the-two-pitches",
+    "title": "4  What Counts as Knowledge?",
+    "section": "Example: The Two Pitches",
+    "text": "Example: The Two Pitches\n\n\n\n\n\n\nImagine two founders pitching to investors.\n\nFounder A says, “We believe customers want this. We ran three surveys and two pilots, and here’s the data.” They lean on justification and evidence.\n\nFounder B says, “I know this market is shifting. You can feel it in the way customers talk, even if the numbers aren’t there yet.” They lean on conviction.\n\nNeither is wrong. But each is only holding one piece of the puzzle. The strongest entrepreneurs find ways to balance belief, justification, and evidence — weaving conviction with proof.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>What Counts as Knowledge?</span>"
+    ]
+  },
+  {
+    "objectID": "ch02-knowledge.html#the-circle-of-knowledge",
+    "href": "ch02-knowledge.html#the-circle-of-knowledge",
+    "title": "4  What Counts as Knowledge?",
+    "section": "The Circle of Knowledge",
+    "text": "The Circle of Knowledge\nOne of the clearest ways to see the limits of knowledge is through a series of simple diagrams, originally drawn by computer scientist Matt Might to explain what it feels like to earn a PhD.1\nImagine a circle that represents everything humanity could possibly know. What we’ve actually learned is only a tiny fraction of that possibility — and the gap grows wider as discovery opens new frontiers faster than we can master them. It’s humbling, and it’s motivating.\n\n\n\n\n\n\n\n\nFigure 4.1: Human knowledge (gray- blue) shown as a speck inside all possible knowledge (light gray).\n\n\n\n\n\nIf we zoom in on the sum total of human knowledge, education shows up as small but expanding circles. By the end of high school, you’ve gained a narrow slice at the center. A college general education broadens that slice further, giving you a wider view of the world.\n\n\n\n\n\n\n\n\nFigure 4.2: Human knowledge (gray-blue) with nested layers: high school (blue) at the center, expanded by college general education (green).\n\n\n\n\n\nChoosing a college major expands your knowledge in a focused direction, giving you depth beyond general education. Graduate study takes that depth further: PhD coursework extends to the boundary of human knowledge, and PhD research pushes that boundary outward, creating a small new bump in the circle.\n\n\n\n\n\n\n\n\nFigure 4.3: Human knowledge (gray-blue) with successive expansions: college major (yellow), PhD coursework (orange ellipse), and PhD research (purple ellipse) pushing beyond the boundary.\n\n\n\n\n\nThe punchline? Even after years of advanced study, your bump is tiny compared to the vastness of the unknown. Humanity’s knowledge is a speck, and each contribution is just a pinprick on the edge.\nA PhD is one way of making that pinprick. Certain discoveries demand technical mastery and specialized tools: new particles, new drugs, new theorems. To move those boundaries, you need the depth and rigor of formal scholarship. That’s what the PhD is built for.\nBut the frontier of knowledge is not only scientific. There are vast regions of the unknown that can be explored without a lab coat or dissertation. Entrepreneurs can discover things no one has mapped yet: which people carry unmet needs, how those needs show up in daily life, and what solutions could actually make a difference.\nIn that sense, the entrepreneur is a different kind of researcher. Instead of microscopes or supercolliders, their instruments are curiosity, empathy, and careful listening. Instead of publishing papers, they publish products, services, and ventures.\nBoth kinds of discovery — scientific and entrepreneurial — enlarge the circle of human knowledge. The PhD pushes on the technical edge. The entrepreneur pushes on the human edge. And the world needs both.\nThat perspective is humbling — and for entrepreneurs, it’s liberating. You don’t need to know everything. You just need to know enough to make the next call.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>What Counts as Knowledge?</span>"
+    ]
+  },
+  {
+    "objectID": "ch02-knowledge.html#what-ai-knows-and-doesnt",
+    "href": "ch02-knowledge.html#what-ai-knows-and-doesnt",
+    "title": "4  What Counts as Knowledge?",
+    "section": "What AI Knows (and Doesn’t)",
+    "text": "What AI Knows (and Doesn’t)\nAnd now, a new player has entered the circle: artificial intelligence. AI changes the picture in an important way.\n\nAI knows the inside of the circle. It has read almost everything humanity has written, and it can synthesize, summarize, and combine that knowledge in seconds.\n\nAI does not know beyond the edge. It cannot see the future. It cannot resolve randomness. It often cannot resolve what has never been studied or recorded.\n\nThat’s where you come in.\nThe entrepreneur’s role is to partner with AI:\n\nUse AI to quickly access what is already known.\n\nLet AI free up your attention so you can push at the edges.\n\nRemember that only you — through observation, experiment, judgment, and courage — can expand the circle.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>What Counts as Knowledge?</span>"
+    ]
+  },
+  {
+    "objectID": "ch02-knowledge.html#the-entrepreneurs-advantage",
+    "href": "ch02-knowledge.html#the-entrepreneurs-advantage",
+    "title": "4  What Counts as Knowledge?",
+    "section": "The Entrepreneur’s Advantage",
+    "text": "The Entrepreneur’s Advantage\nHere’s the secret: AI makes the circle of knowledge more accessible, but it doesn’t shrink the unknown.\nThat means the entrepreneur’s advantage still comes from exploring where nobody knows yet. Your power lies in questions that haven’t been asked, signals that haven’t been tested, and opportunities that haven’t been mapped.\nAI is a flashlight for the circle’s interior. You’re the one who dares to step into the fog beyond its edge.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>What Counts as Knowledge?</span>"
+    ]
+  },
+  {
+    "objectID": "ch02-knowledge.html#reflection",
+    "href": "ch02-knowledge.html#reflection",
+    "title": "4  What Counts as Knowledge?",
+    "section": "Reflection",
+    "text": "Reflection\n\nWhen have you acted on thin knowing — and how did it turn out?\n\nWhere in your venture right now do you have thicker knowing (belief backed by data)?\n\nWhat unshakeable convictions are keeping you moving, even when others doubt?",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>What Counts as Knowledge?</span>"
+    ]
+  },
+  {
+    "objectID": "ch02-knowledge.html#try-this-your-circle-of-knowing",
+    "href": "ch02-knowledge.html#try-this-your-circle-of-knowing",
+    "title": "4  What Counts as Knowledge?",
+    "section": "Try This: Your Circle of Knowing",
+    "text": "Try This: Your Circle of Knowing\n\n\n\n\n\n\nGrab a blank sheet of paper and draw a circle. That’s everything humanity could possibly know.\n\nShade the inside. Write down what you already know about your venture — facts, data, customer insights, or industry knowledge.\n\nMark the edge. Write down where you’re pushing into the unknown — the experiments you’re running, the questions you’re chasing.\n\nNote the beyond. Outside the circle, jot the things nobody knows yet — shifts in culture, future tech, surprises that can’t be predicted.\n\nNow look at your drawing.\n\nAre you leaning too hard on what’s already inside the circle?\n\nAre you actually pushing at the edge?\n\nAre you honest about what’s truly beyond anyone’s control?\n\nThis exercise isn’t about filling the circle — it’s about knowing where you stand, so you can partner with AI for what’s inside and focus your energy on the edges that matter.\n\n\n\n\nEntrepreneurs don’t act on certainty — they act on the strongest mix of belief, justification, and evidence they can assemble.\n\n\n\n\n\nMight, Matt. 2010. “The Illustrated Guide to a PhD.” http://matt.might.net/articles/phd-school-in-pictures/.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>What Counts as Knowledge?</span>"
+    ]
+  },
+  {
+    "objectID": "ch02-knowledge.html#footnotes",
+    "href": "ch02-knowledge.html#footnotes",
+    "title": "4  What Counts as Knowledge?",
+    "section": "",
+    "text": "Adapted from the work of Matt Might, a professor in Computer Science at the University of Utah. He created The Illustrated Guide to a Ph.D. to explain what a Ph.D. is to new and aspiring graduate students. It is adapted here to explain uncertainty, knowledge, and the opportuntities available to entrepreneurs with AI. Matt has licensed the guide for sharing with  special terms under the Creative Commons license. Adapted from Matt Might (2010), “The Illustrated Guide to a PhD,” 2010, http://matt.might.net/articles/phd-school-in-pictures/.↩︎",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>What Counts as Knowledge?</span>"
     ]
   },
   {
     "objectID": "ch03-epistemology.html",
     "href": "ch03-epistemology.html",
-    "title": "5  Epistemology",
+    "title": "5  How We Know",
     "section": "",
-    "text": "This chapter is a placeholder for the Epistemology chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "text": "Authority\nEntrepreneurs constantly face the question: How do you know?\nIs that advisor’s tip knowledge, or just bias?\nIs the spreadsheet truth, or an illusion built on shaky assumptions?\nIs your conviction evidence, or adrenaline?\nThis chapter lays out the major ways humans “know” — and how each can help (or hurt) an entrepreneur in the fog.\nTrusting what others claim to know.\nAuthority says we know something because someone else tells us it’s true — and we trust them.\nIt’s the epistemology of testimony, teaching, and expert advice.\nDefinition: Knowledge is accepted when it comes from a trusted authority or source.\nAuthority is efficient. It lets you skip the slow grind of figuring everything out yourself. But it’s also fragile: advice that was right for someone else’s market or moment can steer you wrong in yours. Treat authority as borrowed confidence, not final truth. It can guide you, but only evidence from your own market can confirm what’s true for you.\nAuthority gives speed, not certainty.",
     "crumbs": [
       "Part I: Knowing and Deciding in Uncertainty",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Epistemology</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#authority",
+    "href": "ch03-epistemology.html#authority",
+    "title": "5  How We Know",
+    "section": "",
+    "text": "Use when:\n\n\nYou need quick guidance from someone with deep experience.\n\nYou’re outside your expertise and can’t verify everything yourself.\n\nWatch for:\n\n\nMistaking confidence for competence.\n\nBiases in the authority’s own experience (their past may not match your context).\n\nDevices that look like authority (titles, jargon, past triumphs, displayed wealth, swagger) but don’t prove actual expertise.\n\nIn practice:\n\n\nCheck whether the authority’s claims are backed by evidence you can also access.\n\nCompare multiple trusted voices, not just one.\n\nUse authority as a starting point, not the final word.\n\n\n\n\n\n\n\n\n\n\n\nMini Case: The Mentor’s Trap\n\n\n\nA founder sets her subscription price at $20/month because a high-profile mentor insists that’s the “sweet spot.”\nShe launches — and nobody bites. When she finally talks to her own customers, she learns they’d pay $8–10 but feel $20 is absurd.\nThe mentor’s confidence wasn’t malicious; it just came from another context.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#rationalism",
+    "href": "ch03-epistemology.html#rationalism",
+    "title": "5  How We Know",
+    "section": "Rationalism",
+    "text": "Rationalism\nConclusions from premises with logic.\nRationalism says we know something when it follows logically from premises we already accept.\nIt’s the epistemology of math proofs, syllogisms, and balance sheets.\nDefinition: Knowledge is justified when it can be deduced logically from accepted premises.\nIn entrepreneurship, rationalism shows up in spreadsheets, models, and forecasts.\nWhen you calculate runway, model churn, or prove your unit economics, you’re leaning on rationalism.\n\n\n\n\n\n\nUse when: reasoning from clear premises (unit economics, cash flow).\nWatch for: wrong premises; logic that hides desire.\nIn practice: expose your assumptions; contradiction check.\n\n\n\nThe strength of rationalism is clarity: if your premises are right, the conclusion follows.\nBut its weakness is obvious too: logic can’t fix bad inputs.\nThe fix is to pair rationalism with empiricism — test your premises against actual observations before trusting the elegance of the math.\n\n\n\n\n\n\nMini-case: The Runway Mirage\n\n\n\nA founder builds a 12-month runway projection. Every formula checks out, every cell ties neatly.\nBut hidden in the model is one untested assumption: “We’ll sell 1,000 units a month starting in May.”\nWhen May comes and sales stall at 200, the runway evaporates.\nThe math was flawless. The premise was fantasy.\n\n\nLogic sharpens assumptions, it doesn’t prove them.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#sec-empiricism",
+    "href": "ch03-epistemology.html#sec-empiricism",
+    "title": "5  How We Know",
+    "section": "Empiricism",
+    "text": "Empiricism\nLet observation — especially behavior — speak.\nEmpiricism says we know something by observing it with our senses — seeing, hearing, touching, testing.\nIt’s the epistemology of looking, measuring, and trying things out.\nDefinition: Knowledge is justified when it comes from direct observation or experience.\n\n\n\n\n\n\nUse when: direct behaviors or outcomes are visible (lines, clicks, sales).\nWatch for: misleading appearances; things you can’t sense (future, causation).\nIn practice: treat observations as signals — but probe deeper before betting everything.\n\n\n\nEntrepreneurs lean on empiricism when they shadow customers, watch store traffic, or track clicks in real time.\nIt gives crisp, undeniable facts — but it doesn’t always explain them.\nThe move is to use empiricism as your signal, then turn to other tools — rationalism for logic, pragmatism for results, or science for structure — to dig into the why.\n\n\n\n\n\n\nMini-case: The Busy Café\n\n\n\nAn entrepreneur watches two ice cream shops. One is packed, the other nearly empty.\nShe concludes: “The busy shop has better ice cream.”\nLater, she learns the crowded café sits across from a university, while the quiet one is tucked in a residential block.\nHer observation was true. Her interpretation wasn’t.\n\n\nObservation shows what is, not why it is.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#pragmatism",
+    "href": "ch03-epistemology.html#pragmatism",
+    "title": "5  How We Know",
+    "section": "Pragmatism",
+    "text": "Pragmatism\nDo what works — even if you don’t yet know why.\nPragmatism says we know something because it produces useful results. It’s the epistemology of tinkering, hacks, and trial-by-fire fixes.\nDefinition: Knowledge is justified when it reliably delivers results, regardless of theory.\n\n\n\n\n\n\nUse when: you need to act fast, or when theory/data are incomplete.\nWatch for: short-term wins that mask long-term costs; mistaking correlation for causation.\nIn practice: keep what works, but stay curious about why — so you don’t stall at shallow fixes.\n\n\n\nPragmatism is a lifeline in uncertain situations. If offering free shipping spikes sales, you don’t have to solve the psychology of consumer behavior to keep offering it. But the trap is complacency: settling for “it works” without probing deeper can blind you to better opportunities or hidden risks.\n\n\n\n\n\n\nMini-case: The Free Shipping Fix\n\n\n\nA small e-commerce founder notices sales double the week she offers free shipping. She makes it permanent. Revenue grows — but margins shrink, and costs quietly erode her profit. It worked in the short run, but without asking why, she missed the chance to adjust pricing or operations to keep it sustainable.\n\n\nPragmatism keeps you moving, but don’t stop digging for the why.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#imagination",
+    "href": "ch03-epistemology.html#imagination",
+    "title": "5  How We Know",
+    "section": "Imagination",
+    "text": "Imagination\nMaking things up — as a way forward.\nImagination says we know something by creating a story, model, or hypothesis that fills the gap when evidence is thin. It’s the epistemology of “what if…?” thinking, storyboards, and napkin sketches.\nDefinition: Knowledge is proposed through invention or hypothesis — creating stories, models, or “what if” scenarios when evidence is missing. (Philosophers sometimes call this abduction or fabrication.)\n\n\n\n\n\n\nUse when: data is scarce, the future is unclear, or you need to explore possibilities.\nWatch for: mistaking imagination for reality; falling in love with your own idea.\nIn practice: treat imagined models as prototypes for thought — things to test, not truths to trust.\n\n\n\nImagination is the entrepreneur’s first leap. Without it, there’s nothing to test, no vision to chase. But imagination without discipline can be dangerous: it produces castles in the sky, beautiful but ungrounded. Don’t hold to imagined knowledge to tightly — it generates hypotheses that need empirical or rational follow-up.\n\n\n\n\n\n\nMini-case: The Market That Wasn’t\n\n\n\nA founder imagines a booming market for smart toasters. She sketches a story: busy parents want fresh bread timed to their mornings. The story drives her pitch deck, her prototype, even her excitement. But when she runs actual surveys, she finds almost no one sees toasters as worth upgrading.\nHer imagination was vivid. Reality wasn’t.\n\n\nImagination is the spark — but it only matters if you test the fire it lights.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#science",
+    "href": "ch03-epistemology.html#science",
+    "title": "5  How We Know",
+    "section": "Science",
+    "text": "Science\nWeaving ways of knowing into a method.\nScience says we know something when multiple ways of knowing are braided together — observation, reasoning, skepticism, imagination, and testing — into a process that can be repeated and checked. It’s the epistemology of experiments, prototypes, and disciplined iteration.\nDefinition: Knowledge is justified when it comes from a repeatable process — imagining a test, running it, gathering observations, and analyzing results. Science works by weaving other epistemologies into a disciplined method.\n\n\n\n\n\n\nUse when: you need reliability, repeatability, and stronger confidence than any single epistemology gives.\nWatch for: false certainty (“science says”); treating the process as flawless instead of iterative; experiments designed to prove rather than test.\nIn practice: treat science as a weave — integrate imagination (for hypotheses), empiricism (for data), rationalism (for analysis), skepticism (for testing), and pragmatism (for application).\n\n\n\nScience is not just empiricism with extra steps. It’s a braid of epistemologies: imagination to generate a testable idea, rationalism to structure the logic, empiricism to gather observations, skepticism to challenge assumptions, and pragmatism to apply what works. No single strand is strong enough on its own. Together, they create a rope you can climb.\n\n\n\n\n\n\nMini-case: The Prototype Loop\n\n\n\nA startup suspects that a new packaging design will boost sales.\n\nImagination: “Shoppers will grab it if it looks eco-friendly.”\nRationalism: Design a clean test — old packaging vs. new packaging.\nEmpiricism: Run the A/B test in stores and watch the results.\nSkepticism: Ask — were sales up because of packaging, or because of a holiday bump?\nPragmatism: If it works, scale it. If not, scrap it.\n\nThe loop doesn’t end — each cycle weaves the strands tighter, moving from hunch to evidence to confident knowledge.\n\n\nScience is a tool, not a verdict. It won’t erase uncertainty — but it gives you a way to chip at it.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#scholarship-synthesis",
+    "href": "ch03-epistemology.html#scholarship-synthesis",
+    "title": "5  How We Know",
+    "section": "Scholarship (Synthesis)",
+    "text": "Scholarship (Synthesis)\nBuilding knowledge by studying what others have already discovered.\nScholarship says we know something when we gather, interpret, and synthesize existing research, records, and ideas. It’s the epistemology of books, reports, and prior work — standing on the shoulders of others.\nDefinition: Knowledge is justified when it’s drawn from systematic study and synthesis of existing sources.\n\n\n\n\n\n\nUse when: entering a new field, mapping past patterns, or grounding your ideas in context.\nWatch for: outdated sources, cherry-picking, or over-relying on the past in fast-changing markets.\nIn practice: survey broadly, compare multiple sources, and treat scholarship as foundation — not ceiling.\n\n\n\nScholarship gives entrepreneurs a head start. Instead of rediscovering the wheel, you can build on what’s already known. It helps you see trends, test assumptions against history, and borrow insights from other industries.\nBut its weakness is obvious: the past doesn’t always predict the future. Scholarship clarifies the road behind you, not always the one ahead.\n\n\n\n\n\n\nMini-case: The Market Report Mirage\n\n\n\nAn entrepreneur digs into market reports on renewable energy. Every source says “solar is the future.” So she builds her plan around solar panels.\nBut by the time she launches, regulation and subsidies have swung hard toward wind and storage. Her scholarship was thorough — but it locked her into yesterday’s narrative.\n\n\nScholarship keeps you from reinventing the wheel — but don’t mistake old maps for the territory ahead.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#skepticism",
+    "href": "ch03-epistemology.html#skepticism",
+    "title": "5  How We Know",
+    "section": "Skepticism",
+    "text": "Skepticism\nDoubt as a way to test what counts as knowing.\nSkepticism says we know less than we think we do — and that every claim deserves scrutiny. It’s the epistemology of questioning, probing, and refusing to take things at face value.\nDefinition: Knowledge is justified only when it survives critical doubt and testing against contrary evidence.\n\n\n\n\n\n\nUse when: stakes are high, signals are noisy, or claims sound too good to be true. Watch for: cynicism that rejects everything, or paralysis that stops you from ever acting. In practice: push for disconfirming evidence, ask “what would prove this false?”, and balance doubt with timely decisions.\n\n\n\nSkepticism is a shield. It protects entrepreneurs from hype, false signals, and the temptation to believe what they hope is true. By pressing on weak spots, it can save you from expensive mistakes.\nSkepticism clears away noise, but it cannot guide you forward alone. Too much doubt can paralyze you, leaving every option unchosen, every opportunity unexplored. Pair doubt with action — trust, test, and decide when enough questions have been asked.\n\n\n\n\n\n\nMini-case: The Too-Good Trend\n\n\n\nA founder hears that blockchain real estate startups are “the next unicorns.” Instead of diving in, she digs deeper: Who’s making the claim? What’s the evidence? After some digging, she finds most of the hype comes from investors already holding tokens.\nHer skepticism saves her from chasing a bubble.\n\n\nSkepticism is guardrails, not brakes. It stops bad action, but not all action.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#conviction",
+    "href": "ch03-epistemology.html#conviction",
+    "title": "5  How We Know",
+    "section": "Conviction",
+    "text": "Conviction\n\nThe inner knowing that keeps you moving when evidence is thin.\nSome call this faith — the willingness to move without proof.\nIn secular terms, we’ll call it conviction: the inner anchor that lets you act even when the data is weak or the models don’t agree.\nDefinition: Knowledge is accepted when belief is held with such strength that it compels action, even without full justification or evidence.\nConviction is powerful because entrepreneurship always involves moments when the evidence isn’t enough. If you wait for certainty, you’ll never start. But conviction cuts both ways: it can carry you through storms, or it can blind you to warning signs.\n\n\n\n\n\n\nUse when: the evidence is thin but action can’t wait.\nWatch for: mistaking stubbornness for conviction.\nIn practice: keep conviction alive — but tether it to new evidence as it arrives.\n\n\n\nConviction is not irrational. It is a bet that your belief deserves to be tested in the world. Entrepreneurs often feel this as a deep “I know this matters” even before the data can confirm it. The challenge is to treat conviction as a starting engine, not a permanent autopilot.\nConviction is the bridge between uncertainty and evidence. It carries you into action when knowledge is incomplete, but it works best when you invite new knowledge in as you go.\n\n\n\n\n\n\nMini-case: The Mission-Driven Founder\n\n\n\nAn entrepreneur feels certain the world needs a new kind of clean energy device.\nThe evidence is thin, the prototypes fragile, the investors hesitant.\nStill, she can’t shake the conviction that this problem matters too much to ignore.\nThat conviction sustains her long enough to run the experiments, win early adopters, and slowly gather the proof that others demanded up front.\n\n\nConviction is fuel, not proof. Let it spark motion — but keep testing whether the fire deserves to grow.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#mini-case-which-tool-first",
+    "href": "ch03-epistemology.html#mini-case-which-tool-first",
+    "title": "5  How We Know",
+    "section": "Mini-case: Which Tool First?",
+    "text": "Mini-case: Which Tool First?\n\n\n\n\n\n\nAn advisor says, “Raise your price.”\nYour spreadsheet says, “Fix churn.”\nCustomers say, “We love it.”\nUsage is flat.\nInside, you feel called to serve this market.\nWhich tool do you reach for first? Which backup tool? What’s your next test?",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch03-epistemology.html#try-this-epistemology-audit",
+    "href": "ch03-epistemology.html#try-this-epistemology-audit",
+    "title": "5  How We Know",
+    "section": "Try This: Epistemology Audit",
+    "text": "Try This: Epistemology Audit\n\n\n\n\n\n\nPick one belief about your venture. Run it through the toolkit:\n\nAuthority: Who told you? What’s their exact claim?\n\nLogic (rationalism): What premises are you assuming?\n\nObservation (empiricism): What have you actually seen customers do?\n\nPragmatism: What’s working now?\n\nImagination: What story are you imagining?\n\nScience: What’s your next structured test?\n\nSkepticism: What’s your threshold for changing your mind?\n\nConviction: What conviction keeps you moving even if the data shifts?\n\nWrite down one next test and one stop condition.\n\n\n\n\n\nEntrepreneurs don’t need a single epistemology. They need a toolkit — and the wisdom to know which tool to pick up next.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How We Know</span>"
     ]
   },
   {
     "objectID": "ch04-judgment.html",
     "href": "ch04-judgment.html",
-    "title": "6  Judgment",
+    "title": "6  Believing and Acting Before You Know",
     "section": "",
-    "text": "This chapter is a placeholder for the Judgment chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "text": "The Illusion of “Enough” Knowledge\nYou know the feeling when you start something new?\nThe clock is ticking. The numbers aren’t all there. Your gut says yes, but your head keeps throwing up questions. And yet, the lease needs signing, the product needs shipping, or the investor needs an answer.\nThis is the paradox of entrepreneurship: you need knowledge to act, but often you only get knowledge after you act.\nSome entrepreneurs wait for perfect clarity. They convince themselves that one more survey, one more advisor, one more test will finally settle the fog.\nBut certainty never fully arrives. You can learn a lot, yes. You can reduce uncertainty. But you can’t erase it. There will always be unknowns that data can’t touch — future shocks, customer quirks, timing quirks, the sheer unpredictability of people and markets.\nThe danger is paralysis. Waiting for certainty is often just a way of avoiding responsibility. By the time the picture is perfectly clear, the opportunity is usually gone.",
     "crumbs": [
       "Part I: Knowing and Deciding in Uncertainty",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Judgment</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Believing and Acting Before You Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch04-judgment.html#acting-on-judgment-not-certainty",
+    "href": "ch04-judgment.html#acting-on-judgment-not-certainty",
+    "title": "6  Believing and Acting Before You Know",
+    "section": "Acting on Judgment, Not Certainty",
+    "text": "Acting on Judgment, Not Certainty\nSo what’s the alternative?\nJudgment.\nJudgment is the entrepreneur’s superpower — the ability to act without full clarity, using the strongest mix of belief, justification, and evidence you’ve assembled so far.\nThat doesn’t mean reckless guessing. It means knowing when you’ve learned enough to move, even if you haven’t learned everything.\nThink of three paths:\n\nReckless action — ignoring evidence, charging ahead on nothing but adrenaline.\n\nParalyzed inaction — waiting forever, mistaking incomplete knowledge for incompetence.\n\nJudgment under uncertainty — moving with courage when the knowledge is “good enough,” knowing you’ll learn more by acting.\n\nIt’s that third path that builds ventures.\n\nWhat We Mean by “Judgment”\n\n\n\n\n\n\nWhen we say judgment, we don’t mean “judging others.”\nWe mean: the act of making a decision under uncertainty when evidence is incomplete.\nJudgment is different from guessing. Guessing ignores evidence. Judgment weighs the best mix of belief, justification, and evidence you have — then acts, knowing some uncertainty will always remain.\nA simple loop for practicing judgment:\n\nFrame the decision. What exactly are you choosing? Narrow it.\n\nAssemble what’s known. Gather the facts, data, and convictions you already hold.\n\nIdentify the gaps. Name what’s unknown. Ask: is it learnable quickly, or irreducible?\n\nSet a threshold. Decide how much clarity is “enough” to move forward.\n\nMake the call. Act, knowing you’ll learn more after action than before.\n\nReview & revise. Reflect on outcomes so your judgment grows sharper over time.\n\nThe goal isn’t to eliminate uncertainty. It’s to develop confidence that you can act with it — and improve your ability to make the next call.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Believing and Acting Before You Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch04-judgment.html#example-the-two-bridges",
+    "href": "ch04-judgment.html#example-the-two-bridges",
+    "title": "6  Believing and Acting Before You Know",
+    "section": "Example: The Two Bridges",
+    "text": "Example: The Two Bridges\nPicture two founders staring across a canyon.\n\nFounder A says, “We can’t step out until the bridge is fully built. We’ll keep testing, surveying, and waiting until every plank is nailed down.” By the time they’re satisfied, others have already crossed.\nFounder B says, “We’ve tested enough. The first planks look solid. We’ll learn as we go.” They step forward, building the bridge under their feet. To outsiders it looks reckless. From the inside, it’s a calculated act of judgment — a willingness to risk, to learn, and to keep moving before certainty arrives.\n\nMost entrepreneurial breakthroughs look reckless to those on the sidelines. To those making the call, they are acts of judgment, calibrated by knowledge and courage.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Believing and Acting Before You Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch04-judgment.html#reflection",
+    "href": "ch04-judgment.html#reflection",
+    "title": "6  Believing and Acting Before You Know",
+    "section": "Reflection",
+    "text": "Reflection\n\nThink of a time you acted with incomplete knowledge. How did it feel?\n\nWhen do you tend to lean too hard on data? When do you lean too much on conviction?\n\nWhat’s one decision in your venture right now that requires judgment rather than waiting?",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Believing and Acting Before You Know</span>"
+    ]
+  },
+  {
+    "objectID": "ch04-judgment.html#try-this-the-judgment-call",
+    "href": "ch04-judgment.html#try-this-the-judgment-call",
+    "title": "6  Believing and Acting Before You Know",
+    "section": "Try This: The Judgment Call",
+    "text": "Try This: The Judgment Call\n\n\n\n\n\n\nTake a decision you’re stalling on.\n\nWrite down what you know. Facts, data, observations, evidence.\n\nWrite down what you believe. Convictions, intuitions, faith.\n\nAsk yourself: What more could I realistically learn in the next week?\n\nDecide: Is this enough to act, or is there one critical unknown worth waiting for?\n\nBy the end, you’ll have either the courage to move forward, or a clear plan for what to learn before you do. Both are progress.\n\n\n\n\n\nEntrepreneurship isn’t about waiting for certainty. It’s about knowing enough to move — and having the courage to act before the map is drawn.",
+    "crumbs": [
+      "Part I: Knowing and Deciding in Uncertainty",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Believing and Acting Before You Know</span>"
     ]
   },
   {
     "objectID": "ch05-bayesian.html",
     "href": "ch05-bayesian.html",
-    "title": "7  Bayesian",
+    "title": "7  Thinking in Probabilities",
     "section": "",
     "text": "This chapter is a placeholder for the Bayesian chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
     "crumbs": [
       "Part I: Knowing and Deciding in Uncertainty",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Bayesian</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Thinking in Probabilities</span>"
     ]
   },
   {
@@ -142,7 +483,7 @@
     "href": "ch09-public-data.html",
     "title": "11  Public Data",
     "section": "",
-    "text": "This chapter is a placeholder for the Uncertainty chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "text": "This chapter is a placeholder for the Public Data chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
     "crumbs": [
       "Part III: Gathering Evidence from the World",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Public Data</span>"
@@ -279,14 +620,14 @@
     ]
   },
   {
-    "objectID": "ch20-faith.html",
-    "href": "ch20-faith.html",
-    "title": "22  Faith",
+    "objectID": "ch20-conviction.html",
+    "href": "ch20-conviction.html",
+    "title": "22  Conviction",
     "section": "",
-    "text": "This chapter is a placeholder for the Faith chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "text": "This chapter is a placeholder for the Conviction chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.\n\n\n\n\n\n\nSome traditions call this faith — a willingness to trust beyond evidence.\nIn this book we’ll use the word conviction, to keep it distinct from spiritual faith.\nConviction is the secular cousin: the inner drive that keeps entrepreneurs moving when evidence runs thin.",
     "crumbs": [
       "Part V: Becoming Someone Who Knows and Acts Well",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Faith</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Conviction</span>"
     ]
   },
   {
@@ -309,6 +650,16 @@
     "crumbs": [
       "Part V: Becoming Someone Who Knows and Acts Well",
       "<span class='chapter-number'>24</span>  <span class='chapter-title'>Leadership</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Might, Matt. 2010. “The Illustrated Guide to a PhD.”\nhttp://matt.might.net/articles/phd-school-in-pictures/.",
+    "crumbs": [
+      "References"
     ]
   }
 ]

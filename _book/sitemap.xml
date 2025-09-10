@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mc.nilehatch.com/index.html</loc>
-    <lastmod>2025-09-07T22:15:42.000Z</lastmod>
+    <lastmod>2025-09-07T22:47:49.882Z</lastmod>
   </url>
   <url>
     <loc>https://mc.nilehatch.com/intro.html</loc>
@@ -14,23 +14,23 @@
   </url>
   <url>
     <loc>https://mc.nilehatch.com/ch01-uncertainty.html</loc>
-    <lastmod>2025-09-07T21:56:21.988Z</lastmod>
+    <lastmod>2025-09-10T17:00:44.337Z</lastmod>
   </url>
   <url>
     <loc>https://mc.nilehatch.com/ch02-knowledge.html</loc>
-    <lastmod>2025-09-07T22:08:59.792Z</lastmod>
+    <lastmod>2025-09-10T16:56:59.645Z</lastmod>
   </url>
   <url>
     <loc>https://mc.nilehatch.com/ch03-epistemology.html</loc>
-    <lastmod>2025-09-07T22:09:22.528Z</lastmod>
+    <lastmod>2025-09-10T17:12:54.370Z</lastmod>
   </url>
   <url>
     <loc>https://mc.nilehatch.com/ch04-judgment.html</loc>
-    <lastmod>2025-09-07T22:09:54.199Z</lastmod>
+    <lastmod>2025-09-08T22:02:55.507Z</lastmod>
   </url>
   <url>
     <loc>https://mc.nilehatch.com/ch05-bayesian.html</loc>
-    <lastmod>2025-09-07T22:26:09.892Z</lastmod>
+    <lastmod>2025-09-07T22:42:15.132Z</lastmod>
   </url>
   <url>
     <loc>https://mc.nilehatch.com/part2-asking-right-questions.html</loc>
@@ -54,7 +54,7 @@
   </url>
   <url>
     <loc>https://mc.nilehatch.com/ch09-public-data.html</loc>
-    <lastmod>2025-09-07T22:29:38.577Z</lastmod>
+    <lastmod>2025-09-08T17:10:52.623Z</lastmod>
   </url>
   <url>
     <loc>https://mc.nilehatch.com/ch10-private-data.html</loc>
@@ -90,7 +90,7 @@
   </url>
   <url>
     <loc>https://mc.nilehatch.com/ch17-decision-rules.html</loc>
-    <lastmod>2025-09-07T22:32:33.618Z</lastmod>
+    <lastmod>2025-09-08T17:12:06.661Z</lastmod>
   </url>
   <url>
     <loc>https://mc.nilehatch.com/ch18-judgment.html</loc>
@@ -105,12 +105,8 @@
     <lastmod>2025-09-07T22:18:24.172Z</lastmod>
   </url>
   <url>
-    <loc>https://mc.nilehatch.com/references.html</loc>
-    <lastmod>2025-09-04T14:51:23.492Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mc.nilehatch.com/ch20-faith.html</loc>
-    <lastmod>2025-09-07T22:33:55.809Z</lastmod>
+    <loc>https://mc.nilehatch.com/ch20-conviction.html</loc>
+    <lastmod>2025-09-10T16:54:59.147Z</lastmod>
   </url>
   <url>
     <loc>https://mc.nilehatch.com/ch21-lifelong-learning.html</loc>
@@ -119,5 +115,9 @@
   <url>
     <loc>https://mc.nilehatch.com/ch22-leadership.html</loc>
     <lastmod>2025-09-07T22:36:18.898Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mc.nilehatch.com/references.html</loc>
+    <lastmod>2025-09-04T14:51:23.492Z</lastmod>
   </url>
 </urlset>
