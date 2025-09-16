@@ -1,0 +1,92 @@
+# Wrapping Up
+
+## Knowing and Deciding in Uncertainty 
+
+Uncertainty is the entrepreneur’s native terrain.  
+You’ve seen that it’s not the same as risk, and that pretending otherwise only leads to trouble.  
+
+In this part, you built tools for working with that uncertainty:  
+
+- **Uncertainty vs. Risk.** You learned to name the difference, so you don’t confuse probabilities with unknowns.  
+- **Knowledge and Epistemologies.** You explored the ways we come to know — from authority to observation to imagination — and how each can serve or mislead you.  
+- **Judgment.** You practiced weighing what you know, what you believe, and when to act.  
+- **Belief Revision.** You learned to update within a frame (Bayesian updating) and revise the frame itself when reality no longer fits.  
+
+<br>
+![Part I tools for navigating uncertainty: from recognizing uncertainty, to building knowledge, to exercising judgment, to updating or revising beliefs.](images/wrap-knowing-revising.svg){width=80%}
+
+The point isn’t to eliminate uncertainty — you can’t.  
+The point is to **navigate it with clarity and confidence**, making calls with eyes open instead of guessing in the fog.  
+
+
+## Looking Ahead  
+
+Part II shifts from *how to know* toward *how to ask*.  
+Once you accept uncertainty and learn to manage your beliefs, the next move is to frame the **right questions**:  
+
+- What don’t I know yet?  
+- Which unknowns matter most right now?  
+- How do I turn those into testable hypotheses?  
+
+That’s where we go next. Because asking the right questions is what turns uncertainty into insight.  
+
+---
+
+<!-- 
+```{python}
+#| label: fig-part1-cycle
+#| fig-cap: "Part I tools for navigating uncertainty: from recognizing uncertainty, to building knowledge, to exercising judgment, to updating or revising beliefs."
+#| fig-width: 8
+#| fig-height: 4
+
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+
+# Palette (Make the Call)
+cerulean = "#007BA7"
+teal = "#38B2AC"
+tint = "#E6F7FA"
+textcolor = "#1A202C"
+
+fig, ax = plt.subplots(figsize=(8,4))
+
+nodes = {
+    "Uncertainty": (0.1, 0.5),
+    "Knowledge": (0.4, 0.8),
+    "Judgment": (0.4, 0.2),
+    "Updating": (0.75, 0.8),
+    "Revision": (0.75, 0.2)
+}
+
+# Node colors
+colors = {
+    "Uncertainty": cerulean,
+    "Knowledge": teal,
+    "Judgment": teal,
+    "Updating": tint,
+    "Revision": tint
+}
+
+# Draw circles
+for text, (x, y) in nodes.items():
+    circle = mpatches.FancyBboxPatch((x-0.1, y-0.1), 0.2, 0.2,
+                                     boxstyle="round,pad=0.05",
+                                     fc=colors[text], ec=textcolor, lw=1.5)
+    ax.add_patch(circle)
+    ax.text(x, y, text, ha="center", va="center", fontsize=10, wrap=True, color=textcolor)
+
+# Arrows
+arrowprops = dict(arrowstyle="->", lw=1.5, color=textcolor)
+ax.annotate("", xy=nodes["Knowledge"], xytext=nodes["Uncertainty"], arrowprops=arrowprops)
+ax.annotate("", xy=nodes["Judgment"], xytext=nodes["Uncertainty"], arrowprops=arrowprops)
+ax.annotate("", xy=nodes["Updating"], xytext=nodes["Knowledge"], arrowprops=arrowprops)
+ax.annotate("", xy=nodes["Revision"], xytext=nodes["Judgment"], arrowprops=arrowprops)
+
+ax.set_xlim(0, 1)
+ax.set_ylim(0, 1)
+ax.axis("off")
+plt.title("Navigating Uncertainty: Tools from Part I", fontsize=12, color=textcolor)
+
+plt.show()
+```
+-->

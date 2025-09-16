@@ -1,10 +1,17 @@
-# Part II: Asking the Right Questions {.unnumbered}
+# Part II: Asking the Right Questions {#sec-questions-part-2}
 
-Before you can act wisely, you have to know what to ask. This section focuses on how entrepreneurs identify the most urgent unknowns, shape meaningful questions, and generate smart, informed hunches. We’ll also explore the value of exploration before jumping to solutions.
+Entrepreneurship is not a game of having all the answers. It’s a game of chasing down the right questions.
 
-We’ll cover:
+In [Part 1](part1-knowing-deciding.qmd), we wrestled with uncertainty and how to make decisions when the facts are unclear. You learned that judgment, epistemology, and belief revision are tools for deciding in the fog. But knowing how to decide is only half the battle. The other half is figuring out what’s even worth deciding in the first place.
 
-- How to find the questions that matter most
-- Turning unknowns into testable ideas
-- The role of abduction and intuition
-- Why premature hypotheses can backfire
+This is where questions come in. Good entrepreneurs don’t try to know everything; they focus on the unknowns that matter most. They ask: What could sink us? What might unlock growth? What do we need to learn before spending another dollar?
+
+The art of entrepreneurship is not just in acting, but in aiming your curiosity. When your questions are sharp, your learning is fast, your experiments are cheap, and your chances of success shoot up. When your questions are vague, you end up chasing trivia, drowning in data, or building things no one wants.
+
+Part II is about developing that skill—learning to frame and prioritize questions that cut through the noise. You’ll discover:
+
+- How to surface your urgent unknowns—the uncertainties that matter most right now.
+- How to turn those unknowns into hypotheses you can actually test.
+- How to design explorations that shrink uncertainty without wasting time or money.
+
+Think of it like sharpening your axe before chopping wood. The clearer your question, the faster you learn. The faster you learn, the more confident you can be in making the next call.

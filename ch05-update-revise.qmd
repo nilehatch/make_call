@@ -1,0 +1,204 @@
+# Revising What You Thought You Knew {#sec-belief-revision-chapter}
+
+*Update sharpens your odds. Revision redraws your map.*
+
+## The Shock of Surprise
+
+Sometimes the world doesn’t just add new evidence — it *reshuffles* the game board.
+
+-   A pandemic cancels your customers’ plans overnight.\
+-   A scrappy startup turns spare bedrooms into hotels.\
+-   A regulation doubles your costs in a week.
+
+These moments don’t just challenge your numbers. “These moments don’t just challenge your numbers. They challenge your *frame* — your mental model of how the world works.
+
+How do you adjust when reality itself redraws the map?
+
+## Two Ways Minds Change
+
+**Bayesian Updating** and **Belief Revision** are two different ways humans (including entrepreneurs) change their minds when the receive new evidence:
+
+-   **Bayesian updating**: adjust probabilities inside a fixed frame.
+-   **Belief revision**: rebuild the frame itself when it cracks.
+
+Both matter for entrepreneurship.
+
+Most of the time, you can lean on **Bayesian reasoning**: state your priors, gather evidence, update your odds. It’s perfect for questions like: *Will customers click more with headline A or headline B?*
+
+But every so often, the ground shifts. The surprise isn’t just a new data point — it’s a new category you hadn’t even imagined. That’s where **belief revision** comes in.
+
+-   **Bayesian reasoning** says: *Tweak the numbers within your current frame.*\
+-   **Belief revision** says: *Throw out the old framing, redraw the map, and start fresh.*
+
+::: {.callout-tip icon="false" title="Mini-case: Airbnb Before Airbnb"}
+In 2007, most investors would have bet on better hotels, cheaper hostels, or new booking software. If you asked a Bayesian to assign odds to “renting a stranger’s air mattress,” the probability would have been near zero — because the category didn’t exist.
+
+The arrival of Airbnb wasn’t just a new datapoint. It forced belief revision: suddenly “short-term rentals by strangers” became a whole new frame.
+
+Once that frame existed, Bayesian reasoning could refine it — What’s the market size? How do prices move? Which cities regulate? But the first step was revising the map.
+
+*Revision creates new categories; updating refines them.*
+:::
+
+::: {.callout-tip icon="false" title="Mini-case: COVID and Supply Chains"}
+In early 2020, companies carefully tracked lead times, shipping costs, and just-in-time delivery models. Bayesian updates worked fine: adjust forecasts when transit took an extra week, or when prices ticked up.
+
+Then COVID hit. Ports shut down, demand whiplashed, entire categories of suppliers vanished. The problem wasn’t updating numbers — it was realizing the **whole model** of “global just-in-time” no longer held.
+
+Firms had to **revise**: add redundancy, reshore suppliers, rethink what “efficiency” even meant. Only after reframing could Bayesian reasoning resume — now within the new model of resilient supply chains.
+
+*Revision makes survival possible; updating makes survival efficient.*
+:::
+
+*Update the odds when the game stays the same. Revise the rules when the game changes.*
+
+> “Update within the frame. Revise when the frame cracks.” “Bayes updates beliefs. Revision rebuilds them.” “Update the odds when the game stays the same. Revise the rules when the game changes.” “Update polishes assumptions. Revision resets them.”
+
+## Bayesian Updating
+
+*Adjusting beliefs when new evidence arrives.*
+
+Bayesian updating says you start with a prior belief, then shift it as evidence comes in.\
+It’s the epistemology of using forecasts, dashboards, and A/B tests to respond.
+
+**Definition:** Beliefs are updated by adjusting their probability in proportion to new evidence, while keeping the frame of possibilities fixed.
+
+::: column-margin
+**For the Curious: Bayes in One Line**
+
+Statisticians formalize updating with Bayes’ Rule:
+
+$$
+\mathsf{Posterior} = \frac{\mathsf{Prior} \times \mathsf{Likelihood}}{\mathsf{Evidence}}
+$$
+
+-   Prior = what you believed before.
+-   Likelihood = how strongly the new evidence fits that belief.
+-   Evidence = the total probability of the evidence across all possibilities.
+
+The formula just says: update your belief in proportion to how well the evidence supports it, while keeping things normalized so probabilities add up to 1.
+
+You don’t need to calculate this here. The point is that updating can be principled, not just gut feel.
+:::
+
+::: {.callout-note appearance="minimal"}
+**Use when**: you already know the possible outcomes and just need to refine your confidence.\
+**Watch for**: overconfidence in your priors; ignoring evidence that contradicts what you hoped.\
+**In practice**: state your prior, look at the data, and adjust proportionally.
+:::
+
+Bayesian reasoning is clean on paper — but when the numbers roll in, you often find your elegant prior colliding with messy reality.\
+That’s the strength and weakness of Bayesian updating: it gives you disciplined adjustments, but it can’t save you if your original frame was off.\
+The fix? Pair updating with regular checks that your categories themselves still make sense.
+
+::: {.callout-tip icon="false" title="Mini-case: Pricing the SaaS Tool"}
+A founder starts with a belief: there’s a 70% chance customers will pay \$20/month for her SaaS tool. That’s her prior.
+
+She runs a test: 200 people see the price, only 20 sign up. That’s new evidence.
+
+She updates her belief — lowering the probability that \$20 works, raising the odds that a cheaper tier is needed. That’s the posterior.
+
+She didn’t need to calculate a formula. The act of updating — letting evidence shift her confidence — is Bayesian reasoning in practice.
+:::
+
+*Bayesian updating works best when the world fits the categories you’ve already imagined.*
+
+## Belief Revision
+
+*Changing the frame itself when the world surprises you.*
+
+Belief revision is different. Sometimes, the surprise isn’t that your probability was off. It’s that your whole way of thinking missed the mark.
+
+**Definition:** Beliefs are revised when new evidence forces you to restructure your frame — adding, dropping, or reshaping assumptions so your worldview stays consistent.
+
+::: column-margin
+**For the Curious: The Rules of Revision**
+
+Philosophers formalize revision with the AGM framework.[^ch05-update-revise-1]
+
+It boils down to three moves:
+
+-   Expand: Add a new belief when it doesn’t cause contradictions.
+-   Revise: Add a new belief and adjust old ones so the whole set stays consistent.
+-   Contract: Drop a belief that no longer fits with the rest.
+
+The point isn’t to memorize terms. It’s to see that belief revision has rules: you don’t just throw away or add ideas randomly. You revise so your worldview hangs together after surprise.
+:::
+
+[^ch05-update-revise-1]: The AGM framework is named after @alchourron1985logic.
+
+::: {.callout-note appearance="minimal"}
+**Use when**: the world throws up something outside your current frame.\
+**Watch for**: clinging to outdated assumptions just because they once worked.\
+**In practice**: ask not only “how likely is this?” but “what does this *mean* for how I’m framing the problem?”
+:::
+
+Belief revision shows its teeth when the world delivers not just a datapoint, but a shock that rewrites the very frame of the game.\
+It helps you avoid clinging to a map that no longer matches the terrain.\
+The practice move? Stay alert for surprises that force you to redraw the categories, not just the numbers.
+
+::: {.callout-tip icon="false" title="Mini-case: The Airbnb Surprise"}
+A founder starts with a belief: travelers want cheaper hotels or better hostels. That’s her prior frame.
+
+Then she encounters a new reality: people are renting spare bedrooms to strangers. That’s surprising evidence — but it doesn’t fit her frame.
+
+She can’t just update the odds within “hotels vs. hostels.” She needs a new frame: “short-term rentals by homeowners.”
+
+Only after revising the frame can she update beliefs inside it — estimating market size, pricing, and regulations.
+:::
+
+*Belief revision matters when reality redraws the map of possibilities.*
+
+## Update vs. Revise
+
+:::::: {.callout-note appearance="minimal"}
+::::: columns
+::: column
+##### Bayesian Updating
+
+-   Works inside a known frame\
+-   Adjusts probabilities\
+-   Example: lowering price expectations after an A/B test\
+:::
+
+::: column
+##### Belief Revision
+
+-   Works when the frame itself shifts\
+-   Adds, drops, or reshapes categories\
+-   Example: realizing “home-sharing” is now a viable industry\
+:::
+:::::
+::::::
+
+*Update tweaks the model. Revision changes the game.*
+
+## Why Entrepreneurs Need Both
+
+Entrepreneurs live between two worlds:
+
+-   Sometimes, you’re refining decisions inside known frames (updating).\
+-   Sometimes, the frame itself collapses or expands (revision).
+
+If you only update, you risk being precise in the wrong model.\
+If you only revise, you risk chasing novelty without discipline.
+
+The art is knowing which tool the moment demands.
+
+## Try This: Update or Revise?
+
+::: {.callout-tip appearance="minimal"}
+Work with your team. For each scenario, decide: does this call for a **Bayesian update** (adjust probabilities within the frame) or a **Belief revision** (change the frame itself)?
+
+1.  Your A/B test shows the “Buy Now” button in green gets 15% more clicks than in blue.\
+2.  A competitor launches a new feature that makes customers expect something you never imagined offering.\
+3.  Your forecast said 500 signups; you get 450.\
+4.  A pandemic cancels all in-person events, and your business was built on them.\
+5.  Customer interviews reveal a pain point you didn’t know existed, but it keeps coming up.
+
+Be ready to explain: What told you this was an **update** vs. a **revision**?
+:::
+
+------------------------------------------------------------------------
+
+*Update when the data shifts. Revise when the world shifts. Great entrepreneurs do both.*

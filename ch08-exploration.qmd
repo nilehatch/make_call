@@ -1,3 +1,117 @@
-# Exploration
+# Exploration {#sec-exploration-chapter}
 
-This chapter is a placeholder for the Exploration chapter of *Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship*. Content will fill in quickly.
+Sometimes you can’t write a clean hypothesis yet.  
+The unknowns are too big, the frame is too fuzzy, or you just don’t know what questions matter most.  
+
+That’s when you need **exploration**.  
+
+
+## When Hypotheses Aren’t Enough  
+
+Hypotheses are powerful when you already have a frame:  
+
+- You know the domain (customers, pricing, channel).  
+- You can define what counts as evidence.  
+- You can update beliefs as data rolls in.  
+
+But what if you don’t even know the frame?  
+
+- Which customers to serve?  
+- Which problem is real?  
+- Which part of the market is worth looking at?  
+
+Exploration comes first.  
+
+
+## What Exploration Looks Like  
+
+Exploration is structured wandering. Philosopher Ian Hacking [-@hacking2006emergence] described this type of experiment as **adventure** — deliberately stepping into the world, not to confirm what you know, but to experience it and then shape it  by what you discover.
+
+Exploration is how you reduce uncertainty when you can’t yet devise a well-informed hypothesis to run a clean experiment.
+
+Common forms include:  
+
+- **Observation.** Watching how people behave in the wild.  
+- **Conversations.** Asking open-ended questions without pitching.  
+- **Secondary research.** Digging into existing data, reports, or public sources.  
+- **Probes.** Small, low-cost trials that don’t prove much on their own but reveal patterns.  
+
+Exploration doesn’t give you neat answers. It gives you *raw material* — surprises, stories, and signals that point toward what’s really going on.  
+
+For deeper methods and tools for exploration, see the book [*Expeditionary Innovation*](https://ei.nilehatch.com), where you can dive more deeply into [ethnographic exploration techniques](https://ei.nilehatch.com/Explore_Community.html) and [abductive empathy analysis for hypothesizing](https://ei.nilehatch.com/Hypothesize_pain.html) as structured exploration practices.
+
+## Why Exploration Matters  
+
+Entrepreneurs who skip exploration jump straight into testing the wrong things.  
+They waste time “validating” a product idea before they’ve validated the problem itself.  
+
+Exploration saves you by:  
+
+- Surfacing customer pains you didn’t know existed.  
+- Revealing which groups are actually accessible and worth serving.  
+- Exposing flawed assumptions before you sink resources.  
+
+
+## Connecting Exploration to Belief Revision
+
+Exploration often produces surprises that don’t fit your existing frame.  
+
+- You assumed people wanted faster lunch options, but they kept talking about cheaper ones.  
+- You thought small businesses were your market, but enterprise buyers showed more interest.  
+- You planned around in-person channels, then a pandemic shut them down.  
+
+These moments call for **belief revision** — not just updating probabilities inside a frame, but rewriting the frame itself.  
+
+Back in @sec-belief-revision-chapter, you learned the rules of revision:
+
+- Expand: Add a new belief when it doesn’t cause contradictions.
+- Revise: Add a new belief and adjust old ones so the whole set stays consistent.
+- Contract: Drop a belief that no longer fits with the rest.
+
+Exploration is the fuel for revision. It’s how you discover what you didn’t even know you should be asking.  
+
+
+
+## How to Explore Well  
+
+1. **Go wide first.** Don’t filter too soon. Look for variety.  
+2. **Pay attention to anomalies.** The weird comments or behaviors often matter most.  
+3. **Document everything.** Notes, transcripts, photos — don’t trust memory.  
+4. **Synthesize.** Step back and look for themes across your observations.  
+5. **Leap with abduction.** Use those themes to form new hypotheses worth testing.  
+
+::: {.callout-note icon=false title="Mini-Case: FitNest App"}
+A student team set out to build **FitNest**, a fitness app for busy parents.  
+Their initial idea was clear: parents struggle to find time for long workouts, so the app would deliver short, ten-minute routines to do at home.  
+
+They began with exploration — not pitching, just listening. In early conversations, parents nodded politely about short workouts but quickly shifted the discussion. Again and again, parents talked about *energy crashes in the afternoon* and the stress of *meal planning for the family*.  
+
+This was not what the team expected. Their neat hypothesis about workouts didn’t fit. The anomaly forced them to revise their frame.  
+
+Instead of asking, *“How do we help parents exercise in less time?”* the team reframed the unknown:  
+*“Are parents’ real health struggles rooted in nutrition and recovery rather than workouts?”*  
+
+That abductive leap gave them a new path: build a hypothesis around quick, family-friendly meal solutions instead of exercise routines.  
+:::
+
+## The Payoff  
+
+Exploration isn’t about wandering forever. It’s about wandering *on purpose*.  
+
+It keeps you from locking in too soon, and it gives you the raw insight you need to write hypotheses that matter.  
+
+When you embrace exploration, you stop pretending you know the frame.  
+You start discovering it.  
+
+
+## Try This: Run a Micro-Exploration  
+::: {.callout-tip appearance="minimal"}
+Pick one group you think might be your customers.  
+
+1. Spend one hour watching or talking to them without pitching.  
+2. Write down three things that surprised you.  
+3. Turn one surprise into a possible explanation (*abduction*).  
+4. Draft a hypothesis you could test next week.  
+
+By the end, you’ll have gone from fog → surprise → abductive leap → testable hypothesis.  
+:::

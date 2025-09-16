@@ -1,0 +1,36 @@
+# Wrapping Up
+
+## Asking the Right Questions
+
+Uncertainty can feel endless when every question seems equally urgent.  
+But now you know better:  
+
+- **Urgent unknowns** help you focus on what matters most right now.  
+- **Hypotheses** give those unknowns a testable shape.  
+- **Exploration** keeps you honest when the frame itself is fuzzy, surfacing surprises that force you to rethink.  
+
+Together, these tools form a cycle:  
+
+1. Notice what you don’t know.  
+2. Shape it into a hypothesis you can test.  
+3. Wander into the world when you don’t yet know what to test.  
+4. Let surprises reshape your frame.  
+
+<br>
+
+![](images/wrap-asking-right-questions.svg){width=60%}
+
+That’s how entrepreneurs turn fog into clarity — not by guessing, but by asking better questions.  
+
+
+## Looking Ahead  
+
+Part III takes the next step.  
+Once you’ve framed the right questions, you need ways to **gather and use evidence**.  
+We’ll shift from questions into methods: testing, measuring, and interpreting what you find.  
+
+This is where the rubber meets the road. You’ll see how evidence sharpens judgment, when to trust your data, and how to act on what you learn.  
+
+Because in the end, good questions are only powerful if they lead you to better answers.  
+
+---

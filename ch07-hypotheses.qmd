@@ -1,3 +1,143 @@
 # Hypotheses
 
-This chapter is a placeholder for the Hypotheses chapter of *Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship*. Content will fill in quickly.
+Most entrepreneurs make the same mistake: they treat their guesses like facts.  
+They “know” customers want their product, “know” the market is huge, and “know” the price is right — until reality proves otherwise.  
+
+The antidote is the humble **hypothesis**.  
+
+## From Guessing to Hypothesizing  
+
+A hypothesis is not just a fancy word for guess.  
+It’s a **testable statement** that turns an urgent unknown into something you can check with evidence.  
+
+- A guess says: *“People will love our product.”*
+- A hypothesis says: *“At least 30% of gym members offered a sample will purchase one unit at $2.50 within the next week.”*
+
+The difference? A hypothesis can be wrong in a useful way. If the evidence doesn’t support it, you’ve learned something specific and can adjust.  
+
+
+
+## Why Hypotheses Matter  
+
+Without hypotheses, entrepreneurs fall into dangerous habits:  
+
+- **Confirmation bias.** Seeing what you want to see in customer reactions.  
+- **Vague victories.** Believing “people liked it” means success.  
+- **Wasted effort.** Running tests that generate noise instead of insight.  
+
+With hypotheses, your learning becomes sharp. Each test produces a clear signal: supported or not. That clarity saves time, money, and frustration.  
+
+
+## The Anatomy of a Good Hypothesis  
+
+A strong hypothesis is:  
+
+1. **Focused.** It addresses one urgent unknown, not everything at once.  
+2. **Measurable.** It specifies what outcome you’ll look for.  
+3. **Time-bound.** It sets a horizon for testing.  
+4. **Falsifiable.** It could be proven wrong with real evidence.  
+
+
+> “If we [*take action*], then [*this measurable result*] will happen within [*timeframe*].”  
+
+::: {.callout-note icon=false title="Mini-Case: QuickBite Food Truck"}
+QuickBite is a startup run by two friends who want to serve healthy grain bowls from a food truck near office parks.  
+
+They’ve identified several urgent unknowns:  
+
+- Will busy professionals actually choose a grain bowl over faster options like pizza or burgers?  
+- Is the $12 price point viable, or will it scare customers away?  
+- Are lunchtime crowds large enough to sustain daily sales?  
+
+Instead of treating these as vague worries, QuickBite writes a hypothesis:  
+
+**Hypothesis:**  
+*“If we park the truck outside TechHub Plaza for five weekdays, then at least 40 different customers will purchase a grain bowl at $12.”*  
+Why is this strong?  
+
+- **Focused:** It’s about one unknown — willingness to buy at $12.  
+- **Measurable:** Sales numbers are easy to track.  
+- **Time-bound:** One week.  
+- **Falsifiable:** If fewer than 40 customers buy, the hypothesis is not supported.  
+
+The test gives them a clear signal: if the hypothesis fails, they may need to adjust price, location, or menu — but either way, they’ll learn something specific instead of guessing.  
+:::
+
+
+## Common Pitfalls  
+
+Entrepreneurs often misfire when writing hypotheses. Watch out for:  
+
+- **Too broad.** *“Customers like healthy drinks.”* (Not testable in a week.)  
+- **Too vague.** *“People are interested.”* (What does “interested” mean?)  
+- **Too certain.** *“Everyone will prefer TechHub Plaza”* (Absolute claims leave no room to learn.)  
+- **Unmeasurable outcomes.** *“The brand will gain awareness.”* (How will you measure “awareness”?)  
+
+A good hypothesis doesn’t predict perfection. It creates a learning moment.  
+
+
+
+## Abduction: Where Hypotheses Come From  
+
+Not every hypothesis starts with a neat theory.  
+Sometimes you just notice something odd — a surprising comment, a pattern in the data, a behavior that doesn’t fit.  
+
+That’s where **abduction** comes in. Abduction is the logic of “best explanation.” It’s how you take a puzzling observation and propose a plausible story that could make sense of it.  
+
+Example: QuickBite’s team noticed that several customers asked if they sold smoothies, even though the truck specialized in grain bowls. That surprise led to an abductive leap:  
+*“Maybe what these customers really want isn’t lunch, but quick portable nutrition.”*  
+
+From there, QuickBite could write a hypothesis:  
+*“If we add a protein smoothie option for one week, then at least 20% of customers will choose it over the grain bowl.”*  
+
+Abduction doesn’t prove anything. It gives you a starting point — a new angle worth testing.  
+Once you’ve made that leap, your hypothesis can enter the cycle of testing, updating, and (if necessary) revising.  
+
+
+## From Urgent Unknowns to Hypotheses  
+
+Think back to your urgent unknowns. Each one is a question waiting to be reframed.  
+
+#### Profitability
+- Urgent Unknown: *“Will customers pay enough to cover costs?”*  
+- Hypothesis: *“At least 25% of surveyed target customers will say they would purchase at $12.”*  
+
+#### Channel
+- Urgent Unknown: *“Is retail or direct-to-consumer the better channel?”*  
+- Hypothesis: *“In a two-week trial, direct sales at gyms will produce at least 3x more unit sales than shelf placement in one convenience store.”*  
+
+## Connecting Hypotheses to Bayesian Updating
+
+Back in @sec-belief-revision-chapter, you learned how to update beliefs the Bayesian way:  
+
+- Start with a prior belief.  
+- Gather new evidence.  
+- Revise the probability up or down.  
+
+Hypotheses are the missing bridge. They *create* the prior.  
+When you write a clear, testable hypothesis, you’re not just making a guess — you’re defining what counts as evidence and how you’ll learn from it.  
+
+That’s why every hypothesis is a launchpad for updating. Without it, you’re just collecting opinions. With it, you’re building knowledge. 
+
+## The Payoff  
+
+Writing hypotheses forces discipline. It moves you from hand-waving to clarity.  
+It gives you a specific outcome to check — one that keeps you honest about whether you’re really learning.  
+
+Every urgent unknown deserves a hypothesis. In the next chapter, we’ll explore how to **test them through exploration** — gathering the evidence that shrinks uncertainty and guides your next move.  
+
+
+
+## Try This: Write a Proper Hypothesis
+::: {.callout-tip appearance="minimal"}
+Pick one urgent unknown you identified in the last chapter.  
+
+1. Write it down as a plain question: *“Will customers pay enough to cover costs?”*  
+2. Use the template: *“If we [take action], then [this measurable result] will happen within [timeframe].”*  
+3. Fill it in. Example: *“If we sell our product in one location for two weeks, then at least 50 unique customers will buy at least one unit.”*
+4. Check it against the four tests: Focused, Measurable, Time-bound, Falsifiable.  
+5. Revise until it passes all four.  
+
+By the end, you’ll have turned a foggy unknown into a clear hypothesis you can actually test.  
+:::
+

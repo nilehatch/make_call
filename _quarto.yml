@@ -32,13 +32,15 @@ book:
         - ch02-knowledge.qmd
         - ch03-epistemology.qmd
         - ch04-judgment.qmd
-        - ch05-bayesian.qmd
+        - ch05-update-revise.qmd
+        - wrap1-knowing-revising.qmd
 
     - part: part2-asking-right-questions.qmd
       chapters:
         - ch06-urgent-unknowns.qmd
         - ch07-hypotheses.qmd
         - ch08-exploration.qmd
+        - wrap2-asking-right-questions.qmd
 
     - part: part3-gather-evidence.qmd
       chapters:

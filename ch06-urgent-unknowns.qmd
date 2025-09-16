@@ -1,3 +1,54 @@
 # Urgent Unknowns
 
-This chapter is a placeholder for the Urgent Unknowns of *Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship*. Content will fill in quickly.
+Most entrepreneurs don’t fail because they don't have answers. They fail because they didn't asked the right questions soon enough.  
+
+Every new venture sits on a mountain of unknowns: Who are the customers? What do they care about? Will they pay? Can we even reach them? The list is endless. Trying to solve them all at once is paralyzing. Trying to ignore them is fatal. The real trick is to sort the noise into signal — to spot the few unknowns that matter right now.  
+
+Call these your **urgent unknowns**.  
+
+
+## What’s an Urgent Unknown?  
+
+An urgent unknown is a gap in knowledge that’s (1) critical to survival or progress, and (2) answerable quickly enough to shape your next move.  
+
+- *Critical:* If you’re wrong about it, you could waste months or burn cash.  
+- *Answerable:* You can get evidence on it without waiting for years or spending millions.  
+
+Think of it as triage for your uncertainty.  
+
+
+## Why It Matters  
+
+When you zero in on urgent unknowns, you avoid two common traps:  
+
+- **Boiling the ocean.** Drowning yourself in research on every possible variable, most of which won’t matter yet.  
+- **Flying blind.** Charging ahead on assumptions, only to discover later that you were solving the wrong problem.  
+
+Urgent unknowns give you focus. They tell you where to spend your scarce time, money, and attention.  
+
+
+## How to Spot Yours  
+
+Here’s a quick way to surface your urgent unknowns:  
+
+1. **List the big uncertainties.** Everything you don’t know about customers, product, market, operations. No filter yet.  
+2. **Mark what’s most consequential.** Circle the ones that would be fatal or game-changing if you’re wrong.  
+3. **Mark what’s most learnable.** Put a star by the ones you could actually get evidence on in the next week or two.  
+4. **Find the overlap.** The circled-and-starred unknowns are urgent. Start there.  
+
+
+::: {.callout-note icon=false title="Shortcut to Urgent Unknowns"}
+If you can’t decide what’s urgent, ask yourself:  
+*What am I about to spend money or effort on?*  
+Whatever assumption that action rests on is your urgent unknown.  
+:::
+
+
+## The Payoff  
+
+Every entrepreneur has more questions than they can possibly answer.  
+The discipline is not in collecting questions — it’s in choosing which ones to chase *now*.  
+
+Mastering urgent unknowns keeps you learning on purpose, instead of by accident.  
+
+When you leave this chapter, you should be able to point to your top one or two urgent unknowns. They’ll be the starting point for the next step: turning them into hypotheses you can test.  

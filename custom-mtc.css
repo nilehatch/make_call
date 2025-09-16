@@ -31,7 +31,7 @@ p + p {
 
 /* Bolder chapter banner (gradient from Cerulean to deeper Cerulean) */
 .quarto-title-block {
-  background: linear-gradient(90deg, var(--mtc-primary) 0%, var(--mtc-primary-dark) 70%);
+  background: linear-gradient(90deg, var(--mtc-primary) 0%, var(--mtc-secondary) 70%);
   color: white;
   padding: 1.2rem 1.2rem 1rem;
   border-radius: 10px;

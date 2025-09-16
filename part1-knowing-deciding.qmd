@@ -1,10 +1,22 @@
-# Part I: Knowing and Deciding in Uncertainty {.unnumbered}
+# Part I: Knowing and Deciding in Uncertainty {#sec-knowing-part-1}
 
-Entrepreneurship starts with uncertainty — not as a problem to be avoided, but as the very terrain we walk. In this section, you’ll learn to recognize the difference between uncertainty and risk, explore how knowledge is formed, and develop the habits of mind needed to move forward even when you don’t have all the answers.
+Entrepreneurship doesn’t begin with a business plan.  
+It begins with *not knowing*.
 
-We’ll cover:
+You don’t know if customers will care.  
+You don’t know which features matter.  
+You don’t know if timing is with you or against you.  
 
-- The nature of uncertainty (aleatory vs. epistemic)
-- What it means to know (and why belief matters)
-- How different epistemologies shape your reasoning
-- Why judgment and faith are not weaknesses, but strengths
+This fog of uncertainty isn’t a bug in the system — it *is* the system.  
+The job of an entrepreneur is not to wait until the fog clears.  
+It’s to move forward anyway — learning, adjusting, and deciding as you go.  
+
+In this part of the book, we build the foundation:  
+
+- **Uncertainty** — why it defines entrepreneurship and how it differs from simple risk.  
+- **Knowledge** — what it means to “know,” from thin belief to unshakeable knowing.  
+- **Epistemology** — the different ways humans claim to know, and how to use that toolkit wisely.  
+- **Judgment** — how to act when evidence is incomplete and certainty never comes.  
+- **Belief Revision** — how to change your mind when new information reshapes the game itself.  
+
+The goal is not to make you certain. It’s to make you confident enough to act — knowing what you know, learning what you can, and deciding even when you can’t see the whole path ahead.  
