@@ -1,8 +1,8 @@
 # Part II: Asking the Right Questions {#sec-questions-part-2}
 
-Entrepreneurship is not a game of having all the answers. It’s a game of chasing down the right questions.
+Entrepreneurship is not a game of having all the answers. It’s a game of chasing down the right questions. Better questions lead to better answers.
 
-In [Part 1](part1-knowing-deciding.qmd), we wrestled with uncertainty and how to make decisions when the facts are unclear. You learned that judgment, epistemology, and belief revision are tools for deciding in the fog. But knowing how to decide is only half the battle. The other half is figuring out what’s even worth deciding in the first place.
+In [Part I](part1-knowing-deciding.qmd), we wrestled with uncertainty and how to make decisions when the facts are unclear. You learned that judgment, epistemology, and belief revision are tools for deciding in the fog. But knowing how to decide is only half the battle. The other half is figuring out what’s even worth deciding in the first place.
 
 This is where questions come in. Good entrepreneurs don’t try to know everything; they focus on the unknowns that matter most. They ask: What could sink us? What might unlock growth? What do we need to learn before spending another dollar?
 

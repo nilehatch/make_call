@@ -1,0 +1,252 @@
+# Style & Voice Guide for *Make the Call* {#sec-style-guide}
+
+## Overall Tone
+Clear, grounded, and empowering — like a calm, sharp mentor helping an entrepreneur see through the fog and make better calls.  
+
+- **Optimistic but honest.** Uncertainty is real, but progress is possible.  
+- **Accessible but rigorous.** Every idea should be understandable without dumbing it down.  
+- **Practical above all.** The purpose is tools entrepreneurs can use immediately.  
+
+---
+
+## Narrative Voice
+- **Conversational precision.** You’re not lecturing — you’re guiding. Think: trusted coach with a flashlight and a map.  
+- **Confident, not cocky.** Assume mastery, but never condescend. You’re in the trenches with the reader.  
+- **Story over survey.** Lived problems, mini-cases, and examples come first; academic framing comes only when critiquing it.  
+
+---
+
+## Writing Style Features
+
+### 1. Short, punchy paragraphs
+- 1–4 lines each.  
+- Single-line stingers for impact.  
+
+### 2. Gentle metaphors and analogies
+- Keep them human and repeatable (fog, edges, expedition, guessing vs. process).  
+- Use sparingly to orient, not overwhelm.  
+
+### 3. Human-first framing
+- Start with how it feels to be an entrepreneur in the moment.  
+- Speak to pains, tensions, and relief.  
+
+### 4. Rhythm and pacing
+- **Bullets**: for summaries, friction points, or toolkits.  
+- **Section breaks**: for major shifts in tempo or focus.  
+- **One-liners**: for revelation or emphasis.  
+
+---
+
+## Structural Flow (per chapter)
+1. **Hook** — vivid problem, myth, or shared pain.  
+2. **Reframe** — clarify the real issue (what’s overlooked or misunderstood).  
+3. **Introduce** — the tool, method, or idea.  
+4. **Illustrate** — through a short case, example, or metaphor.  
+5. **Apply** — call to action, reflection, or takeaway.  
+
+---
+
+## Evidence-Specific Additions (for Parts II–III and beyond)
+- **Mini-Cases:** One-paragraph stories showing an entrepreneur applying the tool. Use sparingly but consistently (esp. at chapter openers).  
+- **Callout Boxes:** For clean definitions, quick frameworks, or decision checklists. Keep them calm and functional, not flashy.  
+- **Scholar’s Notes:** Occasional sidebars where deeper conceptual nuance matters. These should feel like optional enrichment, not required reading.  
+
+---
+
+## Visual & Design Alignment
+- **Quote blocks**: for perspective shifts or framing, not citations.  
+- **Calm callouts**: for mental models, steps, or definitions.  
+- **Diagrams**: explanatory, never ornamental.  
+
+---
+
+## The Voice Behind the Curtain
+When in doubt, write as if you’re saying:  
+
+> “Look, there’s a better way to think about this — and I’m going to show you.”  
+
+---
+
+## Optional Enhancements
+- **Entrepreneur’s Toolkit moments**: A recurring box that captures a quick, portable method (e.g., “How to Frame an Urgent Unknown”).  
+- **Chapter Closers**: A 1–2 sentence rallying takeaway that reinforces momentum into the next chapter.  
+
+
+::: {.callout-note appearance="minimal" icon="tools" collapse="false"}
+## Entrepreneur’s Toolkit
+
+Here’s a quick method you can use right away:
+
+1. **Name the Unknown** — phrase your most pressing uncertainty.  
+2. **Frame a Hypothesis** — turn that unknown into a testable claim.  
+3. **Design an Experiment** — choose the fastest, cheapest way to learn.  
+
+Keep this sequence in your back pocket. It works for almost any entrepreneurial decision.
+:::
+
+---
+
+::: {.callout-tip appearance="minimal" icon="book-open" collapse="true"}
+## Scholar’s Note: A Deeper Lens
+
+In the main text, we treated evidence as raw input for decisions. But you can also think of evidence as a **conversation partner**:  
+
+- Data “answers” the questions you ask.  
+- The quality of the answer depends on the quality of the question.  
+- Evidence doesn’t end uncertainty; it reshapes it into new questions.  
+
+Use this lens if you want to connect today’s entrepreneurial tools with broader theories of knowledge.
+:::
+
+--- 
+
+## Callout Templates for *Make the Call*
+
+---
+
+::: {.callout-note appearance="minimal" icon="tools" collapse="false"}
+## Entrepreneur’s Toolkit
+
+Use this block for **practical methods, checklists, or step-by-step frameworks**.  
+Keep it short, concrete, and immediately usable.  
+
+Example:  
+1. Name the Unknown  
+2. Frame a Hypothesis  
+3. Design an Experiment  
+:::
+
+---
+
+::: {.callout-tip appearance="minimal" icon="book-open" collapse="true"}
+## Scholar’s Note
+
+Use this block for **optional enrichment**: deeper concepts, philosophical angles, or academic context.  
+Keep it collapsible so it doesn’t slow the main flow.  
+
+Example: *Think of uncertainty not just as “lack of knowledge” but as “holes in the map.”*  
+:::
+
+---
+
+::: {.callout-important appearance="minimal" icon="info" collapse="false"}
+## Definition
+
+Use this block when you want to **lock down a key term or concept**.  
+Keep it crisp and memorable — no more than 2–3 sentences.  
+
+Example:  
+**Hypothesis**: A clear, testable claim about how the world works.  
+:::
+
+---
+
+::: {.callout-example appearance="minimal" icon="lightbulb" collapse="false"}
+## Mini-Case
+
+Use this block for **1-paragraph stories or vignettes** showing how an entrepreneur used a tool or made a call.  
+It should feel like a quick “aha” moment, not a long case study.  
+
+Example:  
+When Maria launched her food truck, she pulled health inspection records (public data) to find which neighborhoods had the fewest competitors. That simple move saved her months of trial and error.  
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+## Trap to Avoid
+
+Relying on **leading questions** in customer interviews.  
+If you ask, *“Would you pay for this?”* most people will nod politely.  
+That isn’t evidence — it’s courtesy.  
+:::
+
+
+## Common Traps for Entrepreneurs
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+## Trap to Avoid: Tiny Samples
+
+Making big decisions from a handful of data points.  
+A sample of five friends is not a market signal — it’s dinner conversation.  
+:::
+
+---
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+## Trap to Avoid: Leading Questions
+
+Asking customers, *“Would you buy this?”*  
+Most will say yes to be polite. Courtesy ≠ evidence.  
+:::
+
+---
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+## Trap to Avoid: Vanity Metrics
+
+Counting likes, clicks, or downloads without linking them to revenue.  
+If the metric can’t pay the bills, it’s not worth betting the business on.  
+:::
+
+---
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+## Trap to Avoid: Ignoring Costs
+
+Celebrating customer interest while forgetting production, delivery, or compliance costs.  
+Revenue without margin is just stress in disguise.  
+:::
+
+---
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+## Trap to Avoid: False Certainty
+
+Treating a single dataset or expert opinion as gospel.  
+Evidence should guide judgment, not replace it.  
+:::
+
+
+## Entrepreneur’s Toolkit Boosts
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+## Toolkit Boost: Right-Sized Samples
+
+Aim for a sample that actually reflects your target customers.  
+Ten interviews across different segments beats fifty with your roommates.  
+:::
+
+---
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+## Toolkit Boost: Neutral Questions
+
+Ask open-ended questions: *“Tell me about the last time you…”*  
+Stories reveal behavior; yes/no answers hide it.  
+:::
+
+---
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+## Toolkit Boost: Actionable Metrics
+
+Focus on metrics that connect to revenue, retention, or repeat use.  
+If a number can guide a real decision, it’s worth tracking.  
+:::
+
+---
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+## Toolkit Boost: Full Cost Thinking
+
+When modeling opportunity, include production, delivery, and hidden costs.  
+Healthy margin beats flashy revenue every time.  
+:::
+
+---
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+## Toolkit Boost: Triangulate Evidence
+
+Cross-check what you learn with at least two different sources.  
+If multiple signals point the same way, you can move forward with confidence.  
+:::

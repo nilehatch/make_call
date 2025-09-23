@@ -59,7 +59,7 @@ Imagine a circle that represents everything humanity could possibly know. What w
 
 ```{r}
 #| label: fig-knowledge-possible-human
-#| fig-cap: "Human knowledge (gray- blue) shown as a speck inside all possible knowledge (light gray)."
+#| fig-cap: "Human knowledge (blue-gray) shown as a speck inside all possible knowledge (light gray)."
 #| eval: true
 #| warning: false
 
@@ -93,11 +93,14 @@ fig1
 #ggsave("figure1_possible_vs_human.png", fig1, width = 6, height = 6, dpi = 300)
 ```
 
-If we zoom in on the sum total of human knowledge, education shows up as small but expanding circles. By the end of **high school**, you’ve gained a narrow slice at the center. A **college general education** broadens that slice further, giving you a wider view of the world.
+If we zoom in on the sum total of human knowledge, education shows up as small but expanding circles.\
+By the end of **high school**, you’ve gained a narrow slice at the center.\
+A **college general education** broadens that slice further, giving you a wider view of the world.\
+Choosing a **college major** expands your knowledge in a focused direction, giving you depth beyond general education.
 
 ```{r}
-#| label: fig-knowledge-human-hc-gened
-#| fig-cap: "Human knowledge (gray-blue) with nested layers: high school (blue) at the center, expanded by college general education (green)."
+#| label: fig-knowledge-human-hc-undergrad
+#| fig-cap: "Human knowledge (blue-gray) with nested layers: high school (blue) at the center, expanded by college general education (green), and again by study in a major (yellow ellipse)."
 #| eval: true
 #| warning: false
 
@@ -120,8 +123,11 @@ fig2 <- ggplot() +
               fill = COLORS$human, color = "black", linewidth = 1) +
 
     # Nested education layers
-  geom_circle(aes(x0 = 0, y0 = 0, r = 1.2), fill = COLORS$gened,  color = "black", linewidth=.25) +
-  geom_circle(aes(x0 = 0, y0 = 0, r = 0.6), fill = COLORS$hs, color = "black", linewidth=.25) +
+#  geom_circle(aes(x0 = 0.7, y0 = 0.7, r = 0.7), fill = COLORS$major,  color = "black", linewidth=.25) +    
+  geom_ellipse(aes(x0 = 0.7, y0 = 0.7, a = 1.3, b = .4, angle = pi/4),
+               fill = COLORS$major, color = "black", linewidth=.25) +
+  geom_circle(aes(x0 = 0, y0 = 0, r = 1), fill = COLORS$gened,  color = "black", linewidth=.25) +
+  geom_circle(aes(x0 = 0, y0 = 0, r = 0.5), fill = COLORS$hs, color = "black", linewidth=.25) +
 
   coord_fixed(xlim = c(-5.5, 5.5), ylim = c(-5.5, 5.8)) +
   theme_void() #+
@@ -130,11 +136,11 @@ fig2
 #ggsave("figure2_human_zoom_with_background.png", fig2, width = 6, height = 6, dpi = 300)
 ```
 
-Choosing a **college major** expands your knowledge in a focused direction, giving you depth beyond general education. Graduate study takes that depth further: **PhD coursework** extends to the boundary of human knowledge, and **PhD research** pushes that boundary outward, creating a small new bump in the circle.
+ Graduate study takes that depth further: **PhD coursework** extends to the boundary of human knowledge, and **PhD research** pushes that boundary outward, creating a small new bump in the circle.
 
 ```{r}
 #| label: fig-knowledge-major-phdcourses-phdresearch
-#| fig-cap: "Human knowledge (gray-blue) with successive expansions: college major (yellow), PhD coursework (orange ellipse), and PhD research (purple ellipse) pushing beyond the boundary."
+#| fig-cap: "Human knowledge (gray-blue) with successive expansions: PhD coursework reaching the boundary of knowledge (orange ellipse), and PhD research (purple ellipse) pushing beyond the boundary."
 #| eval: true
 #| warning: false
 
@@ -156,18 +162,22 @@ fig2 <- ggplot() +
   geom_circle(data = df_human_zoom, aes(x0 = x0, y0 = y0, r = r),
               fill = COLORS$human, color = "black", linewidth = 1) +
 
-      # PhD research ellipse
-  geom_ellipse(aes(x0 = 1.4, y0 = 1.4, a = 3.2, b = 0.7, angle = pi/4),
-               fill = COLORS$phd_research, color = NA) +
-
     # PhD coursework ellipse
   geom_ellipse(aes(x0 = 1.4, y0 = 1.4, a = 3.0, b = .5, angle = pi/4),
-               fill = COLORS$phd_course, color = NA) +
+               fill = COLORS$phd_course, color = "black", linewidth = 0.25) +
   
-    # Nested education layers
-  geom_circle(aes(x0 = .9, y0 = .9, r = 0.4), fill = COLORS$major,  color = "black", linewidth=.25) +
-  geom_circle(aes(x0 = 0, y0 = 0, r = 1.2), fill = COLORS$gened,  color = "black", linewidth=.25) +
-  geom_circle(aes(x0 = 0, y0 = 0, r = 0.6), fill = COLORS$hs, color = "black", linewidth=.25) +
+      # College major ellipse
+  geom_ellipse(aes(x0 = 0.7, y0 = 0.7, a = 1.3, b = .4, angle = pi/4),
+               fill = COLORS$major, color = "black", linewidth=.25) +
+  
+      # PhD research ellipse
+  geom_ellipse(aes(x0 = 1.5, y0 = 1.5, a = 3.0, b = 0.2, angle = pi/4),
+               fill = COLORS$phd_research, color = "black", linewidth = 0.25) +
+
+      # Nested education layers
+#  geom_circle(aes(x0 = .9, y0 = .9, r = 0.4), fill = COLORS$major,  color = "black", linewidth=.25) +
+  geom_circle(aes(x0 = 0, y0 = 0, r = 1), fill = COLORS$gened,  color = "black", linewidth=.25) +
+  geom_circle(aes(x0 = 0, y0 = 0, r = 0.5), fill = COLORS$hs, color = "black", linewidth=.25) +
 
   coord_fixed(xlim = c(-5.5, 5.5), ylim = c(-5.5, 5.8)) +
   theme_void() #+

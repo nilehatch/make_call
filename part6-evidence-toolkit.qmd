@@ -1,0 +1,96 @@
+# Evidence Toolkit {#part-toolkit}
+
+#### How-To Guides for Finding and Using Data to Make Smart Decisions under Uncertainty {.subtitle}
+
+
+## Why This Toolkit Exists  
+
+The narrative chapters in [Part III](part3-gather-evidence.qmd) showed you the big picture:  
+
+- Why evidence matters.  
+- Where it comes from.  
+- How to avoid common traps.  
+
+But when you actually sit down to *gather evidence*, principles aren’t enough. You need **clickable links, fast tracks, and concrete examples.** That’s what this Toolkit is for.  
+
+Think of it as a **companion manual** — not required reading, but a place you can dip into whenever you need practical steps.  
+
+---
+
+## How to Use This Toolkit  
+- **By Source.** Each Toolkit chapter matches one narrative chapter (Public, Private, Customer, Experts, Modeling, Accounting).  
+- **By Need.** Start with your question: *What do I need to know right now?* Then jump to the matching section.  
+- **By Entry.** Each source follows the same format:  
+    - Quick Reference (what it is, link, best use, limits) 
+    - Fast Track (3–4 steps to use it today)  
+    - Entrepreneur’s Use Case (how someone actually applied it)  
+    - Pro Tip (shortcut, hack, or watch-out)  
+
+---
+
+## E1. Public Data Toolkit  
+- Census Bureau (QuickFacts, Business Builder)  
+- Bureau of Labor Statistics (Economy at a Glance, wage data)  
+- Google Trends  
+- World Bank Open Data  
+- Our World in Data  
+- Pew Research  
+- Stats America  
+- Kaggle / Open Data portals  
+
+
+## E2. Private Data Toolkit  
+- CRM exports (HubSpot, Salesforce, etc.)  
+- Web analytics dashboards (Google Analytics, Shopify data)  
+- Transaction logs (POS systems)  
+- Internal customer support data  
+- How to structure & store private data  
+
+
+## E3. Customer Evidence Toolkit  
+- Interview templates (questions that avoid bias)  
+- Observation checklists (shadowing, role play)  
+- Quick survey tools (Google Forms, Typeform)  
+- Sampling do’s and don’ts  
+- Coding responses (fast thematic grouping)  
+
+
+## E4. AI & Experts Toolkit  
+- Writing effective AI prompts for evidence search  
+- Checking AI against real sources (triangulation)  
+- How to find and approach human experts  
+- Structuring an expert conversation  
+- Combining AI + human expertise  
+
+
+## E5. Modeling Toolkit  
+- Back-of-the-envelope models (3 numbers and a formula)  
+- Sensitivity analysis (test “what ifs” cheaply)  
+- Simple Excel/Google Sheets setup  
+- Visualization basics (graphs that reveal, not decorate)  
+- Pro Tip: stop at the model that answers your decision  
+
+
+## E6. Accounting Toolkit  
+- Reading a basic P&L (profit & loss)  
+- Cash flow vs. profit (what really matters)  
+- Common red flags (rising COGS, falling margins)  
+- Quick ratios to check (gross margin %, burn rate, break-even)  
+- Free templates & calculators  
+
+
+## E7. Advanced Tools (Optional)  
+- Web scraping basics (and when to use an app)  
+- API access (what it is and why it matters)  
+- Data cleaning with AI (fast fixes without coding)  
+- Sources for niche industries (energy, health, etc.)  
+
+
+## A Final Word  
+
+This Toolkit isn’t about being exhaustive. It’s about being **useful**.  
+Pick the tool that fits your question, apply it, and move on.  
+
+Don’t forget: the value of a decision is only as good as the evidence that informs it.
+
+---

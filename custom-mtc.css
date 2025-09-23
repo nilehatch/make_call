@@ -31,7 +31,7 @@ p + p {
 
 /* Bolder chapter banner (gradient from Cerulean to deeper Cerulean) */
 .quarto-title-block {
-  background: linear-gradient(90deg, var(--mtc-primary) 0%, var(--mtc-secondary) 70%);
+  background: linear-gradient(90deg, var(--mtc-primary) 0%, var(--mtc-secondary) 100%);
   color: white;
   padding: 1.2rem 1.2rem 1rem;
   border-radius: 10px;
@@ -48,7 +48,7 @@ p + p {
   display: block;
   font-size: 1.1rem;
   font-weight: 400;
-  color: #e0f0f7;
+  color: #006B90; /* #e0f0f7 */
   margin-top: -0.5em;
   margin-bottom: 1em;
   font-style: italic;
@@ -74,6 +74,7 @@ p + p {
 .callout-tip     { border-left-color: #16A34A;               background: #EAF7EF; }
 .callout-important{ border-left-color: #EA580C;              background: #FFF1E9; }
 .callout-caution { border-left-color: #DC2626;              background: #FDECEC; }
+.callout-warning { border-left-color: #ED8936;              background-color: #FFF5F0; }  /* light orange background */  /* orange stripe */
 
 .callout .callout-title-container {
   font-weight: 600;

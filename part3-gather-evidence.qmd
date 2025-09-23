@@ -1,10 +1,70 @@
-# Part III: Gathering Evidence from the World {.unnumbered}
+# Part III: Gathering Evidence
 
-Once you know what you're asking, it's time to go looking for answers. This section explores the wide world of evidence: public data, private data, customer conversations, AI, models, financials, and more. We’ll treat each as a way of knowing — not just a source of facts.
+## From Questions to Answers
 
-We’ll cover:
+Good questions are useless without evidence.  
 
-- Where to find useful, credible data
-- When to trust experts, models, and machines
-- What customers can tell you — and what they can’t
-- How to use accounting and structure as strategic insight
+In [Part II](part2-asking-right-questions.qmd), you learned how to name your urgent unknowns, turn them into hypotheses, and explore them. That was the thinking work. But thinking only gets you so far. At some point, you need evidence to back it up — otherwise you’re just guessing with prettier words.  
+
+## When Evidence Goes Wrong
+
+Most entrepreneurs don’t fail because they had no evidence. They fail because they trusted the wrong evidence. A tiny sample. A biased interview. A flashy report that sounded credible but wasn’t. Poor evidence doesn’t just leave you in the fog — it points you in the wrong direction.  
+
+> Bad evidence is worse than no evidence at all.  
+
+That’s why this part of the book matters: it’s about learning to gather evidence you can actually rely on.  
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+## Trap to Avoid
+
+Don’t confuse **opinions** with **evidence**.  
+When someone says, *“I like it,”* that’s not proof they’ll pay for it.  
+Without real behavior or credible data, you’re building on sand.  
+:::
+
+## A Quick Glimpse
+
+::: {.callout-tip appearance="minimal" icon="lightbulb"}
+## Mini-Case
+
+Two friends started an online supplement company. They proudly pointed to a survey where 85% of people said they “cared about health.” They thought demand was obvious. But when they launched, no one bought — because “caring about health” wasn’t the same as paying $40 for vitamins.  
+
+Contrast that with a founder who scraped FDA shipment records (public data) and spotted which supplements were already moving fast. Her product sold out in the first month. Same market. Different evidence. Very different outcomes.  
+:::
+
+## Principals of Gathering Evidence 
+
+::: {.callout-note appearance="minimal" icon="tools"}
+## Entrepreneur’s Toolkit
+
+- **Start with the question.** Don’t collect data until you know what you’re trying to answer.  
+- **Look from multiple angles.** Triangulate with at least two different sources.  
+- **Stay lean.** Match the cost of gathering to the size of the decision.  
+- **Watch for traps.** Small samples, leading questions, and vanity metrics mislead more than they help.  
+- **Know when to stop.** Enough evidence is the point; perfection is impossible.  
+
+Think of yourself as a **scientist in the wild**: ask, observe, test, and interpret — just fast and frugal enough to keep moving.  
+:::
+
+## Six Evidence Sources
+
+In the chapters ahead, you’ll learn to tap into six powerful evidence sources:  
+
+::: {.callout-note appearance="minimal" icon="tools"}
+## Entrepreneur’s Toolkit: Evidence Sources  
+
+- **Public Data** — Free or low-cost information hiding in plain sight.  
+- **Private Data** — Industry reports, subscription services, and insider datasets.  
+- **Customer Evidence** — Signals directly from the people you hope to serve.  
+- **AI and Human Experts** — Knowledge already in someone’s head (or in an algorithm).  
+- **Modeling** — Running scenarios to test assumptions before you spend a dollar.  
+- **Accounting Data** — The overlooked numbers that reveal what’s really happening inside a business.  
+:::
+
+Each chapter will show you how to use these sources quickly, cheaply, and effectively — with examples and tools you can apply immediately.  
+
+## Why This Matters
+
+Gathering evidence won’t eliminate uncertainty, but it will give you clarity. Think of it like adding instruments to a cockpit: you still have to fly the plane, but now you can see through the clouds.  
+
+Clarity doesn’t guarantee success. But it does give you the power to make the call with eyes open — and that’s what separates entrepreneurs who guess from entrepreneurs who grow.  

@@ -1,0 +1,93 @@
+# How to Gather Evidence
+
+## The Real Risk
+Most entrepreneurs don’t fail for lack of ideas — they fail for lack of reliable evidence.  
+Evidence isn’t just something you stumble on; it’s something you *gather with care*.  
+
+## The Scientist’s Lens
+You don’t need a lab coat, but you do need a method.  
+Like a scientist, you:  
+
+1. Form a question.  
+2. Gather evidence.  
+3. Interpret what it means.  
+4. Act — then repeat.  
+
+This isn’t about perfection. It’s about clarity strong enough to make the call.  
+
+## Core Principles of Gathering
+
+::: {.callout-note appearance="minimal" icon="tools"}
+### Entrepreneur’s Toolkit: Gathering Principles
+
+- **Ask before you measure** — let the question drive the data.  
+- **Triangulate** — cross-check with at least two sources.
+- **Stay lean** — don’t spend more than the decision is worth.  
+- **Spot traps early** — bias, vanity metrics, and false certainty.  
+- **Stop in time** — gather until you can act, then act.  
+:::
+
+## Avoiding Traps
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+### Bias
+Bias creeps in when you ask the wrong people or the wrong questions.  
+If you only talk to friends, they’ll encourage you. If you ask, *“Would you buy this?”* many people will nod politely.  
+Neither gives you evidence about real behavior.  
+To avoid bias, recruit people who actually match your target market and ask about what they’ve already done, not what they might do.  
+
+For example: *asking “Would you buy this?” (leading) instead of “Tell me about the last time you solved this problem” (neutral).*
+:::
+
+---
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+### Vanity Metrics
+Vanity metrics look impressive but don’t drive decisions.  
+Likes, page views, or survey responses feel like progress, but they don’t pay the bills.  
+Ten thousand likes on Instagram might mean nothing if no one is willing to buy.  
+The only metrics that matter are those connected to real behavior: signups, repeat use, or actual dollars spent.
+
+For example: *10,000 Instagram likes ≠ 100 paying customers.*
+:::
+
+---
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+### False Certainty
+False certainty happens when you treat one shiny dataset or expert opinion as the final word.  
+A government report, a consultant’s advice, or a single survey can all be useful — but they’re still just one perspective.  
+If you stop questioning, you risk building on shaky ground.  
+Better to treat any single source as a clue and cross-check it against at least one other signal before making the call.  
+
+For example: *one expert’s opinion is a clue, not a conclusion.*
+:::
+
+--- 
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+### Overpaying for Actual Certainty 
+It’s tempting to keep gathering evidence until every doubt disappears.  
+But every test costs time and money — and not every decision is worth that investment.  
+
+Smart entrepreneurs ask:  
+
+- *How much will this evidence change my decision?*  
+- *Is the learning worth the cost and delay?*  
+
+Sometimes the best move is to act with partial clarity, rather than paying too much for “perfect” answers.  
+:::
+
+
+## Mini-Case
+Two entrepreneurs launched food delivery apps.  
+
+- The first surveyed ten friends and rushed to build, convinced by their enthusiasm.  
+- The second scraped delivery times and order volumes from public data, then ran a quick pilot with 20 random households.  
+
+The first app died in six months. The second grew citywide. Same idea. Different gathering.  
+
+## Closing
+Gathering isn’t about finding perfect answers.  
+It’s about having enough information to process to move forward with eyes open.  
+Think of yourself as a scientist in the marketplace: observing, testing, and interpreting just enough to act.  

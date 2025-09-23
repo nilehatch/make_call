@@ -1,0 +1,125 @@
+# Public Data
+
+## Free Gold in Plain Sight
+
+Before you spend a dime on consultants or surveys, check what’s already out there.  
+Governments, universities, nonprofits, and even companies themselves publish mountains of data that anyone can use. Most entrepreneurs ignore it. That’s a mistake.  
+
+Public data won’t answer every question. It can be old, messy, or too broad. But it can also save you weeks of guessing. It’s like a free radar screen: you may not see every detail, but you can spot where the big signals are coming from.  
+
+## What Counts as Public Data?
+
+Public data isn’t just “government statistics.” It includes:  
+
+- **Government sources** like census data, import/export records, and labor statistics.  
+- **Nonprofits and universities** that release research reports and surveys.  
+- **Open datasets** on platforms like World Bank, Kaggle, or UN databases.  
+- **Web evidence** hiding in plain sight: reviews, ratings, Google Trends, and social media chatter.  
+
+::: {.callout-important appearance="minimal" icon="info"}
+**Definition:** *Public Data* is evidence you can legally access for free (or at minimal cost) without special permission.  
+:::
+
+## Why It Matters
+
+When you’re starting out, money is tight and time is tighter. Public data gives you breadth you could never collect on your own. You can:  
+
+- Size markets before committing.  
+- Spot rising trends before they hit the news.  
+- Rule out bad ideas quickly without burning cash.  
+
+The smartest entrepreneurs I know don’t start with a blank slate — they start with the free maps that are already drawn.  
+
+## Where to Find Public Data
+
+There’s no single door to public data — but there are a few main hallways you can always check first.  
+
+::: {.callout-note appearance="minimal" icon="map"}
+### Starter Sources for Public Data
+
+- [**U.S. Census Bureau**](https://www.census.gov) — Demographics, population, income, and business activity. Tools like *QuickFacts* and *Census Business Builder* help size markets by region.  
+- [**Bureau of Labor Statistics (BLS)**](https://www.bls.gov) — Jobs, wages, productivity, and consumer spending. The *Economy at a Glance* page is an easy entry point.  
+- [**Google Trends**](https://trends.google.com) — Real-time search interest. Compare product ideas, spot seasonal patterns, or track shifts in attention.  
+- [**World Bank Open Data**](https://data.worldbank.org) — Global indicators like GDP, inflation, and trade. Good for testing international market feasibility.  
+- [**Our World in Data**](https://ourworldindata.org) — Clean visual datasets on health, energy, environment, and global trends.  
+- [**Kaggle Datasets**](https://www.kaggle.com/datasets) — Community-uploaded, free datasets covering everything from e-commerce to sports.  
+- [**Pew Research Center**](https://www.pewresearch.org) — Surveys on social trends, public opinion, and technology adoption.  
+- [**Stats America**](https://www.statsamerica.org) — Regional U.S. economic indicators, industry clusters, and workforce stats.  
+- [**Local Open Data Portals**](https://www.opendatanetwork.com) — Many cities publish data on business licenses, health inspections, transit, and zoning. A goldmine for location-based ventures.  
+
+**Pro Tip:** Start with your *question*, not the source. Don’t drown in datasets — pick one or two that fit the decision you’re making.  
+:::
+
+## Common Traps in Public Data
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+## Trap to Avoid: Outdated Numbers
+
+Many public datasets lag months or years behind reality.  
+A “2022” report might not reflect post-pandemic shifts or new competitors.  
+Always check the date before betting on the trend.  
+:::
+
+---
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+## Trap to Avoid: Broad Averages
+
+Census data can tell you the *average household income* in a region.  
+That doesn’t mean your niche target — say, college students or retirees — will behave like that average.  
+Public data is wide, not always deep.  
+:::
+
+
+## Toolkit Boosts for Public Data
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+### Boost: Cross-Check Timeliness
+
+Pair older public data with fresher signals — news articles, Google Trends, or even a handful of quick customer interviews.  
+The combination gives you both scale and recency.  
+:::
+
+---
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+### Boost: Use Public Data to Eliminate
+
+You don’t need perfect data to make progress.  
+If census numbers show a shrinking population in your target city, you can rule it out and move on.  
+Public data is great for narrowing the field.  
+:::
+
+::: {.callout-tip appearance="minimal" icon="lightbulb"}
+## Mini-Case
+
+When Jasmine launched her first food truck, she didn’t guess where to park.  
+She pulled public health inspection data from her city’s open-data portal and noticed that one neighborhood had dozens of restaurants but also the highest rate of recent closures.  
+That told her two things: strong demand and space for new players.  
+Her truck sold out almost every day in the first month — thanks to data anyone could have checked.  
+:::
+
+
+## Entrepreneur’s Checklist: Using Public Data
+
+::: {.callout-note appearance="minimal" icon="tools"}
+### Quick Steps
+
+1. **Start with your question.**  
+   What decision are you trying to make — market size, location, trend spotting?  
+
+2. **Pick one or two sources.**  
+   Check a government portal, an open-data site, or a web-based signal. Don’t drown in datasets.  
+
+3. **Check the basics.**  
+   Look at the date, scope, and definitions. Ask: “Does this match my customer?”  
+
+4. **Cross-check.**  
+   Pair the public dataset with a fresher or narrower signal (interviews, trends, competitor scans).  
+
+5. **Decide and move.**  
+   Use public data to rule out bad ideas or point you toward better ones. Don’t wait for perfection.  
+:::
+
+This chapter gave you the big picture and a few starting sources.  
+If you want step-by-step guides, extended source lists, or practical how-tos (like scraping and AI shortcuts), see the **Evidence Toolkit** for step-by-step guides and extended sources. That’s where we get into the mechanics of gathering — so you can turn these ideas into action.  

@@ -20,7 +20,7 @@ Bite-sized chunks — usually 1–4 lines. Sometimes even 1-line stingers for pu
 
 Examples:
 
--“Fog” for uncertainty
+- “Fog” for uncertainty
 - “Guessing” vs. “process”
 - “Edges of the market” for underserved customers
 - “Expedition” as structured exploration

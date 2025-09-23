@@ -28,42 +28,49 @@ book:
     - intro.qmd
     - part: part1-knowing-deciding.qmd
       chapters:
-        - ch01-uncertainty.qmd
-        - ch02-knowledge.qmd
-        - ch03-epistemology.qmd
-        - ch04-judgment.qmd
-        - ch05-update-revise.qmd
+        - ch02-uncertainty.qmd
+        - ch03-knowledge.qmd
+        - ch04-epistemology.qmd
+        - ch05-judgment.qmd
+        - ch06-update-revise.qmd
         - wrap1-knowing-revising.qmd
 
     - part: part2-asking-right-questions.qmd
       chapters:
-        - ch06-urgent-unknowns.qmd
-        - ch07-hypotheses.qmd
-        - ch08-exploration.qmd
+        - ch08-urgent-unknowns.qmd
+        - ch09-hypotheses.qmd
+        - ch10-exploration.qmd
         - wrap2-asking-right-questions.qmd
 
     - part: part3-gather-evidence.qmd
       chapters:
-        - ch09-public-data.qmd
-        - ch10-private-data.qmd
-        - ch11-customer-evidence.qmd
-        - ch12-ai-experts.qmd
-        - ch13-modeling.qmd
-        - ch14-accounting.qmd
+        - ch12-gathering-evidence.qmd
+        - ch13-public-data.qmd        
+        - ch14-private-data.qmd
+        - ch15-customer-evidence.qmd
+        - ch16-competitor-market-signals.qmd
+        - ch17-ai-experts.qmd        
+        - ch18-internal-data.qmd
+        - ch19-modeling.qmd        
 
     - part: part4-judging-deciding-acting.qmd
       chapters:
-        - ch15-updating.qmd
-        - ch16-evaluating.qmd
-        - ch17-decision-rules.qmd
-        - ch18-judgment.qmd
-        - ch19-presenting.qmd
+        - ch21-updating.qmd
+        - ch22-evaluating.qmd
+        - ch23-decision-rules.qmd
+        - ch24-judgment.qmd
+        - ch25-presenting.qmd
 
     - part: part5-becoming.qmd
       chapters:
-        - ch20-conviction.qmd
-        - ch21-lifelong-learning.qmd
-        - ch22-leadership.qmd
+        - ch27-conviction.qmd
+        - ch28-lifelong-learning.qmd
+        - ch29-leadership.qmd
+        
+    - part: part6-evidence-toolkit.qmd
+      chapters:
+        - tk1-public-data.qmd
+    
     - references.qmd
 
 bibliography: references.bib

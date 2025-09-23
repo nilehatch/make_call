@@ -17,9 +17,8 @@ The danger is paralysis. Waiting for certainty is often just a way of avoiding r
 
 ## Example: The Two Bridges
 
-Picture two founders staring across a canyon.  
-
 Picture two founders staring across a canyon.
+
 - **Founder A** says, “We can’t step out until the bridge is fully built. We’ll keep testing, surveying, and waiting until every plank is nailed down.” By the time they’re satisfied, others have already crossed.
 - **Founder B** says, “We’ve tested enough. The first planks look solid. We’ll learn as we go.” They step forward, building the bridge under their feet. To outsiders it looks reckless. From the inside, it’s a calculated act of judgment — a willingness to risk, to learn, and to keep moving before certainty arrives.
 
@@ -32,14 +31,13 @@ So what’s the alternative to paralysis or recklessness?
 
 Judgment.
 
-Judgment is the entrepreneur’s superpower — the ability to act without full clarity, using the strongest mix of belief, justification, and evidence you’ve assembled so far.
+Judgment is the entrepreneur’s superpower — the ability to act without full clarity, using the strongest mix of belief, justification, and evidence you’ve assembled so far.^[Nicolai Foss and Peter Klein [-@foss2012organizing] developed a formal definition of judgment as decision-making under uncertainty that cannot be modeled or parameterized as a set of formal decision rules. Judgment is midway between the “rational decision-making” of neoclassical economics models and blind luck or random guessing. We sometimes call it intuition, gut feeling, or understanding.]
 
 Judgment is not guessing. Guessing ignores evidence. Judgment weighs what you know, what you believe, and what you can reasonably assume — then acts, knowing some uncertainty will always remain.
 
 ::: {.callout-note appearance="minimal"}
-**Definition of judgment:**
-The act of making a decision under uncertainty when evidence is incomplete.
-
+### Judgment
+The act of making a decision under uncertainty when evidence is incomplete.\
 Judgment is conviction tested against the best evidence you have — and still strong enough to compel action.
 :::
 
