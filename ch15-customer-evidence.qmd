@@ -1,3 +1,79 @@
-# Customer Evidence
+# Customer Data {#sec-customer-data-chapter}
 
-This chapter is a placeholder for the Customer Evidence chapter of *Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship*. Content will fill in quickly.
+## The Lab You Build Yourself  
+
+Public and private data are powerful — but they were collected for someone else’s purposes.  
+If you want answers to *your* entrepreneurial question, you’ll need to go to the source: your customers.  
+
+This is **customer data** — evidence you gather yourself by watching, asking, or testing with the people you hope to serve. Done well, it can cut through the noise and give you sharper signals than any dataset. Done poorly, it can mislead you faster than anything else.  
+
+---
+
+## Two Modes: Discovery vs. Validation  
+
+Think of customer data in two modes:  
+
+- **Exploratory (discovery):** open-ended, flexible, and messy. You’re interviewing, shadowing, or observing to uncover problems and hypothesize needs. The goal is to *find questions worth answering.*  
+- **Confirmatory (validation):** structured, specific, and measurable. You’re running surveys, A/B tests, or price trials to test a hypothesis. The goal is to *check whether your answer holds up.*  
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}  
+**Trap:** Don’t confuse the two. An open-ended chat is not validation. A sloppy survey is not discovery. Be clear about which mode you’re in.  
+:::  
+
+---
+
+## Designing the Experiment  
+
+Customer data is only as good as the experiment you run. Here’s the basic loop:  
+
+1. **What do we need to know?**  
+   Start with the *urgent unknown*. Don’t ask about everything.  
+   Example: *“Will people pay monthly for this service, or only one-time?”*  
+
+2. **Who do we need to hear from?**  
+   Define your target population. Early on, you’ll start broad (e.g., “young adults”). Over time, you’ll refine by need (e.g., “time-starved professionals”).  
+
+3. **How will we reach them?**  
+   Sampling matters. Friends and family are easy, but biased. LinkedIn groups, Reddit forums, or curated panels are better. The goal is to hear from *the people who matter most*.  
+
+4. **What do we ask?**  
+   Write clear, neutral questions. Ask one thing at a time. Avoid suggesting the answer in the question.  
+   - Bad: *“Wouldn’t this feature be useful?”*  
+   - Better: *“How do you solve this problem today?”*  
+
+5. **How do we interpret it?**  
+   No experiment is perfect. Watch for sampling bias, self-report bias, or non-response bias. Look for patterns, not outliers. Triangulate with other sources.  
+
+---
+
+## The Iterative Circle  
+
+You rarely get it right on the first try.  
+Your first interviews lead to sharper targeting. Your first survey leads to better questions. Each round of data teaches you how to learn better next time.  
+
+::: {.callout-note appearance="minimal" icon="lightbulb"}  
+**Boost:** Even biased data can help if you know *where* the bias is coming from. If you only talked to superfans, discount their enthusiasm — but note what problems fired them up.  
+:::  
+
+## Entrepreneur’s Checklist: Using Customer Data  
+
+::: {.callout-note appearance="minimal" icon="lightbulb"}  
+- [ ] **Start with the urgent unknown.** Frame one clear question you need answered now.  
+- [ ] **Match method to stage.**  
+  - Early discovery → conversations, shadowing, observation.  
+  - Broader validation → surveys.  
+  - Behavior/value tests → prototypes, usage data, pricing, A/B.  
+- [ ] **Design light, but intentional.** Keep experiments small, but name the trap to avoid (bias, vanity metrics, overbuilding) and the boost to apply (stories, funnels, behavior focus).  
+- [ ] **Log assumptions and signals.** Write down what you expected, what you saw, and how confident you are.  
+- [ ] **Triangulate before acting big.** Pair at least two methods (e.g., interviews + surveys, or surveys + usage data) to separate noise from signal. 
+- [ ] **Respect ethics and privacy.** Customers are not just data points; protect their trust.  
+:::
+
+## Exit Point: Where Customer Data Fits  
+
+Customer data sits high on the **Evidence Ladder**.  
+It’s closer to real purchase decisions than public or private data. It’s also messier, riskier, and more personal.  
+
+The goal isn’t to collect opinions for a slide deck — it’s to learn enough to **make the call**.  
+
+*Customer data is your lab. Done well, it doesn’t just tell you what people want — it teaches you how to learn.*  

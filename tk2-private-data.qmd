@@ -1,0 +1,459 @@
+# E2. Private Data Toolkit {#sec-private-data-toolkit-chapter .unnumbered}
+
+Private data isn’t “hidden” so much as **behind doors**: library logins, paid subscriptions, and vendor portals. The payoff is depth — ratios, panels, deal flow, and category reports that go far beyond Google.
+
+::: {.callout-important appearance="minimal"}
+**License note (read me):** Most HBLL databases are **for educational use only**. Do not use for consulting, freelancing, or outside employment. When in doubt, ask a librarian and **summarize** instead of redistributing proprietary PDFs.
+:::
+
+Think in **pairs** as you gather evidence:
+
+1. **Industry & Finance** — structure + money reality  
+2. **Markets & Consumers** — attitudes + behavior  
+3. **Demographics & Society** — people + place over time  
+4. **Deals & Competitors** — capital flows + rivals’ moves  
+
+
+## 1. Industry & Finance
+
+You’re deciding *how the game works* and *what “normal” looks like in dollars*. Use industry sources for structure and size; finance sources for ratios, quartiles, and money facts.
+
+### BizMiner  
+[Use BizMiner (BYU access)](https://app.bizminer.com/search)
+
+**Good For:** Industry financial profiles, failure rates, local vs. national benchmarks.  
+**Not Great For:** Narrative reports or consumer insight.
+
+#### Fast Track
+1. Search by NAICS and geography.  
+2. Open **Financial Profiles** for margins and costs; **Market Profiles** for counts and growth.  
+3. Export the ratio table (quartiles) and translate into **unit economics**.
+
+#### Entrepreneur’s Use Case
+*A furniture maker scouting a second plant saw one county had **2× more wood suppliers** within 50 miles. Lower transport costs tipped the decision.*
+
+#### Pro Tip
+Use **quartiles**, not single points. Your early ops won’t hit “median.”
+
+---
+
+### Mergent Key Business Ratios (KBR)  
+[Use Mergent KBR (BYU access)](https://www.mergentkbr.com/)
+
+**Good For:** 14 core ratios across 800+ industries with quartiles.  
+**Not Great For:** Story or context — it’s strictly numbers.
+
+#### Fast Track
+1. Enter **industry** (SIC/NAICS).  
+2. Pull 3-year ratio sets (upper/median/lower).  
+3. Map to your **COGS, SG&A, inventory turns, coverage**.
+
+#### Entrepreneur’s Use Case
+*A DTC apparel startup used KBR to sanity-check **inventory turns** and **gross margin** assumptions before ordering their first run.*
+
+#### Pro Tip
+Use KBR to **bound** your financial model: best/worst/typical.
+
+---
+
+### IBISWorld  
+[Use IBISWorld (BYU access)](https://lib.byu.edu/)
+
+**Good For:** Industry overviews: size, drivers, risks, five-year outlook.  
+**Not Great For:** Local detail or financial ratios.
+
+#### Fast Track
+1. Open your industry profile.  
+2. Skim **Key Drivers**, **Competitive Landscape**, **Outlook**.  
+3. Grab **Cost Structure** to stress-test your assumptions.
+
+#### Entrepreneur’s Use Case
+*An HVAC contractor saw IBISWorld flag **labor constraints** as the #1 risk and prioritized technician recruiting ahead of demand spikes.*
+
+#### Pro Tip
+Pair IBISWorld’s **forest view** with BizMiner/KBR’s **trees**.
+
+---
+
+### S&P Capital IQ (advanced)  
+[Use CapIQ (BYU access; limited seats)](https://lib.byu.edu/)
+
+**Good For:** Public & larger private company financials, comps, screeners.  
+**Not Great For:** Lightweight browsing — it’s deep and technical.
+
+#### Fast Track
+1. Run a **comps screen** (size, growth, geography).  
+2. Export **multiples** and **margins**.  
+3. Translate into your **valuation & milestones**.
+
+#### Entrepreneur’s Use Case
+*A B2B founder sized a seed round by matching comps’ **ARR and gross margin** at the next round — then worked backward to milestones.*
+
+#### Pro Tip
+Capture **ranges** (top/middle/bottom deciles), not single “target” numbers.
+
+---
+
+### Quick Reference: Industry & Finance
+
+::: {.callout-note appearance="minimal"}
+| Source | Best For | Not Great For | Link |
+|---|---|---|---|
+| *BizMiner* | Local industry financials, failure rates | Narrative reports | [bizminer.com](https://app.bizminer.com/search) |
+| *Mergent KBR* | Industry ratio quartiles (14 core ratios) | Context/story | [mergentkbr.com](https://www.mergentkbr.com/) |
+| *IBISWorld* | Size, drivers, risks, five-year outlook | Local ratios | HBLL → IBISWorld |
+| *S&P Capital IQ* | Deep comps, valuations, screening | Quick scans | HBLL → Capital IQ |
+:::
+
+
+
+## 2. Markets & Consumers
+
+You’re deciding *who buys*, *why*, and *through which channels*. Combine **attitudes** (what people say) with **behavior** (what they do).
+
+### Simmons (MRI-Simmons)  
+[Use Simmons (BYU access)](https://lib.byu.edu/)
+
+**Good For:** Psychographics, media habits, brand affinities; cross-tabs.  
+**Not Great For:** Real-time behavior.
+
+#### Fast Track
+1. Filter your **segment** (age, income, interests).  
+2. Cross-tab **attitudes × category usage × media**.  
+3. Pull a **media plan** from where your segment actually spends time.
+
+#### Entrepreneur’s Use Case
+*A snack startup found their core buyers over-index on **YouTube + convenience stores** — they shifted ad spend and distribution accordingly.*
+
+#### Pro Tip
+Segment by **payer** and **user** when they’re different.
+
+---
+
+### Mintel  
+[Use Mintel (BYU access)](https://lib.byu.edu/)
+
+**Good For:** Category deep-dives with consumer attitudes and brand views.  
+**Not Great For:** Raw microdata.
+
+#### Fast Track
+1. Open your **category report**.  
+2. Skim **Trends**, **Purchase Factors**, **Consumer Segments**.  
+3. Grab **charts** for briefings and pair with your pilot learnings.
+
+#### Entrepreneur’s Use Case
+*A beverage brand saw “**low-sugar**” outpacing “zero-calorie” in Mintel insights — they reformulated and won shelf space.*
+
+#### Pro Tip
+Use Mintel for **what to message**; validate **how** with A/B tests.
+
+---
+
+### Euromonitor Passport  
+[Use Passport (BYU access)](https://lib.byu.edu/)
+
+**Good For:** Global category sizes, channels, price tiers, forecasts.  
+**Not Great For:** Hyper-local nuance.
+
+#### Fast Track
+1. Select **Category × Country**.  
+2. Compare **channel shares** and **price band growth**.  
+3. Export a **country stack-rank** for expansion.
+
+#### Entrepreneur’s Use Case
+*An apparel brand saw mid-tier growth in Mexico but premium in Chile; they adjusted assortment by market.*
+
+#### Pro Tip
+Let **channel + price** data shape your go-to-market, not just “total market.”
+
+---
+
+### Statista (licensed)  
+[Use Statista (BYU access)](https://www.statista.com)
+
+**Good For:** Presentation-ready charts across industries.  
+**Not Great For:** Primary sources (many charts aggregate others).
+
+#### Fast Track
+1. Search topic → open chart.  
+2. **Trace the citation** to the original dataset when possible.  
+3. Download visuals for pitch drafts.
+
+#### Entrepreneur’s Use Case
+*A founder traced a Statista e-commerce chart back to OECD to get **free, deeper tables** for the appendix.*
+
+#### Pro Tip
+Statista is a **jumping-off point** — cite the primary when you can.
+
+---
+
+### Quick Reference: Markets & Consumers
+
+::: {.callout-note appearance="minimal"}
+| Source | Best For | Not Great For | Link |
+|---|---|---|---|
+| *Simmons* | Psychographics, media, brand cross-tabs | Real-time behavior | HBLL → Simmons |
+| *Mintel* | Category reports + consumer attitudes | Microdata | HBLL → Mintel |
+| *Euromonitor Passport* | Global category/channel/price | Local nuance | HBLL → Passport |
+| *Statista (licensed)* | Fast charts for decks | Primary data | [statista.com](https://www.statista.com) |
+:::
+
+
+
+## 3. Demographics & Society
+
+You’re deciding *where your people are* and *how they live over time*. Use maps and longitudinal surveys to add context that public sources can’t match as quickly.
+
+### Social Explorer  
+[Use Social Explorer (BYU access)](https://www.socialexplorer.com/)
+
+**Good For:** Mapped demographics, income, housing, business patterns.  
+**Not Great For:** Real-time consumer intent.
+
+#### Fast Track
+1. Map **target geos** (zip/tract).  
+2. Layer **age, income, household type, business patterns**.  
+3. Export a **location shortlist**.
+
+#### Entrepreneur’s Use Case
+*A childcare startup found tracts with **high dual-income households** but **few licensed providers** — and launched there first.*
+
+#### Pro Tip
+Map **supply + demand** layers together (customers and competitors).
+
+---
+
+### IPUMS (public, advanced)  
+[Visit IPUMS](https://usa.ipums.org/usa/)
+
+**Good For:** Microdata extracts across time (ACS/Census).  
+**Not Great For:** Click-and-go dashboards; requires setup.
+
+#### Fast Track
+1. Register → **Extract Builder**.  
+2. Select **years, geos, variables** (age, income, commute).  
+3. Download and summarize for your segment.
+
+#### Entrepreneur’s Use Case
+*A transit app analyzed commute times by tract to price **“late-window” guarantees** only where delays were chronic.*
+
+#### Pro Tip
+Use IPUMS when you need **custom cuts** public tables can’t give you.
+
+---
+
+### General Social Survey (GSS)  
+[Visit GSS](https://gss.norc.org/)
+
+**Good For:** Long-run attitudes and social change in the U.S.  
+**Not Great For:** Immediate purchase behavior.
+
+#### Fast Track
+1. Search **variables** aligned to your category (e.g., trust, tech views).  
+2. Trend **cohorts** (age/education) over decades.  
+3. Use charts to frame **societal tailwinds/headwinds**.
+
+#### Entrepreneur’s Use Case
+*A fintech team used GSS trust trends to justify **extra transparency** features in onboarding.*
+
+#### Pro Tip
+Great for **context slides**: why the world is moving your way.
+
+---
+
+### Harris (Harris Poll / Harris Interactive)  
+[Visit Harris Poll](https://theharrispoll.com/)
+
+**Good For:** Ongoing opinion polling on brands and society.  
+**Not Great For:** Deep microdata without a license.
+
+#### Fast Track
+1. Search for your **category** and **brand signals**.  
+2. Pull crosstabs if available (age/income).  
+3. Combine with **behavioral** or **sales** data to validate.
+
+#### Entrepreneur’s Use Case
+*A DTC brand saw **trust gaps** by age in Harris data and redesigned creative for 45+.*
+
+#### Pro Tip
+Don’t read attitudes as destiny — validate with behavior.
+
+---
+
+### Quick Reference: Demographics & Society
+
+::: {.callout-note appearance="minimal"}
+| Source | Best For | Not Great For | Link |
+|---|---|---|---|
+| *Social Explorer* | Mapped demographics & business patterns | Real-time intent | [socialexplorer.com](https://www.socialexplorer.com/) |
+| *IPUMS* | Custom microdata cuts over time | Turnkey UX | [usa.ipums.org](https://usa.ipums.org/usa/) |
+| *GSS* | Long-run social attitudes | Product behavior | [gss.norc.org](https://gss.norc.org/) |
+| *Harris* | Brand/societal sentiment | Raw microdata | [theharrispoll.com](https://theharrispoll.com/) |
+:::
+
+
+
+## 4. Deals & Competitors
+
+You’re deciding *who funds whom*, *where money is going*, and *how rivals are moving*.
+
+### PitchBook  
+[Use PitchBook (BYU access)](https://my-pitchbook-com.byu.idm.oclc.org/)
+
+**Good For:** VC/PE deals, rounds, valuations, investor theses.  
+**Not Great For:** Small bootstrapped companies.
+
+#### Fast Track
+1. Search **deals** in your space (stage, geography).  
+2. Build an **investor list** that repeats in your pattern.  
+3. Export **comps** to set raise size and milestones.
+
+#### Entrepreneur’s Use Case
+*A vertical-SaaS founder found 12 angels who repeatedly back **channel-led SaaS** — and tailored outreach to that pattern.*
+
+#### Pro Tip
+Use PitchBook to **aim** the raise and shape milestones.
+
+---
+
+### Preqin  
+[Use Preqin (BYU access)](https://lib.byu.edu/)
+
+**Good For:** Private markets beyond VC — PE, real estate, infra, hedge.  
+**Not Great For:** Early-stage startup activity.
+
+#### Fast Track
+1. Filter by **asset class**, **region**, **ticket size**.  
+2. Identify **LP/GPs** that match your space.  
+3. Track **deal themes** to inform strategy.
+
+#### Entrepreneur’s Use Case
+*A climate-hardware startup discovered infra-focused funds backing **community-scale storage** — and rewired their go-to-market to fit.*
+
+#### Pro Tip
+If you’re capex-heavy, **Preqin > PitchBook**.
+
+---
+
+### PrivCo  
+[Use PrivCo (BYU access)](https://lib.byu.edu/)
+
+**Good For:** Large private company revenues, headcount, ownership.  
+**Not Great For:** Very small or stealth companies.
+
+#### Fast Track
+1. Search **private competitors**.  
+2. Compare **estimated revenues** and **growth**.  
+3. Note **ownership** and **acquisition** signals.
+
+#### Entrepreneur’s Use Case
+*A logistics startup saw a rival’s headcount spike in **sales roles** and accelerated their own SDR hiring.*
+
+#### Pro Tip
+Treat private company numbers as **directional**, not audited.
+
+---
+
+### Mergent Intellect / Mergent Online  
+[Use Mergent (BYU access)](https://lib.byu.edu/)
+
+**Good For:** Company directories (public & private), D&B data, screening.  
+**Not Great For:** Deep private financials.
+
+#### Fast Track
+1. Build a **competitor list** (filters: NAICS, geo, size).  
+2. Export locations and **map proximity**.  
+3. Use for **sales territory** and **site selection**.
+
+#### Entrepreneur’s Use Case
+*A services startup mapped competitors’ locations and found **white-space zip codes** for first office placement.*
+
+#### Pro Tip
+Great for **lists and maps**; pair with deeper sources for strategy.
+
+---
+
+### Quick Reference: Deals & Competitors
+
+::: {.callout-note appearance="minimal"}
+| Source | Best For | Not Great For | Link |
+|---|---|---|---|
+| *PitchBook* | VC/PE deals, investors, valuations | Bootstrapped firms | HBLL → PitchBook |
+| *Preqin* | Alternative assets (infra/real estate/PE) | Early-stage VC | HBLL → Preqin |
+| *PrivCo* | Large private company profiles | Very small firms | HBLL → PrivCo |
+| *Mergent Intellect/Online* | Company lists, screening | Deep financials | HBLL → Mergent |
+:::
+
+
+
+## HBLL Specialty: Text/Data Mining
+
+### ProQuest TDM Studio (limited seats; librarian support recommended)  
+[Use ProQuest TDM Studio](https://proquest.libguides.com/tdmstudio/visualization)
+
+**Good For:** Text mining across ProQuest content (news, dissertations).  
+**Not Great For:** Self-serve access at peak times; **one-user campus limit**.
+
+#### Fast Track
+1. Book time / ask HBLL for access window.  
+2. Define your **corpus** (sources, dates).  
+3. Run **topics/sentiment/trends**; export visuals for briefs.
+
+#### Entrepreneur’s Use Case
+*A fintech team mined two years of regional business news to quantify **pain points** around lending — fuel for messaging tests.*
+
+#### Pro Tip
+Come with a **narrow question**; TDM can be a rabbit hole.
+
+
+
+## Common Pitfalls (and Fixes)
+
+::: {.callout-warning appearance="minimal"}
+**Pitfall:** **License & “educational use only.”**  
+**Fix:** Check terms before exporting, sharing, or using outside class. Summarize insights; don’t redistribute PDFs.
+:::
+
+::: {.callout-warning appearance="minimal"}
+**Pitfall:** **Apples vs. oranges** across sources.  
+**Fix:** Align **definitions** (NAICS/SIC, geo, channel, time window) before comparing.
+:::
+
+::: {.callout-warning appearance="minimal"}
+**Pitfall:** **False certainty** from polished charts.  
+**Fix:** Convert to **decisions**: ratios → unit economics; category size → beachhead; comps → raise & milestones.
+:::
+
+
+
+## BYU Access Tips (Quick)
+
+::: {.callout-note appearance="minimal"}
+- Start at the **HBLL database page** so licenses are recognized.  
+- Many tools require **account creation** with BYU email; some have **limited seats** (CapIQ, ProQuest TDM).  
+- When sources cite others (e.g., Statista → OECD), follow the trail — the **original** is often free and deeper.
+:::
+
+
+
+## Entrepreneur’s Checklist: Using Private Data
+
+::: {.callout-note appearance="minimal"}
+1. **Frame the decision.** What choice will this change?  
+2. **Pick the pair.** Industry & Finance, Markets & Consumers, Demographics & Society, or Deals & Competitors.  
+3. **Grab one per side.** Enough to get **ranges**, not false precision.  
+4. **Note license limits.** Educational vs. commercial; cite responsibly.  
+5. **Translate to action.** Price, channel, feature cut, investor list.  
+6. **Log assumptions.** What would make you revisit?
+:::
+
+
+
+## A Final Word
+
+This Toolkit is a **doorway**, not a destination. Use it when you need sharper numbers or faster falsification — then get back to building.
+
+::: {.callout-warning appearance="minimal"}
+**Trap to Avoid: Free ≠ Easy; Paid ≠ Truth.**  
+Private data can be deep and shiny. Treat it as **evidence to decide**, not decoration for slides. Pair it with fresh signals and your own tests.
+:::

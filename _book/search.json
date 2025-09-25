@@ -320,7 +320,7 @@
     "href": "ch04-epistemology.html#skepticism",
     "title": "4  How We Know",
     "section": "Skepticism",
-    "text": "Skepticism\nDoubt as a way to test what counts as knowing.\nSkepticism says we know less than we think we do — and that every claim deserves scrutiny. It’s the epistemology of questioning, probing, and refusing to take things at face value.\nDefinition: Knowledge is justified only when it survives critical doubt and testing against contrary evidence.\n\n\n\n\n\n\nUse when: stakes are high, signals are noisy, or claims sound too good to be true. Watch for: cynicism that rejects everything, or paralysis that stops you from ever acting. In practice: push for disconfirming evidence, ask “what would prove this false?”, and balance doubt with timely decisions.\n\n\n\nSkepticism is a shield. It protects entrepreneurs from hype, false signals, and the temptation to believe what they hope is true. By pressing on weak spots, it can save you from expensive mistakes.\nSkepticism clears away noise, but it cannot guide you forward alone. Too much doubt can paralyze you, leaving every option unchosen, every opportunity unexplored. Pair doubt with action — trust, test, and decide when enough questions have been asked.\n\n\n\n\n\n\nMini-case: The Too-Good Trend\n\n\n\nA founder hears that blockchain real estate startups are “the next unicorns.” Instead of diving in, she digs deeper: Who’s making the claim? What’s the evidence? After some digging, she finds most of the hype comes from investors already holding tokens.\nHer skepticism saves her from chasing a bubble.\n\n\nSkepticism is guardrails, not brakes. It stops bad action, but not all action.",
+    "text": "Skepticism\nDoubt as a way to test what counts as knowing.\nSkepticism says we know less than we think we do — and that every claim deserves scrutiny. It’s the epistemology of questioning, probing, and refusing to take things at face value.\nDefinition: Knowledge is justified only when it survives critical doubt and testing against contrary evidence.\n\n\n\n\n\n\nUse when: stakes are high, signals are noisy, or claims sound too good to be true.\nWatch for: cynicism that rejects everything, or paralysis that stops you from ever acting.\nIn practice: push for disconfirming evidence, ask “what would prove this false?”, and balance doubt with timely decisions.\n\n\n\nSkepticism is a shield. It protects entrepreneurs from hype, false signals, and the temptation to believe what they hope is true. By pressing on weak spots, it can save you from expensive mistakes.\nSkepticism clears away noise, but it cannot guide you forward alone. Too much doubt can paralyze you, leaving every option unchosen, every opportunity unexplored. Pair doubt with action — trust, test, and decide when enough questions have been asked.\n\n\n\n\n\n\nMini-case: The Too-Good Trend\n\n\n\nA founder hears that blockchain real estate startups are “the next unicorns.” Instead of diving in, she digs deeper: Who’s making the claim? What’s the evidence? After some digging, she finds most of the hype comes from investors already holding tokens.\nHer skepticism saves her from chasing a bubble.\n\n\nSkepticism is guardrails, not brakes. It stops bad action, but not all action.",
     "crumbs": [
       "Part I: Knowing and Deciding in Uncertainty",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>How We Know</span>"
@@ -1061,7 +1061,7 @@
     "href": "ch13-public-data.html#entrepreneurs-checklist-using-public-data",
     "title": "13  Public Data",
     "section": "Entrepreneur’s Checklist: Using Public Data",
-    "text": "Entrepreneur’s Checklist: Using Public Data\n\n\n\n\n\n\nQuick Steps\n\n\n\n\nStart with your question.\nWhat decision are you trying to make — market size, location, trend spotting?\nPick one or two sources.\nCheck a government portal, an open-data site, or a web-based signal. Don’t drown in datasets.\nCheck the basics.\nLook at the date, scope, and definitions. Ask: “Does this match my customer?”\nCross-check.\nPair the public dataset with a fresher or narrower signal (interviews, trends, competitor scans).\nDecide and move.\nUse public data to rule out bad ideas or point you toward better ones. Don’t wait for perfection.\n\n\n\n\nThis chapter gave you the big picture and a few starting sources.\nIf you want step-by-step guides, extended source lists, or practical how-tos (like scraping and AI shortcuts), see the Evidence Toolkit for step-by-step guides and extended sources. That’s where we get into the mechanics of gathering — so you can turn these ideas into action.",
+    "text": "Entrepreneur’s Checklist: Using Public Data\n\n\n\n\n\n\nQuick Steps\n\n\n\n\nStart with your question. What decision are you trying to make — market size, location, trend spotting?\n\nPick one or two sources. Check a government portal, an open-data site, or a web-based signal. Don’t drown in datasets.\n\nCheck the basics. Look at the date, scope, and definitions. Ask: “Does this match my customer?”\n\nCross-check. Pair the public dataset with a fresher or narrower signal (interviews, trends, competitor scans).\n\nDecide and move. Use public data to rule out bad ideas or point you toward better ones. Don’t wait for perfection.\n\n\n\n\nThis chapter gave you the big picture and a few starting sources.\nIf you want step-by-step guides, extended source lists, or practical how-tos (like scraping and AI shortcuts), see the Evidence Toolkit for step-by-step guides and extended sources. That’s where we get into the mechanics of gathering — so you can turn these ideas into action.",
     "crumbs": [
       "Part III: Gathering Evidence",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Public Data</span>"
@@ -1072,7 +1072,84 @@
     "href": "ch14-private-data.html",
     "title": "14  Private Data",
     "section": "",
-    "text": "This chapter is a placeholder for the Private Data chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "text": "The Good Stuff Behind the Paywall\nSome of the most useful evidence you’ll ever touch isn’t on Google.\nIt lives behind library logins, paid subscriptions, or vendor portals.\nThis private data is often cleaner, deeper, and closer to the money: real financials, industry ratios, consumer panels, deal flow, and global category reports. Used well, it can help you decide in hours what would otherwise take weeks.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Private Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch14-private-data.html#the-good-stuff-behind-the-paywall",
+    "href": "ch14-private-data.html#the-good-stuff-behind-the-paywall",
+    "title": "14  Private Data",
+    "section": "",
+    "text": "Definition: Private data is evidence you access through a license, subscription, or permission (e.g., university library databases, paid research, vendor APIs).\nUse terms vary — many academic licenses allow educational use only (no consulting or commercial projects). Always check your license.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Private Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch14-private-data.html#why-it-matters",
+    "href": "ch14-private-data.html#why-it-matters",
+    "title": "14  Private Data",
+    "section": "Why It Matters",
+    "text": "Why It Matters\nPrivate data can give you:\n\nSignal with teeth: Benchmarks, ratios, and financials that tie to actual performance.\n\nCategory clarity: What’s growing, who’s leading, how the game is played.\n\nFaster falsification: Kill weak ideas quickly; focus your next test on live options.\n\nBut it comes with responsibility: respect licenses, cite carefully, and don’t confuse polished charts with truth. Use it to decide, not decorate.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Private Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch14-private-data.html#four-kinds-of-private-data-and-when-to-use-them",
+    "href": "ch14-private-data.html#four-kinds-of-private-data-and-when-to-use-them",
+    "title": "14  Private Data",
+    "section": "Four Kinds of Private Data (and When to Use Them)",
+    "text": "Four Kinds of Private Data (and When to Use Them)\nThink in pairs: each type bundles two complementary lenses.\nPick the pair that matches the decision you’re making now.\n\n\n1. Industry & Finance\n“How do firms like mine actually perform?”\nUse industry data to understand the game’s structure (margins, failure rates, local vs. national differences).\nUse finance to ground yourself in money facts (ratios, unit economics, quartiles).\n\n\n\n\n\n\nStarter map (examples): Industry ratio books & portals, benchmark compendia, firm-level financial databases, local vs. national industry profiles.\nQuestions it answers:\n\nWhat margins do typical operators earn?\n\nWhat’s normal for inventory turns, CAC payback, or debt coverage?\n\nHow do my assumptions compare to upper/middle/lower quartiles?\n\n\n\n\n\n\n\n\n\n\nTrap: False precision. Ratios are averages across messy firms. Use ranges (quartiles), not single numbers. Local context can shift everything.\n\n\n\n\n\n\n\n\n\nMini-Case — The Laundry vs. Car Wash Choice\nTwo friends want a cash-flow business.\nIndustry reports show laundries with lower capex and steady margins; car washes show higher margins but high leverage and weather volatility.\nThey model both using quartile ratios and local lease comps.\nDecision: start with a small, de-risked laundry; revisit car wash after building operator muscle.\nLesson: Pair structure (industry) with money reality (finance) to right-size ambition.\n\n\n\n\n\n\n2. Consumer & Behavior\n“Who are these people, and what do they actually do?”\nUse consumer panels and surveys to segment attitudes, media habits, and purchase intent.\nUse behavior logs to see what people actually do (not just say).\n\n\n\n\n\n\nStarter map (examples): Large consumer survey panels, psychographic segmentations, longitudinal social surveys, media usage datasets.\nQuestions it answers:\n\nWho buys, why, and through which channels?\n\nWhich attitudes correlate with trial vs. repeat?\n\nIs my target reachable through the media they actually consume?\n\n\n\n\n\n\n\n\n\n\nTrap: Self-report bias. Stated intent ≠ behavior. Treat surveys as hypothesis fuel, and validate with behavioral data or small purchase tests.\n\n\n\n\n\n\n\n\n\nMini-Case — The “Clean Energy” Teens\nA hardware startup wants to market a home energy device to eco-conscious teens.\nConsumer panels show teens express high concern — but spending power and decision authority sit with parents.\nBehavioral data: parents respond to bill savings; teens engage on social but don’t convert.\nPivot: message to parents (savings) and empower teens as advocates (referrals).\nLesson: Segment by payer and user; match message to who decides.\n\n\n\n\n\n\n3. Product & Market Signals\n“Where is the category moving, and what’s next?”\nUse product research to learn feature sets, attribute trade-offs, and adoption curves.\nUse market outlooks to see macro demand, regulation, and competitive positioning.\n\n\n\n\n\n\nStarter map (examples): Category deep-dives, trend reports, technology landscapes, channel forecasts, expert quadrants/scapes.\nQuestions it answers:\n\nWhich features are table-stakes vs. differentiators?\n\nWhat’s growing, where, and through which channels?\n\nWho’s leading, fast-following, or fading?\n\n\n\n\n\n\n\n\n\n\nTrap: Yesterday’s narrative. Many reports are written annually. Good for the direction, not the day-to-day. Pair with fresher signals (web, interviews).\n\n\n\n\n\n\n\n\n\nMini-Case — The “Skinimalism” Feature Cut\nA beauty startup planned a 7-step routine.\nProduct reports show a “skinimalism” trend — fewer steps, cleaner labels.\nMarket outlooks confirm growth in 2-in-1 formats.\nThey cut features, improved margins, and matched distribution to retailers pushing simplification.\nLesson: Use product trends to remove features, not just add them.\n\n\n\n\n\n\n4. Capital & Competitors\n“Who funds whom, and how does the money move?”\nUse capital data to map investor theses, check round sizes/valuations, and find likely partners.\nUse competitor views to understand strategy, hiring, and go-to-market shifts.\n\n\n\n\n\n\nStarter map (examples): Deal databases, investor profiles, M&A trackers, competitive landscapes, hiring trend trackers.\nQuestions it answers:\n\nWho invests in my space, at what stage and check size?\n\nWhat comps do investors use?\n\nWhere are competitors expanding (hiring, partnerships, acquisitions)?\n\n\n\n\n\n\n\n\n\n\nTrap: Survivorship bias. Deal lists spotlight winners. Study near-misses and exits too, or you’ll overestimate your odds.\n\n\n\n\n\n\n\n\n\nMini-Case — The Strategic Angel Map\nA B2B founder needs smart seed investors.\nDeal data reveals 12 angels who repeatedly back vertical SaaS with distribution via channel partners.\nThey target those 12 with a pitch that mirrors the pattern.\nLesson: Use capital maps to aim your raise — and to shape your go-to-market to match proven paths.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Private Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch14-private-data.html#starter-sources-for-private-data",
+    "href": "ch14-private-data.html#starter-sources-for-private-data",
+    "title": "14  Private Data",
+    "section": "Starter Sources for Private Data",
+    "text": "Starter Sources for Private Data\n\n\n\n\n\n\nPrivate data comes in flavors. Each side of the table has its go-to databases — here are a few you can try at BYU’s library (details in the Evidence Toolkit):\n\nIndustry & Finance → BizMiner, Mergent Key Business Ratios\n\nCompetitors & Deals → PitchBook, PrivCo, Capital IQ\n\nMarkets & Products → IBISWorld, Euromonitor, Mintel\n\nConsumers & Behavior → Simmons, Social Explorer, Statista\n\nPro Tip: Don’t try to read them all. Grab one per side, enough to see the range. Your goal is bounds, not false precision.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Private Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch14-private-data.html#common-pitfalls-and-fixes",
+    "href": "ch14-private-data.html#common-pitfalls-and-fixes",
+    "title": "14  Private Data",
+    "section": "Common Pitfalls (and Fixes)",
+    "text": "Common Pitfalls (and Fixes)\n\n\n\n\n\n\nPitfall: License & “educational use only.”\nFix: Check usage terms before exporting, sharing, or using outside class. Summarize insights; don’t redistribute proprietary PDFs.\n\n\n\n\n\n\n\n\n\nPitfall: Apples vs. oranges. Different sources define markets differently.\nFix: Read the fine print: geographies, NAICS/SIC, channel scope, time window. Align definitions before comparing.\n\n\n\n\n\n\n\n\n\nPitfall: Copy-paste charts as “proof.”\nFix: Convert to decisions: ratios → unit economics; market size → beachhead; deal comps → target raise & milestones.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Private Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch14-private-data.html#toolkit-boosts-for-private-data",
+    "href": "ch14-private-data.html#toolkit-boosts-for-private-data",
+    "title": "14  Private Data",
+    "section": "Toolkit Boosts for Private Data",
+    "text": "Toolkit Boosts for Private Data\n\n\n\n\n\n\nBoost: Decision-first search\nStart with the decision (“choose price tier”, “pick channel”, “target investor”), then pull just enough private data to move. Avoid the rabbit hole.\n\n\n\n\n\n\n\n\n\nBoost: Triangulate\nPair one deep paid source with one fresh public/web signal and one own observation (pilot, interview, small test).\n\n\n\n\n\n\n\n\n\nBoost: Localize & unitize\nTranslate national averages into per-store / per-rep / per-subscriber metrics in your city and your channel.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Private Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch14-private-data.html#entrepreneurs-checklist-using-private-data",
+    "href": "ch14-private-data.html#entrepreneurs-checklist-using-private-data",
+    "title": "14  Private Data",
+    "section": "Entrepreneur’s Checklist: Using Private Data",
+    "text": "Entrepreneur’s Checklist: Using Private Data\n\n\n\n\n\n\n\nFrame the decision. What choice will this data change?\n\nPick the pair. Industry & Finance, Consumer & Behavior, Product & Market, or Capital & Competitors.\n\nGrab one source per side. Enough to get ranges, not false precision.\n\nNote license limits. Educational vs. commercial use; cite responsibly.\n\nTranslate to action. A price, a channel bet, a feature cut, an investor list.\n\nLog assumptions. What would make you revisit this conclusion?\n\n\n\n\nThis chapter gives you the map and the mindset.\nFor step-by-step how-tos and the specific databases we recommend (with screenshots, search tips, and export tricks), see the Evidence Toolkit: Private Data.",
     "crumbs": [
       "Part III: Gathering Evidence",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Private Data</span>"
@@ -1081,23 +1158,144 @@
   {
     "objectID": "ch15-customer-evidence.html",
     "href": "ch15-customer-evidence.html",
-    "title": "15  Customer Evidence",
+    "title": "15  Customer Data",
     "section": "",
-    "text": "This chapter is a placeholder for the Customer Evidence chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "text": "The Lab You Build Yourself\nPublic and private data are powerful — but they were collected for someone else’s purposes.\nIf you want answers to your entrepreneurial question, you’ll need to go to the source: your customers.\nThis is customer data — evidence you gather yourself by watching, asking, or testing with the people you hope to serve. Done well, it can cut through the noise and give you sharper signals than any dataset. Done poorly, it can mislead you faster than anything else.",
     "crumbs": [
       "Part III: Gathering Evidence",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Customer Evidence</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Customer Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch15-customer-evidence.html#two-modes-discovery-vs.-validation",
+    "href": "ch15-customer-evidence.html#two-modes-discovery-vs.-validation",
+    "title": "15  Customer Data",
+    "section": "Two Modes: Discovery vs. Validation",
+    "text": "Two Modes: Discovery vs. Validation\nThink of customer data in two modes:\n\nExploratory (discovery): open-ended, flexible, and messy. You’re interviewing, shadowing, or observing to uncover problems and hypothesize needs. The goal is to find questions worth answering.\n\nConfirmatory (validation): structured, specific, and measurable. You’re running surveys, A/B tests, or price trials to test a hypothesis. The goal is to check whether your answer holds up.\n\n\n\n\n\n\n\nTrap: Don’t confuse the two. An open-ended chat is not validation. A sloppy survey is not discovery. Be clear about which mode you’re in.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Customer Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch15-customer-evidence.html#designing-the-experiment",
+    "href": "ch15-customer-evidence.html#designing-the-experiment",
+    "title": "15  Customer Data",
+    "section": "Designing the Experiment",
+    "text": "Designing the Experiment\nCustomer data is only as good as the experiment you run. Here’s the basic loop:\n\nWhat do we need to know?\nStart with the urgent unknown. Don’t ask about everything.\nExample: “Will people pay monthly for this service, or only one-time?”\nWho do we need to hear from?\nDefine your target population. Early on, you’ll start broad (e.g., “young adults”). Over time, you’ll refine by need (e.g., “time-starved professionals”).\nHow will we reach them?\nSampling matters. Friends and family are easy, but biased. LinkedIn groups, Reddit forums, or curated panels are better. The goal is to hear from the people who matter most.\nWhat do we ask?\nWrite clear, neutral questions. Ask one thing at a time. Avoid suggesting the answer in the question.\n\nBad: “Wouldn’t this feature be useful?”\n\nBetter: “How do you solve this problem today?”\n\nHow do we interpret it?\nNo experiment is perfect. Watch for sampling bias, self-report bias, or non-response bias. Look for patterns, not outliers. Triangulate with other sources.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Customer Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch15-customer-evidence.html#the-iterative-circle",
+    "href": "ch15-customer-evidence.html#the-iterative-circle",
+    "title": "15  Customer Data",
+    "section": "The Iterative Circle",
+    "text": "The Iterative Circle\nYou rarely get it right on the first try.\nYour first interviews lead to sharper targeting. Your first survey leads to better questions. Each round of data teaches you how to learn better next time.\n\n\n\n\n\n\nBoost: Even biased data can help if you know where the bias is coming from. If you only talked to superfans, discount their enthusiasm — but note what problems fired them up.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Customer Data</span>"
+    ]
+  },
+  {
+    "objectID": "ch15-customer-evidence.html#exit-point-where-customer-data-fits",
+    "href": "ch15-customer-evidence.html#exit-point-where-customer-data-fits",
+    "title": "15  Customer Data",
+    "section": "Exit Point: Where Customer Data Fits",
+    "text": "Exit Point: Where Customer Data Fits\nCustomer data sits high on the Evidence Ladder.\nIt’s closer to real purchase decisions than public or private data. It’s also messier, riskier, and more personal.\nThe goal isn’t to collect opinions for a slide deck — it’s to learn enough to make the call.\nCustomer data is your lab. Done well, it doesn’t just tell you what people want — it teaches you how to learn.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Customer Data</span>"
     ]
   },
   {
     "objectID": "ch16-competitor-market-signals.html",
     "href": "ch16-competitor-market-signals.html",
-    "title": "16  Customer Evidence",
+    "title": "16  Competitor and Market Signals",
     "section": "",
-    "text": "This chapter is a placeholder for the Customer Evidence chapter of Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship. Content will fill in quickly.",
+    "text": "Why Signals Matter\nMost of the time, competitors don’t hand you their playbook. But they do leave tracks.\nJob postings, product launches, customer reviews, shipping times, press releases, even chatter on social media — all of these are signals.\nThese aren’t as clean as government statistics or as tailored as customer interviews. But they’re often the first evidence that something in your market is shifting. The real skill is learning what to watch, which competitors matter, and how to separate weak noise from strong patterns.\nEntrepreneurship is a game of incomplete information. Competitor and market signals help you:\nSignals won’t tell you everything. But they can help you frame sharper customer questions, avoid being blindsided, and sometimes even give you a first-mover edge.",
     "crumbs": [
       "Part III: Gathering Evidence",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Customer Evidence</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Competitor and Market Signals</span>"
+    ]
+  },
+  {
+    "objectID": "ch16-competitor-market-signals.html#why-signals-matter",
+    "href": "ch16-competitor-market-signals.html#why-signals-matter",
+    "title": "16  Competitor and Market Signals",
+    "section": "",
+    "text": "Spot emerging threats (a rival testing a new feature before it becomes mainstream).\n\nFind gaps in the market (persistent negative reviews pointing to unmet needs).\n\nGauge momentum (who is hiring, scaling, or struggling).\n\nAnticipate ecosystem shifts (new regulations, partnerships, or supply chain moves).",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Competitor and Market Signals</span>"
+    ]
+  },
+  {
+    "objectID": "ch16-competitor-market-signals.html#categories-of-signals",
+    "href": "ch16-competitor-market-signals.html#categories-of-signals",
+    "title": "16  Competitor and Market Signals",
+    "section": "Categories of Signals",
+    "text": "Categories of Signals\nYou can think of signals as falling into four broad buckets:\n\nCompetitor Moves\n\nNew features or product launches\n\nPricing changes or promotions\n\nPartnerships, acquisitions, or pivots\n\nMarket Conversations\n\nCustomer reviews and ratings\n\nSupport forums and complaints\n\nSocial media chatter and sentiment\n\nResource Flows\n\nJob postings (what skills are they hiring for?)\n\nPatent filings or IP updates1\n\nSupply chain indicators (shipping times, sourcing changes)\n\nEcosystem Context\n\nRegulatory changes\n\nIndustry press and analyst reports\n\nSignals from adjacent markets (tech that may spill into yours)\n\n\nEach bucket offers fragments of truth. Alone, they’re shaky. Together, they can reveal the outline of what’s really happening.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Competitor and Market Signals</span>"
+    ]
+  },
+  {
+    "objectID": "ch16-competitor-market-signals.html#which-competitors-matter",
+    "href": "ch16-competitor-market-signals.html#which-competitors-matter",
+    "title": "16  Competitor and Market Signals",
+    "section": "Which Competitors Matter?",
+    "text": "Which Competitors Matter?\nNot every competitor is worth watching. Three rules of thumb:\n\nDirect rivals – Anyone selling something similar to the same customers.\n\nWorkarounds – What customers use instead of you, even if it’s not a product.\n\nEmerging players – Startups or entrants whose growth signals may be weak but fast.\n\nThe danger is watching only the obvious incumbents and missing the edges where disruption usually begins.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Competitor and Market Signals</span>"
+    ]
+  },
+  {
+    "objectID": "ch16-competitor-market-signals.html#which-signals-matter",
+    "href": "ch16-competitor-market-signals.html#which-signals-matter",
+    "title": "16  Competitor and Market Signals",
+    "section": "Which Signals Matter?",
+    "text": "Which Signals Matter?\nYou don’t have time to monitor everything. A simple filter:\n\nRelevant – Does it touch your customers or your value proposition?\n\nRepeatable – Is it a one-off, or part of a pattern?\n\nActionable – Does it change a decision you’re making right now?\n\n\n\n\n\n\n\nTrap to Avoid\n\n\n\nChasing every blip.\nRumors, headlines, or one-off reviews can mislead. Signals are noisy — don’t mistake volume for truth. A flashy press release may hide weak fundamentals; a bad review may not reflect the majority. Relying on one signal alone can fool you.\n\n\n\n\n\n\n\n\nBoost: Look for Convergence\n\n\n\nPatterns matter more than single points.\nWhen job postings, reviews, and competitor messaging all lean the same way, you’ve got a signal with weight. Signals are strongest when they cluster.\n\n\n\n\n\n\n\n\nMini-case\n\n\n\nA student team building a food-delivery service noticed that rivals were suddenly hiring “last-mile logistics coordinators.” That was the first hint delivery costs were spiking.\nInstead of copying incumbents, the team pivoted toward ghost kitchens (shared prep facilities) that cut those costs in half.\nThe signal wasn’t obvious, but paying attention let them zig while others zagged.\n\n\nBottom Line: Competitor and market signals aren’t crystal balls. They’re more like weather vanes — they tell you which way the wind is blowing, so you can adjust your sails before the storm hits.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Competitor and Market Signals</span>"
+    ]
+  },
+  {
+    "objectID": "ch16-competitor-market-signals.html#trap-to-avoid",
+    "href": "ch16-competitor-market-signals.html#trap-to-avoid",
+    "title": "16  Competitor and Market Signals",
+    "section": "Trap to Avoid",
+    "text": "Trap to Avoid\nTreating every rumor or headline as truth. Signals are noisy: a flashy press release may hide weak fundamentals; a bad review may not reflect the majority. Relying on one signal alone can fool you.\n\n\n\n\n\n\nBoost: Look for convergence\n\n\n\nWhen multiple weak signals point the same direction — reviews, job ads, competitor tweets — you’ve found a pattern worth taking seriously. Signals are strongest when they cluster.\n\n\n\n\n\n\n\n\nMini-case\n\n\n\nA student team building a food-delivery service noticed that rivals were suddenly hiring “last-mile logistics coordinators.” That was the first hint delivery costs were spiking.\nInstead of copying incumbents, the team pivoted toward ghost kitchens (shared prep facilities) that cut those costs in half.\nThe signal wasn’t obvious, but paying attention let them zig while others zagged.\n\n\nBottom Line: Competitor and market signals aren’t crystal balls. They’re more like weather vanes — they tell you which way the wind is blowing, so you can adjust your sails before the storm hits.\nFor detailed methods, tools, and sources, check the Competitor and Market Signals Toolkit — where we’ll show you exactly how to track, capture, and analyze these signals in practice.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Competitor and Market Signals</span>"
+    ]
+  },
+  {
+    "objectID": "ch16-competitor-market-signals.html#boost",
+    "href": "ch16-competitor-market-signals.html#boost",
+    "title": "16  Competitor and Market Signals",
+    "section": "Boost",
+    "text": "Boost\nLook for convergence. When multiple weak signals point the same direction — reviews, job ads, competitor tweets — you’ve found a pattern worth taking seriously. Signals are strongest when they cluster.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Competitor and Market Signals</span>"
+    ]
+  },
+  {
+    "objectID": "ch16-competitor-market-signals.html#mini-case",
+    "href": "ch16-competitor-market-signals.html#mini-case",
+    "title": "16  Competitor and Market Signals",
+    "section": "Mini-Case",
+    "text": "Mini-Case\nA student team building a food-delivery service noticed that rivals were suddenly hiring “last-mile logistics coordinators.” That was the first hint delivery costs were spiking.\nInstead of copying incumbents, the team pivoted toward ghost kitchens (shared prep facilities) that cut those costs in half.\nThe signal wasn’t obvious, but paying attention let them zig while others zagged.\nBottom Line: Competitor and market signals aren’t crystal balls. They’re more like weather vanes — they tell you which way the wind is blowing, so you can adjust your sails before the storm hits.\nFor detailed methods, tools, and sources, check the Competitor and Market Signals Toolkit — where we’ll show you exactly how to track, capture, and analyze these signals in practice.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Competitor and Market Signals</span>"
     ]
   },
   {
@@ -1356,18 +1554,7 @@
     "href": "tk1-public-data.html",
     "title": "E1. Public Data Toolkit",
     "section": "",
-    "text": "Toolkit Categories\nPublic data isn’t one big pile — it’s more like a set of doorways into different parts of the market. To keep things simple, we’ve grouped the most useful sources into six categories. Each one gives you a different kind of visibility:\nThink of these as six lenses. No single one is enough on its own, but together they give you a fuller radar screen of markets, customers, and competition.",
-    "crumbs": [
-      "Evidence Toolkit",
-      "E1. Public Data Toolkit"
-    ]
-  },
-  {
-    "objectID": "tk1-public-data.html#toolkit-categories",
-    "href": "tk1-public-data.html#toolkit-categories",
-    "title": "E1. Public Data Toolkit",
-    "section": "",
-    "text": "Market Size & Demographics Census, Stats America, World Bank, OECD\nConsumer Trends & Behavior\nGoogle Trends, Pew Research, American Time Use Survey, Consumer Expenditure Surveys\nIndustry & Employment\nBureau of Labor Statistics, Economic Census, Business Trends Outlook\nGlobal & Comparative\nGapminder, Our World in Data, UN/IMF datasets\nOpen Data Platforms\nKaggle, local open-data portals, Statista (limited free)\nSpecialty & Applied Sources\nSBA Market Research tools, FTC advertising basics, Country Commercial Guides",
+    "text": "1. Market Size & Demographics\nPublic data isn’t one big pile — it’s more like a set of doorways into different parts of the market. To keep things simple, we’ve grouped the most useful sources into six categories. Each one gives you a different kind of visibility:\nThink of these as six lenses. No single one is enough on its own, but together they give you a fuller radar screen of markets, customers, and competition.\nBefore you design a product, you need to know the lay of the land: how many people there are, where they live, how much they earn, and how their economies are changing. This isn’t guesswork — public data gives you a map of the population and its potential.\nEach of these sources offers a different lens on markets and people:\nUsed together, these datasets help entrepreneurs answer questions like: Is this city big enough for our idea? Which regions are growing fastest? Where does this country fit in the global picture?",
     "crumbs": [
       "Evidence Toolkit",
       "E1. Public Data Toolkit"
@@ -1377,8 +1564,8 @@
     "objectID": "tk1-public-data.html#sec-market-size",
     "href": "tk1-public-data.html#sec-market-size",
     "title": "E1. Public Data Toolkit",
-    "section": "Market Size & Demographics",
-    "text": "Market Size & Demographics\nBefore you design a product, you need to know the lay of the land: how many people there are, where they live, how much they earn, and how their economies are changing. This isn’t guesswork — public data gives you a map of the population and its potential.\nEach of these sources offers a different lens on markets and people:\n\nPopulation & business basics (U.S. Census Bureau) give local snapshots of demographics, income, and business activity.\n\nRegional profiles (Stats America) highlight clusters, growth patterns, and workforce composition at the state and city level.\n\nGlobal indicators (World Bank Open Data) track GDP, trade, and development trends across countries.\n\nCross-country comparisons (OECD) provide benchmarks to see how one economy stacks up against another.\n\nUsed together, these datasets help entrepreneurs answer questions like: Is this city big enough for our idea? Which regions are growing fastest? Where does this country fit in the global picture?\n\nU.S. Census Bureau\nVisit Census.gov\nGood For: Population, age, income, business patterns\nNot Great For: Real-time trends (data lags months or years)\n\nFast Track:\n\nGo to QuickFacts.\n\nType in your city, county, or state.\n\nCompare population growth, income, and business counts.\n\n\n\nEntrepreneur’s Use Case:\nA food truck owner pulled QuickFacts for three neighborhoods. One had 20% more residents aged 20–34 with higher-than-average income. She parked there — and sold out daily.\n\n\nPro Tip:\nDon’t stop at averages. Use tools like Census Business Builder to see which neighborhoods actually match your customer profile.\n\n\n\n\nStats America\nVisit Stats America\nGood For: Regional economic indicators, industry clusters, workforce stats, demographic insights.\nNot Great For: Real-time market shifts or consumer-level behavior.\n\nFast Track\n\nGo to Industry Clusters or Innovation Index 2.0 for regional trends.\n\nUse the Big Radius Tool to pull demographic and workforce stats around a location.\n\nExport a table or report for quick reference.\n\n\n\nEntrepreneur’s Use Case\nA furniture maker scouting a second plant used the Industry Cluster tool. One county showed twice as many wood suppliers within 50 miles. Lower transport costs tipped the decision.\n\n\nPro Tip\nBest for smaller regions. Use it when national data feels too broad — counties and metros often hide the real growth story.\n\n\n\n\nWorld Bank Open Data\nVisit World Bank Open Data\nGood For: Global economic indicators, trade, business environment, and development data.\nNot Great For: Hyper-local or real-time insights (data is often annual and broad).\n\nFast Track\n\nGo to Country Profiles for GDP, inflation, and trade at a glance.\n\nBrowse the Data Catalog for detailed indicators by region or sector.\n\nDownload charts or CSVs directly for quick comparisons.\n\n\n\nEntrepreneur’s Use Case\nA telemedicine startup eyeing Southeast Asia compared GDP growth and healthcare spending. Vietnam’s numbers were rising faster than neighbors’ — so they made it their beachhead market.\n\n\nPro Tip\nPair with fresher signals like Google Trends or news. It’s a great scale map, but not a live radar.\n\n\n\n\nOECD Data\nVisit OECD Data\nGood For: Cross-country comparisons on economic performance, education, health, taxation, and social indicators.\nNot Great For: Non-member countries (focuses mostly on OECD’s 38 member states, usually wealthier economies).\n\nFast Track\n\nVisit OECD Data and search for a theme in the search bar (e.g., health, jobs, innovation).\nUse the interactive charts to compare countries side by side.\n\nDownload CSVs for deeper analysis or export graphs for quick visuals.\n\n\n\nEntrepreneur’s Use Case\nAn ed-tech founder noticed Poland’s high school enrollment was rising, but digital classroom adoption lagged behind. That mismatch signaled demand for education software.\n\n\nPro Tip\nUse OECD for benchmarking wealthy economies. For broader coverage, cross-check with World Bank or UN data.\n\n\n\n\nQuick Reference: Market Size & Demographics\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nU.S. Census Bureau\nLocal demographics, income, business activity\nReal-time signals\ncensus.gov\n\n\nStats America\nRegional clusters, workforce stats\nOutside the U.S.\nstatsamerica.org\n\n\nWorld Bank Open Data\nGlobal economic indicators\nLocal market detail\ndata.worldbank.org\n\n\nOECD Data\nCross-country comparisons\nNon-member countries\ndata.oecd.org",
+    "section": "",
+    "text": "Population & business basics (U.S. Census Bureau) give local snapshots of demographics, income, and business activity.\n\nRegional profiles (Stats America) highlight clusters, growth patterns, and workforce composition at the state and city level.\n\nGlobal indicators (World Bank Open Data) track GDP, trade, and development trends across countries.\n\nCross-country comparisons (OECD) provide benchmarks to see how one economy stacks up against another.\n\n\n\nU.S. Census Bureau\nVisit Census.gov\nGood For: Population, age, income, business patterns\nNot Great For: Real-time trends (data lags months or years)\n\nFast Track:\n\nGo to QuickFacts.\n\nType in your city, county, or state.\n\nCompare population growth, income, and business counts.\n\n\n\nEntrepreneur’s Use Case:\nA food truck owner pulled QuickFacts for three neighborhoods. One had 20% more residents aged 20–34 with higher-than-average income. She parked there — and sold out daily.\n\n\nPro Tip:\nDon’t stop at averages. Use tools like Census Business Builder to see which neighborhoods actually match your customer profile.\n\n\n\n\nStats America\nVisit Stats America\nGood For: Regional economic indicators, industry clusters, workforce stats, demographic insights.\nNot Great For: Real-time market shifts or consumer-level behavior.\n\nFast Track\n\nGo to Industry Clusters or Innovation Index 2.0 for regional trends.\n\nUse the Big Radius Tool to pull demographic and workforce stats around a location.\n\nExport a table or report for quick reference.\n\n\n\nEntrepreneur’s Use Case\nA furniture maker scouting a second plant used the Industry Cluster tool. One county showed twice as many wood suppliers within 50 miles. Lower transport costs tipped the decision.\n\n\nPro Tip\nBest for smaller regions. Use it when national data feels too broad — counties and metros often hide the real growth story.\n\n\n\n\nWorld Bank Open Data\nVisit World Bank Open Data\nGood For: Global economic indicators, trade, business environment, and development data.\nNot Great For: Hyper-local or real-time insights (data is often annual and broad).\n\nFast Track\n\nGo to Country Profiles for GDP, inflation, and trade at a glance.\n\nBrowse the Data Catalog for detailed indicators by region or sector.\n\nDownload charts or CSVs directly for quick comparisons.\n\n\n\nEntrepreneur’s Use Case\nA telemedicine startup eyeing Southeast Asia compared GDP growth and healthcare spending. Vietnam’s numbers were rising faster than neighbors’ — so they made it their beachhead market.\n\n\nPro Tip\nPair with fresher signals like Google Trends or news. It’s a great scale map, but not a live radar.\n\n\n\n\nOECD Data\nVisit OECD Data\nGood For: Cross-country comparisons on economic performance, education, health, taxation, and social indicators.\nNot Great For: Non-member countries (focuses mostly on OECD’s 38 member states, usually wealthier economies).\n\nFast Track\n\nVisit OECD Data and search for a theme in the search bar (e.g., health, jobs, innovation).\nUse the interactive charts to compare countries side by side.\n\nDownload CSVs for deeper analysis or export graphs for quick visuals.\n\n\n\nEntrepreneur’s Use Case\nAn ed-tech founder noticed Poland’s high school enrollment was rising, but digital classroom adoption lagged behind. That mismatch signaled demand for education software.\n\n\nPro Tip\nUse OECD for benchmarking wealthy economies. For broader coverage, cross-check with World Bank or UN data.\n\n\n\n\nQuick Reference: Market Size & Demographics\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nU.S. Census Bureau\nLocal demographics, income, business activity\nReal-time signals\ncensus.gov\n\n\nStats America\nRegional clusters, workforce stats\nOutside the U.S.\nstatsamerica.org\n\n\nWorld Bank Open Data\nGlobal economic indicators\nLocal market detail\ndata.worldbank.org\n\n\nOECD Data\nCross-country comparisons\nNon-member countries\ndata.oecd.org",
     "crumbs": [
       "Evidence Toolkit",
       "E1. Public Data Toolkit"
@@ -1388,8 +1575,8 @@
     "objectID": "tk1-public-data.html#consumer-trends-behavior",
     "href": "tk1-public-data.html#consumer-trends-behavior",
     "title": "E1. Public Data Toolkit",
-    "section": "Consumer Trends & Behavior",
-    "text": "Consumer Trends & Behavior\nIf you want to understand customers, don’t just ask them what they like — watch what they search, how they talk, where their hours go, what they buy, and how confident they feel about the future.\nEach of these lenses shows a different side of consumer reality:\n\nSearch interest (Google Trends) reveals what’s catching attention right now.\n\nPublic opinion (Pew Research) shows what people say they value or worry about.\n\nTime-use patterns (American Time Use Survey) highlight how daily life actually unfolds.\n\nSpending data (Consumer Expenditure Survey) tracks where the dollars flow.\n\nConfidence indexes (Surveys of Consumers) measure whether households feel ready to spend or likely to hold back.\n\nTaken together, these signals help entrepreneurs move beyond gut instinct to a fuller picture of demand. None is perfect on its own — but triangulated, they make the fog of consumer behavior a lot clearer.\n\nGoogle Trends\nVisit Google Trends\nGood For: Real-time search interest, seasonality, and spotting rising topics.\nNot Great For: Market size (it shows relative interest, not actual numbers of people).\n\nFast Track\n\nType a search term and select region + time frame.\n\nCompare up to 5 terms to see which gets more attention.\n\nCheck Related Queries for breakout topics and shifts in language.\n\n\n\nEntrepreneur’s Use Case\nAn Etsy seller compared “sustainable fashion” vs. “eco-friendly fashion.” “Sustainable” searches were climbing twice as fast. She switched her product tags — and shop views spiked the next week.\n\n\nPro Tip\nTest multiple phrasings. Customers may be searching with different words than the ones you’d expect.\n\n\n\n\nPew Research Center\nVisit Pew Research Center\nGood For: Public opinion, demographic differences, and how social attitudes shape adoption.\nNot Great For: Timely market shifts (reports are rigorous but often lag months or years).\n\nFast Track\n\nBrowse by Topic (e.g., tech, religion, politics, work).\n\nUse Demographic filters (age, gender, income, education) to see subgroup differences.\n\nPull charts and tables directly for presentations or pitch decks.\n\n\n\nEntrepreneur’s Use Case\nA fintech founder saw Pew data showing low-income households were more likely “mobile-only” internet users. That insight drove him to launch a mobile-first loan app instead of a desktop site.\n\n\nPro Tip\nSegment, don’t generalize. Pew is best for spotting differences between groups, not headline numbers alone.\n\n\n\n\nAmerican Time Use Survey\nVisit ATUS\nGood For: Understanding how different groups actually spend their hours — work, chores, leisure, caregiving.\nNot Great For: Real-time trends (data is collected annually and released with a lag).\n\nFast Track\n\nOpen ATUS Data Tables for breakdowns by activity.\n\nFilter by demographics (age, job type, gender, etc.).\n\nUse Charts for a quick visualization of shifts in time use.\n\n\n\nEntrepreneur’s Use Case\nA meal-prep startup checked ATUS and saw working parents spend under 30 minutes cooking on weekdays. They marketed 15-minute dinners — a sharper fit than generic “healthy meals.”\n\n\nPro Tip\nLook for gaps between what people say and how they actually spend their time. Those mismatches are business opportunities.\n\n\n\n\nConsumer Expenditure Surveys (CES)\nVisit CES\nGood For: Detailed data on what U.S. households actually spend — food, housing, clothing, transportation, healthcare, and more.\nNot Great For: Rapid shifts or niche markets; data is annual and focuses on broad categories.\n\nFast Track\n\nGo to Tables and Publications for summary reports.\n\nOpen Expenditure Tables to see breakdowns by income group, age, or region.\n\nUse the Interactive Tool for custom views of spending patterns.\n\n\n\nEntrepreneur’s Use Case\nA pet hotel entrepreneur saw CES data showing higher-income households spend twice as much on pet services. She opened in affluent suburbs — and booked out months ahead.\n\n\nPro Tip\nCompare spending categories with your idea. Shrinking categories = headwinds; growing ones = tailwinds.\n\n\n\n\nSurveys of Consumers (University of Michigan)\nVisit Surveys of Consumers\nGood For: Gauging consumer confidence, expectations about the economy, and attitudes toward spending.\nNot Great For: Detailed demographics or product-level insights — this is about sentiment, not specifics.\n\nFast Track\n\nCheck the Consumer Sentiment Index for the headline confidence number.\n\nExplore historical trends to see how sentiment rises or falls with economic shifts.\n\nUse category reports (e.g., personal finances, business conditions) for nuance.\n\n\n\nEntrepreneur’s Use Case\nA toy store owner noticed consumer sentiment dipped before Christmas. Instead of overstocking toys, she doubled down on essentials — avoiding unsold inventory that sank competitors.\n\n\nPro Tip\nCheck both current conditions and future expectations. Optimism about tomorrow can be as valuable as confidence today.\n\n\n\n\n\nQuick Reference: Consumer Trends & Behavior\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nGoogle Trends\nReal-time search interest\nDeep demographic detail\ntrends.google.com\n\n\nPew Research\nPublic opinion, tech adoption\nRaw datasets\npewresearch.org\n\n\nAmerican Time Use Survey\nDaily time-use patterns\nFast-moving trends\nbls.gov/tus\n\n\nConsumer Expenditure Survey\nSpending by category\nImmediate changes\nbls.gov/cex\n\n\nSurveys of Consumers\nConfidence and expectations\nProduct-level insights\nsca.isr.umich.edu",
+    "section": "2. Consumer Trends & Behavior",
+    "text": "2. Consumer Trends & Behavior\nIf you want to understand customers, don’t just ask them what they like — watch what they search, how they talk, where their hours go, what they buy, and how confident they feel about the future.\nEach of these lenses shows a different side of consumer reality:\n\nSearch interest (Google Trends) reveals what’s catching attention right now.\n\nPublic opinion (Pew Research) shows what people say they value or worry about.\n\nTime-use patterns (American Time Use Survey) highlight how daily life actually unfolds.\n\nSpending data (Consumer Expenditure Survey) tracks where the dollars flow.\n\nConfidence indexes (Surveys of Consumers) measure whether households feel ready to spend or likely to hold back.\n\nTaken together, these signals help entrepreneurs move beyond gut instinct to a fuller picture of demand. None is perfect on its own — but triangulated, they make the fog of consumer behavior a lot clearer.\n\nGoogle Trends\nVisit Google Trends\nGood For: Real-time search interest, seasonality, and spotting rising topics.\nNot Great For: Market size (it shows relative interest, not actual numbers of people).\n\nFast Track\n\nType a search term and select region + time frame.\n\nCompare up to 5 terms to see which gets more attention.\n\nCheck Related Queries for breakout topics and shifts in language.\n\n\n\nEntrepreneur’s Use Case\nAn Etsy seller compared “sustainable fashion” vs. “eco-friendly fashion.” “Sustainable” searches were climbing twice as fast. She switched her product tags — and shop views spiked the next week.\n\n\nPro Tip\nTest multiple phrasings. Customers may be searching with different words than the ones you’d expect.\n\n\n\n\nPew Research Center\nVisit Pew Research Center\nGood For: Public opinion, demographic differences, and how social attitudes shape adoption.\nNot Great For: Timely market shifts (reports are rigorous but often lag months or years).\n\nFast Track\n\nBrowse by Topic (e.g., tech, religion, politics, work).\n\nUse Demographic filters (age, gender, income, education) to see subgroup differences.\n\nPull charts and tables directly for presentations or pitch decks.\n\n\n\nEntrepreneur’s Use Case\nA fintech founder saw Pew data showing low-income households were more likely “mobile-only” internet users. That insight drove him to launch a mobile-first loan app instead of a desktop site.\n\n\nPro Tip\nSegment, don’t generalize. Pew is best for spotting differences between groups, not headline numbers alone.\n\n\n\n\nAmerican Time Use Survey\nVisit ATUS\nGood For: Understanding how different groups actually spend their hours — work, chores, leisure, caregiving.\nNot Great For: Real-time trends (data is collected annually and released with a lag).\n\nFast Track\n\nOpen ATUS Data Tables for breakdowns by activity.\n\nFilter by demographics (age, job type, gender, etc.).\n\nUse Charts for a quick visualization of shifts in time use.\n\n\n\nEntrepreneur’s Use Case\nA meal-prep startup checked ATUS and saw working parents spend under 30 minutes cooking on weekdays. They marketed 15-minute dinners — a sharper fit than generic “healthy meals.”\n\n\nPro Tip\nLook for gaps between what people say and how they actually spend their time. Those mismatches are business opportunities.\n\n\n\n\nConsumer Expenditure Surveys (CES)\nVisit CES\nGood For: Detailed data on what U.S. households actually spend — food, housing, clothing, transportation, healthcare, and more.\nNot Great For: Rapid shifts or niche markets; data is annual and focuses on broad categories.\n\nFast Track\n\nGo to Tables and Publications for summary reports.\n\nOpen Expenditure Tables to see breakdowns by income group, age, or region.\n\nUse the Interactive Tool for custom views of spending patterns.\n\n\n\nEntrepreneur’s Use Case\nA pet hotel entrepreneur saw CES data showing higher-income households spend twice as much on pet services. She opened in affluent suburbs — and booked out months ahead.\n\n\nPro Tip\nCompare spending categories with your idea. Shrinking categories = headwinds; growing ones = tailwinds.\n\n\n\n\nSurveys of Consumers (University of Michigan)\nVisit Surveys of Consumers\nGood For: Gauging consumer confidence, expectations about the economy, and attitudes toward spending.\nNot Great For: Detailed demographics or product-level insights — this is about sentiment, not specifics.\n\nFast Track\n\nCheck the Consumer Sentiment Index for the headline confidence number.\n\nExplore historical trends to see how sentiment rises or falls with economic shifts.\n\nUse category reports (e.g., personal finances, business conditions) for nuance.\n\n\n\nEntrepreneur’s Use Case\nA toy store owner noticed consumer sentiment dipped before Christmas. Instead of overstocking toys, she doubled down on essentials — avoiding unsold inventory that sank competitors.\n\n\nPro Tip\nCheck both current conditions and future expectations. Optimism about tomorrow can be as valuable as confidence today.\n\n\n\n\n\nQuick Reference: Consumer Trends & Behavior\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nGoogle Trends\nReal-time search interest\nDeep demographic detail\ntrends.google.com\n\n\nPew Research\nPublic opinion, tech adoption\nRaw datasets\npewresearch.org\n\n\nAmerican Time Use Survey\nDaily time-use patterns\nFast-moving trends\nbls.gov/tus\n\n\nConsumer Expenditure Survey\nSpending by category\nImmediate changes\nbls.gov/cex\n\n\nSurveys of Consumers\nConfidence and expectations\nProduct-level insights\nsca.isr.umich.edu",
     "crumbs": [
       "Evidence Toolkit",
       "E1. Public Data Toolkit"
@@ -1399,8 +1586,8 @@
     "objectID": "tk1-public-data.html#industry-employment",
     "href": "tk1-public-data.html#industry-employment",
     "title": "E1. Public Data Toolkit",
-    "section": "Industry & Employment",
-    "text": "Industry & Employment\nBehind every customer market is a workforce and the industries that employ them. If you’re starting a business, you need to know what jobs exist, what they pay, how industries are structured, and how confident businesses are feeling.\nThree key sources cover different time horizons:\n\nBureau of Labor Statistics (BLS) — wages, employment, and productivity.\n\nEconomic Census — the five-year deep dive into industry size, revenue, and structure.\n\nBusiness Trends and Outlook Survey (BTOS) — near real-time signals on business conditions and confidence.\n\nTogether, they help entrepreneurs answer questions like: Where can I hire the skills I need? How competitive is this industry? What shocks or shifts are happening right now?\n\nBureau of Labor Statistics (BLS)\nVisit BLS.gov\nGood For: Jobs, wages, productivity, consumer spending, and industry trends.\nNot Great For: Customer preferences or real-time market demand (data often lags).\n\nFast Track\n\nVisit the Economy at a Glance page for quick snapshots of industries and regions.\n\nUse the Occupational Employment and Wage Statistics tool to check average wages by role and location.\n\nBrowse Databases, Tables & Calculators by Subject for deeper dives into productivity, inflation, or industry-specific stats.\n\n\n\nEntrepreneur’s Use Case\nA café owner checked BLS wage data for cooks in her metro. Knowing the median pay helped her set competitive wages without overspending.\n\n\nPro Tip\nUse Economy at a Glance for quick location comparisons. It’s the fastest way to see how states or metros differ.\n\n\n\n\nEconomic Census\nVisit the Economic Census\nGood For: The most comprehensive snapshot of U.S. industries — revenues, expenses, number of firms, and business patterns down to detailed sectors and geographies.\nNot Great For: Timeliness; it’s collected every five years, so it lags behind current conditions.\n\nFast Track\n\nVisit the Economic Census page on census.gov.\n\nUse the Data Tables to explore industry-by-industry breakdowns.\n\nCheck geographic profiles to see how industries vary by state, county, or metro area.\n\n\n\nEntrepreneur’s Use Case\nA cleaning franchise compared revenue per firm across metro areas. Suburbs had fewer firms but higher average revenue — pointing to less crowded, more profitable markets.\n\n\nPro Tip\nThink of it as the industry blueprint — use it for structure and size, then layer on faster-moving sources.\n\n\n\n\nBusiness Trends and Outlook Survey (BTOS)\nVisit BTOS\nGood For: Near real-time insights into how U.S. businesses are doing — sales, supply chains, hiring, and confidence.\nNot Great For: Long-term planning; data is high-frequency but not as deep or detailed as the Economic Census.\n\nFast Track\n\nGo to the BTOS program page.\n\nBrowse headline indicators for business conditions and supply chain health.\n\nFilter by sector to see how industries differ.\n\n\n\nEntrepreneur’s Use Case\nA small manufacturer saw BTOS data showing rising supply chain delays in their sector. They pivoted to local suppliers — avoiding the shortages competitors faced.\n\n\nPro Tip\nIt’s a pulse check, not a blueprint. Use BTOS for timely shifts, then confirm with deeper sources.\n\n\n\n\nQuick Reference: Industry & Employment\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nBLS\nJobs, wages, productivity\nForecasts\nbls.gov\n\n\nEconomic Census\nIndustry size and structure\nTimeliness (5 years)\nEconomic Census\n\n\nBTOS\nNear real-time business sentiment\nDepth/detail\nBTOS",
+    "section": "3. Industry & Employment",
+    "text": "3. Industry & Employment\nBehind every customer market is a workforce and the industries that employ them. If you’re starting a business, you need to know what jobs exist, what they pay, how industries are structured, and how confident businesses are feeling.\nThree key sources cover different time horizons:\n\nBureau of Labor Statistics (BLS) — wages, employment, and productivity.\n\nEconomic Census — the five-year deep dive into industry size, revenue, and structure.\n\nBusiness Trends and Outlook Survey (BTOS) — near real-time signals on business conditions and confidence.\n\nTogether, they help entrepreneurs answer questions like: Where can I hire the skills I need? How competitive is this industry? What shocks or shifts are happening right now?\n\nBureau of Labor Statistics (BLS)\nVisit BLS.gov\nGood For: Jobs, wages, productivity, consumer spending, and industry trends.\nNot Great For: Customer preferences or real-time market demand (data often lags).\n\nFast Track\n\nVisit the Economy at a Glance page for quick snapshots of industries and regions.\n\nUse the Occupational Employment and Wage Statistics tool to check average wages by role and location.\n\nBrowse Databases, Tables & Calculators by Subject for deeper dives into productivity, inflation, or industry-specific stats.\n\n\n\nEntrepreneur’s Use Case\nA café owner checked BLS wage data for cooks in her metro. Knowing the median pay helped her set competitive wages without overspending.\n\n\nPro Tip\nUse Economy at a Glance for quick location comparisons. It’s the fastest way to see how states or metros differ.\n\n\n\n\nEconomic Census\nVisit the Economic Census\nGood For: The most comprehensive snapshot of U.S. industries — revenues, expenses, number of firms, and business patterns down to detailed sectors and geographies.\nNot Great For: Timeliness; it’s collected every five years, so it lags behind current conditions.\n\nFast Track\n\nVisit the Economic Census page on census.gov.\n\nUse the Data Tables to explore industry-by-industry breakdowns.\n\nCheck geographic profiles to see how industries vary by state, county, or metro area.\n\n\n\nEntrepreneur’s Use Case\nA cleaning franchise compared revenue per firm across metro areas. Suburbs had fewer firms but higher average revenue — pointing to less crowded, more profitable markets.\n\n\nPro Tip\nThink of it as the industry blueprint — use it for structure and size, then layer on faster-moving sources.\n\n\n\n\nBusiness Trends and Outlook Survey (BTOS)\nVisit BTOS\nGood For: Near real-time insights into how U.S. businesses are doing — sales, supply chains, hiring, and confidence.\nNot Great For: Long-term planning; data is high-frequency but not as deep or detailed as the Economic Census.\n\nFast Track\n\nGo to the BTOS program page.\n\nBrowse headline indicators for business conditions and supply chain health.\n\nFilter by sector to see how industries differ.\n\n\n\nEntrepreneur’s Use Case\nA small manufacturer saw BTOS data showing rising supply chain delays in their sector. They pivoted to local suppliers — avoiding the shortages competitors faced.\n\n\nPro Tip\nIt’s a pulse check, not a blueprint. Use BTOS for timely shifts, then confirm with deeper sources.\n\n\n\n\nQuick Reference: Industry & Employment\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nBLS\nJobs, wages, productivity\nForecasts\nbls.gov\n\n\nEconomic Census\nIndustry size and structure\nTimeliness (5 years)\nEconomic Census\n\n\nBTOS\nNear real-time business sentiment\nDepth/detail\nBTOS",
     "crumbs": [
       "Evidence Toolkit",
       "E1. Public Data Toolkit"
@@ -1410,8 +1597,8 @@
     "objectID": "tk1-public-data.html#global-comparative",
     "href": "tk1-public-data.html#global-comparative",
     "title": "E1. Public Data Toolkit",
-    "section": "Global & Comparative",
-    "text": "Global & Comparative\nSometimes the question isn’t just what’s happening here but how does here compare to there. Global data sources let you benchmark across countries and regions — from health and wealth to education and trade.\n\nGapminder makes big-picture global trends easy to see through interactive visuals.\n\nOur World in Data provides clean datasets and charts on everything from energy to health outcomes.\n\nUN, IMF, and related datasets supply official international indicators for economics, development, and finance.\n\nUse these when you’re exploring international expansion, comparing regions, or looking for broad global signals.\n\nGapminder\nVisit Gapminder\nGood For: Visualizing global trends in income, health, education, and population over time.\nNot Great For: Fine-grained or up-to-the-minute data; it’s designed for clarity and teaching, not for industry-specific detail.\n\nFast Track\n\nGo to Gapminder Tools and pick indicators (e.g., income, life expectancy).\n\nAdjust regions or countries to compare side by side.\n\nWatch how the bubbles shift over time to see long-term trends.\n\n\n\nEntrepreneur’s Use Case\nA health-tech startup used Gapminder to compare diabetes rates and income levels. They spotted rising middle-income countries where chronic disease was accelerating — a future demand signal.\n\n\nPro Tip\nUse it as a trend spotter. Once you see where the world is heading, dive deeper with more specific data.\n\n\n\n\nOur World in Data\nVisit Our World in Data\nGood For: Clean, research-backed datasets and charts on global issues — energy, environment, health, poverty, technology adoption, and more.\nNot Great For: Local or micro-level data; it’s focused on big-picture global questions.\n\nFast Track\n\nSearch for your topic (e.g., renewable energy, internet adoption).\n\nExplore the interactive charts with built-in download options.\n\nUse the “Data” tab to export underlying numbers if you need your own analysis.\n\n\n\nEntrepreneur’s Use Case\nA solar appliance startup saw OWID charts showing electricity access growing but still unreliable in rural Africa. That insight pushed them to develop backup-powered solutions.\n\n\nPro Tip\nTreat it as a big-picture briefing book — perfect for pitch decks and framing the global context.\n\n\n\n\nUN & IMF Datasets\nUN Data | IMF Data\nGood For: Official international indicators on economics, trade, finance, development, and population.\nNot Great For: Easy browsing — the interfaces can feel technical and heavy for first-time users.\n\nFast Track\n\nOn UN Data, search for country profiles to get population, health, and economic basics.\n\nOn IMF Data, explore reports like the World Economic Outlook for forecasts.\n\nDownload tables or reports to compare across multiple countries.\n\n\n\nEntrepreneur’s Use Case\nA fintech startup narrowed six possible Latin American markets to two by checking IMF forecasts for GDP stability and low inflation. The data gave them confidence to choose.\n\n\nPro Tip\nUse these when credibility matters — investor decks and international partners trust these sources.\n\n\n\n\n\n\n\nQuick Reference: Global & Comparative\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nGapminder\nVisual global development trends\nIndustry detail\ngapminder.org\n\n\nOur World in Data\nGlobal health, energy, environment\nLocal insights\nourworldindata.org\n\n\nUN Data / IMF\nOfficial international benchmarks\nEase of use\nUN Data / IMF Data",
+    "section": "4. Global & Comparative",
+    "text": "4. Global & Comparative\nSometimes the question isn’t just what’s happening here but how does here compare to there. Global data sources let you benchmark across countries and regions — from health and wealth to education and trade.\n\nGapminder makes big-picture global trends easy to see through interactive visuals.\n\nOur World in Data provides clean datasets and charts on everything from energy to health outcomes.\n\nUN, IMF, and related datasets supply official international indicators for economics, development, and finance.\n\nUse these when you’re exploring international expansion, comparing regions, or looking for broad global signals.\n\nGapminder\nVisit Gapminder\nGood For: Visualizing global trends in income, health, education, and population over time.\nNot Great For: Fine-grained or up-to-the-minute data; it’s designed for clarity and teaching, not for industry-specific detail.\n\nFast Track\n\nGo to Gapminder Tools and pick indicators (e.g., income, life expectancy).\n\nAdjust regions or countries to compare side by side.\n\nWatch how the bubbles shift over time to see long-term trends.\n\n\n\nEntrepreneur’s Use Case\nA health-tech startup used Gapminder to compare diabetes rates and income levels. They spotted rising middle-income countries where chronic disease was accelerating — a future demand signal.\n\n\nPro Tip\nUse it as a trend spotter. Once you see where the world is heading, dive deeper with more specific data.\n\n\n\n\nOur World in Data\nVisit Our World in Data\nGood For: Clean, research-backed datasets and charts on global issues — energy, environment, health, poverty, technology adoption, and more.\nNot Great For: Local or micro-level data; it’s focused on big-picture global questions.\n\nFast Track\n\nSearch for your topic (e.g., renewable energy, internet adoption).\n\nExplore the interactive charts with built-in download options.\n\nUse the “Data” tab to export underlying numbers if you need your own analysis.\n\n\n\nEntrepreneur’s Use Case\nA solar appliance startup saw OWID charts showing electricity access growing but still unreliable in rural Africa. That insight pushed them to develop backup-powered solutions.\n\n\nPro Tip\nTreat it as a big-picture briefing book — perfect for pitch decks and framing the global context.\n\n\n\n\nUN & IMF Datasets\nUN Data | IMF Data\nGood For: Official international indicators on economics, trade, finance, development, and population.\nNot Great For: Easy browsing — the interfaces can feel technical and heavy for first-time users.\n\nFast Track\n\nOn UN Data, search for country profiles to get population, health, and economic basics.\n\nOn IMF Data, explore reports like the World Economic Outlook for forecasts.\n\nDownload tables or reports to compare across multiple countries.\n\n\n\nEntrepreneur’s Use Case\nA fintech startup narrowed six possible Latin American markets to two by checking IMF forecasts for GDP stability and low inflation. The data gave them confidence to choose.\n\n\nPro Tip\nUse these when credibility matters — investor decks and international partners trust these sources.\n\n\n\n\n\n\n\nQuick Reference: Global & Comparative\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nGapminder\nVisual global development trends\nIndustry detail\ngapminder.org\n\n\nOur World in Data\nGlobal health, energy, environment\nLocal insights\nourworldindata.org\n\n\nUN Data / IMF\nOfficial international benchmarks\nEase of use\nUN Data / IMF Data",
     "crumbs": [
       "Evidence Toolkit",
       "E1. Public Data Toolkit"
@@ -1421,8 +1608,8 @@
     "objectID": "tk1-public-data.html#open-data-platforms",
     "href": "tk1-public-data.html#open-data-platforms",
     "title": "E1. Public Data Toolkit",
-    "section": "Open Data Platforms",
-    "text": "Open Data Platforms\nNot all data comes from government or research institutions. Increasingly, it’s gathered and shared on open platforms. These are treasure troves of raw material, ready to be explored or downloaded.\n\nKaggle hosts community-uploaded datasets on everything from e-commerce to sports.\n\nLocal open-data portals (often run by city or state governments) publish things like health inspections, zoning data, or business licenses.\n\nStatista (limited free version) aggregates charts and data across industries and geographies.\n\nThese platforms are great for quick exploration or for finding datasets you can plug directly into analysis tools.\n\nKaggle Datasets\nVisit Kaggle Datasets\nGood For: A huge variety of free, community-uploaded datasets — from retail transactions to sports stats. Great for practice or testing ideas quickly.\nNot Great For: Official, verified statistics; quality varies since anyone can upload.\n\nFast Track\n\nGo to Kaggle’s Datasets section and search by keyword (e.g., “coffee sales” or “cryptocurrency”).\n\nPreview the dataset size and description before downloading.\n\nUse the built-in tools or export to Excel/R for your own analysis.\n\n\n\nEntrepreneur’s Use Case\nA founder building a résumé-scoring app downloaded a Kaggle dataset of job postings. It let him test which skills employers valued most — without gathering data himself.\n\n\nPro Tip\nTreat it as a sandbox. Great for testing ideas, but always cross-check before betting big.\n\n\n\n\nLocal Open-Data Portals\nExplore U.S. Cities\nGood For: City- or state-level datasets like business licenses, restaurant inspections, transit data, zoning, or crime statistics.\nNot Great For: Broad national or global comparisons — coverage depends on whether your city/state maintains a portal.\n\nFast Track\n\nSearch “open data” + your city or state (e.g., “Chicago open data portal”).\n\nBrowse by category (business, health, transportation).\n\nDownload datasets directly as CSV or use interactive dashboards.\n\n\n\nEntrepreneur’s Use Case\nA food truck owner pulled her city’s restaurant closure data. One district had heavy demand but lots of recent closures. She set up there — and found eager customers with little competition.\n\n\nPro Tip\nPerfect for hyper-local ventures. The nuggets here often don’t exist in national datasets.\n\n\n\n\nStatista (Limited Free Version)\nVisit Statista\nGood For: Quick, visual snapshots of industry stats, market forecasts, and consumer data.\nNot Great For: Free depth — most detailed reports require a subscription.\n\nFast Track\n\nUse the search bar for your industry or topic.\n\nExplore free charts (look for the “download” option).\n\nNote the cited source at the bottom — you can often find the original data for free.\n\n\n\nEntrepreneur’s Use Case\nA startup pitching investors grabbed a Statista chart on e-commerce growth. Tracing the citation, they found the original OECD dataset — free and with more detail.\n\n\nPro Tip\nAlways trace the citation. Statista charts are presentation-ready, but the original source is often free.\n\n\n\nQuick Reference: Open Data Platforms\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nKaggle\nCommunity datasets, prototyping\nVerified accuracy\nkaggle.com/datasets\n\n\nLocal Open Data Portals\nCity/state-specific business and health data\nNational/global view\nopendatanetwork.com\n\n\nStatista (free)\nPresentation-ready charts\nFull access (paid)\nstatista.com",
+    "section": "5. Open Data Platforms",
+    "text": "5. Open Data Platforms\nNot all data comes from government or research institutions. Increasingly, it’s gathered and shared on open platforms. These are treasure troves of raw material, ready to be explored or downloaded.\n\nKaggle hosts community-uploaded datasets on everything from e-commerce to sports.\n\nLocal open-data portals (often run by city or state governments) publish things like health inspections, zoning data, or business licenses.\n\nStatista (limited free version) aggregates charts and data across industries and geographies.\n\nThese platforms are great for quick exploration or for finding datasets you can plug directly into analysis tools.\n\nKaggle Datasets\nVisit Kaggle Datasets\nGood For: A huge variety of free, community-uploaded datasets — from retail transactions to sports stats. Great for practice or testing ideas quickly.\nNot Great For: Official, verified statistics; quality varies since anyone can upload.\n\nFast Track\n\nGo to Kaggle’s Datasets section and search by keyword (e.g., “soda sales” or “cryptocurrency”).\n\nPreview the dataset size and description before downloading.\n\nUse the built-in tools or export to Excel/R for your own analysis.\n\n\n\nEntrepreneur’s Use Case\nA founder building a résumé-scoring app downloaded a Kaggle dataset of job postings. It let him test which skills employers valued most — without gathering data himself.\n\n\nPro Tip\nTreat it as a sandbox. Great for testing ideas, but always cross-check before betting big.\n\n\n\n\nLocal Open-Data Portals\nExplore U.S. Cities\nGood For: City- or state-level datasets like business licenses, restaurant inspections, transit data, zoning, or crime statistics.\nNot Great For: Broad national or global comparisons — coverage depends on whether your city/state maintains a portal.\n\nFast Track\n\nSearch “open data” + your city or state (e.g., “Chicago open data portal”).\n\nBrowse by category (business, health, transportation).\n\nDownload datasets directly as CSV or use interactive dashboards.\n\n\n\nEntrepreneur’s Use Case\nA food truck owner pulled her city’s restaurant closure data. One district had heavy demand but lots of recent closures. She set up there — and found eager customers with little competition.\n\n\nPro Tip\nPerfect for hyper-local ventures. The nuggets here often don’t exist in national datasets.\n\n\n\n\nStatista (Limited Free Version)\nVisit Statista\nGood For: Quick, visual snapshots of industry stats, market forecasts, and consumer data.\nNot Great For: Free depth — most detailed reports require a subscription.\n\nFast Track\n\nUse the search bar for your industry or topic.\n\nExplore free charts (look for the “download” option).\n\nNote the cited source at the bottom — you can often find the original data for free.\n\n\n\nEntrepreneur’s Use Case\nA startup pitching investors grabbed a Statista chart on e-commerce growth. Tracing the citation, they found the original OECD dataset — free and with more detail.\n\n\nPro Tip\nAlways trace the citation. Statista charts are presentation-ready, but the original source is often free.\n\n\n\nQuick Reference: Open Data Platforms\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nKaggle\nCommunity datasets, prototyping\nVerified accuracy\nkaggle.com/datasets\n\n\nLocal Open Data Portals\nCity/state-specific business and health data\nNational/global view\nopendatanetwork.com\n\n\nStatista (free)\nPresentation-ready charts\nFull access (paid)\nstatista.com",
     "crumbs": [
       "Evidence Toolkit",
       "E1. Public Data Toolkit"
@@ -1432,8 +1619,8 @@
     "objectID": "tk1-public-data.html#specialty-applied-sources",
     "href": "tk1-public-data.html#specialty-applied-sources",
     "title": "E1. Public Data Toolkit",
-    "section": "Specialty & Applied Sources",
-    "text": "Specialty & Applied Sources\nSome questions don’t need broad statistics — they need practical, applied answers. Specialty sources give you guides, rules, and niche datasets designed for entrepreneurs.\n\nSBA Market Research and Competitive Analysis tools walk you through planning and industry insights.\n\nFTC Advertising & Marketing Basics outline the legal do’s and don’ts for promotions.\n\nCountry Commercial Guides provide detailed reports on regulations, risks, and opportunities in specific countries.\n\nThese aren’t massive datasets — they’re targeted resources that save you time and help you avoid costly mistakes.\n\nSBA Market Research & Competitive Analysis\nVisit SBA Market Research\nGood For: Step-by-step guidance on how to size markets, identify competitors, and build a research plan.\nNot Great For: Raw data — it’s a guide, not a dataset.\n\nFast Track\n\nGo to the SBA Market Research page.\n\nExplore the Market Research & Competitive Analysis guide.\n\nUse their templates and tools to structure your own market study.\n\n\n\nEntrepreneur’s Use Case\nA first-time founder used the SBA’s competitor template to map coffee shops before pitching a bank loan. The structured plan boosted her credibility with lenders.\n\n\nPro Tip\nUse SBA templates to structure your plan. Even if you add more data later, the framework builds credibility.\n\n\n\n\nFTC Advertising & Marketing Basics\nVisit FTC Advertising and Marketing Basics\nGood For: Understanding the legal ground rules for marketing — endorsements, online ads, email campaigns, and truth-in-advertising.\nNot Great For: Market sizing or strategy; this is about compliance, not customers.\n\nFast Track\n\nVisit the FTC Advertising & Marketing Basics page.\n\nReview sections relevant to your channel (e.g., social media, email).\n\nCheck the guides on endorsements and disclosures before launching a campaign.\n\n\n\nEntrepreneur’s Use Case\nA wellness startup reviewed FTC guidelines before posting testimonials. They rewrote claims to avoid misleading health promises — sidestepping a costly cease-and-desist.\n\n\nPro Tip\nThink of this as your legal safety net. A quick check here can save you a costly violation.\n\n\n\n\nCountry Commercial Guides\nVisit Country Commercial Guides\nGood For: Detailed country-by-country reports on business environments, regulations, risks, and opportunities.\nNot Great For: Quick, high-level snapshots; these guides are thorough and sometimes dense.\n\nFast Track\n\nGo to the Country Commercial Guides page.\n\nSelect the country you’re interested in.\n\nSkim the sections on market conditions, barriers, and entry strategies.\n\n\n\nEntrepreneur’s Use Case\nA software startup checked Vietnam’s Commercial Guide. Strict data storage laws surfaced early, shaping their localization plans before costly mistakes.\n\n\nPro Tip\nRead these before committing to international expansion. They flag risks you won’t catch from stats alone.\n\n\n\n\nQuick Reference: Specialty & Applied Sources\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nSBA Market Research Tools\nTemplates for market/competitive analysis\nRaw data\nSBA Market Research\n\n\nFTC Advertising Basics\nCompliance for ads and endorsements\nMarket sizing\nFTC Advertising\n\n\nCountry Commercial Guides\nInternational market conditions & entry rules\nQuick snapshots\ntrade.gov",
+    "section": "6. Specialty & Applied Sources",
+    "text": "6. Specialty & Applied Sources\nSome questions don’t need broad statistics — they need practical, applied answers. Specialty sources give you guides, rules, and niche datasets designed for entrepreneurs.\n\nSBA Market Research and Competitive Analysis tools walk you through planning and industry insights.\n\nFTC Advertising & Marketing Basics outline the legal do’s and don’ts for promotions.\n\nCountry Commercial Guides provide detailed reports on regulations, risks, and opportunities in specific countries.\n\nThese aren’t massive datasets — they’re targeted resources that save you time and help you avoid costly mistakes.\n\nSBA Market Research & Competitive Analysis\nVisit SBA Market Research\nGood For: Step-by-step guidance on how to size markets, identify competitors, and build a research plan.\nNot Great For: Raw data — it’s a guide, not a dataset.\n\nFast Track\n\nGo to the SBA Market Research page.\n\nExplore the Market Research & Competitive Analysis guide.\n\nUse their templates and tools to structure your own market study.\n\n\n\nEntrepreneur’s Use Case\nA first-time founder used the SBA’s competitor template to map coffee shops before pitching a bank loan. The structured plan boosted her credibility with lenders.\n\n\nPro Tip\nUse SBA templates to structure your plan. Even if you add more data later, the framework builds credibility.\n\n\n\n\nFTC Advertising & Marketing Basics\nVisit FTC Advertising and Marketing Basics\nGood For: Understanding the legal ground rules for marketing — endorsements, online ads, email campaigns, and truth-in-advertising.\nNot Great For: Market sizing or strategy; this is about compliance, not customers.\n\nFast Track\n\nVisit the FTC Advertising & Marketing Basics page.\n\nReview sections relevant to your channel (e.g., social media, email).\n\nCheck the guides on endorsements and disclosures before launching a campaign.\n\n\n\nEntrepreneur’s Use Case\nA wellness startup reviewed FTC guidelines before posting testimonials. They rewrote claims to avoid misleading health promises — sidestepping a costly cease-and-desist.\n\n\nPro Tip\nThink of this as your legal safety net. A quick check here can save you a costly violation.\n\n\n\n\nCountry Commercial Guides\nVisit Country Commercial Guides\nGood For: Detailed country-by-country reports on business environments, regulations, risks, and opportunities.\nNot Great For: Quick, high-level snapshots; these guides are thorough and sometimes dense.\n\nFast Track\n\nGo to the Country Commercial Guides page.\n\nSelect the country you’re interested in.\n\nSkim the sections on market conditions, barriers, and entry strategies.\n\n\n\nEntrepreneur’s Use Case\nA software startup checked Vietnam’s Commercial Guide. Strict data storage laws surfaced early, shaping their localization plans before costly mistakes.\n\n\nPro Tip\nRead these before committing to international expansion. They flag risks you won’t catch from stats alone.\n\n\n\n\nQuick Reference: Specialty & Applied Sources\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nSBA Market Research Tools\nTemplates for market/competitive analysis\nRaw data\nSBA Market Research\n\n\nFTC Advertising Basics\nCompliance for ads and endorsements\nMarket sizing\nFTC Advertising\n\n\nCountry Commercial Guides\nInternational market conditions & entry rules\nQuick snapshots\ntrade.gov",
     "crumbs": [
       "Evidence Toolkit",
       "E1. Public Data Toolkit"
@@ -1451,6 +1638,226 @@
     ]
   },
   {
+    "objectID": "tk2-private-data.html",
+    "href": "tk2-private-data.html",
+    "title": "E2. Private Data Toolkit",
+    "section": "",
+    "text": "1. Industry & Finance\nPrivate data isn’t “hidden” so much as behind doors: library logins, paid subscriptions, and vendor portals. The payoff is depth — ratios, panels, deal flow, and category reports that go far beyond Google.\nThink in pairs as you gather evidence:\nYou’re deciding how the game works and what “normal” looks like in dollars. Use industry sources for structure and size; finance sources for ratios, quartiles, and money facts.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E2. Private Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk2-private-data.html#industry-finance",
+    "href": "tk2-private-data.html#industry-finance",
+    "title": "E2. Private Data Toolkit",
+    "section": "",
+    "text": "BizMiner\nUse BizMiner (BYU access)\nGood For: Industry financial profiles, failure rates, local vs. national benchmarks.\nNot Great For: Narrative reports or consumer insight.\n\nFast Track\n\nSearch by NAICS and geography.\n\nOpen Financial Profiles for margins and costs; Market Profiles for counts and growth.\n\nExport the ratio table (quartiles) and translate into unit economics.\n\n\n\nEntrepreneur’s Use Case\nA furniture maker scouting a second plant saw one county had 2× more wood suppliers within 50 miles. Lower transport costs tipped the decision.\n\n\nPro Tip\nUse quartiles, not single points. Your early ops won’t hit “median.”\n\n\n\n\nMergent Key Business Ratios (KBR)\nUse Mergent KBR (BYU access)\nGood For: 14 core ratios across 800+ industries with quartiles.\nNot Great For: Story or context — it’s strictly numbers.\n\nFast Track\n\nEnter industry (SIC/NAICS).\n\nPull 3-year ratio sets (upper/median/lower).\n\nMap to your COGS, SG&A, inventory turns, coverage.\n\n\n\nEntrepreneur’s Use Case\nA DTC apparel startup used KBR to sanity-check inventory turns and gross margin assumptions before ordering their first run.\n\n\nPro Tip\nUse KBR to bound your financial model: best/worst/typical.\n\n\n\n\nIBISWorld\nUse IBISWorld (BYU access)\nGood For: Industry overviews: size, drivers, risks, five-year outlook.\nNot Great For: Local detail or financial ratios.\n\nFast Track\n\nOpen your industry profile.\n\nSkim Key Drivers, Competitive Landscape, Outlook.\n\nGrab Cost Structure to stress-test your assumptions.\n\n\n\nEntrepreneur’s Use Case\nAn HVAC contractor saw IBISWorld flag labor constraints as the #1 risk and prioritized technician recruiting ahead of demand spikes.\n\n\nPro Tip\nPair IBISWorld’s forest view with BizMiner/KBR’s trees.\n\n\n\n\nS&P Capital IQ (advanced)\nUse CapIQ (BYU access; limited seats)\nGood For: Public & larger private company financials, comps, screeners.\nNot Great For: Lightweight browsing — it’s deep and technical.\n\nFast Track\n\nRun a comps screen (size, growth, geography).\n\nExport multiples and margins.\n\nTranslate into your valuation & milestones.\n\n\n\nEntrepreneur’s Use Case\nA B2B founder sized a seed round by matching comps’ ARR and gross margin at the next round — then worked backward to milestones.\n\n\nPro Tip\nCapture ranges (top/middle/bottom deciles), not single “target” numbers.\n\n\n\n\nQuick Reference: Industry & Finance\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nBizMiner\nLocal industry financials, failure rates\nNarrative reports\nbizminer.com\n\n\nMergent KBR\nIndustry ratio quartiles (14 core ratios)\nContext/story\nmergentkbr.com\n\n\nIBISWorld\nSize, drivers, risks, five-year outlook\nLocal ratios\nHBLL → IBISWorld\n\n\nS&P Capital IQ\nDeep comps, valuations, screening\nQuick scans\nHBLL → Capital IQ",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E2. Private Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk2-private-data.html#markets-consumers",
+    "href": "tk2-private-data.html#markets-consumers",
+    "title": "E2. Private Data Toolkit",
+    "section": "2. Markets & Consumers",
+    "text": "2. Markets & Consumers\nYou’re deciding who buys, why, and through which channels. Combine attitudes (what people say) with behavior (what they do).\n\nSimmons (MRI-Simmons)\nUse Simmons (BYU access)\nGood For: Psychographics, media habits, brand affinities; cross-tabs.\nNot Great For: Real-time behavior.\n\nFast Track\n\nFilter your segment (age, income, interests).\n\nCross-tab attitudes × category usage × media.\n\nPull a media plan from where your segment actually spends time.\n\n\n\nEntrepreneur’s Use Case\nA snack startup found their core buyers over-index on YouTube + convenience stores — they shifted ad spend and distribution accordingly.\n\n\nPro Tip\nSegment by payer and user when they’re different.\n\n\n\n\nMintel\nUse Mintel (BYU access)\nGood For: Category deep-dives with consumer attitudes and brand views.\nNot Great For: Raw microdata.\n\nFast Track\n\nOpen your category report.\n\nSkim Trends, Purchase Factors, Consumer Segments.\n\nGrab charts for briefings and pair with your pilot learnings.\n\n\n\nEntrepreneur’s Use Case\nA beverage brand saw “low-sugar” outpacing “zero-calorie” in Mintel insights — they reformulated and won shelf space.\n\n\nPro Tip\nUse Mintel for what to message; validate how with A/B tests.\n\n\n\n\nEuromonitor Passport\nUse Passport (BYU access)\nGood For: Global category sizes, channels, price tiers, forecasts.\nNot Great For: Hyper-local nuance.\n\nFast Track\n\nSelect Category × Country.\n\nCompare channel shares and price band growth.\n\nExport a country stack-rank for expansion.\n\n\n\nEntrepreneur’s Use Case\nAn apparel brand saw mid-tier growth in Mexico but premium in Chile; they adjusted assortment by market.\n\n\nPro Tip\nLet channel + price data shape your go-to-market, not just “total market.”\n\n\n\n\nStatista (licensed)\nUse Statista (BYU access)\nGood For: Presentation-ready charts across industries.\nNot Great For: Primary sources (many charts aggregate others).\n\nFast Track\n\nSearch topic → open chart.\n\nTrace the citation to the original dataset when possible.\n\nDownload visuals for pitch drafts.\n\n\n\nEntrepreneur’s Use Case\nA founder traced a Statista e-commerce chart back to OECD to get free, deeper tables for the appendix.\n\n\nPro Tip\nStatista is a jumping-off point — cite the primary when you can.\n\n\n\n\nQuick Reference: Markets & Consumers\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nSimmons\nPsychographics, media, brand cross-tabs\nReal-time behavior\nHBLL → Simmons\n\n\nMintel\nCategory reports + consumer attitudes\nMicrodata\nHBLL → Mintel\n\n\nEuromonitor Passport\nGlobal category/channel/price\nLocal nuance\nHBLL → Passport\n\n\nStatista (licensed)\nFast charts for decks\nPrimary data\nstatista.com",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E2. Private Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk2-private-data.html#demographics-society",
+    "href": "tk2-private-data.html#demographics-society",
+    "title": "E2. Private Data Toolkit",
+    "section": "3. Demographics & Society",
+    "text": "3. Demographics & Society\nYou’re deciding where your people are and how they live over time. Use maps and longitudinal surveys to add context that public sources can’t match as quickly.\n\nSocial Explorer\nUse Social Explorer (BYU access)\nGood For: Mapped demographics, income, housing, business patterns.\nNot Great For: Real-time consumer intent.\n\nFast Track\n\nMap target geos (zip/tract).\n\nLayer age, income, household type, business patterns.\n\nExport a location shortlist.\n\n\n\nEntrepreneur’s Use Case\nA childcare startup found tracts with high dual-income households but few licensed providers — and launched there first.\n\n\nPro Tip\nMap supply + demand layers together (customers and competitors).\n\n\n\n\nIPUMS (public, advanced)\nVisit IPUMS\nGood For: Microdata extracts across time (ACS/Census).\nNot Great For: Click-and-go dashboards; requires setup.\n\nFast Track\n\nRegister → Extract Builder.\n\nSelect years, geos, variables (age, income, commute).\n\nDownload and summarize for your segment.\n\n\n\nEntrepreneur’s Use Case\nA transit app analyzed commute times by tract to price “late-window” guarantees only where delays were chronic.\n\n\nPro Tip\nUse IPUMS when you need custom cuts public tables can’t give you.\n\n\n\n\nGeneral Social Survey (GSS)\nVisit GSS\nGood For: Long-run attitudes and social change in the U.S.\nNot Great For: Immediate purchase behavior.\n\nFast Track\n\nSearch variables aligned to your category (e.g., trust, tech views).\n\nTrend cohorts (age/education) over decades.\n\nUse charts to frame societal tailwinds/headwinds.\n\n\n\nEntrepreneur’s Use Case\nA fintech team used GSS trust trends to justify extra transparency features in onboarding.\n\n\nPro Tip\nGreat for context slides: why the world is moving your way.\n\n\n\n\nHarris (Harris Poll / Harris Interactive)\nVisit Harris Poll\nGood For: Ongoing opinion polling on brands and society.\nNot Great For: Deep microdata without a license.\n\nFast Track\n\nSearch for your category and brand signals.\n\nPull crosstabs if available (age/income).\n\nCombine with behavioral or sales data to validate.\n\n\n\nEntrepreneur’s Use Case\nA DTC brand saw trust gaps by age in Harris data and redesigned creative for 45+.\n\n\nPro Tip\nDon’t read attitudes as destiny — validate with behavior.\n\n\n\n\nQuick Reference: Demographics & Society\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nSocial Explorer\nMapped demographics & business patterns\nReal-time intent\nsocialexplorer.com\n\n\nIPUMS\nCustom microdata cuts over time\nTurnkey UX\nusa.ipums.org\n\n\nGSS\nLong-run social attitudes\nProduct behavior\ngss.norc.org\n\n\nHarris\nBrand/societal sentiment\nRaw microdata\ntheharrispoll.com",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E2. Private Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk2-private-data.html#deals-competitors",
+    "href": "tk2-private-data.html#deals-competitors",
+    "title": "E2. Private Data Toolkit",
+    "section": "4. Deals & Competitors",
+    "text": "4. Deals & Competitors\nYou’re deciding who funds whom, where money is going, and how rivals are moving.\n\nPitchBook\nUse PitchBook (BYU access)\nGood For: VC/PE deals, rounds, valuations, investor theses.\nNot Great For: Small bootstrapped companies.\n\nFast Track\n\nSearch deals in your space (stage, geography).\n\nBuild an investor list that repeats in your pattern.\n\nExport comps to set raise size and milestones.\n\n\n\nEntrepreneur’s Use Case\nA vertical-SaaS founder found 12 angels who repeatedly back channel-led SaaS — and tailored outreach to that pattern.\n\n\nPro Tip\nUse PitchBook to aim the raise and shape milestones.\n\n\n\n\nPreqin\nUse Preqin (BYU access)\nGood For: Private markets beyond VC — PE, real estate, infra, hedge.\nNot Great For: Early-stage startup activity.\n\nFast Track\n\nFilter by asset class, region, ticket size.\n\nIdentify LP/GPs that match your space.\n\nTrack deal themes to inform strategy.\n\n\n\nEntrepreneur’s Use Case\nA climate-hardware startup discovered infra-focused funds backing community-scale storage — and rewired their go-to-market to fit.\n\n\nPro Tip\nIf you’re capex-heavy, Preqin &gt; PitchBook.\n\n\n\n\nPrivCo\nUse PrivCo (BYU access)\nGood For: Large private company revenues, headcount, ownership.\nNot Great For: Very small or stealth companies.\n\nFast Track\n\nSearch private competitors.\n\nCompare estimated revenues and growth.\n\nNote ownership and acquisition signals.\n\n\n\nEntrepreneur’s Use Case\nA logistics startup saw a rival’s headcount spike in sales roles and accelerated their own SDR hiring.\n\n\nPro Tip\nTreat private company numbers as directional, not audited.\n\n\n\n\nMergent Intellect / Mergent Online\nUse Mergent (BYU access)\nGood For: Company directories (public & private), D&B data, screening.\nNot Great For: Deep private financials.\n\nFast Track\n\nBuild a competitor list (filters: NAICS, geo, size).\n\nExport locations and map proximity.\n\nUse for sales territory and site selection.\n\n\n\nEntrepreneur’s Use Case\nA services startup mapped competitors’ locations and found white-space zip codes for first office placement.\n\n\nPro Tip\nGreat for lists and maps; pair with deeper sources for strategy.\n\n\n\n\nQuick Reference: Deals & Competitors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource\nBest For\nNot Great For\nLink\n\n\n\n\nPitchBook\nVC/PE deals, investors, valuations\nBootstrapped firms\nHBLL → PitchBook\n\n\nPreqin\nAlternative assets (infra/real estate/PE)\nEarly-stage VC\nHBLL → Preqin\n\n\nPrivCo\nLarge private company profiles\nVery small firms\nHBLL → PrivCo\n\n\nMergent Intellect/Online\nCompany lists, screening\nDeep financials\nHBLL → Mergent",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E2. Private Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk2-private-data.html#hbll-specialty-textdata-mining",
+    "href": "tk2-private-data.html#hbll-specialty-textdata-mining",
+    "title": "E2. Private Data Toolkit",
+    "section": "HBLL Specialty: Text/Data Mining",
+    "text": "HBLL Specialty: Text/Data Mining\n\nProQuest TDM Studio (limited seats; librarian support recommended)\nUse ProQuest TDM Studio\nGood For: Text mining across ProQuest content (news, dissertations).\nNot Great For: Self-serve access at peak times; one-user campus limit.\n\nFast Track\n\nBook time / ask HBLL for access window.\n\nDefine your corpus (sources, dates).\n\nRun topics/sentiment/trends; export visuals for briefs.\n\n\n\nEntrepreneur’s Use Case\nA fintech team mined two years of regional business news to quantify pain points around lending — fuel for messaging tests.\n\n\nPro Tip\nCome with a narrow question; TDM can be a rabbit hole.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E2. Private Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk2-private-data.html#common-pitfalls-and-fixes",
+    "href": "tk2-private-data.html#common-pitfalls-and-fixes",
+    "title": "E2. Private Data Toolkit",
+    "section": "Common Pitfalls (and Fixes)",
+    "text": "Common Pitfalls (and Fixes)\n\n\n\n\n\n\nPitfall: License & “educational use only.”\nFix: Check terms before exporting, sharing, or using outside class. Summarize insights; don’t redistribute PDFs.\n\n\n\n\n\n\n\n\n\nPitfall: Apples vs. oranges across sources.\nFix: Align definitions (NAICS/SIC, geo, channel, time window) before comparing.\n\n\n\n\n\n\n\n\n\nPitfall: False certainty from polished charts.\nFix: Convert to decisions: ratios → unit economics; category size → beachhead; comps → raise & milestones.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E2. Private Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk2-private-data.html#byu-access-tips-quick",
+    "href": "tk2-private-data.html#byu-access-tips-quick",
+    "title": "E2. Private Data Toolkit",
+    "section": "BYU Access Tips (Quick)",
+    "text": "BYU Access Tips (Quick)\n\n\n\n\n\n\n\nStart at the HBLL database page so licenses are recognized.\n\nMany tools require account creation with BYU email; some have limited seats (CapIQ, ProQuest TDM).\n\nWhen sources cite others (e.g., Statista → OECD), follow the trail — the original is often free and deeper.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E2. Private Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk2-private-data.html#entrepreneurs-checklist-using-private-data",
+    "href": "tk2-private-data.html#entrepreneurs-checklist-using-private-data",
+    "title": "E2. Private Data Toolkit",
+    "section": "Entrepreneur’s Checklist: Using Private Data",
+    "text": "Entrepreneur’s Checklist: Using Private Data\n\n\n\n\n\n\n\nFrame the decision. What choice will this change?\n\nPick the pair. Industry & Finance, Markets & Consumers, Demographics & Society, or Deals & Competitors.\n\nGrab one per side. Enough to get ranges, not false precision.\n\nNote license limits. Educational vs. commercial; cite responsibly.\n\nTranslate to action. Price, channel, feature cut, investor list.\n\nLog assumptions. What would make you revisit?",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E2. Private Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk2-private-data.html#a-final-word",
+    "href": "tk2-private-data.html#a-final-word",
+    "title": "E2. Private Data Toolkit",
+    "section": "A Final Word",
+    "text": "A Final Word\nThis Toolkit is a doorway, not a destination. Use it when you need sharper numbers or faster falsification — then get back to building.\n\n\n\n\n\n\nTrap to Avoid: Free ≠ Easy; Paid ≠ Truth.\nPrivate data can be deep and shiny. Treat it as evidence to decide, not decoration for slides. Pair it with fresh signals and your own tests.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E2. Private Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk3-customer-data.html",
+    "href": "tk3-customer-data.html",
+    "title": "E3. Customer Data Toolkit",
+    "section": "",
+    "text": "Why This Toolkit Exists\nWhen you leave a customer conversation, open a survey, or ship a prototype, you’re not “collecting feedback”—you’re running an experiment. This toolkit keeps those experiments small, honest, and useful.\nIt’s not a research textbook. It’s a bench manual: what to do next, common traps, and the smallest move that gives you the next signal.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk3-customer-data.html#why-this-toolkit-exists",
+    "href": "tk3-customer-data.html#why-this-toolkit-exists",
+    "title": "E3. Customer Data Toolkit",
+    "section": "",
+    "text": "How to Use This Toolkit\n\n\n\n\nStart with your urgent unknown.\n“What must we learn before we spend more money or time?”\nPick the lightest method that fits.\nConversation, survey, prototype, usage, pricing, observation, A/B.\nName the trap → design the boost.\nEvery section flags a failure mode and a fix.\nRun small, log outcomes, triangulate.\nDon’t bet big on a single signal—pair methods before you decide.\n\n\n\n\n\n\n\n\n\nEthics & Respect\n\n\n\n\nConsent & privacy: Be clear, ask permission, anonymize when possible.\n\nLicenses: Use library and platform data within allowed terms.\n\nNo dark patterns: Evidence should reveal value, not trick people.\n\n\n\n\nRule of thumb: Use the cheapest, fastest method to learn what matters— and always ask whether the learning is worth the cost.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk3-customer-data.html#conversations-observation",
+    "href": "tk3-customer-data.html#conversations-observation",
+    "title": "E3. Customer Data Toolkit",
+    "section": "1. Conversations & Observation",
+    "text": "1. Conversations & Observation\nBest for: exploratory learning when you don’t yet know the problem clearly.\n\nMethods\n\nInterviews – One-on-one, open-ended conversations. Probe for stories and emotions, not just surface opinions.\n\nFocus groups – Small group discussions that reveal shared patterns and group dynamics (but watch for conformity bias).\n\nShadowing / ethnography – Observe customers in their natural environment. Look for workarounds, shortcuts, and unspoken pain points.\n\nCustomer journey mapping – Track the steps customers take, noting touchpoints, frustrations, and hacks they invent.\n\n\n\n\n\n\n\nTrap to Avoid\n\n\n\nAsking “Would you buy this?” too early. Early-stage interviews should uncover lived frustrations, not force a purchase decision.\n\n\n\n\n\n\n\n\nBoost: Cross-Check Timeliness\n\n\n\nTurn answers into stories.\nInstead of recording “They said checkout is slow,”\ncapture: “She showed me her online cart — it had been sitting there for 3 weeks because the shipping fees felt too high.”\nStories travel further in your mind (and your team’s mind) than bullet points.\n\n\n\n\n\n\n\n\n\nMini-Guide: Interview Structure\n\n\n\nA simple structure you can adapt:\n\nWarm-up – Easy questions to build rapport.\n\n“Tell me about the last time you [did X]…”\n\n\nStories & Pain Points – Probe for specifics.\n\n“Walk me through what happened, step by step.”\n\n“What was the hardest part?”\n\n\nWorkarounds – Learn how they cope.\n\n“What do you do instead when that happens?”\n\n\nDreams & Desires – Open space for imagining.\n\n“If you could wave a magic wand, how would you want it to work?”\n\n\nWrap-up – Invite connections.\n\n“Is there someone else you think I should talk to?”\n\n\n\n\n\n\n\n\n\n\n\nMini-Guide: How to run a 1-hour observation\n\n\n\n\nPick a setting where your target customers naturally spend time (store, gym, café, online community).\n\nBlend in / get permission. Don’t make people feel like lab rats — be transparent if needed.\n\nWatch workflows. Note what people do step by step, where they get stuck, and what tools or workarounds they use.\n\nTrack artifacts. What objects, devices, or hacks show up again and again?\n\nDebrief fast. Right after, jot down surprises, quotes, and hypotheses while fresh.\n\nChecklist — what to note:\n\nWhere and when the activity happens\n\nTools, products, or workarounds in play\n\nInteractions with others (help, bottlenecks, routines)\n\nGaps, frustrations, or “good enough” hacks\n\nEthics Reminder: Respect privacy. Don’t record without permission. Step back if observing feels intrusive.\n\n\n\n\nQuick Checklist\n\nAim for stories, not opinions.\n\nRecord (with permission) so you can listen more closely.\n\nAsk “When was the last time you…?” not “Would you ever…?”\n\nThank participants — they’re helping shape your learning.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk3-customer-data.html#surveys-questionnaires",
+    "href": "tk3-customer-data.html#surveys-questionnaires",
+    "title": "E3. Customer Data Toolkit",
+    "section": "2. Surveys & Questionnaires",
+    "text": "2. Surveys & Questionnaires\nSurveys are the workhorse of customer data: fast, scalable, and structured. They help you move from what you’ve heard in a few conversations to what’s common across a broader group. But surveys are only as good as their design. A sloppy survey amplifies bias; a careful one gives you a clear signal.\n\nWhen to use: After exploratory work, when you need to test hypotheses or measure how widespread a need or behavior is.\n\nGood for: Quantitative validation, quick comparisons, segmentation.\n\nNot great for: Deep discovery — if you don’t yet know the right questions to ask, go back to conversations.\n\n\n\n\n\n\n\n\nTrap: Biased or Leading Questions\n\n\n\nEntrepreneurs often write questions that steer people toward the answer they want. For example:\n\n“Wouldn’t you pay more for faster service?” (leading)\n\n“Do you like or dislike our product?” (double-barreled: assumes use and asks two things at once)\n\nA biased survey can be worse than no survey — it gives you false confidence.\n\n\n\n\n\n\n\n\nBoost: Structure Your Survey Like a Funnel\n\n\n\nThe most reliable surveys flow like this:\n\nScreeners — Make sure respondents are in your target population.\n\nExample: “Have you purchased coffee in the last 30 days?”\n\n\nContext/intro — Briefly describe your product or problem.\n\nExploratory questions — Open-ended first, to capture unprompted reactions.\n\nExample: “What do you like or dislike about current meal delivery services?”\n\n\nConfirmatory questions — Closed, structured, measurable.\n\nExample: “How often do you order meal delivery per week?”\n\nScale: “On a scale of 1–5, how important is delivery speed to you?”\n\n\nWrap-up/demographics — For segmentation (age, income, geography).\n\nThis funnel keeps data clean and avoids priming or leading.\n\n\n\n\n\n\n\n\n\nMini-Guide: Writing Strong Survey Questions\n\n\n\n\nAsk one thing at a time.\n\nKeep wording neutral (“How satisfied are you?” not “How great is this?”).\n\nMix question types: open-ended for discovery, closed-ended for measurement.\n\nTest your survey with 5–10 people first — refine before scaling.\n\nKeep it short (under 10 minutes is ideal).\n\n\n\n\n\n\nEntrepreneur’s Use Case\nA subscription box startup suspected customers valued convenience more than price. They designed a survey:\n\nScreened for recent subscription box buyers.\n\nAsked open-ended questions about frustrations.\n\nMeasured importance of factors (price, convenience, variety, brand) on a 1–5 scale.\n\nResults showed 72% rated convenience “5 – very important,” while only 38% rated price as “5.” This insight shifted their positioning from “affordable” to “effortless.”\n\n\n\nQuick Checklist\n\nDefine your audience and screen respondents.\n\nFunnel from open → closed → demographic.\n\nAvoid leading, double-barreled, and biased phrasing.\n\nPilot test before scaling.\n\nRespect attention span (aim for 10 min or less).",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk3-customer-data.html#prototypes-tests",
+    "href": "tk3-customer-data.html#prototypes-tests",
+    "title": "E3. Customer Data Toolkit",
+    "section": "3. Prototypes & Tests",
+    "text": "3. Prototypes & Tests\nSometimes customers can’t tell you what they want — but they’ll show you when faced with something concrete. Prototypes and tests give you that feedback. They can be as simple as a sketch or landing page, or as advanced as an A/B test with real traffic.\n\nWhen to use: After you’ve identified a need and want to see how people respond to a solution.\n\nGood for: Measuring behavior, gauging demand, testing messaging.\n\nNot great for: Broad discovery — prototypes work best once you have a hypothesis to test.\n\n\n\n\n\n\n\nTrap: Building Too Much, Too Soon\n\n\n\nMany founders over-invest in polished prototypes before testing core assumptions. A perfect app or product isn’t necessary. Even a “fake door” landing page (collecting clicks before the product exists) can answer your most urgent unknown.\n\n\n\n\n\n\n\n\nBoost: Match Fidelity to the Question\n\n\n\nChoose the lowest-effort prototype that still answers your question:\n\nSketch or storyboard → “Do people even get what this idea is?”\n\nClickable wireframe → “Can people navigate this flow?”\n\nLanding page or fake ad → “Will people sign up if offered this?”\n\nConcierge test (manual service) → “Do customers actually use this when delivered?”\n\nA/B test → “Which feature or message drives more engagement?”\n\n\n\n\n\n\n\n\n\n\nMini-Guide: Running a Landing Page Test\n\n\n\n\nBuild a simple page with your value proposition and a sign-up button.\n\nRun small, targeted ads (e.g., Google, Facebook, LinkedIn) to your audience.\n\nTrack conversion rates: how many click, sign up, or share.\n\nCompare variations (different headlines, images, or pricing) to see what resonates.\n\nEven 50–100 clicks can reveal whether interest exists.\n\n\n\n\nEntrepreneur’s Use Case\nA fintech startup wasn’t sure whether to emphasize “lower fees” or “faster transfers.” They ran two landing pages with identical designs but different headlines. After $200 in ad spend, the “faster transfers” page had 3x the sign-ups. That clarity saved them months of debate and development.\n\n\n\nQuick Checklist\n\nStart with the lightest-weight prototype that answers your question.\n\nMake behavior measurable (clicks, sign-ups, conversions).\n\nKeep experiments focused — test one key variable at a time.\n\nAvoid over-polish; let evidence, not aesthetics, drive next steps.\n\nDocument learnings after each test — what did it prove or disprove?",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk3-customer-data.html#usage-analytics",
+    "href": "tk3-customer-data.html#usage-analytics",
+    "title": "E3. Customer Data Toolkit",
+    "section": "4. Usage & Analytics",
+    "text": "4. Usage & Analytics\n“What do customers actually do once they’re in?”\nOnce you have real users — even a small pilot group — usage data becomes gold.\nIt tells you not what people say they’ll do, but what they actually do with your product or service.\n\n\n\n\n\n\nTrap: Chasing vanity metrics (downloads, likes, page views).\nThey look impressive, but they don’t show whether customers are finding value.\n\n\n\n\n\n\n\n\n\nBoost: Focus on behavior tied to value.\nExamples: retention, activation, repeat purchase, referrals.\nThese tell you if customers are sticking, engaging, and paying.\n\n\n\n\n\n\n\n\n\nMini-Case — From Downloads to Retention\nA student team launched an app that quickly hit 5,000 downloads.\nThey celebrated — until usage data showed that 80% of users never opened the app again after day one.\nInstead of chasing more downloads, they built a simple funnel:\n\nStage 1: Download\n\nStage 2: First login\n\nStage 3: Second-week active\n\nThe funnel revealed the biggest drop-off was at login — onboarding was confusing.\nAfter fixing the sign-up flow, their second-week active rate tripled, even though total downloads grew more slowly.\nLesson: Better to have 100 loyal users than 5,000 ghosts.\n\n\n\n\n\n\n\n\n\nMini-Guide — Build a Simple Funnel\n\n\n\n\nDefine stages: Awareness → Sign-up → First use → Repeat use → Referral/Upgrade.\n\nInstrument touchpoints: Track actions that mark progress (account created, first order placed, second order placed).\n\nCalculate conversion at each stage: % who move from one step to the next.\n\nSpot the drop-offs: Where do most people exit? That’s your design or value gap.\n\nRun one small change (better onboarding, clearer CTA) → measure again.\n\nEven a spreadsheet with 20 users can show you the shape of your funnel.\n\n\n\n\nEntrepreneur’s Checklist — Usage & Analytics\n\nDefine your north star metric (the best single proxy for delivered value).\n\nIdentify 3–5 supporting metrics (activation, retention, referrals, revenue per user).\n\nAvoid vanity metrics — only track what ties to value.\n\nInstrument early (don’t wait until launch).\n\nReview usage data weekly, pair it with customer conversations.\n\nLog changes and re-measure (so you can tell cause from coincidence).",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk3-customer-data.html#pricing-wtp-willingness-to-pay",
+    "href": "tk3-customer-data.html#pricing-wtp-willingness-to-pay",
+    "title": "E3. Customer Data Toolkit",
+    "section": "5. Pricing & WTP (Willingness to Pay)",
+    "text": "5. Pricing & WTP (Willingness to Pay)\nPricing is one of the most direct ways to test whether a customer values what you’re building. It is one of the sharpest evidence levers in your business model — but also one of the trickiest to set.\n\n\n\nCommon Approaches\n\n1. Direct Surveys (weakest)\n\nSimply asking: “What would you pay?”\n\nProblem: answers drift high or low, disconnected from real choices.\n\nUse only for exploratory stage (hypothesis fuel), not decisions.\n\n\n\n2. Gabor-Granger\n\nAsk: “Would you buy at $X?” → Yes/No.\n\nIf yes, increase; if no, decrease.\n\nProduces a distribution of acceptance across price points.\n\n\n\n\n\n\n\nMini-Case — SaaS Price Banding\n\n\n\nA startup ran a Gabor-Granger survey testing $10, $25, $50. Interest was flat below $20, collapsed above $40.\nThey couldn’t see the exact optimum, but they learned their “live zone” was $25–35. That gave confidence to launch, while keeping room to optimize later.\n\n\n\n\n3. Van Westendorp (Price Sensitivity Meter)\n\nFour questions:\n\nToo cheap?\n\nCheap/good value?\n\nExpensive but worth considering?\n\nToo expensive?\n\n\nOverlapping responses give a range of acceptable prices.\n\nBest for quick reads with moderate sample sizes.\n\n\n\n\n\n\n\nMini-Case — The Meal Kit Price Range\n\n\n\nA meal kit startup surveyed potential customers with Van Westendorp.\nThey found:\n\nBelow $40/week → “too cheap, must be low quality.”\n\n$50–70/week → “good value, worth trying.”\n\nAbove $90/week → “too expensive.”\n\nInstead of one “ideal price,” they learned they had a band:\n\n$50/week entry offer (trial, acquisition).\n\n$70/week core plan (retention sweet spot).\n\nDecision: position offers as tiers within the acceptable range.\n\n\n\n\n4. Conjoint / Choice-Based Analysis\n\nPresent bundles of features with prices.\n\nCustomers choose between options.\n\nReveals tradeoffs: which features justify higher prices, which don’t.\n\nMore complex, but very powerful.\n\n\n\n5. Behavioral Tests (strongest)\n\nActual transactions: pilots, pre-orders, A/B pricing.\n\nIncentive-compatible: customers put real money (or time) at stake.\n\nMost credible but also riskiest.\n\n\n\n\n\n\n\n\nTrap: Taking stated prices at face value.\nCustomers often say they’ll pay more than they actually will. Always validate with behavior if possible.\n\n\n\n\n\n\n\n\n\nTrap: All of these methods are heuristics. They help you avoid being wildly wrong — but they can’t tell you the “right” price.\n\nVan Westendorp → acceptable window\n\nGabor-Granger → stated intent curve\n\nConjoint → relative value of features\n\nA/B test → winner between two points\n\nNone produces a true demand curve linked to actual purchasing behavior, which is what you need to calculate profit-maximizing price.\n\n\n\n\n\n\n\n\n\nBoost: Frame tradeoffs.\nInstead of “what would you pay?”, ask customers to choose between Option A: $20 / basic features and Option B: $30 / premium features.\nChoices reveal value better than single numbers.\n\n\n\n\nLesson: WTP is not a single point — it’s a spectrum. Smart founders design pricing within that band.\n\n\n\n\nBeyond Surveys: The Economic Method\nIf you actually want the “right price,” you need to estimate a demand curve from WTP data and link it to your costs.\nThat’s where profit analytics comes in — turning customer data into full demand and profit models. It’s beyond this chapter, but you’ll see it in detail in the profit analytics framework in Hatch It or Hatchet.\n\n\n\nQuick Guide: Which Method to Use?\n\nEarly stage (explore): Direct survey or Van Westendorp.\n\nFeature tradeoffs: Conjoint.\n\nQuick pricing bands: Gabor-Granger.\n\nValidation: Pre-orders, pilots, or live A/B tests.\nSetting price: Profit analytics using willingness to pay data\n\n\n\nChecklist: Using WTP Wisely\n\nTreat surveys as directional → Use them to set boundaries and identify safe zones, not as calculators.\n\nCross-check with behavior → Pair with pre-orders, pilots, or transaction data whenever possible.\n\nThink in bands, not points → Price within a “likely zone” rather than chasing false precision.\n\nTranslate to decisions → The goal is to eliminate bad options and focus your next test.\n\nRule of thumb: the closer you get to real money, the more you can trust the signal.\nBottom Line: Survey-based WTP methods are like a flashlight in a dark room. They help you see where not to step, but they don’t show you the summit. For true pricing strategy, you’ll need demand modeling — the economist’s tool for finding the price that maximizes profit.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk3-customer-data.html#ab-and-live-experiments",
+    "href": "tk3-customer-data.html#ab-and-live-experiments",
+    "title": "E3. Customer Data Toolkit",
+    "section": "6. A/B and Live Experiments",
+    "text": "6. A/B and Live Experiments\nSometimes the only way to know what works is to put two options in the wild and see which performs better.\nThat’s the logic of A/B testing: show version A to some people, version B to others, and measure the outcome.\nUnlike surveys or interviews, A/B tests capture real behavior in context — clicks, signups, purchases.\nThat makes them one of the strongest ways to test messaging, features, and flows.\n\n\nWhen to Use\n\nYou’ve narrowed down to a few options and want evidence on which one converts better.\n\nYou have enough traffic, users, or participants to run a fair comparison.\n\nYou’re deciding between small but critical choices (pricing page layout, CTA wording, email subject lines).\n\n\n\n\n\n\n\nTrap to Avoid: Testing everything at once. If you change the headline, button color, and offer simultaneously, you’ll never know what drove the difference.\nKeep it simple: change one variable at a time.\n\n\n\n\n\n\n\n\n\nBoost: Start with low-cost, high-leverage tests:\n\nWhich landing page headline gets more signups?\n\nWhich subject line drives higher open rates?\n\nWhich of two onboarding flows reduces drop-off?\n\nEven micro-wins add up — a slightly better conversion rate compounds through the funnel.\n\n\n\n\n\n\n\n\n\nMini-case\n\n\n\nA subscription app tested two signup flows:\n\nFlow A: 7-day free trial → paywall.\n\nFlow B: Paywall upfront with a money-back guarantee.\n\nFlow A had higher signups, but Flow B had higher paid conversions.\nThe team chose Flow B — fewer users, but more revenue.\nLesson: Define the right success metric before testing.\nClicks feel good, but revenue wins.\n\n\n\n\n\n\n\n\nMini-Guide: Run Your First A/B Test\n\n\n\n\nPick one variable. Headline, CTA, or layout element.\n\nSplit randomly. Show A to half your traffic, B to the other half.\n\nMeasure a clear outcome. Click-through rate, signup rate, purchase completion.\n\nRun until stable. Don’t peek too soon — small samples create noise.\n\nDecide. Keep the winner or test again.\n\n\n\n\n\n\n\nChecklist\n\nRandomization: Each user should have equal odds of seeing A or B.\n\nSample size: Too few visitors = false signals. (As a rule of thumb: wait for at least 100+ conversions per arm before calling it.)\n\nSignificance: Look for consistent differences, not just one lucky spike.\n\nPracticality: The better variant should meaningfully improve your metric, not just by 0.2%.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk3-customer-data.html#triangulation-iteration",
+    "href": "tk3-customer-data.html#triangulation-iteration",
+    "title": "E3. Customer Data Toolkit",
+    "section": "7. Triangulation & Iteration",
+    "text": "7. Triangulation & Iteration\nNo single method gives you the whole truth.\nInterviews tell you what people say.\nSurveys hint at what people think.\nA/B tests show what they actually do.\nThe magic is in triangulation — layering methods to see where signals converge.\n\n\nWhen to Use\nAlways. Every method has blind spots. Triangulation lets you separate noise from signal and move forward with confidence.\n\n\n\n\n\n\n\nTrap to Avoid\n\n\n\nOverweighting one method. Just surveys. Just interviews. Just click data. Each one alone can fool you.\n\n\n\n\n\n\n\n\nBoost\n\n\n\nPair across types:\n\nQualitative + Quantitative: Interview themes, then measure at scale.\n\nStated + Behavioral: Ask what they prefer, then see what they actually choose.\n\nFast + Deep: Quick signals for speed, rich methods for context.\n\n\n\n\n\n\n\n\n\n\nMini-Guide: Triangulating an Insight\n\n\n\n\nInterview (Qualitative): 10 early users say onboarding feels “confusing.”\n\nSurvey (Quantitative): 200 users → 42% rate onboarding &lt;3 stars.\n\nUsage Data (Behavioral): Analytics show 55% drop-off after step 2.\n\nDecision: Redesign step 2, not the whole flow.\nLesson: Triangulation narrowed a vague complaint into a precise fix.\n\n\n\n\n\nChecklist\n\nRecord assumptions before testing.\n\nLog confidence levels after each signal.\n\nCross-check with a second method before acting big.\n\nUse iteration: one method sparks the next round of questions.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk3-customer-data.html#entrepreneurs-master-checklist",
+    "href": "tk3-customer-data.html#entrepreneurs-master-checklist",
+    "title": "E3. Customer Data Toolkit",
+    "section": "Entrepreneur’s Master Checklist",
+    "text": "Entrepreneur’s Master Checklist\n\n\n\n\n\n\n\nFrame the urgent unknown\n→ What question must you answer now?\nPick the matching method\n→ Conversation, survey, prototype, usage, pricing, observation, A/B.\nSpot the trap\n→ Every method has one — design in the boost.\nRun light. Learn fast. Log results.\n→ Keep experiments small but cumulative.\nTriangulate before you decide\n→ Don’t move big on a single signal.\n\n\n\n\n\nThis toolkit of methods is your lab bench.\nRun the right experiment, at the right time, in the right way.\nThen — when the evidence lines up — make the call.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
@@ -1458,6 +1865,281 @@
     "text": "Alchourrón, Carlos E, Peter Gärdenfors, and David Makinson. 1985.\n“On the Logic of Theory Change: Partial Meet Contraction and\nRevision Functions.” The Journal of Symbolic Logic 50\n(2): 510–30.\n\n\nFoss, Nicolai J., and Peter G. Klein. 2012. Organizing\nEntrepreneurial Judgment: A New Approach to the Firm. Cambridge\nUniversity Press.\n\n\nHacking, Ian. 2006. The Emergence of Probability: A Philosophical\nStudy of Early Ideas about Probability, Induction and Statistical\nInference. Cambridge University Press.\n\n\nMight, Matt. 2010. “The Illustrated Guide to a PhD.”\nhttp://matt.might.net/articles/phd-school-in-pictures/.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "ch16-competitor-market-signals.html#entrepreneurs-checklist-using-competitor-market-signals",
+    "href": "ch16-competitor-market-signals.html#entrepreneurs-checklist-using-competitor-market-signals",
+    "title": "16  Competitor and Market Signals",
+    "section": "Entrepreneur’s Checklist: Using Competitor & Market Signals",
+    "text": "Entrepreneur’s Checklist: Using Competitor & Market Signals\n\n\n\n\n\n\n\nPick your rivals → Identify 3–5 competitors worth tracking (direct, indirect, emerging).\n\nScan the moves → Watch for new features, pricing shifts, launches, press.\n\nListen in → Customer reviews, forums, and social chatter reveal unfiltered pain points.\n\nFollow the flows → Job postings, patents, funding rounds = where money and talent are going.\n\nMap the context → Regulations, analyst notes, and adjacent industries can change the game.\n\nLog patterns → Keep a simple competitor/market log. Track dates, sources, and implications.\n\nCross-check → Don’t trust a single signal. Validate with public/private data or direct customer evidence.\n\nWatch convergence → Multiple weak signals pointing the same way are stronger than one loud headline.\n\nSet a cadence → Monthly quick scans, quarterly deep reviews. Signals lose power if you check once a year.\n\n\n\n\n\nRule of thumb: Don’t drown in noise. Pick a few signal sources you can sustain, then look for patterns over time.\n\nFor detailed methods, tools, and sources, check the Competitor and Market Signals Toolkit — where we’ll show you exactly how to track, capture, and analyze these signals in practice.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Competitor and Market Signals</span>"
+    ]
+  },
+  {
+    "objectID": "ch15-customer-evidence.html#entrepreneurs-checklist-using-customer-data",
+    "href": "ch15-customer-evidence.html#entrepreneurs-checklist-using-customer-data",
+    "title": "15  Customer Data",
+    "section": "Entrepreneur’s Checklist: Using Customer Data",
+    "text": "Entrepreneur’s Checklist: Using Customer Data\n\n\n\n\n\n\n\nStart with the urgent unknown. Frame one clear question you need answered now.\n\nMatch method to stage.\n\nEarly discovery → conversations, shadowing, observation.\n\nBroader validation → surveys.\n\nBehavior/value tests → prototypes, usage data, pricing, A/B.\n\n\nDesign light, but intentional. Keep experiments small, but name the trap to avoid (bias, vanity metrics, overbuilding) and the boost to apply (stories, funnels, behavior focus).\n\nLog assumptions and signals. Write down what you expected, what you saw, and how confident you are.\n\nTriangulate before acting big. Pair at least two methods (e.g., interviews + surveys, or surveys + usage data) to separate noise from signal.\nRespect ethics and privacy. Customers are not just data points; protect their trust.",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Customer Data</span>"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html",
+    "href": "tk4-customer-market-signals.html",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "",
+    "text": "Toolkit Categories\nCompetitor and market signals aren’t “datasets” you download once.\nThey’re ongoing feeds of activity — footprints left behind by customers, rivals, and the market itself.\nUnlike static statistics, these signals are dynamic: they shift weekly, even daily.\nThe skill is knowing where to look, what to log, and when to take a pattern seriously.\nThink of this as a radar screen. No single blip means much on its own — but when signals converge, you’ve spotted something worth acting on.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#why-this-toolkit-exists",
+    "href": "tk4-customer-market-signals.html#why-this-toolkit-exists",
+    "title": "E3. Customer Data Toolkit",
+    "section": "",
+    "text": "How to Use This Toolkit\n\n\n\n\nStart with your urgent unknown.\n“What must we learn before we spend more money or time?”\nPick the lightest method that fits.\nConversation, survey, prototype, usage, pricing, observation, A/B.\nName the trap → design the boost.\nEvery section flags a failure mode and a fix.\nRun small, log outcomes, triangulate.\nDon’t bet big on a single signal—pair methods before you decide.\n\n\n\n\n\n\n\n\n\nEthics & Respect\n\n\n\n\nConsent & privacy: Be clear, ask permission, anonymize when possible.\n\nLicenses: Use library and platform data within allowed terms.\n\nNo dark patterns: Evidence should reveal value, not trick people.\n\n\n\n\nRule of thumb: Use the cheapest, fastest method to learn what matters— and always ask whether the learning is worth the cost.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#conversations-observation",
+    "href": "tk4-customer-market-signals.html#conversations-observation",
+    "title": "E3. Customer Data Toolkit",
+    "section": "1. Conversations & Observation",
+    "text": "1. Conversations & Observation\nBest for: exploratory learning when you don’t yet know the problem clearly.\n\nMethods\n\nInterviews – One-on-one, open-ended conversations. Probe for stories and emotions, not just surface opinions.\n\nFocus groups – Small group discussions that reveal shared patterns and group dynamics (but watch for conformity bias).\n\nShadowing / ethnography – Observe customers in their natural environment. Look for workarounds, shortcuts, and unspoken pain points.\n\nCustomer journey mapping – Track the steps customers take, noting touchpoints, frustrations, and hacks they invent.\n\n\n\n\n\n\n\nTrap to Avoid\n\n\n\nAsking “Would you buy this?” too early. Early-stage interviews should uncover lived frustrations, not force a purchase decision.\n\n\n\n\n\n\n\n\nBoost: Cross-Check Timeliness\n\n\n\nTurn answers into stories.\nInstead of recording “They said checkout is slow,”\ncapture: “She showed me her online cart — it had been sitting there for 3 weeks because the shipping fees felt too high.”\nStories travel further in your mind (and your team’s mind) than bullet points.\n\n\n\n\n\n\n\n\n\nMini-Guide: Interview Structure\n\n\n\nA simple structure you can adapt:\n\nWarm-up – Easy questions to build rapport.\n\n“Tell me about the last time you [did X]…”\n\n\nStories & Pain Points – Probe for specifics.\n\n“Walk me through what happened, step by step.”\n\n“What was the hardest part?”\n\n\nWorkarounds – Learn how they cope.\n\n“What do you do instead when that happens?”\n\n\nDreams & Desires – Open space for imagining.\n\n“If you could wave a magic wand, how would you want it to work?”\n\n\nWrap-up – Invite connections.\n\n“Is there someone else you think I should talk to?”\n\n\n\n\n\n\n\n\n\n\n\nMini-Guide: How to run a 1-hour observation\n\n\n\n\nPick a setting where your target customers naturally spend time (store, gym, café, online community).\n\nBlend in / get permission. Don’t make people feel like lab rats — be transparent if needed.\n\nWatch workflows. Note what people do step by step, where they get stuck, and what tools or workarounds they use.\n\nTrack artifacts. What objects, devices, or hacks show up again and again?\n\nDebrief fast. Right after, jot down surprises, quotes, and hypotheses while fresh.\n\nChecklist — what to note:\n\nWhere and when the activity happens\n\nTools, products, or workarounds in play\n\nInteractions with others (help, bottlenecks, routines)\n\nGaps, frustrations, or “good enough” hacks\n\nEthics Reminder: Respect privacy. Don’t record without permission. Step back if observing feels intrusive.\n\n\n\n\nQuick Checklist\n\nAim for stories, not opinions.\n\nRecord (with permission) so you can listen more closely.\n\nAsk “When was the last time you…?” not “Would you ever…?”\n\nThank participants — they’re helping shape your learning.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#surveys-questionnaires",
+    "href": "tk4-customer-market-signals.html#surveys-questionnaires",
+    "title": "E3. Customer Data Toolkit",
+    "section": "2. Surveys & Questionnaires",
+    "text": "2. Surveys & Questionnaires\nSurveys are the workhorse of customer data: fast, scalable, and structured. They help you move from what you’ve heard in a few conversations to what’s common across a broader group. But surveys are only as good as their design. A sloppy survey amplifies bias; a careful one gives you a clear signal.\n\nWhen to use: After exploratory work, when you need to test hypotheses or measure how widespread a need or behavior is.\n\nGood for: Quantitative validation, quick comparisons, segmentation.\n\nNot great for: Deep discovery — if you don’t yet know the right questions to ask, go back to conversations.\n\n\n\n\n\n\n\n\nTrap: Biased or Leading Questions\n\n\n\nEntrepreneurs often write questions that steer people toward the answer they want. For example:\n\n“Wouldn’t you pay more for faster service?” (leading)\n\n“Do you like or dislike our product?” (double-barreled: assumes use and asks two things at once)\n\nA biased survey can be worse than no survey — it gives you false confidence.\n\n\n\n\n\n\n\n\nBoost: Structure Your Survey Like a Funnel\n\n\n\nThe most reliable surveys flow like this:\n\nScreeners — Make sure respondents are in your target population.\n\nExample: “Have you purchased coffee in the last 30 days?”\n\n\nContext/intro — Briefly describe your product or problem.\n\nExploratory questions — Open-ended first, to capture unprompted reactions.\n\nExample: “What do you like or dislike about current meal delivery services?”\n\n\nConfirmatory questions — Closed, structured, measurable.\n\nExample: “How often do you order meal delivery per week?”\n\nScale: “On a scale of 1–5, how important is delivery speed to you?”\n\n\nWrap-up/demographics — For segmentation (age, income, geography).\n\nThis funnel keeps data clean and avoids priming or leading.\n\n\n\n\n\n\n\n\n\nMini-Guide: Writing Strong Survey Questions\n\n\n\n\nAsk one thing at a time.\n\nKeep wording neutral (“How satisfied are you?” not “How great is this?”).\n\nMix question types: open-ended for discovery, closed-ended for measurement.\n\nTest your survey with 5–10 people first — refine before scaling.\n\nKeep it short (under 10 minutes is ideal).\n\n\n\n\n\n\nEntrepreneur’s Use Case\nA subscription box startup suspected customers valued convenience more than price. They designed a survey:\n\nScreened for recent subscription box buyers.\n\nAsked open-ended questions about frustrations.\n\nMeasured importance of factors (price, convenience, variety, brand) on a 1–5 scale.\n\nResults showed 72% rated convenience “5 – very important,” while only 38% rated price as “5.” This insight shifted their positioning from “affordable” to “effortless.”\n\n\n\nQuick Checklist\n\nDefine your audience and screen respondents.\n\nFunnel from open → closed → demographic.\n\nAvoid leading, double-barreled, and biased phrasing.\n\nPilot test before scaling.\n\nRespect attention span (aim for 10 min or less).",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#prototypes-tests",
+    "href": "tk4-customer-market-signals.html#prototypes-tests",
+    "title": "E3. Customer Data Toolkit",
+    "section": "3. Prototypes & Tests",
+    "text": "3. Prototypes & Tests\nSometimes customers can’t tell you what they want — but they’ll show you when faced with something concrete. Prototypes and tests give you that feedback. They can be as simple as a sketch or landing page, or as advanced as an A/B test with real traffic.\n\nWhen to use: After you’ve identified a need and want to see how people respond to a solution.\n\nGood for: Measuring behavior, gauging demand, testing messaging.\n\nNot great for: Broad discovery — prototypes work best once you have a hypothesis to test.\n\n\n\n\n\n\n\nTrap: Building Too Much, Too Soon\n\n\n\nMany founders over-invest in polished prototypes before testing core assumptions. A perfect app or product isn’t necessary. Even a “fake door” landing page (collecting clicks before the product exists) can answer your most urgent unknown.\n\n\n\n\n\n\n\n\nBoost: Match Fidelity to the Question\n\n\n\nChoose the lowest-effort prototype that still answers your question:\n\nSketch or storyboard → “Do people even get what this idea is?”\n\nClickable wireframe → “Can people navigate this flow?”\n\nLanding page or fake ad → “Will people sign up if offered this?”\n\nConcierge test (manual service) → “Do customers actually use this when delivered?”\n\nA/B test → “Which feature or message drives more engagement?”\n\n\n\n\n\n\n\n\n\n\nMini-Guide: Running a Landing Page Test\n\n\n\n\nBuild a simple page with your value proposition and a sign-up button.\n\nRun small, targeted ads (e.g., Google, Facebook, LinkedIn) to your audience.\n\nTrack conversion rates: how many click, sign up, or share.\n\nCompare variations (different headlines, images, or pricing) to see what resonates.\n\nEven 50–100 clicks can reveal whether interest exists.\n\n\n\n\nEntrepreneur’s Use Case\nA fintech startup wasn’t sure whether to emphasize “lower fees” or “faster transfers.” They ran two landing pages with identical designs but different headlines. After $200 in ad spend, the “faster transfers” page had 3x the sign-ups. That clarity saved them months of debate and development.\n\n\n\nQuick Checklist\n\nStart with the lightest-weight prototype that answers your question.\n\nMake behavior measurable (clicks, sign-ups, conversions).\n\nKeep experiments focused — test one key variable at a time.\n\nAvoid over-polish; let evidence, not aesthetics, drive next steps.\n\nDocument learnings after each test — what did it prove or disprove?",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#usage-analytics",
+    "href": "tk4-customer-market-signals.html#usage-analytics",
+    "title": "E3. Customer Data Toolkit",
+    "section": "4. Usage & Analytics",
+    "text": "4. Usage & Analytics\n“What do customers actually do once they’re in?”\nOnce you have real users — even a small pilot group — usage data becomes gold.\nIt tells you not what people say they’ll do, but what they actually do with your product or service.\n\n\n\n\n\n\nTrap: Chasing vanity metrics (downloads, likes, page views).\nThey look impressive, but they don’t show whether customers are finding value.\n\n\n\n\n\n\n\n\n\nBoost: Focus on behavior tied to value.\nExamples: retention, activation, repeat purchase, referrals.\nThese tell you if customers are sticking, engaging, and paying.\n\n\n\n\n\n\n\n\n\nMini-Case — From Downloads to Retention\nA student team launched an app that quickly hit 5,000 downloads.\nThey celebrated — until usage data showed that 80% of users never opened the app again after day one.\nInstead of chasing more downloads, they built a simple funnel:\n\nStage 1: Download\n\nStage 2: First login\n\nStage 3: Second-week active\n\nThe funnel revealed the biggest drop-off was at login — onboarding was confusing.\nAfter fixing the sign-up flow, their second-week active rate tripled, even though total downloads grew more slowly.\nLesson: Better to have 100 loyal users than 5,000 ghosts.\n\n\n\n\n\n\n\n\n\nMini-Guide — Build a Simple Funnel\n\n\n\n\nDefine stages: Awareness → Sign-up → First use → Repeat use → Referral/Upgrade.\n\nInstrument touchpoints: Track actions that mark progress (account created, first order placed, second order placed).\n\nCalculate conversion at each stage: % who move from one step to the next.\n\nSpot the drop-offs: Where do most people exit? That’s your design or value gap.\n\nRun one small change (better onboarding, clearer CTA) → measure again.\n\nEven a spreadsheet with 20 users can show you the shape of your funnel.\n\n\n\n\nEntrepreneur’s Checklist — Usage & Analytics\n\nDefine your north star metric (the best single proxy for delivered value).\n\nIdentify 3–5 supporting metrics (activation, retention, referrals, revenue per user).\n\nAvoid vanity metrics — only track what ties to value.\n\nInstrument early (don’t wait until launch).\n\nReview usage data weekly, pair it with customer conversations.\n\nLog changes and re-measure (so you can tell cause from coincidence).",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#pricing-wtp-willingness-to-pay",
+    "href": "tk4-customer-market-signals.html#pricing-wtp-willingness-to-pay",
+    "title": "E3. Customer Data Toolkit",
+    "section": "5. Pricing & WTP (Willingness to Pay)",
+    "text": "5. Pricing & WTP (Willingness to Pay)\nPricing is one of the most direct ways to test whether a customer values what you’re building. It is one of the sharpest evidence levers in your business model — but also one of the trickiest to set.\n\n\n\nCommon Approaches\n\n1. Direct Surveys (weakest)\n\nSimply asking: “What would you pay?”\n\nProblem: answers drift high or low, disconnected from real choices.\n\nUse only for exploratory stage (hypothesis fuel), not decisions.\n\n\n\n2. Gabor-Granger\n\nAsk: “Would you buy at $X?” → Yes/No.\n\nIf yes, increase; if no, decrease.\n\nProduces a distribution of acceptance across price points.\n\n\n\n\n\n\n\nMini-Case — SaaS Price Banding\n\n\n\nA startup ran a Gabor-Granger survey testing $10, $25, $50. Interest was flat below $20, collapsed above $40.\nThey couldn’t see the exact optimum, but they learned their “live zone” was $25–35. That gave confidence to launch, while keeping room to optimize later.\n\n\n\n\n3. Van Westendorp (Price Sensitivity Meter)\n\nFour questions:\n\nToo cheap?\n\nCheap/good value?\n\nExpensive but worth considering?\n\nToo expensive?\n\n\nOverlapping responses give a range of acceptable prices.\n\nBest for quick reads with moderate sample sizes.\n\n\n\n\n\n\n\nMini-Case — The Meal Kit Price Range\n\n\n\nA meal kit startup surveyed potential customers with Van Westendorp.\nThey found:\n\nBelow $40/week → “too cheap, must be low quality.”\n\n$50–70/week → “good value, worth trying.”\n\nAbove $90/week → “too expensive.”\n\nInstead of one “ideal price,” they learned they had a band:\n\n$50/week entry offer (trial, acquisition).\n\n$70/week core plan (retention sweet spot).\n\nDecision: position offers as tiers within the acceptable range.\n\n\n\n\n4. Conjoint / Choice-Based Analysis\n\nPresent bundles of features with prices.\n\nCustomers choose between options.\n\nReveals tradeoffs: which features justify higher prices, which don’t.\n\nMore complex, but very powerful.\n\n\n\n5. Behavioral Tests (strongest)\n\nActual transactions: pilots, pre-orders, A/B pricing.\n\nIncentive-compatible: customers put real money (or time) at stake.\n\nMost credible but also riskiest.\n\n\n\n\n\n\n\n\nTrap: Taking stated prices at face value.\nCustomers often say they’ll pay more than they actually will. Always validate with behavior if possible.\n\n\n\n\n\n\n\n\n\nTrap: All of these methods are heuristics. They help you avoid being wildly wrong — but they can’t tell you the “right” price.\n\nVan Westendorp → acceptable window\n\nGabor-Granger → stated intent curve\n\nConjoint → relative value of features\n\nA/B test → winner between two points\n\nNone produces a true demand curve linked to actual purchasing behavior, which is what you need to calculate profit-maximizing price.\n\n\n\n\n\n\n\n\n\nBoost: Frame tradeoffs.\nInstead of “what would you pay?”, ask customers to choose between Option A: $20 / basic features and Option B: $30 / premium features.\nChoices reveal value better than single numbers.\n\n\n\n\nLesson: WTP is not a single point — it’s a spectrum. Smart founders design pricing within that band.\n\n\n\n\nBeyond Surveys: The Economic Method\nIf you actually want the “right price,” you need to estimate a demand curve from WTP data and link it to your costs.\nThat’s where profit analytics comes in — turning customer data into full demand and profit models. It’s beyond this chapter, but you’ll see it in detail in the profit analytics framework in Hatch It or Hatchet.\n\n\n\nQuick Guide: Which Method to Use?\n\nEarly stage (explore): Direct survey or Van Westendorp.\n\nFeature tradeoffs: Conjoint.\n\nQuick pricing bands: Gabor-Granger.\n\nValidation: Pre-orders, pilots, or live A/B tests.\nSetting price: Profit analytics using willingness to pay data\n\n\n\nChecklist: Using WTP Wisely\n\nTreat surveys as directional → Use them to set boundaries and identify safe zones, not as calculators.\n\nCross-check with behavior → Pair with pre-orders, pilots, or transaction data whenever possible.\n\nThink in bands, not points → Price within a “likely zone” rather than chasing false precision.\n\nTranslate to decisions → The goal is to eliminate bad options and focus your next test.\n\nRule of thumb: the closer you get to real money, the more you can trust the signal.\nBottom Line: Survey-based WTP methods are like a flashlight in a dark room. They help you see where not to step, but they don’t show you the summit. For true pricing strategy, you’ll need demand modeling — the economist’s tool for finding the price that maximizes profit.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#ab-and-live-experiments",
+    "href": "tk4-customer-market-signals.html#ab-and-live-experiments",
+    "title": "E3. Customer Data Toolkit",
+    "section": "6. A/B and Live Experiments",
+    "text": "6. A/B and Live Experiments\nSometimes the only way to know what works is to put two options in the wild and see which performs better.\nThat’s the logic of A/B testing: show version A to some people, version B to others, and measure the outcome.\nUnlike surveys or interviews, A/B tests capture real behavior in context — clicks, signups, purchases.\nThat makes them one of the strongest ways to test messaging, features, and flows.\n\n\nWhen to Use\n\nYou’ve narrowed down to a few options and want evidence on which one converts better.\n\nYou have enough traffic, users, or participants to run a fair comparison.\n\nYou’re deciding between small but critical choices (pricing page layout, CTA wording, email subject lines).\n\n\n\n\n\n\n\nTrap to Avoid: Testing everything at once. If you change the headline, button color, and offer simultaneously, you’ll never know what drove the difference.\nKeep it simple: change one variable at a time.\n\n\n\n\n\n\n\n\n\nBoost: Start with low-cost, high-leverage tests:\n\nWhich landing page headline gets more signups?\n\nWhich subject line drives higher open rates?\n\nWhich of two onboarding flows reduces drop-off?\n\nEven micro-wins add up — a slightly better conversion rate compounds through the funnel.\n\n\n\n\n\n\n\n\n\nMini-case\n\n\n\nA subscription app tested two signup flows:\n\nFlow A: 7-day free trial → paywall.\n\nFlow B: Paywall upfront with a money-back guarantee.\n\nFlow A had higher signups, but Flow B had higher paid conversions.\nThe team chose Flow B — fewer users, but more revenue.\nLesson: Define the right success metric before testing.\nClicks feel good, but revenue wins.\n\n\n\n\n\n\n\n\nMini-Guide: Run Your First A/B Test\n\n\n\n\nPick one variable. Headline, CTA, or layout element.\n\nSplit randomly. Show A to half your traffic, B to the other half.\n\nMeasure a clear outcome. Click-through rate, signup rate, purchase completion.\n\nRun until stable. Don’t peek too soon — small samples create noise.\n\nDecide. Keep the winner or test again.\n\n\n\n\n\n\n\nChecklist\n\nRandomization: Each user should have equal odds of seeing A or B.\n\nSample size: Too few visitors = false signals. (As a rule of thumb: wait for at least 100+ conversions per arm before calling it.)\n\nSignificance: Look for consistent differences, not just one lucky spike.\n\nPracticality: The better variant should meaningfully improve your metric, not just by 0.2%.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#triangulation-iteration",
+    "href": "tk4-customer-market-signals.html#triangulation-iteration",
+    "title": "E3. Customer Data Toolkit",
+    "section": "7. Triangulation & Iteration",
+    "text": "7. Triangulation & Iteration\nNo single method gives you the whole truth.\nInterviews tell you what people say.\nSurveys hint at what people think.\nA/B tests show what they actually do.\nThe magic is in triangulation — layering methods to see where signals converge.\n\n\nWhen to Use\nAlways. Every method has blind spots. Triangulation lets you separate noise from signal and move forward with confidence.\n\n\n\n\n\n\n\nTrap to Avoid\n\n\n\nOverweighting one method. Just surveys. Just interviews. Just click data. Each one alone can fool you.\n\n\n\n\n\n\n\n\nBoost\n\n\n\nPair across types:\n\nQualitative + Quantitative: Interview themes, then measure at scale.\n\nStated + Behavioral: Ask what they prefer, then see what they actually choose.\n\nFast + Deep: Quick signals for speed, rich methods for context.\n\n\n\n\n\n\n\n\n\n\nMini-Guide: Triangulating an Insight\n\n\n\n\nInterview (Qualitative): 10 early users say onboarding feels “confusing.”\n\nSurvey (Quantitative): 200 users → 42% rate onboarding &lt;3 stars.\n\nUsage Data (Behavioral): Analytics show 55% drop-off after step 2.\n\nDecision: Redesign step 2, not the whole flow.\nLesson: Triangulation narrowed a vague complaint into a precise fix.\n\n\n\n\n\nChecklist\n\nRecord assumptions before testing.\n\nLog confidence levels after each signal.\n\nCross-check with a second method before acting big.\n\nUse iteration: one method sparks the next round of questions.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#entrepreneurs-master-checklist",
+    "href": "tk4-customer-market-signals.html#entrepreneurs-master-checklist",
+    "title": "E3. Customer Data Toolkit",
+    "section": "Entrepreneur’s Master Checklist",
+    "text": "Entrepreneur’s Master Checklist\n\n\n\n\n\n\n\nFrame the urgent unknown\n→ What question must you answer now?\nPick the matching method\n→ Conversation, survey, prototype, usage, pricing, observation, A/B.\nSpot the trap\n→ Every method has one — design in the boost.\nRun light. Learn fast. Log results.\n→ Keep experiments small but cumulative.\nTriangulate before you decide\n→ Don’t move big on a single signal.\n\n\n\n\n\nThis toolkit of methods is your lab bench.\nRun the right experiment, at the right time, in the right way.\nThen — when the evidence lines up — make the call.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E3. Customer Data Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#market-conversations",
+    "href": "tk4-customer-market-signals.html#market-conversations",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "2. Market Conversations",
+    "text": "2. Market Conversations\nCustomers reveal more in the wild than in a focus group.\n\nSources & Signals\n\nCustomer reviews (Amazon, Yelp, G2, App Store)\n\nSocial media mentions (X/Twitter, Reddit, TikTok)\n\nSupport forums & FAQs\n\nGlassdoor reviews (employee view of company problems)\n\n\n\n\n\n\n\nMini-Guide: Scraping Customer Reviews (Low-Code)\n\n\n\n\nUse tools like ParseHub, Octoparse, or Python packages (BeautifulSoup, scrapy) to export review text.\n\nClean into themes (delivery speed, customer service, product quality).\n\nCross-check with interviews — do complaints match lived stories?\n\n\n\n\n\n\n\n\n\n\nTrap: Reading 10 reviews and thinking you know the market. Volume matters. Look for patterns, not anecdotes.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#resource-flows",
+    "href": "tk4-customer-market-signals.html#resource-flows",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "3. Resource Flows",
+    "text": "3. Resource Flows\nMoney, people, and ideas leave trails.\n\nSources & Signals\n\nJob postings → skills in demand, expansion geographies\n\nPatents → emerging tech bets\n\nShipping data → supply chain bottlenecks or surges\n\nInvestment databases (PitchBook, Crunchbase) → funding signals\n\n\n\n\n\n\n\nMini-Guide: Job Posting Scan\n\n\n\n\nPick one job board (LinkedIn, Indeed).\n\nSearch by competitor name or key skills.\n\nLog new postings weekly: role, location, keywords.\n\nInfer: “Hiring 10 data engineers in Austin” → possible new product hub.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#ecosystem-context",
+    "href": "tk4-customer-market-signals.html#ecosystem-context",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "4. Ecosystem Context",
+    "text": "4. Ecosystem Context\nThe environment shifts before the players do.\n\nSources & Signals\n\nRegulatory filings → new compliance requirements\n\nIndustry analyst reports → growth/decline signals\n\nAdjacent industries → technologies poised to spill over\n\nTrade association updates → lobbying priorities\n\n\n\n\n\n\n\nMini-Guide: Market Radar Scan\n\n\n\n\nOnce a semester, assign a team member to scan: 1 regulation update, 1 analyst note, 1 adjacent tech story.\n\nAsk: “If this accelerates, what happens to us?”\n\nCapture top 3 “watch items” on a single-page radar.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#quick-checklist-competitor-market-signals",
+    "href": "tk4-customer-market-signals.html#quick-checklist-competitor-market-signals",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "Quick Checklist — Competitor & Market Signals",
+    "text": "Quick Checklist — Competitor & Market Signals\n\n\n\n\n\n\n\nIdentify 3–5 competitors to monitor regularly.\n\nTrack both moves (what they launch) and conversations (what customers say about them).\n\nLog resource flows: hiring, patents, funding, supply chain activity.\n\nScan the ecosystem quarterly for regulation and adjacent markets.\n\nCross-check signals with public/private data for validation.\n\nLook for convergence — multiple weak signals pointing in one direction.\n\n\n\n\n\n\n\n\n\n\n\n\nOverlap with Public & Private Data\nSome signals live inside public (e.g., BLS, Census) or private (e.g., PitchBook, IBISWorld) datasets.\nThe difference is perspective: you’re treating them as tells — hints of competitor intent or market shifts.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#note-on-overlap-with-public-private-data",
+    "href": "tk4-customer-market-signals.html#note-on-overlap-with-public-private-data",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "Note on Overlap with Public & Private Data",
+    "text": "Note on Overlap with Public & Private Data\nSome signals live inside public (e.g., Census, BLS) or private (e.g., IBISWorld, PitchBook) datasets. The key difference is perspective: you’re not reading them as “general stats” but as market tells — real-time hints about competitor strategy or customer frustration.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#competitor-moves",
+    "href": "tk4-customer-market-signals.html#competitor-moves",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "1. Competitor Moves",
+    "text": "1. Competitor Moves\nWatch what rivals do, not just what they say.\nBest for: spotting rivals’ strategy shifts.\n\nSources & Signals\n\nPress releases → product launches, pivots, acquisitions\n\nCompany websites → pricing changes, new features\n\nIndustry newsletters → competitor updates\n\nSEC filings (public firms) → strategic priorities, risks\n\nPatent filings → innovations and potential new products\n\n\n\n\n\n\n\nMini-Guide: Competitor Feature Tracker\n\n\n\n\nList 3–5 key competitors.\n\nCreate a simple spreadsheet with columns: Date, Source, Update, Implication.\n\nOnce a month, scan sites/newsletters and log changes.\n\nReview quarterly: are moves converging? Are gaps opening?\n\n\n\n\n\n\n\n\n\n\nMini-Guide: Patent Signal Scan\n\n\n\n\nGo to Google Patents or the USPTO search.\n\nSearch by competitor name, technology keyword, or inventor.\n\nLog new filings by date, category, and assignee.\n\nLook for clusters (multiple related patents in a short period) — these often signal a real strategic push.\n\nCross-check with other signals (job postings, funding) to see if patents align with actual resourcing.\n\n\n\n\n\n\n\n\n\nCaution about patents:\n\n\n\n\nMany patents are defensive and may never reach market.\n\nFilings can lag behind the decision by 12–18 months.\n\nLanguage is technical/legal; focus on themes and clusters, not the fine print.\n\n\n\n\n\n\n\n\n\n\nMini-Case — Reading Patents Wisely\n\n\n\nA health-tech startup tracked competitor patents and saw a rival file 10 patents in one year on wearable glucose monitors.\n\nFirst instinct: “They must be about to launch — we’re behind!”\n\nDeeper scan: Most filings were defensive, small variations around the same concept. The rival never commercialized.\n\nMeanwhile, another cluster of patents around non-invasive sensors came from multiple smaller firms. Within 18 months, two of those firms launched viable products.\nLesson: A pile of patents ≠ imminent launch.\nLook for clusters across multiple actors — that’s a stronger market signal than one competitor’s filings.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#toolkit-categories",
+    "href": "tk4-customer-market-signals.html#toolkit-categories",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "",
+    "text": "Competitor Moves — Watch what rivals do, not just what they say.\n\nMarket Conversations & Customer Chatter — What customers and employees reveal in the wild.\n\nResource Flows & Early Bets — Trails of money, talent, and technology.\n\nEcosystem & Market Conditions — Context shifts that create or close opportunities.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#market-conversations-customer-chatter",
+    "href": "tk4-customer-market-signals.html#market-conversations-customer-chatter",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "2. Market Conversations & Customer Chatter",
+    "text": "2. Market Conversations & Customer Chatter\nCustomers reveal more in the wild than in a focus group.\nBest for: surfacing real frustrations or delight.\n\nSources & Signals\n\nCustomer reviews (Amazon, Yelp, G2, App Store)\n\nSocial media mentions (Reddit, TikTok, X/Twitter)\n\nSupport forums & FAQs\n\nGlassdoor reviews (employee view of company problems)\n\n\n\n\n\n\n\nMini-Guide: Scraping Customer Reviews (Low-Code)\n\n\n\n\nUse tools like ParseHub, Octoparse, or Python (BeautifulSoup, scrapy) to export review text.\n\nClean into themes (delivery speed, customer service, product quality).\n\nCross-check with interviews — do complaints match lived stories?\n\n\n\n\n\n\n\n\n\n\nTrap to Avoid\nReading 10 reviews and thinking you know the market.\nVolume matters. Look for patterns, not anecdotes.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#resource-flows-early-bets",
+    "href": "tk4-customer-market-signals.html#resource-flows-early-bets",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "3. Resource Flows & Early Bets",
+    "text": "3. Resource Flows & Early Bets\nMoney, people, and ideas leave trails.\nBest for: predicting where competitors are heading next.\n\nSources & Signals\n\nJob postings → skills in demand, expansion geographies\n\nPatents → emerging tech bets\n\nShipping data → supply chain bottlenecks or surges\n\nInvestment databases (PitchBook, Crunchbase) → funding signals\n\n\n\n\n\n\n\nMini-Guide: Job Posting Scan\n\n\n\n\nPick one job board (LinkedIn, Indeed).\n\nSearch by competitor name or key skills.\n\nLog new postings weekly: role, location, keywords.\n\nInfer: “Hiring 10 data engineers in Austin” → possible new product hub.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#ecosystem-market-conditions",
+    "href": "tk4-customer-market-signals.html#ecosystem-market-conditions",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "4. Ecosystem & Market Conditions",
+    "text": "4. Ecosystem & Market Conditions\nMoney, people, and ideas leave trails.\nBest for: keeping context on your radar.\n\nSources & Signals\n\nRegulatory filings → new compliance requirements\n\nIndustry analyst reports → growth/decline signals\n\nAdjacent industries → technologies poised to spill over\n\nTrade association updates → lobbying priorities\n\n\n\n\n\n\n\nMini-Guide: Market Radar Scan\n\n\n\n\nOnce a quarter, assign a team member to scan:\n\n1 regulation update,\n\n1 analyst note,\n\n1 adjacent tech story.\n\n\nAsk: “If this accelerates, what happens to us?”\n\nCapture top 3 “watch items” on a one-page radar.",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#quick-reference-competitor-market-signals",
+    "href": "tk4-customer-market-signals.html#quick-reference-competitor-market-signals",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "Quick Reference: Competitor & Market Signals",
+    "text": "Quick Reference: Competitor & Market Signals\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCategory\nBest For\nExample Sources\n\n\n\n\nCompetitor Moves\nProduct, pricing, strategy shifts\nPress releases, websites, SEC filings, patent filings\n\n\nMarket Conversations\nCustomer/employee voices\nReviews, social media, Glassdoor\n\n\nResource Flows\nEarly bets, expansion signals\nJob postings, patents, investments\n\n\nEcosystem Context\nMacro changes shaping the field\nRegulations, analyst reports, trade groups",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "tk4-customer-market-signals.html#competitor-moves-1",
+    "href": "tk4-customer-market-signals.html#competitor-moves-1",
+    "title": "E4. Competitor & Market Signals Toolkit",
+    "section": "1. Competitor Moves",
+    "text": "1. Competitor Moves\nWatch what rivals do, not just what they say.\n\nSources & Signals\n\nPress releases → product launches, pivots, acquisitions\n\nCompany websites → pricing changes, new features\n\nSEC filings (public firms) → strategic priorities, risks\n\nIndustry newsletters → competitor updates\n\n\n\n\n\n\n\nMini-Guide: Competitor Feature Tracker\n\n\n\n\nList 3–5 key competitors.\n\nCreate a simple spreadsheet with columns: Date, Source, Update, Implication.\n\nOnce a month, scan sites/newsletters and log changes.\n\nReview quarterly: are moves converging? Are gaps opening?",
+    "crumbs": [
+      "Evidence Toolkit",
+      "E4. Competitor & Market Signals Toolkit"
+    ]
+  },
+  {
+    "objectID": "ch16-competitor-market-signals.html#footnotes",
+    "href": "ch16-competitor-market-signals.html#footnotes",
+    "title": "16  Competitor and Market Signals",
+    "section": "",
+    "text": "Patents can be revealing — but they’re tricky. A single competitor filing dozens of patents doesn’t necessarily mean a launch is imminent; many patents are defensive or exploratory. The stronger signal comes when you see clusters across multiple firms, pointing to where an industry is collectively moving.↩︎",
+    "crumbs": [
+      "Part III: Gathering Evidence",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Competitor and Market Signals</span>"
     ]
   }
 ]

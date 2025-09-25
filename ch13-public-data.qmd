@@ -105,20 +105,11 @@ Her truck sold out almost every day in the first month — thanks to data anyone
 ::: {.callout-note appearance="minimal" icon="tools"}
 ### Quick Steps
 
-1. **Start with your question.**  
-   What decision are you trying to make — market size, location, trend spotting?  
-
-2. **Pick one or two sources.**  
-   Check a government portal, an open-data site, or a web-based signal. Don’t drown in datasets.  
-
-3. **Check the basics.**  
-   Look at the date, scope, and definitions. Ask: “Does this match my customer?”  
-
-4. **Cross-check.**  
-   Pair the public dataset with a fresher or narrower signal (interviews, trends, competitor scans).  
-
-5. **Decide and move.**  
-   Use public data to rule out bad ideas or point you toward better ones. Don’t wait for perfection.  
+1. [ ] **Start with your question.** What decision are you trying to make — market size, location, trend spotting?  
+2. [ ] **Pick one or two sources.**  Check a government portal, an open-data site, or a web-based signal. Don’t drown in datasets.  
+3. [ ] **Check the basics.**  Look at the date, scope, and definitions. Ask: “Does this match my customer?”  
+4. [ ] **Cross-check.**  Pair the public dataset with a fresher or narrower signal (interviews, trends, competitor scans).  
+5. [ ] **Decide and move.**  Use public data to rule out bad ideas or point you toward better ones. Don’t wait for perfection.  
 :::
 
 This chapter gave you the big picture and a few starting sources.  

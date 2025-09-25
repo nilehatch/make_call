@@ -70,6 +70,9 @@ book:
     - part: part6-evidence-toolkit.qmd
       chapters:
         - tk1-public-data.qmd
+        - tk2-private-data.qmd
+        - tk3-customer-data.qmd
+        - tk4-customer-market-signals.qmd
     
     - references.qmd
 

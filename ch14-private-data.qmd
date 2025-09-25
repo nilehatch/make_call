@@ -1,3 +1,213 @@
-# Private Data
+# Private Data {#sec-private-data-chapter}
 
-This chapter is a placeholder for the Private Data chapter of *Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship*. Content will fill in quickly.
+## The Good Stuff Behind the Paywall
+
+Some of the most useful evidence you’ll ever touch isn’t on Google.  
+It lives behind library logins, paid subscriptions, or vendor portals.  
+
+This **private data** is often cleaner, deeper, and closer to the money: real financials, industry ratios, consumer panels, deal flow, and global category reports. Used well, it can help you decide in hours what would otherwise take weeks.
+
+::: {.callout-important appearance="minimal" icon="info"}
+**Definition:** *Private data* is evidence you access through a license, subscription, or permission (e.g., university library databases, paid research, vendor APIs).  
+
+*Use terms vary — many academic licenses allow* **educational use only** *(no consulting or commercial projects). Always check your license.*
+:::
+
+
+## Why It Matters
+
+Private data can give you:
+
+- **Signal with teeth:** Benchmarks, ratios, and financials that tie to actual performance.  
+- **Category clarity:** What’s growing, who’s leading, how the game is played.  
+- **Faster falsification:** Kill weak ideas quickly; focus your next test on live options.
+
+But it comes with responsibility: respect licenses, cite carefully, and don’t confuse polished charts with truth. Use it to **decide**, not decorate.
+
+
+## Four Kinds of Private Data (and When to Use Them)
+
+Think in **pairs**: each type bundles two complementary lenses.  
+Pick the pair that matches the decision you’re making now.
+
+---
+
+### 1. Industry & Finance  
+*“How do firms like mine actually perform?”*
+
+Use **industry** data to understand the game’s structure (margins, failure rates, local vs. national differences).  
+Use **finance** to ground yourself in money facts (ratios, unit economics, quartiles).
+
+::: {.callout-note appearance="minimal" icon="map"}
+**Starter map (examples):** Industry ratio books & portals, benchmark compendia, firm-level financial databases, local vs. national industry profiles.  
+**Questions it answers:**  
+
+- What margins do typical operators earn?  
+- What’s normal for inventory turns, CAC payback, or debt coverage?  
+- How do my assumptions compare to upper/middle/lower quartiles?
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+**Trap:** **False precision.** Ratios are averages across messy firms. Use **ranges** (quartiles), not single numbers. Local context can shift everything.
+:::
+
+::: {.callout-tip appearance="minimal" icon="lightbulb"}
+**Mini-Case — The Laundry vs. Car Wash Choice**  
+Two friends want a cash-flow business.  
+Industry reports show laundries with lower capex and steady margins; car washes show higher margins **but** high leverage and weather volatility.  
+They model both using **quartile** ratios and local lease comps.  
+Decision: start with a small, de-risked laundry; revisit car wash after building operator muscle.  
+**Lesson:** Pair structure (industry) with money reality (finance) to right-size ambition.
+:::
+
+---
+
+### 2. Consumer & Behavior  
+*“Who are these people, and what do they actually do?”*
+
+Use **consumer** panels and surveys to segment attitudes, media habits, and purchase intent.  
+Use **behavior** logs to see what people actually do (not just say).
+
+::: {.callout-note appearance="minimal" icon="map"}
+**Starter map (examples):** Large consumer survey panels, psychographic segmentations, longitudinal social surveys, media usage datasets.  
+**Questions it answers:**  
+
+- Who buys, why, and through which channels?  
+- Which attitudes correlate with trial vs. repeat?  
+- Is my target reachable through the media they actually consume?
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+**Trap:** **Self-report bias.** Stated intent ≠ behavior. Treat surveys as **hypothesis fuel**, and validate with behavioral data or small purchase tests.
+:::
+
+::: {.callout-tip appearance="minimal" icon="lightbulb"}
+**Mini-Case — The “Clean Energy” Teens**  
+A hardware startup wants to market a home energy device to eco-conscious teens.  
+Consumer panels show teens express high concern — but spending power and decision authority sit with parents.  
+Behavioral data: parents respond to **bill savings**; teens engage on social but don’t convert.  
+Pivot: message to parents (savings) and empower teens as advocates (referrals).  
+**Lesson:** Segment by **payer** and **user**; match message to who decides.
+:::
+
+---
+
+### 3. Product & Market Signals  
+*“Where is the category moving, and what’s next?”*
+
+Use **product** research to learn feature sets, attribute trade-offs, and adoption curves.  
+Use **market** outlooks to see macro demand, regulation, and competitive positioning.
+
+::: {.callout-note appearance="minimal" icon="map"}
+**Starter map (examples):** Category deep-dives, trend reports, technology landscapes, channel forecasts, expert quadrants/scapes.  
+**Questions it answers:**  
+
+- Which features are table-stakes vs. differentiators?  
+- What’s growing, where, and through which channels?  
+- Who’s leading, fast-following, or fading?
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+**Trap:** **Yesterday’s narrative.** Many reports are written annually. Good for the **direction**, not the day-to-day. Pair with fresher signals (web, interviews).
+:::
+
+::: {.callout-tip appearance="minimal" icon="lightbulb"}
+**Mini-Case — The “Skinimalism” Feature Cut**  
+A beauty startup planned a 7-step routine.  
+Product reports show a “skinimalism” trend — fewer steps, cleaner labels.  
+Market outlooks confirm growth in 2-in-1 formats.  
+They cut features, improved margins, and matched distribution to retailers pushing simplification.  
+**Lesson:** Use product trends to **remove** features, not just add them.
+:::
+
+---
+
+### 4. Capital & Competitors  
+*“Who funds whom, and how does the money move?”*
+
+Use **capital** data to map investor theses, check round sizes/valuations, and find likely partners.  
+Use **competitor** views to understand strategy, hiring, and go-to-market shifts.
+
+::: {.callout-note appearance="minimal" icon="map"}
+**Starter map (examples):** Deal databases, investor profiles, M&A trackers, competitive landscapes, hiring trend trackers.  
+**Questions it answers:**  
+
+- Who invests in my space, at what stage and check size?  
+- What comps do investors use?  
+- Where are competitors expanding (hiring, partnerships, acquisitions)?
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+**Trap:** **Survivorship bias.** Deal lists spotlight winners. Study **near-misses** and exits too, or you’ll overestimate your odds.
+:::
+
+::: {.callout-tip appearance="minimal" icon="lightbulb"}
+**Mini-Case — The Strategic Angel Map**  
+A B2B founder needs smart seed investors.  
+Deal data reveals 12 angels who repeatedly back vertical SaaS with distribution via channel partners.  
+They target those 12 with a pitch that mirrors the pattern.  
+**Lesson:** Use capital maps to **aim** your raise — and to shape your go-to-market to match proven paths.
+:::
+
+## Starter Sources for Private Data
+
+::: {.callout-note appearance="minimal" icon="map"}
+Private data comes in flavors. Each side of the table has its go-to databases — here are a few you can try at BYU’s library (details in the **Evidence Toolkit**):
+
+- **Industry & Finance** → *BizMiner, Mergent Key Business Ratios*  
+- **Competitors & Deals** → *PitchBook, PrivCo, Capital IQ*  
+- **Markets & Products** → *IBISWorld, Euromonitor, Mintel*  
+- **Consumers & Behavior** → *Simmons, Social Explorer, Statista*  
+
+**Pro Tip:** Don’t try to read them all. Grab one per side, enough to see the range. Your goal is **bounds**, not false precision.  
+:::
+
+## Common Pitfalls (and Fixes)
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+**Pitfall:** **License & “educational use only.”**  
+**Fix:** Check usage terms before exporting, sharing, or using outside class. Summarize insights; don’t redistribute proprietary PDFs.
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+**Pitfall:** **Apples vs. oranges.** Different sources define markets differently.  
+**Fix:** Read the fine print: geographies, NAICS/SIC, channel scope, time window. Align definitions before comparing.
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+**Pitfall:** **Copy-paste charts as “proof.”**  
+**Fix:** Convert to decisions: ratios → unit economics; market size → beachhead; deal comps → target raise & milestones.
+:::
+
+
+## Toolkit Boosts for Private Data
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+**Boost:** **Decision-first search**  
+Start with the decision (“choose price tier”, “pick channel”, “target investor”), then pull **just enough** private data to move. Avoid the rabbit hole.
+:::
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+**Boost:** **Triangulate**  
+Pair one **deep** paid source with one **fresh** public/web signal and one **own** observation (pilot, interview, small test).
+:::
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+**Boost:** **Localize & unitize**  
+Translate national averages into **per-store / per-rep / per-subscriber** metrics in **your** city and **your** channel.
+:::
+
+
+## Entrepreneur’s Checklist: Using Private Data
+
+::: {.callout-note appearance="minimal" icon="tools"}
+1. [ ] **Frame the decision.** What choice will this data change?  
+2. [ ] **Pick the pair.** Industry & Finance, Consumer & Behavior, Product & Market, or Capital & Competitors.  
+3. [ ] **Grab one source per side.** Enough to get *ranges*, not false precision.  
+4. [ ] **Note license limits.** Educational vs. commercial use; cite responsibly.  
+5. [ ] **Translate to action.** A price, a channel bet, a feature cut, an investor list.  
+6. [ ] **Log assumptions.** What would make you revisit this conclusion?
+:::
+
+This chapter gives you the map and the mindset.  
+For step-by-step how-tos and the specific databases we recommend (with screenshots, search tips, and export tricks), see the **Evidence Toolkit: Private Data**.

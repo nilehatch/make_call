@@ -1,3 +1,108 @@
-# Customer Evidence
+# Competitor and Market Signals {#sec-competitor-market-signals-chapter}
 
-This chapter is a placeholder for the Customer Evidence chapter of *Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship*. Content will fill in quickly.
+Most of the time, competitors don’t hand you their playbook. But they *do* leave tracks.  
+Job postings, product launches, customer reviews, shipping times, press releases, even chatter on social media — all of these are signals.  
+
+These aren’t as clean as government statistics or as tailored as customer interviews. But they’re often the first evidence that something in your market is shifting. The real skill is learning what to watch, which competitors matter, and how to separate weak noise from strong patterns.  
+
+
+## Why Signals Matter  
+
+Entrepreneurship is a game of incomplete information. Competitor and market signals help you:  
+
+- Spot **emerging threats** (a rival testing a new feature before it becomes mainstream).  
+- Find **gaps in the market** (persistent negative reviews pointing to unmet needs).  
+- Gauge **momentum** (who is hiring, scaling, or struggling).  
+- Anticipate **ecosystem shifts** (new regulations, partnerships, or supply chain moves).  
+
+Signals won’t tell you everything. But they can help you frame sharper customer questions, avoid being blindsided, and sometimes even give you a first-mover edge.  
+
+
+## Categories of Signals  
+
+You can think of signals as falling into four broad buckets:  
+
+1. **Competitor Moves**  
+   - New features or product launches  
+   - Pricing changes or promotions  
+   - Partnerships, acquisitions, or pivots  
+
+2. **Market Conversations**  
+   - Customer reviews and ratings  
+   - Support forums and complaints  
+   - Social media chatter and sentiment  
+
+3. **Resource Flows**  
+   - Job postings (what skills are they hiring for?)  
+   - Patent filings or IP updates^[Patents can be revealing — but they’re tricky. A single competitor filing dozens of patents doesn’t necessarily mean a launch is imminent; many patents are defensive or exploratory. The stronger signal comes when you see *clusters across multiple firms*, pointing to where an industry is collectively moving.]  
+   - Supply chain indicators (shipping times, sourcing changes)  
+
+4. **Ecosystem Context**  
+   - Regulatory changes  
+   - Industry press and analyst reports  
+   - Signals from adjacent markets (tech that may spill into yours)  
+
+Each bucket offers fragments of truth. Alone, they’re shaky. Together, they can reveal the outline of what’s really happening.  
+
+
+## Which Competitors Matter?  
+
+Not every competitor is worth watching. Three rules of thumb:  
+
+- **Direct rivals** – Anyone selling something similar to the same customers.  
+- **Workarounds** – What customers use *instead of you*, even if it’s not a product.  
+- **Emerging players** – Startups or entrants whose growth signals may be weak but fast.  
+
+The danger is watching only the obvious incumbents and missing the edges where disruption usually begins.  
+
+
+## Which Signals Matter?  
+
+You don’t have time to monitor everything. A simple filter:  
+
+- **Relevant** – Does it touch your customers or your value proposition?  
+- **Repeatable** – Is it a one-off, or part of a pattern?  
+- **Actionable** – Does it change a decision you’re making right now?  
+
+::: {.callout-warning appearance="minimal"}
+### Trap to Avoid  
+Chasing every blip.  
+Rumors, headlines, or one-off reviews can mislead. Signals are *noisy* — don’t mistake volume for truth. A flashy press release may hide weak fundamentals; a bad review may not reflect the majority. Relying on one signal alone can fool you.  
+:::
+
+::: {.callout-note appearance="minimal"}
+### Boost: Look for Convergence  
+Patterns matter more than single points.  
+When job postings, reviews, and competitor messaging all lean the same way, you’ve got a **signal with weight**.  Signals are strongest when they cluster.  
+:::
+
+::: {.callout-tip appearance="minimal" icon="lightbulb"}
+### Mini-case
+A student team building a food-delivery service noticed that rivals were suddenly hiring “last-mile logistics coordinators.” That was the first hint delivery costs were spiking.  
+Instead of copying incumbents, the team pivoted toward *ghost kitchens* (shared prep facilities) that cut those costs in half.  
+
+The signal wasn’t obvious, but paying attention let them zig while others zagged.  
+:::
+
+**Bottom Line:** Competitor and market signals aren’t crystal balls. They’re more like weather vanes — they tell you which way the wind is blowing, so you can adjust your sails before the storm hits.  
+
+
+## Entrepreneur’s Checklist: Using Competitor & Market Signals  
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+- [ ] **Pick your rivals** → Identify 3–5 competitors worth tracking (direct, indirect, emerging).  
+- [ ] **Scan the moves** → Watch for new features, pricing shifts, launches, press.  
+- [ ] **Listen in** → Customer reviews, forums, and social chatter reveal unfiltered pain points.  
+- [ ] **Follow the flows** → Job postings, patents, funding rounds = where money and talent are going.  
+- [ ] **Map the context** → Regulations, analyst notes, and adjacent industries can change the game.  
+- [ ] **Log patterns** → Keep a simple competitor/market log. Track dates, sources, and implications.  
+- [ ] **Cross-check** → Don’t trust a single signal. Validate with public/private data or direct customer evidence.  
+- [ ] **Watch convergence** → Multiple weak signals pointing the same way are stronger than one loud headline.  
+- [ ] **Set a cadence** → Monthly quick scans, quarterly deep reviews. Signals lose power if you check once a year.  
+:::
+
+**Rule of thumb:** Don’t drown in noise. Pick a few signal sources you can sustain, then look for patterns over time.  
+
+---
+
+For detailed methods, tools, and sources, check the **Competitor and Market Signals Toolkit** — where we’ll show you exactly how to track, capture, and analyze these signals in practice.  

@@ -2,37 +2,27 @@
 
 Public data isn’t one big pile — it’s more like a set of doorways into different parts of the market. To keep things simple, we’ve grouped the most useful sources into six categories. Each one gives you a different kind of visibility:  
 
-1. **Market Size & Demographics** – Who and where the people are. Population counts, income levels, and regional growth.  
-2. **Consumer Trends & Behavior** – How people live, spend, and change over time. Search interest, opinions, habits, and confidence.  
-3. **Industry & Employment** – What work gets done and how much it pays. Jobs, wages, and sector trends.  
-4. **Global & Comparative** – How one country or region stacks up against another. Health, wealth, trade, and development indicators.  
-5. **Open Data Platforms** – General-purpose portals and repositories where you can explore or download datasets directly.  
-6. **Specialty & Applied Sources** – Niche tools and guides for specific needs, from government contracting to advertising rules.  
+1. **Market Size & Demographics** – Who and where the people are. Population counts, income levels, and regional growth.\
+    *Census, Stats America, World Bank, OECD*
+
+2. **Consumer Trends & Behavior** – How people live, spend, and change over time. Search interest, opinions, habits, and confidence.\
+    *Google Trends, Pew Research, American Time Use Survey, Consumer Expenditure Surveys*
+
+3. **Industry & Employment** – What work gets done and how much it pays. Jobs, wages, and sector trends.\
+    *Bureau of Labor Statistics, Economic Census, Business Trends Outlook*
+
+4. **Global & Comparative** – How one country or region stacks up against another. Health, wealth, trade, and development indicators.\
+    *Gapminder, Our World in Data, UN/IMF datasets*
+
+5. **Open Data Platforms** – General-purpose portals and repositories where you can explore or download datasets directly.\
+    *Kaggle, local open-data portals, Statista (limited free)*
+    
+6. **Specialty & Applied Sources** – Niche tools and guides for specific needs, from government contracting to advertising rules.\
+    *SBA Market Research tools, FTC advertising basics, Country Commercial Guides*
 
 Think of these as **six lenses**. No single one is enough on its own, but together they give you a fuller radar screen of markets, customers, and competition.  
 
-## Toolkit Categories  
-
-1. **Market Size & Demographics**
-   Census, Stats America, World Bank, OECD  
-
-2. **Consumer Trends & Behavior**  
-   Google Trends, Pew Research, American Time Use Survey, Consumer Expenditure Surveys  
-
-3. **Industry & Employment**  
-   Bureau of Labor Statistics, Economic Census, Business Trends Outlook  
-
-4. **Global & Comparative**  
-   Gapminder, Our World in Data, UN/IMF datasets  
-
-5. **Open Data Platforms**  
-   Kaggle, local open-data portals, Statista (limited free)  
-
-6. **Specialty & Applied Sources**  
-   SBA Market Research tools, FTC advertising basics, Country Commercial Guides  
-
-
-## Market Size & Demographics {#sec-market-size}
+## 1. Market Size & Demographics {#sec-market-size}
 
 Before you design a product, you need to know the lay of the land: how many people there are, where they live, how much they earn, and how their economies are changing. This isn’t guesswork — public data gives you a map of the population and its potential.  
 
@@ -135,7 +125,7 @@ Use OECD for benchmarking wealthy economies. For broader coverage, cross-check w
 
 
 
-## Consumer Trends & Behavior
+## 2. Consumer Trends & Behavior
 
 If you want to understand customers, don’t just ask them what they like — watch what they search, how they talk, where their hours go, what they buy, and how confident they feel about the future.  
 
@@ -265,7 +255,7 @@ Don’t just look at the headline number. Dig into the **expectations vs. curren
 
 
 
-## Industry & Employment
+## 3. Industry & Employment
 
 Behind every customer market is a workforce and the industries that employ them. If you’re starting a business, you need to know what jobs exist, what they pay, how industries are structured, and how confident businesses are feeling.  
 
@@ -348,7 +338,7 @@ It’s a pulse check, not a blueprint. Use BTOS for *timely shifts*, then confir
 
 
 
-## Global & Comparative  
+## 4. Global & Comparative  
 
 Sometimes the question isn’t just *what’s happening here* but *how does here compare to there*. Global data sources let you benchmark across countries and regions — from health and wealth to education and trade.  
 
@@ -430,7 +420,7 @@ Use these when *credibility matters* — investor decks and international partne
 
 
 
-## Open Data Platforms  
+## 5. Open Data Platforms  
 
 Not all data comes from government or research institutions. Increasingly, it’s gathered and shared on open platforms. These are treasure troves of raw material, ready to be explored or downloaded.  
 
@@ -447,7 +437,7 @@ These platforms are great for quick exploration or for finding datasets you can 
 **Not Great For:** Official, verified statistics; quality varies since anyone can upload.  
 
 #### Fast Track
-1. Go to Kaggle’s **Datasets** section and search by keyword (e.g., “coffee sales” or “cryptocurrency”).  
+1. Go to Kaggle’s **Datasets** section and search by keyword (e.g., “soda sales” or “cryptocurrency”).  
 2. Preview the dataset size and description before downloading.  
 3. Use the built-in tools or export to Excel/R for your own analysis.  
 
@@ -509,7 +499,7 @@ Always trace the citation. Statista charts are presentation-ready, but the *orig
 
 
 
-## Specialty & Applied Sources  
+## 6. Specialty & Applied Sources  
 
 Some questions don’t need broad statistics — they need practical, applied answers. Specialty sources give you guides, rules, and niche datasets designed for entrepreneurs.  
 

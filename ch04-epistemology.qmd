@@ -239,8 +239,8 @@ It’s the epistemology of questioning, probing, and refusing to take things at 
 **Definition**: Knowledge is justified only when it survives critical doubt and testing against contrary evidence.
 
 ::: {.callout-note appearance="minimal"}
-**Use when**: stakes are high, signals are noisy, or claims sound too good to be true.
-**Watch for**: cynicism that rejects everything, or paralysis that stops you from ever acting.
+**Use when**: stakes are high, signals are noisy, or claims sound too good to be true.\
+**Watch for**: cynicism that rejects everything, or paralysis that stops you from ever acting.\
 **In practice**: push for disconfirming evidence, ask "what would prove this false?", and balance doubt with timely decisions.
 :::
 
