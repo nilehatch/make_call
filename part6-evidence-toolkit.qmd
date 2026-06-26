@@ -55,20 +55,19 @@ Think of it as a **companion manual** — not required reading, but a place you 
 - Coding responses (fast thematic grouping)  
 
 
-## E4. AI & Experts Toolkit  
+## E4. Competitor & Market Signals Toolkit
+- Competitor press releases, product launches, pricing pages, SEC filings, industry newsletters
+- Market conversations in Amazon/Yelp/G2 reviews, Reddit threads, TikTok/Instagram chatter, support forums, Glassdoor
+- Resource flows reported in job postings (LinkedIn, Indeed), patent filings (USPTO), Crunchbase/PitchBook funding news, shipping data
+- Ecosystem context from regulatory filings (FCC, FDA, SEC), industry analyst reports, trade association updates, adjacent industry news
+
+
+## E5. AI & Experts Toolkit  
 - Writing effective AI prompts for evidence search  
 - Checking AI against real sources (triangulation)  
 - How to find and approach human experts  
 - Structuring an expert conversation  
 - Combining AI + human expertise  
-
-
-## E5. Modeling Toolkit  
-- Back-of-the-envelope models (3 numbers and a formula)  
-- Sensitivity analysis (test “what ifs” cheaply)  
-- Simple Excel/Google Sheets setup  
-- Visualization basics (graphs that reveal, not decorate)  
-- Pro Tip: stop at the model that answers your decision  
 
 
 ## E6. Accounting Toolkit  
@@ -79,7 +78,14 @@ Think of it as a **companion manual** — not required reading, but a place you 
 - Free templates & calculators  
 
 
-## E7. Advanced Tools (Optional)  
+## E7. Modeling Toolkit  
+- Back-of-the-envelope models (3 numbers and a formula)  
+- Sensitivity analysis (test “what ifs” cheaply)  
+- Simple Excel/Google Sheets setup  
+- Visualization basics (graphs that reveal, not decorate)  
+- Pro Tip: stop at the model that answers your decision  
+
+## E8. Advanced Tools (Optional)  
 - Web scraping basics (and when to use an app)  
 - API access (what it is and why it matters)  
 - Data cleaning with AI (fast fixes without coding)  

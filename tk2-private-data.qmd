@@ -1,5 +1,9 @@
 # E2. Private Data Toolkit {#sec-private-data-toolkit-chapter .unnumbered}
 
+This toolkit should be used with the principles and methods found in [Chapter @sec-private-data-chapter].
+
+---
+
 Private data isn’t “hidden” so much as **behind doors**: library logins, paid subscriptions, and vendor portals. The payoff is depth — ratios, panels, deal flow, and category reports that go far beyond Google.
 
 ::: {.callout-important appearance="minimal"}

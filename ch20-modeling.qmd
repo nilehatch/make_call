@@ -1,0 +1,261 @@
+# Modeling {#sec-modeling}
+
+## Stop Guessing and Start Seeing the Logic 
+
+Most entrepreneurs make hundreds of calls a week — about pricing, hiring, or new features — often with limited data.  
+Modeling is how you stop guessing.  
+
+A **model** is a clear, simplified picture of how your business works: what drives what, and how strongly.  
+You already build models every time you sketch a funnel, estimate your margin, or predict sales from ads.  
+The goal is not to be “right.”  
+It’s to see the *logic* behind your business clearly enough that when you’re wrong, you know *why.*
+
+> Data shows what happened. Modeling explains why it happened — and what’s likely next.
+
+
+## When to Model
+
+You don’t always need a model. But the moment you find yourself saying, *“I don’t get why this is happening,”*  
+you probably do.  
+
+Common triggers:
+
+- Sales are up, but cash is down.  
+- Customers love the product, but don’t return.  
+- A marketing channel performs wildly from month to month.  
+- You can’t decide whether to hire or automate.
+
+In each case, you’re missing a link in how your system fits together.  
+A model reveals those links so you can fix the right problem.
+
+
+## Three Levels of Modeling — and When to Use Them
+
+Every entrepreneur can model. The form just changes as evidence grows.
+
+| **Level** | **What It Looks Like** | **Use It When…** | **Example** |
+|------------|-----------------------|------------------|--------------|
+| **Conceptual** | Simple 2×2 grids or lists of factors | You need to clarify trade-offs or dimensions | “High pain, low pay” vs. “Low pain, high pay” customer segments |
+| **Relational** | Boxes and arrows showing cause and effect | You’re trying to find bottlenecks or levers | “Marketing → Awareness → Sales → Retention” |
+| **Quantitative** | Back-of-envelope math or spreadsheets | You must choose between options or forecast impact | “Profit = (Price × Quantity) – Cost” |
+
+Start with the simplest picture that forces clarity.  
+Add numbers only when you need to compare choices.  
+Complexity without clarity is just decoration.
+
+## Examples of Common Model Forms
+
+Seeing models in action makes their purpose clear.  
+Below are examples of the three major forms you’ll use as an entrepreneur: **conceptual, relational, and quantitative.**
+
+---
+
+### Conceptual Models — Framing Choices
+
+Conceptual models organize messy reality into clear categories.  
+They help you *see what kind of problem you have* before deciding how to solve it.
+
+#### Example 1: Customer Fit Grid (2×2)
+
+A simple 2×2 model that balances empathy (pain) against economics (ability to pay).  
+
+|                 | **Low Pay** | **High Pay** |
+|-----------------|--------------|---------------|
+| **High Pain** | Mission-driven or social opportunity — hard to monetize but meaningful. | **Sweet spot** — urgent need *and* means to pay. |
+| **Low Pain** | Indifference zone — little motivation to act. | Premium or luxury plays — rely on status or delight. |
+
+> *A quick sketch like this turns a vague “Who should we serve?” into four crisp strategic options.*
+
+--- 
+
+#### Example 2: Typology of Innovation (2×3)
+
+Some ventures face known problems but must find new solutions.  
+Others face unknown customer needs, where even the problem must be discovered.  
+This typology shows how uncertainty shapes both the *scope* of innovation and the *kind of team* required.
+
+:::{#tbl-typology tbl-cap="Typology of innovation categories including **expeditionary innovation** where customer needs are initially unknown" tbl-cap-location="margin"}
+
+<table class="innovation-typology-table">
+  <tr>
+    <th scope="col"></th> 
+    <th scope="col">Known solution</th>
+    <th scope="col">Unknown solution<br>(within reach)</th>
+    <th scope="col">Unknown solution<br>(beyond reach)</th>
+  </tr>
+  <tr>
+    <th scope="row">Known<br>customer<br>need</th>
+    <td>Execution-driven small business</td>
+    <td>High-tech arms race</td>
+    <td rowspan="2">University-led frontier research</td>
+  </tr>
+  <tr>
+    <th scope="row">Unknown<br>customer<br>need</th>
+    <td colspan="2" class="expeditionary">Expeditionary innovation</td>
+  </tr>
+</table>
+:::
+
+> *When customer needs are unknown and solutions are not yet visible, entrepreneurs must experiment their way forward.  
+This is the realm of **expeditionary innovation** — guided discovery where evidence leads the way.*
+
+**How to use it:**  
+
+- Use the typology to scope your project to maximize your chances of success. The further you move down and right, the higher the uncertainty — and the more exploratory your methods must be.  
+- Use it to build your team. Incremental innovations rely on efficiency; expeditionary work relies on curiosity, empathy, and flexibility.
+
+*(Adapted from [Expeditionary Innovation](https://ei.nilehatch.com/Expeditionary_Innovation.html) — see that book for a deeper treatment of uncertainty and innovation types.)*
+
+---
+
+### Relational Models — Mapping Causality
+
+Relational models show *how* things connect: what causes what, and where feedback loops form.  
+They help you design smarter experiments by clarifying which variables matter most.
+
+#### Example: Evidence-to-Action Loop
+
+![](images/model-evidence-loop.svg){width=80%}
+
+> Entrepreneurs move through a repeating cycle:  
+> **Unknown → Exploratory Experiment → Insight → Informed Hypothesis → Test → Judgment → Action.**  
+>  
+> Each loop reduces uncertainty. The diagram reminds you that *every experiment refines the model.*
+
+*(If you’ve seen relational models in earlier “Wrapping Up” chapters, this one continues the same logic.)*
+
+---
+
+### Quantitative Models — Putting Numbers on Logic
+
+Quantitative models make relationships measurable.  
+They turn your conceptual or relational logic into formulas that can be tested.
+
+#### Example 1: Profit Equation
+$$
+\textsf{Profit} = (\textsf{Price} \times \textsf{Quantity}) - \textsf{Cost}
+$$
+> *This simple model links pricing, demand, and cost into one relationship.  
+When data fills in each term, the model becomes predictive.*
+
+#### Example 2: Demand Curve
+$$
+\textsf{Sales Quantity} = \alpha - \beta \times \textsf{Price}
+$$
+
+> *A quantitative model of behavior: as price rises, demand typically falls.  
+Later, in **Entrepreneurship Analytics**, you’ll estimate these relationships directly from data.*
+
+---
+
+::: {.callout-tip appearance="minimal"}
+### Boost: Keep Your Models Visible
+Post your sketches — conceptual, relational, or numeric — where the team can see them.  
+They aren’t decoration; they’re the shared map of how you believe the world works.
+:::
+
+## Building a Model in Practice
+
+1. **Name the question.**  
+   “Why are sales up but profits flat?”  
+
+2. **List what might drive the outcome.**  
+   “Marketing, pricing, retention, costs.”  
+
+3. **Sketch the relationships.**  
+   Ads raise awareness → Awareness drives sales → Sales drive costs and cash flow.  
+
+4. **Quantify the links.**  
+   Use data when you have it: *A 10% ad increase raised sales by 5%.*  
+   Use estimates when you don’t: *Probably a 2-week lag between order and payment.*  
+
+5. **Test and adjust.**  
+   See if the world behaves like your model predicts.  
+   If not, the model — not reality — needs revision.  
+
+You don’t need advanced analytics to do this.  
+A notebook and curiosity are enough to start.
+
+
+## Traps and Boosts
+
+::: {.callout-warning appearance="minimal"}
+### Trap: Treating Models as Truth  
+Every model is a story. The danger is falling in love with your story.  
+When reality disagrees, believe reality.
+:::
+
+::: {.callout-warning appearance="minimal"}
+### Trap: Over-Engineering  
+Early founders often build 20-variable spreadsheets before they understand 3 key drivers.  
+Start with the minimum model that could change your mind.
+:::
+
+::: {.callout-note appearance="minimal"}
+### Boost: Make Assumptions Explicit  
+Write down your logic:  *“If we raise prices 10%, we’ll lose 5% of customers.”*
+
+That single sentence is testable — and falsifiable.  
+:::
+
+::: {.callout-note appearance="minimal"}
+### Boost: Model Together  
+Invite teammates to sketch their versions of how the business works.  
+Differences reveal blind spots faster than numbers do.
+:::
+
+
+::: {.callout-tip appearance="minimal"}
+## Mini-Case: The Wrong Problem
+
+A student team running a student-meal service was worried about low profits.  
+Their first instinct: cut costs.  
+But when they mapped their system, they saw the real issue — **churn.**  
+Each new sign-up replaced a departing customer.  
+By modeling customer flow (sign-ups → actives → cancellations), they realized retention, not cost, was the leverage point.  
+
+One small change — offering loyalty credits — improved retention by 15% and doubled profits the next semester.  
+:::
+
+> The model didn’t just explain what happened. It showed where to act.
+
+## When to Trust, When to Revise
+
+Models are living things. They age as markets move.
+
+- **Update** your model when new data slightly shifts expectations.  
+- **Revise** it when the world stops behaving as expected — your causal map no longer predicts outcomes.  
+
+Entrepreneurs don’t need perfect models; they need *responsive* ones.  
+A model that changes with learning is better than one that never fails.
+
+
+
+## A Brief Note on Theory and Experiment
+
+You don’t have to decide whether theory or experiment comes first.  
+In entrepreneurship, they dance together:  
+you imagine how things work, try something, learn, redraw the map, and try again.  
+Modeling is how you keep that dance visible — how you turn action into understanding.
+
+
+
+## Entrepreneur’s Checklist — Modeling for Better Calls  
+
+::: {.callout-tip appearance="minimal"}
+1. **Spot the mystery.** Where are results surprising you?  
+2. **Sketch the logic.** What’s driving what?  
+3. **Make it testable.** Write assumptions you could check with data.  
+4. **Run the numbers.** Estimate if you must; refine as data arrives.  
+5. **Watch for mismatch.** When results defy your model, redraw it.  
+:::
+
+---
+
+### Bottom Line
+
+You don’t model to predict the future.  
+You model to stop being surprised by the present.  
+
+A simple sketch of how your business works — drawn, shared, and tested — can save you months of blind guessing.  
+Each time you make that map clearer, you take one more step from uncertainty toward understanding.

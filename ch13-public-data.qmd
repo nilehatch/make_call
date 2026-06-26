@@ -1,4 +1,4 @@
-# Public Data
+# Public Data {#sec-public-data-chapter}
 
 ## Free Gold in Plain Sight
 
@@ -104,13 +104,15 @@ Her truck sold out almost every day in the first month — thanks to data anyone
 
 ::: {.callout-note appearance="minimal" icon="tools"}
 ### Quick Steps
-
-1. [ ] **Start with your question.** What decision are you trying to make — market size, location, trend spotting?  
-2. [ ] **Pick one or two sources.**  Check a government portal, an open-data site, or a web-based signal. Don’t drown in datasets.  
-3. [ ] **Check the basics.**  Look at the date, scope, and definitions. Ask: “Does this match my customer?”  
-4. [ ] **Cross-check.**  Pair the public dataset with a fresher or narrower signal (interviews, trends, competitor scans).  
-5. [ ] **Decide and move.**  Use public data to rule out bad ideas or point you toward better ones. Don’t wait for perfection.  
+- [ ] **Start with your question.** What decision are you trying to make — market size, location, trend spotting?  
+- [ ] **Pick one or two sources.**  Check a government portal, an open-data site, or a web-based signal. Don’t drown in datasets.  
+- [ ] **Check the basics.**  Look at the date, scope, and definitions. Ask: “Does this match my customer?”  
+- [ ] **Cross-check.**  Pair the public dataset with a fresher or narrower signal (interviews, trends, competitor scans).  
+- [ ] **Decide and move.**  Use public data to rule out bad ideas or point you toward better ones. Don’t wait for perfection.  
 :::
 
 This chapter gave you the big picture and a few starting sources.  
-If you want step-by-step guides, extended source lists, or practical how-tos (like scraping and AI shortcuts), see the **Evidence Toolkit** for step-by-step guides and extended sources. That’s where we get into the mechanics of gathering — so you can turn these ideas into action.  
+
+---
+
+If you want step-by-step guides, extended source lists, or practical how-tos (like scraping and AI shortcuts), see the [Evidence Toolkit for Public Data](tk1-public-data.qmd) for step-by-step guides and extended sources. That’s where we get into the mechanics of gathering — so you can turn these ideas into action.  

@@ -1,5 +1,9 @@
 # E4. Competitor & Market Signals Toolkit {#sec-competitor-market-signals-toolkit .unnumbered}
 
+This toolkit should be used with the principles and methods outlined in [Chapter @sec-competitor-market-signals-chapter].
+
+---
+
 Competitor and market signals aren’t “datasets” you download once.  
 They’re *ongoing feeds* of activity — footprints left behind by customers, rivals, and the market itself.  
 Unlike static statistics, these signals are dynamic: they shift weekly, even daily.  
@@ -55,6 +59,7 @@ Think of this as a radar screen. No single blip means much on its own — but wh
 - Language is technical/legal; focus on themes and clusters, not the fine print.  
 :::
 
+
 ::: {.callout-tip appearance="minimal" icon="lightbulb"}
 ### Mini-Case — Reading Patents Wisely  
 A health-tech startup tracked competitor patents and saw a rival file **10 patents in one year** on wearable glucose monitors.  
@@ -67,6 +72,37 @@ Meanwhile, another cluster of patents around **non-invasive sensors** came from 
 **Lesson:** A **pile of patents ≠ imminent launch**.  
 Look for **clusters across multiple actors** — that’s a stronger market signal than one competitor’s filings.  
 :::
+
+
+### SEC Filings & Annual Reports  
+*Look for what competitors are legally required to say, not what they want you to hear.*
+
+#### Sources & Signals  
+- **10-K / Annual Reports:** Strategic priorities, segment performance, risk factors.  
+- **10-Q / Quarterly Reports:** Short-term performance shifts and experiments.  
+- **Investor Letters & Earnings Calls:** Forward-looking narratives and tone changes.  
+
+#### What to Watch For  
+- **Language shifts:** New focus words (e.g., “AI,” “sustainability”) often precede investment moves.  
+- **Margins by segment:** Reveal where competitors actually make or lose money.  
+- **R&D and marketing spend:** Show changing strategic bets.  
+- **Customer concentration or churn metrics:** Hidden dependencies or fragility.
+
+::: {.callout-note appearance="minimal"}
+### Mini-Guide: Reading a 10-K for Strategy Clues
+1. Go to [sec.gov/edgar](https://www.sec.gov/edgar/searchedgar/companysearch.html) and search a public company.  
+2. Open its most recent **10-K**.  
+3. Skim three sections:
+   - **Item 1A – Risk Factors** → what they’re worried about.  
+   - **Item 7 – MD&A** → how they explain performance changes.  
+   - **Financial Statements** → where money flows.  
+4. Note 2–3 insights that a startup could learn from — e.g., a growing cost line, a new competitive threat.
+
+*Lesson: Extract real competitive context from regulated transparency.*
+:::
+
+
+
 ---
 
 ## 2. Market Conversations & Customer Chatter  

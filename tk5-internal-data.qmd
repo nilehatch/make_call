@@ -1,0 +1,165 @@
+# E5. Internal Data Toolkit {#sec-internal-data-toolkit .unnumbered}
+
+Internal data is the evidence your business generates every day.  
+Unlike public or market data, you already own it — the challenge is organizing and using it.  
+This toolkit gives you lightweight ways to **pull**, **log**, and **trust** what your own system is telling you.
+
+
+## 1. QuickBooks & Accounting Systems
+
+Most small ventures run on simple tools: **QuickBooks, Xero, or Wave.**  
+These can produce the essential financial reports without an accountant — if you know where to click.
+
+::: {.callout-important appearance="minimal" icon="clipboard"}
+### Mini-Guide: Generate Core Financial Reports
+
+1. Open your accounting dashboard → **Reports** tab.  
+2. Run these three every month:
+   - **Profit & Loss (Income Statement)** – shows revenue, costs, and profit.  
+   - **Cash Flow Statement** – shows timing of money in/out.  
+   - **Balance Sheet** – shows assets, liabilities, and equity.  
+3. Filter by month or quarter for trend lines.  
+4. Export to PDF or CSV and log observations:
+   - *Profit up, cash down → timing issue.*
+   - *Liabilities rising → runway tightening.*
+
+*Goal: Detect small problems before they become crises.*
+:::
+
+
+## 2. DIY Operational Metrics Dashboard
+
+If you don’t have formal systems, a **simple spreadsheet** can be your best friend.  
+Track the few numbers that actually move your business.
+
+| **Metric** | **What It Shows** | **Formula or Source** | **Update Frequency** |
+|-------------|-------------------|------------------------|----------------------|
+| Order-to-Delivery Time | Speed of fulfillment | `Delivery Date – Order Date` | Weekly |
+| Cost per Job / Order | Efficiency of delivery | `Total Costs ÷ Total Orders` | Monthly |
+| Error Rate | Reliability | `Errors ÷ Total Orders` | Weekly |
+| Repeat Purchase % | Customer loyalty | CRM or spreadsheet count | Monthly |
+| Team Energy Score | Capacity | Pulse survey average | Weekly |
+
+::: {.callout-note appearance="minimal" icon="lightbulb"}
+### Boost: Start with Simplicity
+If data isn’t already collected, add one new metric each week.  
+Even rough numbers reveal patterns once they’re consistent.
+:::
+
+
+## 3. Customer Behavior Log
+
+This is **behavioral data**, not opinions.  
+Track what customers *do* — renew, cancel, complain, or refer.
+
+::: {.callout-important appearance="minimal" icon="clipboard"}
+### Mini-Guide: Building a Simple Customer Log
+
+1. Use a spreadsheet or CRM export with columns:
+   - `Customer Name`
+   - `First Purchase Date`
+   - `Last Purchase Date`
+   - `Repeat? (Y/N)`
+   - `Referral? (Y/N)`
+   - `Complaint Tag`
+2. Calculate simple metrics:
+   - Retention rate = `Repeat ÷ Total`
+   - Complaint rate = `Complaints ÷ Total`
+3. Review monthly for patterns:
+   - “Renewals falling → maybe value gap.”
+   - “Same complaint repeated → process issue.”
+
+*Goal: Spot loyalty or friction early.*
+:::
+
+
+## 4. Team Pulse Template
+
+Healthy teams are productive teams.  
+You don’t need HR software to track morale and capacity.
+
+::: {.callout-important appearance="minimal" icon="clipboard"}
+### Mini-Guide: Weekly Team Pulse Survey
+
+Use Google Forms, Slack polls, or Notion tables.  
+Ask these three quick questions each week:
+
+1. How energized do you feel about your work? *(1–5)*  
+2. What was your biggest blocker this week? *(short text)*  
+3. What’s one improvement that would make next week smoother? *(short text)*
+
+Chart the scores over time.  
+Sudden drops or recurring blockers = early warnings.
+
+*Goal: Build habits of visibility and reflection.*
+:::
+
+::: {.callout-important appearance="minimal" icon="clipboard"}
+### Optional: Tracking Team Climate
+
+As your team grows, consider adding one “climate pulse” question each month:
+
+- “How safe do you feel bringing up new ideas or concerns?”
+- “Do you believe mistakes are treated as opportunities to learn?”
+- “Do you feel your work contributes to a meaningful goal?”
+
+Average the responses (1–5 scale) and log trends over time.  
+A dip in psychological safety is often an early sign of slowing learning or hidden conflict.
+
+*Goal: Protect the learning environment that fuels adaptation.*
+:::
+
+
+## 5. Clean-Data Checklist
+
+Your internal data is only as valuable as it is trustworthy.  
+Before analyzing or sharing numbers, make sure the basics hold up.
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+### Quick Quality Check
+- [ ] **Consistency:** Same metric names each month.  
+- [ ] **Completeness:** Missing entries filled or explained.  
+- [ ] **Frequency:** Updated on a schedule (weekly/monthly).  
+- [ ] **Documentation:** Note where each number comes from.  
+- [ ] **Backup:** Store reports in one shared folder or drive.
+:::
+
+
+
+## 6. Mini-Case: The Invisible Leak  
+
+::: {.callout-tip appearance="minimal"}
+**Case: FreshBrew Café**
+
+A student-run café saw revenue rising but cash tightening.  
+They ran their first full internal review:
+
+- P&L → profits up.  
+- Cash Flow → negative operating cash.  
+- Operations → supply costs climbing.  
+- Team Pulse → burnout in inventory manager role.  
+
+Root cause: over-ordering supplies and late payments from event clients.  
+Fixing both restored cash and morale within a month.
+
+**Lesson:** When data streams disagree, the truth is hiding in the overlap.
+:::
+
+
+
+## Quick Reference — Internal Data Tools  
+
+| **Domain** | **Free / Common Tools** |
+|-------------|------------------------|
+| Accounting | QuickBooks, Xero, Wave |
+| Operations | Google Sheets, Airtable, Asana, Trello, Shopify, Stripe |
+| Customers | HubSpot, Notion, Pipedrive, Mailchimp, Recurly |
+| Team | Slack polls, Google Forms, 15Five, CultureAmp, manual check-ins |
+
+
+
+## Takeaway  
+
+Internal data is your **fastest, cheapest feedback loop.**  
+Start small, record often, and watch for patterns across systems.  
+No single number is the truth — but together, your own numbers tell the most honest story about your business.

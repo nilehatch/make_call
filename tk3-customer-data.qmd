@@ -1,5 +1,9 @@
 # E3. Customer Data Toolkit {#sec-customer-data-toolkit-chapter .unnumbered}
 
+This toolkit should be used with the principles and methods found in [Chapter @sec-customer-data-chapter].
+
+---
+
 ## Why This Toolkit Exists
 
 When you leave a customer conversation, open a survey, or ship a prototype, you’re not “collecting feedback”—you’re **running an experiment**. This toolkit keeps those experiments small, honest, and useful.

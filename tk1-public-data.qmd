@@ -1,5 +1,9 @@
 # E1. Public Data Toolkit {#sec-public-data-toolkit-chapter .unnumbered}
 
+This toolkit should be used with the principles and methods outlined in [Chapter @sec-public-data-chapter].
+
+---
+
 Public data isn’t one big pile — it’s more like a set of doorways into different parts of the market. To keep things simple, we’ve grouped the most useful sources into six categories. Each one gives you a different kind of visibility:  
 
 1. **Market Size & Demographics** – Who and where the people are. Population counts, income levels, and regional growth.\
@@ -588,3 +592,6 @@ This Toolkit isn’t meant to be read straight through. Dip in when you need it.
 
 Public data may be free, but it isn’t always simple. Datasets can be outdated, messy, or misleading if taken at face value. Always check the date, scope, and definitions before using them to guide decisions.  
 :::
+
+
+##

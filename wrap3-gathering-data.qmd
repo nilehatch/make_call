@@ -1,0 +1,110 @@
+# Wrapping Up {#sec-triangulating-evidence}
+
+## Triangulating Evidence 
+
+Entrepreneurs can rarely see the full picture.  
+Every piece of evidence — a dataset, an interview, a financial report — is partial, biased, or incomplete.  
+The real skill isn’t finding one perfect source. It’s learning how to make sense of several imperfect ones together.  
+
+That’s what triangulation does.  
+It doesn’t remove uncertainty. It *shapes* it — giving you direction and confidence from the overlap of multiple signals.  
+
+
+## Seeing in Depth
+
+Each evidence source shows a different dimension of reality:  
+
+| **Type** | **Strength** | **Blind Spot** |
+|-----------|---------------|----------------|
+| **Quantitative data** (public, private, internal) | Scale and precision | Misses context and motivation |
+| **Qualitative evidence** (customer, expert, team) | Context and meaning | Small sample, subjective |
+| **Behavioral data** (experiments, operational patterns) | Revealed preferences and outcomes | Narrow scope, expensive to run |
+
+Alone, each view is flat — like a single photo.  
+Together, they give depth perception.  
+
+When your **public data**, **customer evidence**, and **internal metrics** all point in the same direction, you’re seeing in three dimensions.
+
+
+## The Evidence Triangle
+
+You can think of your sources as corners of a triangle:
+
+- **Quantitative evidence** — what’s measurable.  
+- **Qualitative evidence** — what’s understandable.  
+- **Behavioral evidence** — what’s testable.
+
+Triangulation means connecting all three.  
+You’re not chasing truth; you’re cross-checking stories.  
+When the numbers, the people, and the behavior agree, the signal is strong.  
+When they conflict, the disagreement shows where to dig next.
+
+
+
+## When Sources Disagree
+
+Conflicting evidence isn’t failure — it’s a clue.  
+
+If survey data says customers love your product,  
+but renewal rates show they quietly leave,  
+the contradiction *is* the insight.  
+
+That tension between what people say and what they do is often where the next hypothesis lives.  
+Triangulation makes those tensions visible.  
+
+
+
+## Traps and Boosts
+
+::: {.callout-warning appearance="minimal"}
+### Trap: Overweighting One Source  
+Entrepreneurs often cling to the source that feels most comfortable — the spreadsheet, the expert, or the customer quote.  
+That’s not confidence; that’s bias in disguise.  
+:::
+
+::: {.callout-note appearance="minimal"}
+### Boost: Look for Convergence  
+Three weak signals pointing in the same direction are often stronger than one loud headline.  
+Patterns matter more than points.  
+:::
+
+
+
+## Mini-Case: The Fitness App that Almost Misread Its Market  
+
+A student venture built an app for at-home workouts.  
+**Survey data** said demand was high.  
+**Google Trends** showed rising searches for “home fitness.”  
+But **beta test behavior** told a different story — users quit after the first week.  
+
+Triangulation revealed the truth: workouts were too long for real routines.  
+They shortened sessions to 15 minutes, relaunched, and doubled retention.  
+
+Their insight didn’t come from one dataset — it came from seeing where evidence overlapped and where it diverged.
+
+
+
+## Entrepreneur’s Checklist — Triangulating Evidence  
+
+::: {.callout-tip appearance="minimal"}
+1. **Combine one human, one quantitative, and one behavioral source.**  
+   Each adds a dimension of understanding.  
+
+2. **Log agreements and contradictions.**  
+   Convergence increases confidence; divergence reveals unknowns.  
+
+3. **Respect the limits of each source.**  
+   A clear bias is better than a hidden one.  
+
+4. **Act when stories align.**  
+   Waiting for perfect agreement is paralysis.  
+
+5. **Design your next test from the disagreement.**  
+   Where the data fight, your next discovery lives.  
+:::
+
+---
+
+Triangulation is how entrepreneurs make judgment scientific.  
+It turns scattered facts into coherent stories, and disagreement into learning.  
+It’s how you move from guessing to knowing enough — not certain, but confident — to make the call.  

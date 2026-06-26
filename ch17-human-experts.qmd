@@ -1,0 +1,76 @@
+# Human Experts  {#sec-human-experts-chapter}
+
+Some of the most valuable knowledge never gets published — it lives in people’s heads. Talking to human experts is a shortcut to decades of experience. But experts bring biases, blind spots, and their own agendas. Entrepreneurs must learn to extract insight without swallowing everything whole.  
+
+
+## What Human Experts Offer  
+
+- **Tacit knowledge** — hard-to-document know-how from lived practice.  
+- **Context and nuance** — local markets, cultural norms, and unwritten rules.  
+- **Pattern recognition** — the “I’ve seen this before” instincts built from long exposure.  
+
+
+## Types of Experts to Seek Out  
+
+- **Industry insiders** — executives, managers, consultants.  
+- **Frontline workers** — technicians, customer service, operators.  
+- **Academics and researchers** — deep domain knowledge, theory, and data.  
+- **Community leaders** — informal but trusted sources, especially in niche or cultural markets.  
+
+---
+
+## Traps to Avoid  
+
+::: {.callout-warning appearance="minimal"}
+# Authority Bias
+Experts can sound authoritative even when they’re wrong. Don’t confuse confidence with accuracy.  
+:::  
+
+::: {.callout-warning appearance="minimal"}
+# Echo Chambers
+Talking only to experts in the same circle leads to recycled assumptions. Broaden your net.  
+:::  
+
+::: {.callout-warning appearance="minimal"}
+# Overconfidence
+Experts may project certainty about an uncertain future. Remember: their models can break too.  
+:::  
+
+---
+
+## Boosts  
+
+::: {.callout-note appearance="minimal"}
+# Cross-Examine
+Ask multiple experts from different roles. Differences in their answers are as revealing as the common ground.  
+:::  
+
+::: {.callout-note appearance="minimal"}
+# Ask for Stories, Not Advice
+“Tell me about a time when…” yields richer evidence than “What should I do?” Stories show how they actually acted, not what they think you should do.  
+:::  
+
+::: {.callout-note appearance="minimal"}
+# Triangulate
+Always cross-check expert advice with other evidence sources — customer data, public data, or your own tests. Experts supply hypotheses, not verdicts.  
+:::  
+
+---
+
+## Mini-Case  
+
+A founder entering food retail interviewed a former grocery buyer. The expert insisted “low-fat sells.” Customer surveys, however, revealed demand for high-protein. Together, the two views clarified that **shelf placement mattered more than nutritional buzzwords** — the expert was right about placement, wrong about what drove demand.  
+
+
+
+## Entrepreneur’s Checklist: Using Human Experts  
+
+::: {.callout-note appearance="minimal"}
+- [ ] Identify **2–3 experts** from different roles or perspectives.  
+- [ ] Ask for **stories and examples**, not predictions.  
+- [ ] Log where they **agree and differ** — the differences are often where insight hides.  
+- [ ] Treat advice as **inputs to test**, not instructions to follow.  
+- [ ] Always **cross-check** against customer data or other evidence.  
+:::
+
+---

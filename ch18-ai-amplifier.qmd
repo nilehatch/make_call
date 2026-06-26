@@ -1,0 +1,112 @@
+# AI as Amplifier  {#sec-ai-amplifier-chapter}
+
+Some tools change the work. Others change the worker.  
+AI is the second kind.  
+
+Used well, AI is an amplifier: it takes what you know, what you’re curious about, and what you can imagine — and accelerates the process of turning it into drafts, comparisons, and options. But it is not an oracle. The danger is assuming its answers are “the truth.” Entrepreneurs must learn to collaborate with AI as a partner, not outsource judgment to it.  
+
+
+
+## What AI Offers
+
+- **Breadth at speed**: AI can summarize an industry, brainstorm features, or scan reviews in seconds.  
+- **Pattern recognition**: It can cluster themes, flag similarities, and highlight contrasts across messy text.  
+- **First drafts**: It creates outlines, survey questions, interview guides, or customer personas you can refine.  
+- **Synthesis**: It helps you compare competing perspectives side by side.  
+
+Think of AI as the **world’s fastest research assistant** — eager, tireless, but in need of direction.  
+
+
+
+## Traps to Avoid
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+### Hallucinations  
+AI will confidently generate fake facts, references, or numbers. Never assume output = truth.  
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+### Over-Trusting Automation  
+AI can draft surveys, but it doesn’t know your customer context. Blindly accepting output = lazy design.  
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+### Displacing Judgment  
+Letting AI “make the call” for you. Evidence is input; entrepreneurs still own the decision.  
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+### Surface Answers  
+Stopping at the first response. Initial drafts are often generic. Without iteration, you miss depth.  
+:::
+
+::: {.callout-warning appearance="minimal" icon="alert-triangle"}
+### Over-Generalization  
+AI tends toward the average view. But opportunity often hides in the edges and exceptions.  
+:::
+
+
+
+## Boosts to Apply
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+### Treat as Brainstorm Partner  
+Use AI for first drafts and broad scans, not final answers. It accelerates options, not conclusions.  
+:::
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+### Pair With Human Validation  
+Cross-check AI outputs with experts, data, or your own tests. AI amplifies patterns — you filter truth.  
+:::
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+### Prompt With Context  
+Frame prompts clearly: *“I’m designing a survey for 18–25-year-olds about fitness habits. Draft 5 unbiased questions.”*  
+The more specific you are, the sharper the result.  
+:::
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+### Iterate Deliberately  
+Don’t stop at one answer. Ask follow-ups: “What assumptions are you making?” “Give me three alternative framings.” Refinement is where insight emerges.  
+:::
+
+::: {.callout-note appearance="minimal" icon="check-circle"}
+### Use for Synthesis, Not Just Search  
+Ask AI to compare perspectives, cluster insights, or draft pros/cons. Its power is in connecting threads, not just spitting facts.  
+:::
+
+
+## Mini-Case — Iterating a Survey With AI  
+
+A founder wanted to run a quick survey about fitness habits.  
+She asked AI: *“Write 10 questions for a survey about exercise.”*  
+
+The result? Generic, biased, and too long. Instead of using it raw, she iterated:  
+
+1. **Refine** → “Narrow to women aged 18–25.”  
+2. **Bias check** → “Rewrite to avoid leading or double-barreled questions.”  
+3. **Survey design** → “Structure into funnel: screener → context → open → closed → demographics.”  
+
+By the third round, she had a usable survey draft — one that reflected *her context*, not just the average template.  
+
+**Lesson:** AI sped up the grunt work, but *her guidance* made it credible.  
+
+
+
+## Entrepreneur’s Checklist: Using AI as Amplifier 
+
+::: {.callout-note appearance="minimal"}
+- [ ] Frame your context clearly before prompting.  
+- [ ] Treat first outputs as drafts — never final.  
+- [ ] Iterate: ask follow-ups, challenge assumptions, request alternatives.  
+- [ ] Cross-check outputs with human experts or real data.  
+- [ ] Avoid surface-level answers; push for depth and synthesis.  
+- [ ] Keep judgment in your hands — AI amplifies, you decide.  
+:::
+
+
+AI is not a shortcut to wisdom.  
+It’s a force multiplier for curiosity and judgment.  
+The sharper your questions, the stronger the amplification.  
+
+---

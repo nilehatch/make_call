@@ -27,6 +27,26 @@ This isn’t about perfection. It’s about clarity strong enough to make the ca
 - **Stop in time** — gather until you can act, then act.  
 :::
 
+## The Evidence Ladder (2-minute primer)
+
+Not all evidence costs the same or carries the same weight. Think of a ladder:
+
+- **Lower rungs = fast/cheap signals** (good for orienting quickly).
+- **Higher rungs = slower/costly, stronger signals** (good for committing).
+
+Use it to decide *how high you need to climb* before acting.
+
+| **Rung** | **What it is** | **Examples** | **Cost/Time** | **Use it to…** |
+|---|---|---|---|---|
+| 1 | Quick scans | Google searches, competitor pages, app store reviews, Google Trends | Minutes–hours, free | Spot possibilities, language, obvious gaps |
+| 2 | Light conversations & observation | 5–10 customer chats, shadowing, expert calls | Hours–days, low | Hear stories, find pain points, refine hypotheses |
+| 3 | Structured surveys & small tests | Short survey, smoke test page, fake-door CTA | Days–1–2 weeks, moderate | Measure prevalence, compare options |
+| 4 | Behavioral/transaction data | Live A/B, pilot pricing, pre-orders | 1–4+ weeks, $$ | Validate with real choices (strongest signal) |
+
+::: {.callout-note appearance="minimal"}
+**Stop rule:** Climb only as high as the decision is *worth*. If one more rung won’t change your choice, stop and act.
+:::
+
 ## Avoiding Traps
 
 ::: {.callout-warning appearance="minimal" icon="alert-triangle"}

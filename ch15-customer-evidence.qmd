@@ -77,3 +77,7 @@ It’s closer to real purchase decisions than public or private data. It’s als
 The goal isn’t to collect opinions for a slide deck — it’s to learn enough to **make the call**.  
 
 *Customer data is your lab. Done well, it doesn’t just tell you what people want — it teaches you how to learn.*  
+
+--- 
+
+For step-by-step instructions on how to gather each type of customer data, see the [Evidence Toolkit: Customer Data](https://mc.nilehatch.com/tk3-customer-data.html).

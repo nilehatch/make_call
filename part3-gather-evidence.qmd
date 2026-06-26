@@ -55,7 +55,8 @@ In the chapters ahead, you’ll learn to tap into six powerful evidence sources:
 
 - **Public Data** — Free or low-cost information hiding in plain sight.  
 - **Private Data** — Industry reports, subscription services, and insider datasets.  
-- **Customer Evidence** — Signals directly from the people you hope to serve.  
+- **Customer Evidence** — Signals directly from the people you hope to serve. 
+- **Competitor and Market Signals** — Real-time tells from rivals, customers, and the market that reveal shifts before the stats do.
 - **AI and Human Experts** — Knowledge already in someone’s head (or in an algorithm).  
 - **Modeling** — Running scenarios to test assumptions before you spend a dollar.  
 - **Accounting Data** — The overlooked numbers that reveal what’s really happening inside a business.  

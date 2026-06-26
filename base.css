@@ -1,3 +1,9 @@
+/* ===============================
+   base.css (shared across books)
+   Purpose: layout rhythm + neutral components + utilities
+   No brand colors here.
+   =============================== */
+
 /* ====== Typography and Heading Spacing ====== */
 
 /* Add space below main title */
@@ -5,10 +11,11 @@
   margin-bottom: 40px !important;
 }
 
-/* Add space above h2 headers and optional underline */
+/* Add space above h2 headers and optional underline (neutral) */
 .level2 h2.anchored {
   margin-top: 40px;
-  border-bottom: 2px solid #ccc; /* subtle divider */
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e5e7eb; /* neutral light gray */
 }
 
 /* Add space before h3 headers */
@@ -24,10 +31,13 @@ img {
   height: auto;
 }
 
-/* Quarto figure captions */
-.figure-caption {
-  font-size: 0.9em;
+/* Quarto figure captions (neutral) */
+.figure-caption,
+.quarto-figure .caption,
+figcaption {
+  font-size: 0.92rem;
   color: #555;
+  line-height: 1.25;
 }
 
 /* ====== Footnotes ====== */
@@ -36,21 +46,24 @@ img {
 .footnotes::before {
   content: "Footnotes";
   display: block;
-  font-size: 1.1em;
-  font-weight: bold;
-  margin-bottom: 0.5em;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.4em;
 }
 
 /* Add space above the footnotes section */
 .footnotes {
   margin-top: 2em;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #e5e7eb;
   padding-top: 1em;
 }
 
 /* ====== Tables ====== */
 
-/* General table styling */
+/*
+  Prefer Quarto/Bootstrap table classes when possible.
+  Keep base tables clean and readable without heavy theming.
+*/
 table {
   border-collapse: collapse;
   width: 100%;
@@ -58,8 +71,9 @@ table {
 }
 
 th, td {
-  border: 1px solid #ddd;
+  border: 1px solid #e5e7eb;
   padding: 0.5em;
+  vertical-align: top;
 }
 
 th {
@@ -67,19 +81,9 @@ th {
   text-align: left;
 }
 
-/* ====== Responsive Design ====== */
+/* ====== Utilities ====== */
 
-/* Prevent floating elements from breaking layout on mobile */
-@media (max-width: 768px) {
-  .wrapfig {
-    float: none !important;
-    width: 100% !important;
-    margin: 1em 0 !important;
-  }
-}
-
-/* wrapfig stylings to manage text / fig interfaces */
-
+/* wrapfig utilities to manage text / fig interfaces */
 .wrapfig_left_30 {
   float: left;
   margin: 0 20px 10px 10px;
@@ -102,4 +106,18 @@ th {
   float: right;
   margin: 0 0 10px 20px;
   width: 25%;
+}
+
+/* ====== Responsive Design ====== */
+
+/* Prevent floating elements from breaking layout on mobile */
+@media (max-width: 768px) {
+  .wrapfig_left_30,
+  .wrapfig_right_30,
+  .wrapfig_left_25,
+  .wrapfig_right_25 {
+    float: none !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+  }
 }

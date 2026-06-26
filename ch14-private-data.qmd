@@ -201,13 +201,16 @@ Translate national averages into **per-store / per-rep / per-subscriber** metric
 ## Entrepreneur’s Checklist: Using Private Data
 
 ::: {.callout-note appearance="minimal" icon="tools"}
-1. [ ] **Frame the decision.** What choice will this data change?  
-2. [ ] **Pick the pair.** Industry & Finance, Consumer & Behavior, Product & Market, or Capital & Competitors.  
-3. [ ] **Grab one source per side.** Enough to get *ranges*, not false precision.  
-4. [ ] **Note license limits.** Educational vs. commercial use; cite responsibly.  
-5. [ ] **Translate to action.** A price, a channel bet, a feature cut, an investor list.  
-6. [ ] **Log assumptions.** What would make you revisit this conclusion?
+- [ ] **Frame the decision.** What choice will this data change?  
+- [ ] **Pick the pair.** Industry & Finance, Consumer & Behavior, Product & Market, or Capital & Competitors.  
+- [ ] **Grab one source per side.** Enough to get *ranges*, not false precision.  
+- [ ] **Note license limits.** Educational vs. commercial use; cite responsibly.  
+- [ ] **Translate to action.** A price, a channel bet, a feature cut, an investor list.  
+- [ ] **Log assumptions.** What would make you revisit this conclusion?
 :::
 
 This chapter gives you the map and the mindset.  
-For step-by-step how-tos and the specific databases we recommend (with screenshots, search tips, and export tricks), see the **Evidence Toolkit: Private Data**.
+
+---
+
+For step-by-step how-tos and the specific databases we recommend, see the [Evidence Toolkit: Private Data](tk2-private-data.qmd).

@@ -38,8 +38,8 @@ book:
     - part: part2-asking-right-questions.qmd
       chapters:
         - ch08-urgent-unknowns.qmd
-        - ch09-hypotheses.qmd
-        - ch10-exploration.qmd
+        - ch09-hypothesizing.qmd
+        - ch10-exploring.qmd
         - wrap2-asking-right-questions.qmd
 
     - part: part3-gather-evidence.qmd
@@ -49,23 +49,25 @@ book:
         - ch14-private-data.qmd
         - ch15-customer-evidence.qmd
         - ch16-competitor-market-signals.qmd
-        - ch17-ai-experts.qmd        
-        - ch18-internal-data.qmd
-        - ch19-modeling.qmd        
+        - ch17-human-experts.qmd        
+        - ch18-ai-amplifier.qmd                
+        - ch19-internal-data.qmd
+        - ch20-modeling.qmd        
+        - wrap3-gathering-data.qmd
 
     - part: part4-judging-deciding-acting.qmd
       chapters:
-        - ch21-updating.qmd
-        - ch22-evaluating.qmd
-        - ch23-decision-rules.qmd
-        - ch24-judgment.qmd
-        - ch25-presenting.qmd
+        - ch22-updating.qmd
+        - ch23-evaluating.qmd
+        - ch24-decision-rules.qmd
+        - ch25-judgment.qmd
+        - ch26-presenting.qmd
 
     - part: part5-becoming.qmd
       chapters:
-        - ch27-conviction.qmd
-        - ch28-lifelong-learning.qmd
-        - ch29-leadership.qmd
+        - ch28-conviction.qmd
+        - ch29-lifelong-learning.qmd
+        - ch30-leadership.qmd
         
     - part: part6-evidence-toolkit.qmd
       chapters:
@@ -73,6 +75,7 @@ book:
         - tk2-private-data.qmd
         - tk3-customer-data.qmd
         - tk4-customer-market-signals.qmd
+        - tk5-internal-data.qmd        
     
     - references.qmd
 
@@ -83,7 +86,7 @@ format:
     theme: cosmo
     css:
       - base.css
-      - custom-mtc.css
+      - custom_mtc.css
     number-sections: true
     number-depth: 1
     fig-cap-location: margin
