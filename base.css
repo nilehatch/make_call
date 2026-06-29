@@ -207,6 +207,16 @@ hr.method-divider {
 .definition  { border-left-color: var(--brand-primary); background: var(--brand-bg-tint); }
 .for-curious { border-left-color: var(--brand-accent);
                background: linear-gradient(to right, var(--brand-bg-tint), transparent); }
+/* collapsible variant: ::: {.for-curious} <details><summary>label</summary> … </details> :::
+   The apparatus stays hidden until the reader asks for it (the ITWD rule). The
+   <summary> is the label (bold); the body returns to normal weight. The :first-child
+   selectors out-specify the shared label rule above. */
+.for-curious > details:first-child { font-weight: 400; margin-top: 0; }
+.for-curious > details > summary {
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--brand-accent);
+}
 
 /* SEE — illustration & demonstration (secondary teal) */
 .mini-case, .worked-example, .running-case, .voice-customer {
@@ -228,6 +238,28 @@ hr.method-divider {
 .ask-ai, .checkpoint {
   border-left-color: var(--brand-ai, #7C3AED);
   background: var(--brand-ai-tint, #F5F3FF);
+}
+/* The copy-ready prompt: a distinct inset card, NOT a nested blockquote
+   (a blockquote inside .ask-ai doubles the left border and clashes). This card
+   reads as the set-apart, quotable question, and is where the copy button mounts.
+   Author as:  ::: {.ask-ai} **Ask Your AI**  ::: {.prompt} …prompt… ::: ::: */
+.ask-ai .prompt {
+  margin: 0.6rem 0 0;
+  padding: 0.7rem 0.9rem;
+  background: #fff;
+  border: 1px solid var(--brand-ai, #7C3AED);
+  border-radius: 6px;
+  color: var(--brand-text);
+  font-style: italic;
+}
+/* fallback: if a blockquote is used for the prompt, strip its competing frame */
+.ask-ai blockquote {
+  margin: 0.6rem 0 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-style: italic;
+  color: var(--brand-text);
 }
 
 /* AVOID — caution (single box; warnings + cautions merged) */

@@ -1,6 +1,7 @@
 # Quarto output
 _book/
 _site/
+*_files/
 *.html
 *.pdf
 *.docx

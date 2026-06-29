@@ -40,6 +40,7 @@ book:
         - ch08-urgent-unknowns.qmd
         - ch09-hypothesizing.qmd
         - ch10-exploring.qmd
+        - designing-the-experiment.qmd
         - wrap2-asking-right-questions.qmd
 
     - part: part3-gather-evidence.qmd
