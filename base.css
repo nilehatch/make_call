@@ -1,37 +1,296 @@
 /* ===============================
-   base.css (shared across books)
-   Purpose: layout rhythm + neutral components + utilities
-   No brand colors here.
+   base.css — CANONICAL shared stylesheet across all books.
+   Holds ALL structure + components. Color enters ONLY through
+   --brand-* variables, which each book defines in its theme file
+   (e.g. custom_mtc.css). The fallbacks below keep this file usable
+   standalone and document the variable contract.
+
+   To theme a new book: copy a theme file, change the seven --brand-*
+   values, load base.css FIRST then the theme. Do not fork base.css.
    =============================== */
 
-/* ====== Typography and Heading Spacing ====== */
-
-/* Add space below main title */
-.quarto-title-block h1.title {
-  margin-bottom: 40px !important;
+/* ====== Brand variable contract (overridden per book) ====== */
+:root {
+  --brand-primary:      #007BA7;  /* primary accent */
+  --brand-primary-dark: #006B90;  /* hover/active   */
+  --brand-secondary:    #008080;  /* secondary accent */
+  --brand-accent:       #E3A008;  /* tertiary / "depth" */
+  --brand-muted:        #6B7280;  /* muted text */
+  --brand-bg-tint:      #EAF4F7;  /* soft fill */
+  --brand-text:         #1F2937;  /* body text */
 }
 
-/* Add space above h2 headers and optional underline (neutral) */
-.level2 h2.anchored {
-  margin-top: 40px;
-  padding-bottom: 6px;
-  border-bottom: 2px solid #e5e7eb; /* neutral light gray */
+/* ====== Body & Headings ====== */
+body { color: var(--brand-text); }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--brand-text);
+  scroll-margin-top: 90px;
 }
 
-/* Add space before h3 headers */
+p + p { margin-top: 0.6em; }
+
+/* Space below the main title (banner overrides margins; see theme block) */
+.quarto-title-block h1.title { margin-bottom: 40px; }
+
+/* --- Header hierarchy: make ## (h2) and ### (h3) glance-distinct ---
+   h2 = SECTION    : brand-primary color + full rule + larger/heavier
+   h3 = SUBSECTION : smaller, secondary color, accent left-tick, no rule
+   The goal is fast-scroll legibility: color + marker carry the level,
+   not a thin gray line alone. */
+.level2 h2,
+section.level2 > h2,
+h2.anchored {
+  margin-top: 2.5rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--brand-primary);
+  border-bottom: 2px solid var(--brand-primary);
+}
+
+.level3 h3,
+section.level3 > h3,
+h3.anchored,
 h3 {
-  margin-top: 30px;
+  margin-top: 1.75rem;
+  padding-left: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--brand-secondary);
+  border-bottom: none;
+  border-left: 3px solid var(--brand-accent);
+}
+
+h4 { margin-top: 1.4rem; font-weight: 600; }
+
+/* ====== Chapter Banner ====== */
+.quarto-title-block {
+  background: linear-gradient(90deg, var(--brand-primary) 0%, var(--brand-secondary) 100%);
+  color: white;
+  padding: 1.2rem 1.2rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+
+.quarto-title-block h1.title,
+.quarto-title-block .subtitle {
+  color: white;
+  border-bottom: none !important;
+  margin: 0 !important;
+}
+
+/* Title: slightly lighter weight + a deliberate small gap to the subtitle
+   (the refinement from the profit-analytics book's title block) */
+.quarto-title-block h1.title {
+  font-weight: 500;
+  margin-bottom: 0.25em !important;
+}
+
+.quarto-title-block .subtitle {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgba(255,255,255,0.85);
+  margin-top: -0.25em;
+  margin-bottom: 0.35em;   /* tighter to content than 1em — ITWD value */
+  font-style: italic;
+}
+
+/* ====== Breadcrumbs inside banner ====== */
+.quarto-title-block .quarto-title-breadcrumbs {
+  position: static;
+  margin-bottom: 0.35rem;
+  color: rgba(255,255,255,0.92);
+  font-size: 0.9rem;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.20);
+}
+.quarto-title-block .quarto-title-breadcrumbs a {
+  color: rgba(255,255,255,0.92);
+  text-decoration: none;
+}
+.quarto-title-block .quarto-title-breadcrumbs a:hover,
+.quarto-title-block .quarto-title-breadcrumbs a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255,255,255,0.65);
+  padding: 0 0.35rem;
+}
+/* Hide the last breadcrumb (the chapter title) */
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item:last-child { display: none; }
+.quarto-title-block .quarto-title-breadcrumbs .breadcrumb-item:last-child::before { content: none; }
+/* Subtle separator below breadcrumbs */
+.quarto-title-block .quarto-title-breadcrumbs::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0.35rem;
+  background: linear-gradient(to right, rgba(255,255,255,0.25), rgba(255,255,255,0));
+}
+
+/* ====== Section Divider (Asterism) ====== */
+.asterism {
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--brand-primary), transparent);
+  margin: 1.75rem 0;
+  border: 0;
+}
+
+/* ====== Method Divider ====== */
+hr.method-divider {
+  border: 0;
+  height: 6px;
+  margin: 2rem 0 1.25rem;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--brand-primary), var(--brand-secondary));
+}
+@media (max-width: 640px), print {
+  hr.method-divider { height: 4px; }
+}
+
+/* ====== Callouts (semantic defaults; full taxonomy pending) ====== */
+.callout {
+  border-left-width: 4px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.callout-note      { border-left-color: var(--brand-primary); background: var(--brand-bg-tint); }
+.callout-tip       { border-left-color: #16A34A;              background: #EAF7EF; }
+.callout-important { border-left-color: #EA580C;              background: #FFF1E9; }
+.callout-caution   { border-left-color: #DC2626;              background: #FDECEC; }
+.callout-warning   { border-left-color: #ED8936;              background: #FFF5F0; }
+.callout .callout-title-container { font-weight: 600; color: var(--brand-text); }
+
+/* "depth" variant — academic/technical aside (the rigor apparatus home) */
+.callout.callout-depth {
+  border-left-color: var(--brand-accent);
+  background: linear-gradient(to right, var(--brand-bg-tint), transparent);
+}
+
+/* ====== Named callout boxes — the canonical taxonomy (div-class system) ======
+   Authoring:  ::: {.try-this}
+                 **Try This — Map Your Fog**
+                 ...content...
+               :::
+   These are PLAIN <div class="..."> styled entirely here — NOT Quarto callout
+   types (extending those is what failed before). One class per box; the family
+   sets the color; the bold first line is the label. Add a new purpose only by
+   adding a class here — never by reusing another box for a different purpose. */
+
+/* shared box */
+.definition, .for-curious,
+.mini-case, .worked-example, .running-case, .voice-customer,
+.try-this, .reflect, .checklist, .key-action,
+.ask-ai, .checkpoint, .trap {
+  border-left: 4px solid var(--brand-muted);
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  margin: 1.25rem 0;
+  background: #f7f7f8;
+}
+/* the label line (author writes it as the first line) */
+.definition > :first-child, .for-curious > :first-child,
+.mini-case > :first-child, .worked-example > :first-child,
+.running-case > :first-child, .voice-customer > :first-child,
+.try-this > :first-child, .reflect > :first-child,
+.checklist > :first-child, .key-action > :first-child,
+.ask-ai > :first-child, .checkpoint > :first-child,
+.trap > :first-child {
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* KNOW — reference (primary blue) */
+.definition  { border-left-color: var(--brand-primary); background: var(--brand-bg-tint); }
+.for-curious { border-left-color: var(--brand-accent);
+               background: linear-gradient(to right, var(--brand-bg-tint), transparent); }
+
+/* SEE — illustration & demonstration (secondary teal) */
+.mini-case, .worked-example, .running-case, .voice-customer {
+  border-left-color: var(--brand-secondary);
+  background: var(--brand-bg-tint);
+}
+.running-case   { border-left-width: 6px; }   /* the spine case carries more weight */
+.voice-customer { font-style: italic; }         /* field voice */
+
+/* DO — action (accent gold) */
+.try-this, .reflect, .checklist, .key-action {
+  border-left-color: var(--brand-accent);
+  background: #FFF9EC;
+}
+.checklist ul { list-style: none; padding-left: 0.25rem; }
+.checklist .task-list-item input { margin-right: 0.5rem; }
+
+/* WORK WITH AI (violet — deliberately outside the brand triad; themeable) */
+.ask-ai, .checkpoint {
+  border-left-color: var(--brand-ai, #7C3AED);
+  background: var(--brand-ai-tint, #F5F3FF);
+}
+
+/* AVOID — caution (single box; warnings + cautions merged) */
+.trap {
+  border-left-color: #DC2626;
+  background: #FDECEC;
+}
+
+@media print {
+  .definition, .for-curious, .mini-case, .worked-example, .running-case,
+  .voice-customer, .try-this, .reflect, .checklist, .key-action,
+  .ask-ai, .checkpoint, .trap { background: #fff !important; }
+}
+
+/* ====== Links ====== */
+a, .link-secondary {
+  color: var(--brand-primary);
+  text-decoration-thickness: 0.06em;
+}
+a:hover, a:focus {
+  color: var(--brand-primary-dark);
+  text-decoration-color: var(--brand-primary-dark);
+  text-decoration-thickness: 0.09em;
+}
+
+/* ====== Block Quotes ====== */
+blockquote {
+  border-left: 4px solid var(--brand-primary);
+  padding-left: 1rem;
+  color: var(--brand-muted);
+  background: linear-gradient(to right, var(--brand-bg-tint), transparent);
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+/* ====== Pull Quotes (punchy one-liners — typographic, not a box) ====== */
+.pull-quote {
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--brand-secondary);
+  background: linear-gradient(to right, var(--brand-bg-tint), transparent 60%);
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--brand-text);
+}
+
+/* ====== Code ====== */
+pre code {
+  background: #f8fafc;
+  border: 1px solid #eef2f7;
+  border-radius: 6px;
+  display: block;
+  padding: 0.75rem 1rem;
+}
+p code, li code, table code {
+  background: #f3f6fb;
+  border: 1px solid #e9eef7;
+  padding: 0.05rem 0.35rem;
+  border-radius: 4px;
 }
 
 /* ====== Figures and Captions ====== */
-
-/* Consistent image sizing on smaller screens */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Quarto figure captions (neutral) */
+img { max-width: 100%; height: auto; }
 .figure-caption,
 .quarto-figure .caption,
 figcaption {
@@ -41,8 +300,6 @@ figcaption {
 }
 
 /* ====== Footnotes ====== */
-
-/* Add clear "Footnotes" label above footnotes */
 .footnotes::before {
   content: "Footnotes";
   display: block;
@@ -50,8 +307,6 @@ figcaption {
   font-weight: 600;
   margin-bottom: 0.4em;
 }
-
-/* Add space above the footnotes section */
 .footnotes {
   margin-top: 2em;
   border-top: 1px solid #e5e7eb;
@@ -59,58 +314,23 @@ figcaption {
 }
 
 /* ====== Tables ====== */
+table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+th, td { border: 1px solid #e5e7eb; padding: 0.5em; vertical-align: top; }
+th { background-color: #f8f8f8; text-align: left; }
 
-/*
-  Prefer Quarto/Bootstrap table classes when possible.
-  Keep base tables clean and readable without heavy theming.
-*/
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1em 0;
+/* ====== Utilities: wrapfig ====== */
+.wrapfig_left_30  { float: left;  margin: 0 20px 10px 10px; width: 30%; }
+.wrapfig_right_30 { float: right; margin: 0 0 10px 20px;    width: 30%; }
+.wrapfig_left_25  { float: left;  margin: 0 20px 10px 10px; width: 25%; }
+.wrapfig_right_25 { float: right; margin: 0 0 10px 20px;    width: 25%; }
+
+/* ====== Print ====== */
+@media print {
+  .callout { background: #fff !important; }
+  .pull-quote { background: #fff !important; }
 }
 
-th, td {
-  border: 1px solid #e5e7eb;
-  padding: 0.5em;
-  vertical-align: top;
-}
-
-th {
-  background-color: #f8f8f8;
-  text-align: left;
-}
-
-/* ====== Utilities ====== */
-
-/* wrapfig utilities to manage text / fig interfaces */
-.wrapfig_left_30 {
-  float: left;
-  margin: 0 20px 10px 10px;
-  width: 30%;
-}
-
-.wrapfig_right_30 {
-  float: right;
-  margin: 0 0 10px 20px;
-  width: 30%;
-}
-
-.wrapfig_left_25 {
-  float: left;
-  margin: 0 20px 10px 10px;
-  width: 25%;
-}
-
-.wrapfig_right_25 {
-  float: right;
-  margin: 0 0 10px 20px;
-  width: 25%;
-}
-
-/* ====== Responsive Design ====== */
-
-/* Prevent floating elements from breaking layout on mobile */
+/* ====== Responsive ====== */
 @media (max-width: 768px) {
   .wrapfig_left_30,
   .wrapfig_right_30,
