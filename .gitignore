@@ -35,3 +35,5 @@ netlify.toml
 *.svg
 
 /.quarto/
+
+**/*.quarto_ipynb
