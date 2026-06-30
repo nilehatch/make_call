@@ -295,6 +295,15 @@ hr.method-divider {
   font-style: italic;
   color: var(--brand-text);
 }
+/* nested inside an opened .for-curious drawer: NO box-in-a-box (competing left
+   borders). Strip the learn-ai's own chrome; the white .prompt card carries the
+   distinction, and the bold label still announces it. */
+.for-curious .learn-ai {
+  border-left: 0;
+  background: none;
+  padding: 0;
+  margin: 0.8rem 0 0;
+}
 
 /* AVOID — caution (single box; warnings + cautions merged) */
 .trap {
