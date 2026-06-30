@@ -1,0 +1,8 @@
+---
+title: "Why Priors Matter"
+subtitle: "And what breaks if you ignore them"
+---
+
+*Draft pending — placeholder for the gate-sequence rebuild (the argumentative heart of Part III).*
+
+**Planned:** base-rate neglect; paired success/failure mini-cases (same founder, prior vs. no prior); priors as "who we are." Make the case to a skeptical, distracted entrepreneur that they cannot ignore their prior.

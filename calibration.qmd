@@ -1,0 +1,8 @@
+---
+title: "Calibration"
+subtitle: "Does your confidence track your hit rate?"
+---
+
+*Draft pending — placeholder for the gate-sequence rebuild.*
+
+**Planned:** the measure of "better" — does your confidence track your hit rate? Gate-density shrinks as you improve.

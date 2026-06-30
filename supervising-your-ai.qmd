@@ -1,0 +1,8 @@
+---
+title: "Supervising Your AI"
+subtitle: "The conceptual rigor you must own"
+---
+
+*Draft pending — placeholder for the gate-sequence rebuild.*
+
+**Planned:** the human-owned gates; the conceptual rigor you must own to direct and judge the AI — so you can catch a wrong posterior or a confounded design.

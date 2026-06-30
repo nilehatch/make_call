@@ -1,0 +1,8 @@
+---
+title: "Seeing Probability"
+subtitle: "Bayes without the algebra"
+---
+
+*Draft pending — placeholder for the gate-sequence rebuild.*
+
+**Planned:** natural-frequency trees and area/Ballantine diagrams — the representation that makes the rigor *seeable*. Bayes carried by a picture of counts, not a formula.

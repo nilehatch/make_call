@@ -26,59 +26,79 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - part: part1-knowing-deciding.qmd
+
+    - part: "Part I · Into the Fog — the terrain and the method"
       chapters:
         - ch02-uncertainty.qmd
-        - ch03-knowledge.qmd
         - ch04-epistemology.qmd
-        - ch05-judgment.qmd
-        - ch06-update-revise.qmd
-        - wrap1-knowing-revising.qmd
+        - ch03-knowledge.qmd
+        - the-loop.qmd
+        - why-the-fog-hurts.qmd
 
-    - part: part2-asking-right-questions.qmd
+    - part: "Part II · Frame — what are we really deciding?"
       chapters:
         - ch08-urgent-unknowns.qmd
+        - ch20-modeling.qmd
         - ch09-hypothesizing.qmd
         - ch10-exploring.qmd
-        - designing-the-experiment.qmd
-        - wrap2-asking-right-questions.qmd
 
-    - part: part3-gather-evidence.qmd
+    - part: "Part III · Prior — what you already believe (and why you can't ignore it)"
+      chapters:
+        - prior-you-have-one.qmd
+        - prior-why-it-matters.qmd
+        - seeing-probability.qmd
+        - priors-small-world.qmd
+
+    - part: "Part IV · Evidence — gather what exists, test what doesn't"
       chapters:
         - ch12-gathering-evidence.qmd
-        - ch13-public-data.qmd        
-        - ch14-private-data.qmd
-        - ch15-customer-evidence.qmd
-        - ch16-competitor-market-signals.qmd
-        - ch17-human-experts.qmd        
-        - ch18-ai-amplifier.qmd                
-        - ch19-internal-data.qmd
-        - ch20-modeling.qmd        
+        - gathering-whats-known.qmd
+        - designing-the-experiment.qmd
         - wrap3-gathering-data.qmd
 
-    - part: part4-judging-deciding-acting.qmd
+    - part: "Part V · Sense — is it credible, and what do you now believe?"
       chapters:
         - weighing-the-evidence.qmd
         - ch22-updating.qmd
-        - ch23-evaluating.qmd
+        - ch06-update-revise.qmd
+
+    - part: "Part VI · Call — is it enough, and which way?"
+      chapters:
         - ch24-decision-rules.qmd
         - ch25-judgment.qmd
+        - ch28-conviction.qmd
         - ch26-presenting.qmd
 
-    - part: part5-becoming.qmd
+    - part: "Part VII · Becoming — someone who navigates the fog"
       chapters:
-        - ch28-conviction.qmd
+        - calibration.qmd
         - ch29-lifelong-learning.qmd
-        - ch30-leadership.qmd
-        
-    - part: part6-evidence-toolkit.qmd
+        - supervising-your-ai.qmd
+
+    - part: "Companion · The Method Layer (for your AI)"
       chapters:
+        - method-layer.qmd
+
+    - part: "Holding · source drafts — pending compression, split, or retirement"
+      chapters:
+        - ch05-judgment.qmd
+        - wrap1-knowing-revising.qmd
+        - wrap2-asking-right-questions.qmd
+        - ch13-public-data.qmd
+        - ch14-private-data.qmd
+        - ch15-customer-evidence.qmd
+        - ch16-competitor-market-signals.qmd
+        - ch17-human-experts.qmd
+        - ch18-ai-amplifier.qmd
+        - ch19-internal-data.qmd
+        - ch23-evaluating.qmd
+        - ch30-leadership.qmd
         - tk1-public-data.qmd
         - tk2-private-data.qmd
         - tk3-customer-data.qmd
         - tk4-customer-market-signals.qmd
-        - tk5-internal-data.qmd        
-    
+        - tk5-internal-data.qmd
+
     - references.qmd
 
 bibliography: references.bib

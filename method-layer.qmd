@@ -1,0 +1,8 @@
+---
+title: "The Method Layer"
+subtitle: "The procedure your AI runs"
+---
+
+*Draft pending — placeholder for the gate-sequence rebuild (the companion skill file).*
+
+**Planned:** the full procedure plus the five gate stop-conditions, the gather-checklist, reference code, and decision templates — derived from the toolkit and the gates. Dense, precise, complete; optimized for an AI to execute, not for a human to read.

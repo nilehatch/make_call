@@ -1,0 +1,8 @@
+---
+title: "Priors in the Small World"
+subtitle: "Why your beliefs dominate when data is scarce"
+---
+
+*Draft pending — placeholder for the gate-sequence rebuild.*
+
+**Planned:** why priors *dominate* the posterior when data is scarce — the entrepreneur's actual condition, so this matters more for you, not less.
