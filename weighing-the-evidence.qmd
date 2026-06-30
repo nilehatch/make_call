@@ -63,8 +63,8 @@ The confirmation trap does not end when the test is built; it waits for the resu
 
 The team ran the residual-pain test they designed earlier. Here is what reading it honestly looks like.
 
-::: {.worked-example}
-**Worked Example — Reading the Halo Alert result**
+::: {.running-case}
+**Halo Alert — Reading the result**
 
 The conversations came back warm. Nearly every woman the team spoke with said the idea was a good one and that she would want something like it — a strong "yes" to the question of whether the ring should exist. The relief in the room was immediate.
 

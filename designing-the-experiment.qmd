@@ -69,8 +69,8 @@ The reason a launch teaches so little is that it changes everything at once. New
 
 This is why the cheap, narrow test often teaches more than the expensive, broad one. A landing page that varies only the price tells you something clean about price. A full launch that varies the price *and* the packaging *and* the timing tells you almost nothing about any of them. When you design a test, find the single assumption you are testing and hold everything else constant. One clean answer beats five muddy ones.
 
-::: {.worked-example}
-**Worked Example — A first test for Halo Alert**
+::: {.running-case}
+**Halo Alert — A first test**
 
 Halo Alert is a ring. On a walk home, a woman presses it and it silently sends a pre-written text to a trusted contact — without reaching for a phone an assailant could grab or smash. By now the team has settled the more basic calls: who this is for — women whose commute means walking alone — and that the fear is real, sharp, and recurring. The fail-fast plan writes itself: design the ring, build it, launch, and see whether women buy.
 
