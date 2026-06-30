@@ -3,6 +3,93 @@ title: "Why Priors Matter"
 subtitle: "And what breaks if you ignore them"
 ---
 
-*Draft pending — placeholder for the gate-sequence rebuild (the argumentative heart of Part III).*
+Every entrepreneur has heard the advice, and most have repeated it: *let the data speak.* Come to the decision with an open mind. Don't prejudge. Don't let your assumptions color what the evidence is trying to tell you. It sounds like rigor itself. It is the opposite.
 
-**Planned:** base-rate neglect; paired success/failure mini-cases (same founder, prior vs. no prior); priors as "who we are." Make the case to a skeptical, distracted entrepreneur that they cannot ignore their prior.
+Watch what happens when a founder tries to meet a decision with an empty mind. Three customers say they love the idea, and because he brought no sense of how often three enthusiastic strangers turn into a business, those three voices fill the whole screen. He feels validated. He commits. He has been stampeded by a sliver of evidence — and the thing that would have steadied him, the thing he threw out in the name of objectivity, was his prior.
+
+## You cannot empty your mind {#sec-no-empty-mind}
+
+Start with the fact that [you already have a prior](prior-you-have-one.qmd), whether you admit it or not. *Let the data speak* is a fiction, because data never speaks for itself. A number is mute until a mind decides what it means, and the mind that decides always arrives with beliefs already in place — about your customer, your market, what tends to work and what usually fails. There is no view from nowhere.
+
+So the choice was never between having a prior and not having one. It is between a prior you have made explicit — written down, looked at, open to challenge — and a prior that runs you from the dark. The hidden one is the dangerous one. It still bends every judgment you make; you just can't see it, so you can't correct it. Making your prior explicit doesn't cost you your objectivity. It is the only way to have any.
+
+## The sliver that stampedes you {#sec-base-rate-neglect}
+
+The fastest way to see what a prior is *for* is to watch what goes wrong when it's missing.
+
+Picture a kind of venture where nine in ten fail — nothing unusual about that. You run a small test, and three of three target customers are enthusiastic. How excited should you be? With nothing held in mind, the answer feels obvious: three for three, validated, go. But set the **base rate** beside the result. Most ventures of this kind fail, and a great many of them collected a few warm responses on the way down. Three enthusiastic strangers is real evidence — but it is a nudge, not a verdict, because early enthusiasm is exactly what the nine failures also saw. Your prior is what tells you how hard to let that nudge push.
+
+::: {.column-margin .def-margin}
+**Base rate** — how often something happens across the whole class of similar cases, before you look at the particular one in front of you.
+:::
+
+This is **base-rate neglect**, and it is the most expensive habit of the hopeful founder. Strip the base rate away and weak evidence swells into overwhelming evidence: one rave review, one competitor's flameout, one big logo grows until it fills the decision. Hold the base rate, and that same signal shrinks to its proper size. A prior is not pessimism. It is scale — the thing that keeps a thumb held at arm's length from blotting out the sun.
+
+::: {.for-curious}
+<details>
+<summary>For the Curious — Base-rate neglect and the outside view</summary>
+
+Psychologists call the mistake *base-rate neglect*: shown a vivid particular, people anchor on it and underweight the background frequency it sits against. The antidote @kahnemanThinkingFastSlow2011 proposes is the *outside view* — instead of forecasting your venture from its own hopeful details (the inside view), you ask how a large class of similar ventures actually turned out, and you start there. The inside view feels truer because it is *yours*; the outside view is right more often, because most things resemble the class they belong to more than they resemble our hopes for them.
+
+::: {.learn-ai}
+**Learn From Your AI**
+
+::: {.prompt}
+Help me take the outside view on my venture: [describe it]. What's the right reference class, and roughly how often do ventures in that class clear the bar I care about ([state the bar])? Give me a base rate to start from — then tell me where my specific case might honestly differ from the class.
+:::
+:::
+</details>
+:::
+
+## The same founder, twice {#sec-paired-case}
+
+::: {.mini-case}
+**Mini-Case — The same signal, read twice**
+
+The first time Dana raised money, a single meeting did it. An investor she admired loved the pitch, wrote a check on the spot, and Dana read that one yes as proof the company was real. She scaled to meet a demand she had never measured — one enthusiast standing in for a market — and spent two years and most of the money discovering the demand wasn't there.
+
+The second time, the same thing happened: an admired investor, an on-the-spot yes, the same flush of validation. But Dana now carried a prior the first failure had paid for. One excited investor, she knew, is what the last dead company also had. She took the check and kept the base rate — ran the cheap demand test she had skipped before, found the market thinner than the enthusiasm suggested, and trimmed the plan to fit what was real. Same signal, same thrill. The second time, she weighed it against what she had learned, and it did not run away with her.
+:::
+
+## Your prior is your experience {#sec-who-we-are}
+
+There is a deeper reason not to throw away your prior: it is not noise, and it is not a bias to be scrubbed off. It is the compressed residue of everything you have already learned — every venture you watched win or die, every customer who surprised you, every pattern your field has burned into you. The seasoned founder's "gut" is a prior, earned the hard way, and on most questions it is worth more than the thin data a newcomer could gather in a week. To tell her to ignore it is to tell her to be a novice again on purpose.
+
+That is why your prior sits closer to identity than to opinion: it is part of who you have become by paying attention. So the work of this part of the book is not to talk you out of your prior. It is to help you haul it into the light, say it plainly, and hold it somewhere the evidence can reach it.
+
+::: {.trap}
+**Trap to Avoid — The unshakeable prior**
+
+A prior held too tightly fails in the other direction. The founder so certain of his read that no result can move him hasn't escaped the problem of priors — he has surrendered to it. He explains away each disappointing test, calls the market "not ready," and protects the belief instead of the venture. A prior is a starting point, not a fortress. If no evidence could ever lower it, it has stopped being a belief and become a wish.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your prior is yours — it is your experience, and the AI has none of it. But it can do two things you can't easily do alone. It can hand you the **outside view**: the base rate, the reference class, how often ventures like yours actually clear the bar — the numbers your optimism would rather skip. And it can argue with a prior you are holding too tightly, making the disconfirming case you don't want to hear.
+
+- **Ask for the base rate first.** Before you weigh your evidence, have the AI estimate how often this kind of thing works out — then weigh the evidence against *that*, not against zero.
+- **Make it argue the other side.** If you can't say what would lower your prior, ask the AI to build the case that you're wrong, and be honest about whether you can answer it.
+- **Keep the prior yours.** The AI supplies the reference class; only you can say how your particular experience should bend it. Hand over the arithmetic, not the judgment.
+:::
+
+## Try this {#sec-try-this}
+
+::: {.try-this}
+**Try This — Put a number on what you already believe**
+
+Take a decision you're leaning toward.
+
+1. Before you look at any evidence, write down how often you think a venture like this one succeeds. That is your base rate — guess if you must, but write it.
+2. Now write the evidence you're excited about, and ask: would a venture that was going to fail have seen this too?
+3. If the answer is yes, your evidence is a nudge, not a verdict. Adjust how hard you're letting it push.
+4. Say your prior out loud to someone who will push back. If you can't name anything that would change it, you're holding a wish, not a belief.
+:::
+
+::: {.key-action}
+**The move:** Before you weigh the evidence in front of you, name the base rate behind it — how often this works out at all — and let the evidence move you *from there*, not from zero.
+:::
+
+You can't ignore your prior, and you can't worship it. You have to be able to see it — to hold a belief in your hand, put a number on it, and weigh it honestly against what the world tells you. That turns out to be hard to do in your head and easy to do with [a picture](seeing-probability.qmd). That is where we go next.
