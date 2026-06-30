@@ -36,8 +36,6 @@ Credibility is a dial. Five questions turn it, and you can ask all five in the t
 <summary>For the Curious — Revealed vs. stated preference</summary>
 
 Economists draw a hard line between what people *say* they prefer and what their choices *reveal* they prefer.[^revealed] Stated preference is what a survey captures; revealed preference is what a purchase, a click, or a signed pre-order captures — a preference made costly, and therefore credible. The whole "say versus do" rule is this distinction in working clothes: a result built on revealed preference can carry weight a stated-preference result never can, because the respondent had to give something up to produce it.
-</details>
-:::
 
 ::: {.learn-ai}
 **Learn From Your AI**
@@ -45,6 +43,9 @@ Economists draw a hard line between what people *say* they prefer and what their
 ::: {.prompt}
 I just read about revealed versus stated preference. Explain the difference using my product, [describe it], and give me three cheap signals that would count as *revealed* preference for the exact thing I'm testing — not just what a customer would say.
 :::
+:::
+
+</details>
 :::
 
 ## The result you *want* to believe {#sec-wysiati}

@@ -36,8 +36,6 @@ This is why "designing the experiment" begins with the decision, not the data. B
 <summary>For the Curious — Value of information</summary>
 
 Decision scientists make this rule precise with the *value of information*: a test is worth running only up to the amount it would improve the decision it informs. A piece of evidence has value only if it could change your choice and that changed choice is worth more than the test costs. Evidence that cannot change your action — however interesting — has a value of zero. You will never need to compute this to use it. The instinct is the whole point: *would any result move me?*
-</details>
-:::
 
 ::: {.learn-ai}
 **Learn From Your AI**
@@ -45,6 +43,9 @@ Decision scientists make this rule precise with the *value of information*: a te
 ::: {.prompt}
 I want to use the value of information on a real decision: [state the call I'm facing]. Walk me through what's at stake, what I might learn from the test I'm considering ([describe it]), and whether any result would actually change what I do — so I can tell whether the test is worth its cost.
 :::
+:::
+
+</details>
 :::
 
 ## Three properties of an experiment worth running {#sec-three-properties}
