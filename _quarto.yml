@@ -58,6 +58,7 @@ book:
 
     - part: part4-judging-deciding-acting.qmd
       chapters:
+        - weighing-the-evidence.qmd
         - ch22-updating.qmd
         - ch23-evaluating.qmd
         - ch24-decision-rules.qmd

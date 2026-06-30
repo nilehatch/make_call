@@ -184,7 +184,7 @@ hr.method-divider {
 .definition, .for-curious,
 .mini-case, .worked-example, .running-case, .voice-customer,
 .try-this, .reflect, .checklist, .key-action,
-.ask-ai, .checkpoint, .trap {
+.ask-ai, .learn-ai, .checkpoint, .trap {
   border-left: 4px solid var(--brand-muted);
   border-radius: 6px;
   padding: 0.8rem 1rem;
@@ -197,7 +197,7 @@ hr.method-divider {
 .running-case > :first-child, .voice-customer > :first-child,
 .try-this > :first-child, .reflect > :first-child,
 .checklist > :first-child, .key-action > :first-child,
-.ask-ai > :first-child, .checkpoint > :first-child,
+.ask-ai > :first-child, .learn-ai > :first-child, .checkpoint > :first-child,
 .trap > :first-child {
   font-weight: 700;
   margin-top: 0;
@@ -217,6 +217,15 @@ hr.method-divider {
   cursor: pointer;
   color: var(--brand-accent);
 }
+
+/* margin definition (.column-margin .def-margin): a central term defined in passing,
+   glossed beside its bolded first use — lighter than a .definition box, anchored to
+   the word so there is nothing to "reconnect" when scrolling. */
+.def-margin {
+  border-left: 3px solid var(--brand-primary);
+  padding-left: 0.55rem;
+}
+.def-margin strong:first-child { color: var(--brand-primary); }
 
 /* SEE — illustration & demonstration (secondary teal) */
 .mini-case, .worked-example, .running-case, .voice-customer {
@@ -262,6 +271,31 @@ hr.method-divider {
   color: var(--brand-text);
 }
 
+/* LEARN-AI — same AI family, cooler indigo tint, DIFFERENT function: a copy-ready
+   prompt that asks the reader's AI to TEACH an unfamiliar concept (vs. .ask-ai,
+   which DIRECTS the AI to do a process step; vs. .checkpoint, which SUPERVISES it). */
+.learn-ai {
+  border-left-color: var(--brand-ai-learn, #6366F1);
+  background: var(--brand-ai-learn-tint, #EEF2FF);
+}
+.learn-ai .prompt {
+  margin: 0.6rem 0 0;
+  padding: 0.7rem 0.9rem;
+  background: #fff;
+  border: 1px solid var(--brand-ai-learn, #6366F1);
+  border-radius: 6px;
+  color: var(--brand-text);
+  font-style: italic;
+}
+.learn-ai blockquote {
+  margin: 0.6rem 0 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-style: italic;
+  color: var(--brand-text);
+}
+
 /* AVOID — caution (single box; warnings + cautions merged) */
 .trap {
   border-left-color: #DC2626;
@@ -271,7 +305,7 @@ hr.method-divider {
 @media print {
   .definition, .for-curious, .mini-case, .worked-example, .running-case,
   .voice-customer, .try-this, .reflect, .checklist, .key-action,
-  .ask-ai, .checkpoint, .trap { background: #fff !important; }
+  .ask-ai, .learn-ai, .checkpoint, .trap { background: #fff !important; }
 }
 
 /* ====== Links ====== */
