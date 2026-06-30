@@ -7,12 +7,10 @@ A founder with a new product almost always reaches for the same plan: build it, 
 
 When you launch to "see what happens," the market answers slowly, charges you for every word, and never tells you *why*. Sales are weak — was it the price, the message, the timing, the product, or the fact that you launched in July? You cannot tell. You have spent months and real money to buy one muddy data point, and the fog is exactly as thick as before. This is what "fail fast" actually buys: failure, at full retail, with the lesson redacted.
 
-There is a better way to take a step in the fog. You do not have to walk until you hit a wall to learn the wall is there. You can throw a stone ahead of you and listen. That is what an experiment is.
+There is a better way to take a step in the fog. You do not have to walk until you hit a wall to learn the wall is there. You can throw a stone ahead of you and listen. That is what an **experiment** is.
 
-::: {.definition}
-**Experiment**
-
-A deliberate, low-cost action designed to produce evidence on *one* uncertain assumption — built so that the result will change what you do next.
+::: {.column-margin .def-margin}
+**Experiment** — a deliberate, low-cost action designed to produce evidence on *one* uncertain assumption, built so that the result will change what you do next.
 :::
 
 ## An experiment is a question, not a launch {#sec-experiment-vs-launch}
@@ -25,7 +23,9 @@ This is the move that separates entrepreneurs who guess from entrepreneurs who l
 
 Here is the rule that governs every experiment worth running, and it is easy to say and hard to obey:
 
-> Run a test only if a possible result would change what you do.
+::: {.pull-quote}
+Run a test only if a possible result would change what you do.
+:::
 
 If you would launch the product whether the survey came back warm or cold, the survey is theater. If you would keep building no matter what the prototype test showed, the prototype test is a way of feeling busy while avoiding the decision. An experiment earns its cost only when its outcomes point to *different actions*. A test whose every result leads to the same next step has taught you nothing — it has only dressed up a decision you had already made.
 
@@ -39,11 +39,19 @@ Decision scientists make this rule precise with the *value of information*: a te
 </details>
 :::
 
+::: {.learn-ai}
+**Learn From Your AI**
+
+::: {.prompt}
+I want to use the value of information on a real decision: [state the call I'm facing]. Walk me through what's at stake, what I might learn from the test I'm considering ([describe it]), and whether any result would actually change what I do — so I can tell whether the test is worth its cost.
+:::
+:::
+
 ## Three properties of an experiment worth running {#sec-three-properties}
 
 Once a test could change your mind, three properties decide whether it is well designed. Each is a question you can ask before you spend a dollar.
 
-**Is it discriminating?** A good experiment can come out more than one way, and its outcomes point to different decisions. "Discriminating" means the result *separates* the worlds — supported sends you forward, not-supported sends you back or sideways. The classic failure here is the test that can't produce a "no": you show ten friends your idea and they smile, you call it validation, and you have learned nothing, because they would have smiled at anything. Design the test so that reality has a real chance to tell you no.
+**Is it discriminating?** A good experiment can come out more than one way, and its outcomes point to different decisions. "Discriminating" means the result *separates* the worlds — supported sends you forward, not-supported sends you back or sideways. The classic failure here is the test that can't produce a "no": you show ten friends your idea and they smile, you call it validation, and you have learned nothing, because they would have smiled at anything. Design the test so that reality has a real chance to tell you "no."
 
 **Is it affordable?** Match the cost of the test to the size of the decision. A reversible choice you can undo next week deserves a cheap, fast test; an irreversible bet that commits the company deserves a more careful one. The error in both directions is real — founders over-spend to confirm small choices and under-spend before betting everything. The discipline is to climb only as high as the decision is worth.
 
@@ -117,7 +125,7 @@ Take the decision in front of you right now.
 1. Write the call you're trying to make in one sentence.
 2. List the assumptions it rests on. Circle the one that is both most likely to be wrong and most costly if it is.
 3. Ask: *what result would change my decision?* If nothing would, you don't need a test — you need to admit you've already decided.
-4. Design the cheapest action that could produce that result — and name, in advance, the outcome that would tell you no.
+4. Design the cheapest action that could produce that result — and name, in advance, the outcome that would tell you "no."
 
 If your test has no possible "no," redesign it until it does. That is the difference between asking the world a question and asking it for applause.
 :::
@@ -126,4 +134,4 @@ If your test has no possible "no," redesign it until it does. That is the differ
 **The move:** Before you build, find the one assumption whose failure would end the venture, and buy the answer to it for the price of a question — not the price of a launch.
 :::
 
-You don't clear the fog by walking into it until you hit something. You clear it one honest question at a time. Next, we turn from running the test to reading it: how to weigh whether the evidence is credible, and what it should do to what you believe.
+You don't clear the fog by walking into it until you hit something. You clear it one honest question at a time. Next, we turn from running the test to [reading it](weighing-the-evidence.qmd): how to weigh whether the evidence is credible, and what it should do to what you believe.
