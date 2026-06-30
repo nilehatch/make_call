@@ -3,6 +3,102 @@ title: "You Already Have a Prior"
 subtitle: "Surfacing what you bring to the decision"
 ---
 
-*Draft pending — placeholder for the gate-sequence rebuild.*
+Ask a founder how likely her idea is to work and watch her dodge. *That's what we're here to find out.* *Too early to say.* *I don't want to jinx it.* She is not being modest. She is guarding a number she would rather not say out loud — because the moment she says it, she can be wrong. But the number is already there. She has been acting on it for months: every hour she's put in, every dollar she's raised, every cofounder she's talked into joining is a bet placed at private odds she has never written down.
 
-**Planned:** surface the prior; make it explicit and defensible; where founder knowledge and conviction legitimately enter.
+You carry those odds too. You did not come to this decision empty. You came believing that the problem is real, that someone will pay, that you can build the thing, that the timing is right. That bundle of belief you walked in with has a name. It is your **prior**, your *before*, and the question is whether you are going to look at it.
+
+::: {.column-margin .def-margin}
+**Prior** — what you believe about a question before you gather new evidence on it: your starting estimate, together with the experience and reasoning behind it.
+:::
+
+## The question that drags it out {#sec-surface}
+
+Surfacing a prior is mostly a matter of asking yourself one uncomfortable question and refusing to flinch: *before any new evidence, how likely is this to work — and why?*
+
+The discomfort is the whole point. A vague hope can never be wrong, which is exactly why founders keep their hopes vague. Say "I have a good feeling about this" and you have committed to nothing; no result can ever catch you out. Say "I think there's maybe a one-in-three chance this lands, and here are my three reasons" and you have put something on the table that the world can confirm or break. That trade, the comfort of vagueness for a belief you can examine, is the method's first honest act.
+
+::: {.for-curious}
+<details>
+<summary>For the Curious — "Prior" in the Bayesian sense</summary>
+
+In Bayesian reasoning (the simple logic of revising a belief as evidence arrives), your *prior* is the probability you assign a claim before new evidence comes in; that evidence then updates it into a *posterior*. The word is doing what it says: it is your *before*. Everything in this part of the book is about getting that "before" explicit and honest, because where you end up depends on where you start. You'll see how the updating actually works in the chapters ahead; for now, the job is just to admit you have a "before" at all.
+
+::: {.learn-ai}
+**Learn From Your AI**
+
+::: {.prompt}
+Give me a five-minute, plain-English introduction to Bayesian reasoning: how a "prior" belief gets updated by evidence into a "posterior," using an everyday example and no equations. I'm an entrepreneur, not a statistician.
+:::
+:::
+
+</details>
+:::
+
+## Grounded, or just hoped for? {#sec-sources}
+
+Not every belief you walked in with is equally well-grounded, and the work of surfacing is also the work of sorting. A legitimate prior is one you can defend: you can point to where it came from. The honest sources are real:
+
+- problems you have lived
+- a market whose behavior you actually know
+- things you learned long before you called anything a "test"
+- base rates for how often ventures like this work out
+
+The illegitimate sources wear the same clothes with nothing underneath: hope, ego, the sunk months you can't bear to waste, the confident story you've told investors so many times you've started believing it. They feel exactly like knowledge from the inside. The test that tells them apart is simple and a little merciless: *can you say why you believe it without the real reason being "because I want to"?*
+
+This is also where a founder's conviction earns its keep, or doesn't. Sometimes you genuinely know something the market hasn't confirmed yet, a real insight running ahead of the evidence, which is half of what being an entrepreneur even means. That is a legitimate and valuable prior. But insight and wishful thinking are indistinguishable from the inside; the way to tell them apart is from the outside, by their grounds. "I've watched this happen three times" is conviction. "I just know" is a wish wearing conviction's coat.
+
+::: {.running-case}
+**Halo Alert — what the team already believed**
+
+Before a single interview, the Halo Alert team believed women would wear a discreet safety device on their walk home. Where did that belief come from? Partly from something solid: two of the founders had walked home afraid, keys laced through their fingers, and knew dozens of women who did the same — a prior grounded in lived experience. Partly, though, it came from somewhere softer. They *wanted* it to be true, and had pitched it enough times to feel sure.
+
+Surfacing the prior meant pulling those apart. One half was grounded: the fear is real and widespread, and that they could defend. The other was only hope: that women would adopt a *device* rather than keep the free workaround they already had. They could not defend that — and naming it honestly is what told them where the first test had to aim.
+:::
+
+::: {.trap}
+**Trap to Avoid — The prior you won't name**
+
+The most expensive prior is the one you keep vague on purpose. Leave it unspoken and it can never be wrong. But it can never be checked, defended, or improved, either, and it still runs every decision you make from behind your back. Refusing to name your prior doesn't make you open-minded. It makes you the one person in the room who can't see what you're betting on.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+An AI makes a good interviewer here, precisely because it has nothing invested in your answer. It will ask the blunt question your cofounders are too kind to press: *how likely, and why?* And it will keep pulling until the vague feeling finally says a number. Let it.
+
+Two judgments stay yours. The AI can lay your reasons side by side, but only you can say which are earned and which you've merely repeated until they felt true. And the prior that comes out is yours to own: not the AI's estimate, not a number you can blame on a tool, but your honest *before*, written where you can defend it and change it.
+
+- **Let it interview you.** Answer the uncomfortable question instead of dodging it.
+- **Sort the reasons yourself.** Earned in one column, hoped-for in the other.
+- **Own the number.** It's your belief; sign your name to it.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+I'm about to make this decision: [state it]. Interview me to surface my prior — ask how likely I think this is to work and why, and keep pressing until I've given a rough number and the reasons behind it. Then help me sort those reasons into two piles: what I can actually defend, and what is hope or habit. Don't let me off easy.
+:::
+:::
+
+## Try this {#sec-try-this}
+
+::: {.try-this}
+**Try This — Write your "before"**
+
+Take the decision in front of you and write three lines.
+
+1. **The claim.** In one sentence, what do you believe will happen? ("Customers like *X* will pay for *Y*.")
+2. **The strength.** Roughly how sure are you: a coin flip, a long shot you believe in, more likely than not? A loose phrase is fine; precision comes later.
+3. **The grounds.** Why? List the reasons, then mark each one *earned* or *hoped*.
+
+If the *earned* column is empty, you haven't found your prior yet. You've found your wish.
+:::
+
+::: {.key-action}
+**The move:** Before you gather a shred of new evidence, write your "before" (the claim, how strongly you hold it, and the honest reasons behind it) so you have something real to defend, and to change.
+:::
+
+You have a prior now: named, written, sorted into what you can defend and what you only hoped. That can feel like an admission of weakness — a confession that you prejudged. It is the opposite. Next we'll see why this "before" is [not a bias to apologize for](prior-why-it-matters.qmd) but the most valuable thing you bring to the decision — and what it quietly costs you to pretend you don't have one.

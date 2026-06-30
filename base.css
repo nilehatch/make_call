@@ -224,6 +224,7 @@ hr.method-divider {
 .def-margin {
   border-left: 3px solid var(--brand-primary);
   padding-left: 0.55rem;
+  margin-top: 0;
 }
 .def-margin strong:first-child { color: var(--brand-primary); }
 
