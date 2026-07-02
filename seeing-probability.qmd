@@ -3,6 +3,195 @@ title: "Seeing Probability"
 subtitle: "Bayes without the algebra"
 ---
 
-*Draft pending — placeholder for the gate-sequence rebuild.*
+Give a room full of doctors this problem and most of them get it wrong, badly wrong, in a way that would frighten their patients. A disease affects 1 in 100 women. A test catches 90% of the women who have it, and raises a false alarm for 9% of the women who don't. A patient tests positive. How likely is she to actually have the disease?
 
-**Planned:** natural-frequency trees and area/Ballantine diagrams — the representation that makes the rigor *seeable*. Bayes carried by a picture of counts, not a formula.
+The common answer, from physicians, is around 90%. The real answer is about 9%. These are not careless people; they are experts, and the format of the question has beaten them.
+
+Same problem, different clothes. Picture a thousand women. Ten of them have the disease, and nine of those ten test positive. Of the 990 who are healthy, about 89 test positive anyway. Lay the counts out in a grid:
+
+|  out of 1,000 women | test positive | test negative | total |
+|:---|---:|---:|---:|
+| **has the disease** | 9 | 1 | 10 |
+| **healthy** | 89 | 901 | 990 |
+| **total** | 98 | 902 | 1,000 |
+
+Now the answer is just one number read against another. Of the 98 women who test positive, only nine are actually sick: nine out of ninety-eight, about one in ten. You did it in your head, and nothing changed but the format.
+
+## The problem is the format, not you {#sec-format}
+
+You are not bad at this. The percentages are. A figure like "90% sensitivity" or "9% false-positive rate" hides the one thing you need to see: how many actual people sit in each group. Your mind did not evolve doing percentages. It evolved counting things, and when you hand it counts instead of fractions, the answer falls out on its own.
+
+That is the whole trick of seeing probability: stop computing and start counting. Replace the percentages with **natural frequencies**, real tallies of real cases, and a problem that defeats trained experts becomes something you can do at a stoplight.
+
+::: {.column-margin .def-margin}
+**Natural frequencies** — counts of real cases (9 sick patients in 1,000; 80 good products among 260 yeses) instead of probabilities or percentages. The mind reasons far more reliably in counts than in fractions.
+:::
+
+## Build the tree {#sec-tree}
+
+Put your own decision through it. Start with the population your product belongs to: the new products launched in a category like yours over a year, say a thousand IoT gadgets or a thousand new consumer apps. Most of them fail. History suggests that of every 1,000, only about 100 turn out to be genuinely wanted; the other 900 flop. That 100-in-1,000 is your **base rate**, the prior you carried in from the last chapters: one in ten.
+
+::: {.column-margin .def-margin}
+**Base rate** — how often something happens across a whole population, before you look at the one case in front of you. Here, 100 genuinely-wanted products in every 1,000: one in ten.
+:::
+
+Now bring in the test. You've run a customer test on your product, and it's a decent one: when a product is genuinely wanted, the test says yes 8 times in 10. But it isn't perfect. When a product would actually flop, the test still says yes about 2 times in 10, because people are polite, or curious, or the test itself was leaky. Your product just got a yes. How likely is it to be one of the hundred that are genuinely wanted?
+
+Don't reach for a formula. Build a tree. Start with the thousand, split them by the base rate, split each branch by the test result, and count.
+
+```{r}
+#| label: fig-freq-tree
+#| fig-cap: "A natural-frequency tree. Start with 1,000, split by the base rate (wanted vs. flop), then by the test (yes vs. no), and count. The two shaded boxes are the products that get a yes."
+#| echo: false
+#| fig-width: 9
+#| fig-height: 4.5
+#| out-width: "760px"
+library(ggplot2)
+nodes <- data.frame(
+  x = c(5, 2.4, 7.6, 1.2, 3.6, 6.4, 8.8),
+  y = c(9, 6, 6, 3, 3, 3, 3),
+  w = c(3.4, 2.4, 2.4, 2.15, 2.15, 2.15, 2.15),
+  big = c("1,000", "100", "900", "80", "20", "180", "720"),
+  small = c("products in your category", "genuinely wanted", "would flop",
+            "get a yes", "get a no", "get a yes", "get a no"),
+  fill = c("#EAF4F7", "#EAF4F7", "#EAF4F7", "#007BA7", "#F3F4F6", "#E3A008", "#F3F4F6"),
+  txt = c("#1F2937", "#1F2937", "#1F2937", "white", "#1F2937", "white", "#1F2937"),
+  brd = c("#007BA7", "#007BA7", "#007BA7", "#006B90", "#9CA3AF", "#B8860B", "#9CA3AF"),
+  stringsAsFactors = FALSE
+)
+edges <- data.frame(
+  x    = c(5, 5, 2.4, 2.4, 7.6, 7.6),
+  y    = c(8.375, 8.375, 5.375, 5.375, 5.375, 5.375),
+  xend = c(2.4, 7.6, 1.2, 3.6, 6.4, 8.8),
+  yend = c(6.625, 6.625, 3.625, 3.625, 3.625, 3.625)
+)
+ggplot() +
+  geom_segment(data = edges, aes(x = x, y = y, xend = xend, yend = yend),
+               color = "#006B90", linewidth = 0.9) +
+  geom_tile(data = nodes, aes(x = x, y = y, width = w, height = 1.25, fill = fill),
+            color = nodes$brd, linewidth = 0.7) +
+  scale_fill_identity() +
+  geom_text(data = nodes, aes(x = x, y = y + 0.17, label = big),
+            color = nodes$txt, fontface = 2, size = 5) +
+  geom_text(data = nodes, aes(x = x, y = y - 0.28, label = small),
+            color = nodes$txt, size = 3.1) +
+  annotate("text", x = c(3.6, 6.4), y = 2.12,
+           label = c("false negatives", "false positives"),
+           color = "#6B7280", size = 2.5, fontface = 3) +
+  scale_x_continuous(expand = expansion(mult = 0.02)) +
+  scale_y_continuous(expand = expansion(mult = 0.03)) +
+  theme_void() + theme(plot.margin = margin(2, 2, 2, 2))
+```
+
+Now read it off the branches. A yes came back. How many products get a yes at all? Eighty of the genuinely-wanted ones, plus 180 of the flops: 260 in total. And of those 260, how many are actually any good? Just the 80. So a yes means good 80 times in 260 — about one in three.
+
+Sit with that. A positive result on a test that catches 8 of every 10 good products still leaves you only about a third likely to have a good one. The yes was real evidence: it nearly tripled your odds, from 1 in 10 to roughly 1 in 3. That is genuine movement, not nothing. But a third is still a minority, and no single test hands a Bayesian certainty; it only makes you more or less sure. The reason you can see that at all is the base rate sitting in the tree, refusing to be forgotten.
+
+## The same thousand, made visible {#sec-array}
+
+If the tree shows the logic, a picture of the whole thousand shows the weight.
+
+```{r}
+#| label: fig-icon-array
+#| fig-cap: "The same 1,000 products. A yes lights up 260 of them, but only the 80 blue dots are genuinely wanted; the 180 gold are flops that passed anyway. Among the dots that got a yes, gold outnumbers blue more than two to one."
+#| echo: false
+#| fig-width: 10
+#| fig-height: 4
+#| out-width: "620px"
+library(ggplot2)
+library(ggforce)
+cols <- 50; rows <- 20
+d <- data.frame(
+  x = rep(seq_len(cols), times = rows),
+  y = rep(rev(seq_len(rows)), each = cols),
+  cat = c(rep("good_yes", 80), rep("flop_yes", 180), rep("got_no", 740))
+)
+pal <- c(good_yes = "#007BA7", flop_yes = "#E3A008", got_no = "#E5E7EB")
+ggplot(d) +
+  geom_circle(aes(x0 = x, y0 = y, r = 0.42, fill = cat), color = "white", linewidth = 0.15) +
+  scale_fill_manual(values = pal, guide = "none") +
+  coord_fixed(expand = FALSE) +
+  theme_void() + theme(plot.margin = margin(0, 0, 0, 0))
+```
+
+Each dot is one of the thousand products. The 260 that got a yes are the colored band across the top; everything grey got a no. Now look only at the color in that band. The blue, the genuinely good products the test correctly flagged, is a thin stripe. The gold, flops that got a yes anyway, is more than twice as thick. That gold is the base rate made visible: there are so many more flops to begin with that even a low false-alarm rate produces a flood of false yeses. Your one positive result is far more likely to be a drop in the gold than a drop in the blue.
+
+## This is the update {#sec-update}
+
+What you just did by counting is exactly what the last chapters asked of you. The base rate, 1 in 10, was your prior. The yes was your evidence. The number you read off the tree, about 1 in 3, is your posterior: your belief after the evidence. You updated a prior into a posterior and never touched an equation.
+
+And notice what the picture would not let you do. It would not let you forget the base rate, because the base rate *was* the picture: the 100 against the 900, the blue against the gold. The doctors went wrong, and founders go wrong, in exactly the spot where the base rate drops out of view. Draw the tree and it cannot drop out, because you started by counting it.
+
+One caution before you move on. A low posterior is not permission to ignore a result — a small chance of a catastrophe can still demand action, and what a belief is worth acting on depends on what is at stake. That coupling of odds with stakes is a later gate; here, the only task was to see the number clearly.
+
+::: {.for-curious}
+<details>
+<summary>For the Curious — The formula you just avoided</summary>
+
+There is an equation under all of this, and the counting you just did *is* that equation run on whole numbers instead of fractions. It is called Bayes' theorem, and in words it says:
+
+$$
+\textsf{posterior} = \frac{\textsf{prior} \times \textsf{likelihood}}{\textsf{total probability of the evidence}}
+$$
+
+Your **prior** is the base rate: how likely the product was to be good before the test, 1 in 10 (100 in 1000). The **likelihood** is how well a yes fits a genuinely good product, 8 in 10. The **evidence** in the denominator is every way a yes could arise: the good-and-yes cases plus the flop-and-yes cases. Drop your counts in and it is the arithmetic you already did: 80 / (80 + 180). The formula only says this — shift your belief in proportion to how well the evidence fits it, then rescale so the possibilities still add to one. Researchers teach it with counts not because the algebra is wrong but because almost no one reasons well in fractions.[^natfreq] You never have to write the equation. But now you have seen it, and you can see it is only bookkeeping.
+
+::: {.learn-ai}
+**Learn From Your AI**
+
+::: {.prompt}
+I just learned to do Bayesian updating by counting cases out of 1,000. Now teach me Bayes' theorem itself: what each part means and how my counting maps onto the formula. Start with one simple everyday example. Then, if I give you a base rate, a hit rate, and a false-positive rate, walk through my own numbers.
+:::
+:::
+
+</details>
+:::
+
+::: {.trap}
+**Trap to Avoid — The percentage that fools you**
+
+The test catches 80% of good products, so a yes means you're 80% likely to be good — right? That is the mistake that beat the doctors. The 80% describes how the test treats good products; it is not the chance you're good once you've gotten a yes. Those two numbers only match when the base rate is 50-50, which it almost never is. Whenever someone quotes you a single impressive percentage, ask the question the tree forces: *out of how many, and against what base rate?*
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your AI will build this tree in seconds and do the counting flawlessly. Hand it the arithmetic. But the tree is only as honest as two numbers you have to supply, and the AI cannot find them for you.
+
+- **The base rate is yours.** How often do products like yours actually succeed? That's your prior from the last chapters, and a tree built on a flattering base rate lies cleanly and convincingly.
+- **The false-positive rate is yours too.** Be honest about how often your test says yes to something that would flop. Optimists set it near zero; that's how the amber disappears and the posterior lies.
+- **Read the posterior as movement, not verdict.** The number tells you how far the evidence moved you, not whether you've arrived. Deciding whether it's far enough is the next gate, not this one.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+Build me a natural-frequency tree out of 1,000 for this decision: [state it]. My base rate is [X%], my test catches [Y%] of the true yeses, and it gives a false yes [Z%] of the time. Show me the four counts, tell me my posterior after a positive result, and flag which of my three numbers my answer is most sensitive to.
+:::
+:::
+
+## Try this {#sec-try-this}
+
+::: {.try-this}
+**Try This — Draw your own thousand**
+
+Take a test you're about to trust, and build the tree by hand.
+
+1. Start with 1,000 cases like yours.
+2. Split them by your base rate: how many of the thousand are the real thing?
+3. Split each group by the test: how many of the good ones pass, and how many of the rest pass anyway?
+4. Count the passes, and count how many of those passes are actually good. That ratio is your answer.
+
+If the number startles you, the tree is working. It's showing you the base rate your hopes had quietly deleted.
+:::
+
+::: {.key-action}
+**The move:** When a result tempts you, don't trust the percentage — draw the thousand. Split by the base rate, split by the test, and count the branch you care about. The posterior is a ratio you can see.
+:::
+
+One thing in that tree should nag at you: a strong positive result still left you at only one in three, and the reason was the low base rate. When the base rate is low and the data is thin, the prior keeps its grip on the answer no matter how the evidence comes back. That is not a flaw in the method. It is the entrepreneur's everyday condition, and it is [where we turn next](priors-small-world.qmd).
+
+[^natfreq]: The finding that natural-frequency formats make Bayesian reasoning intuitive, where percentages defeat even experts, is @gigerenzerHowImproveBayesian1995; the general-audience case is @gigerenzerCalculatedRisksHow2015.
