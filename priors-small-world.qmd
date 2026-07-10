@@ -3,6 +3,119 @@ title: "Priors in the Small World"
 subtitle: "Why your beliefs dominate when data is scarce"
 ---
 
-*Draft pending — placeholder for the gate-sequence rebuild.*
+The advice to "let the data decide" carries a quiet assumption: that you have data. Enough of it, anyway, to decide. The entrepreneur almost never does. You have a dozen interviews, one landing-page test, a scatter of early sales: a thin handful of observations against a decision that will shape years of your life. In that world the data cannot decide, because there is not enough of it to overrule what you already believe.
 
-**Planned:** why priors *dominate* the posterior when data is scarce — the entrepreneur's actual condition, so this matters more for you, not less.
+This is the **small world**, and it is where you live. Not the data-rich world of the labs and the tech giants, where a million users settle a question overnight, but the data-poor world of the founder, where every observation is slow, costly, and scarce. And the small world has a consequence most people get exactly backwards: the less data you have, the more your prior decides the answer.
+
+This is not a counsel against data. It is the reason to gather it with unusual care — the discipline the rest of this book is built on. Scarcity doesn't make evidence useless; it makes every scrap of it matter more.
+
+::: {.column-margin .def-margin}
+**Small world** — the entrepreneur's normal condition: so few observations that no amount of gathering, in the time and money you have, can overrule the belief you started with.
+:::
+
+## Why a little data can't move you {#sec-mechanism}
+
+You saw this already, in miniature. In the last chapter, one positive test moved you from a 1-in-10 prior to about 1 in 3. A real result, but a nudge: a single observation, set against a strong prior, is weak. It takes a *run* of consistent evidence to drag a belief far from where it started, and a run is exactly what scarce data denies you.
+
+```{r}
+#| label: fig-prior-grip
+#| fig-cap: "How far one test moves you. From a 1-in-10 prior, each consecutive positive on the same test multiplies the odds by four; a single positive reaches only 31%. Real confidence takes a run of consistent evidence, and a run is what scarce data denies you."
+#| echo: false
+#| fig-width: 8
+#| fig-height: 4.2
+#| out-width: "680px"
+library(ggplot2)
+k <- 0:6
+odds <- (1 / 9) * 4^k
+d <- data.frame(k = k, post = odds / (1 + odds))
+ggplot(d, aes(k, post)) +
+  annotate("rect", xmin = -0.3, xmax = 2.3, ymin = 0, ymax = 1, fill = "#EAF4F7") +
+  annotate("text", x = 1, y = 0.93, label = "where you usually live",
+           color = "#6B7280", size = 3.1, fontface = 3) +
+  geom_hline(yintercept = 0.1, linetype = "dashed", color = "#9CA3AF") +
+  geom_line(color = "#007BA7", linewidth = 1) +
+  geom_point(color = "#007BA7", size = 3) +
+  scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
+  scale_x_continuous(breaks = 0:6) +
+  labs(x = "consecutive positive tests", y = "posterior: probability you're right") +
+  theme_minimal(base_size = 12) +
+  theme(panel.grid.minor = element_blank())
+```
+
+That picture (@fig-prior-grip) is the whole point. From a 1-in-10 prior it takes four or five consistent positives to reach anything like confidence, and in the small world you rarely get one clean test, let alone five. So your posterior sits near your prior, tugged a little by what data you have and mostly holding the shape of what you brought. With little data, the answer is mostly your prior. With mountains of data, the data would eventually wash the prior away, but you will run out of runway long before you run out of prior.
+
+## So the prior matters more, not less {#sec-flip}
+
+Here is where the instinct misleads. Faced with little data, the natural move is to distrust your own judgment and wait for evidence to settle the question, as if objectivity were a matter of waiting. But waiting doesn't deliver objectivity in the small world; it delivers a slightly updated version of the same prior. You cannot out-data your way to a good answer on a startup's budget. The quality of your decision is set, mostly, by the quality of the belief you started with.
+
+That cuts both ways, and honestly. A good prior, earned from real experience and grounded in real base rates, lets you act well before the evidence is in, which is the seasoned founder's edge. A bad prior — hope dressed as knowledge — cannot be rescued by the trickle of data you can afford: garbage in, garbage barely updated, garbage out. So in the small world your prior is not a bias to apologize for. It is the main instrument, and it had better be good.
+
+::: {.running-case}
+**Halo Alert — acting on a good prior**
+
+The Halo Alert team never had much data, and never would: a few dozen conversations, a couple of sharp tests, a small world by any measure. What let them move anyway was not the data; it was a prior worth trusting. Two founders had lived the fear, they knew the base rates of the space, and they had surfaced their belief and separated the grounded part from the hopeful. So when a handful of interviews leaned their way, that thin evidence was enough. Not because it proved anything on its own, but because it updated a prior that was already carrying most of the weight, honestly.
+:::
+
+## Spend your scarce evidence where it moves you most {#sec-spend}
+
+If data is precious, waste none of it. The small world is the strongest argument there is for the discipline of [designing the experiment](designing-the-experiment.qmd): when you will get only a few observations, each one has to be as discriminating as you can make it. A scarce evidence budget spent on comfortable, confirmatory tests is a tragedy; the same budget spent on sharp, could-fail tests that move a belief the most is the best trade you can make. And since the prior carries the load, it is worth improving directly: a better base rate, a wider reference class, one more veteran's read is often worth more than another thin test.
+
+::: {.trap}
+**Trap to Avoid — "The data said so"**
+
+The small world tempts a particular dishonesty: dressing a handful of observations in the authority of Data. Three interviews become "the research"; one good week becomes "traction." You point to the data to avoid admitting how little of it there is, and how much of your confidence is really your prior. In one business-model competition I judged, "we talked to thirty people" became a credential that certified itself — no word on who they were, how they were chosen, or what they actually said. It let the room mistake a number for knowledge, and let good teams fail on schedule. Name the split instead. A decision that is 80% prior and 20% data can be perfectly sound; it may even be the best available. What is not sound is not knowing that's what it is.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+In a data-rich world the AI's job is to crunch the data. In yours, its highest-leverage work is upstream, on the prior, because the prior is what's carrying the call.
+
+- **Strengthen the prior.** Have it pull base rates and the outside view, widen your reference class, and supply the numbers your handful of interviews can't. In the small world, a better prior beats another thin test.
+- **Aim the scarce test.** Ask which single observation would move your belief the most, and design *that* one, not the easy one.
+- **Hold the honest split.** Have it estimate how much of your confidence is prior versus data, and say so plainly. Don't let a small sample masquerade as proof.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+I have to make this call with very little data: [describe the decision and the handful of observations I actually have]. First, help me strengthen my prior with base rates and an outside view. Then tell me honestly how much of a good decision here rests on the prior versus the data, and what single, most-discriminating test would be worth my scarce time to run next.
+:::
+:::
+
+::: {.for-curious}
+<details>
+<summary>For the Curious — When data finally wins</summary>
+
+The prior does not rule forever. As evidence piles up, the likelihood sharpens and the posterior is pulled toward whatever the data keep saying, until in the limit two people who began from very different priors converge on the same answer: the data wash the priors out (statisticians call it Bayesian consistency). But that is an *asymptotic* result. It describes what happens with a great deal of data. The entrepreneur operates at the other end, where the sample is small, the likelihood is soft, and the prior still holds the pen. The math that reassures a statistician with a million rows is cold comfort to a founder with nine interviews.
+
+::: {.learn-ai}
+**Learn From Your AI**
+
+::: {.prompt}
+Show me, with my own numbers, how my posterior would move as I run more of the same test. My base rate is [X%], and the test says yes [Y%] of the time when the answer is really yes and gives a false yes [Z%] of the time. How many consecutive positives would I need to be, say, 90% sure, and is gathering that many realistic for me?
+:::
+:::
+
+</details>
+:::
+
+::: {.try-this}
+**Try This — Split your confidence**
+
+Take a decision you feel fairly sure about.
+
+1. Put a rough number on your confidence: how sure are you, out of 100?
+2. Now ask two questions. If you kept only your prior and threw out your data, where would that number be? If you kept only your data and threw out your prior, where would it be?
+3. The gap shows how much work your prior is doing. In the small world, it is usually most of it.
+4. Then ask the only question that matters: is your prior good enough to carry that weight?
+:::
+
+::: {.key-action}
+**The move:** When data is scarce, the prior decides — so make the prior good, spend each scarce test on the sharpest question you can pose, and be honest about how much of your confidence is belief and how much is evidence.
+:::
+
+You have spent this part of the book learning to take your prior seriously: to surface it, to defend it, to see it, and now to recognize that in the small world you live in, it carries most of the weight. That is not a reason to stop gathering evidence. It is a reason to gather it well. A prior worth trusting is the platform; the next part is about what you build on it — the evidence you go out and get, and how to wring the most from the little you can afford.
