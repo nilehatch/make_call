@@ -98,8 +98,6 @@ Here's a result I just got: [paste the result and how you got it]. Here's the de
 :::
 :::
 
-## Try this {#sec-try-this}
-
 ::: {.try-this}
 **Try This — Weigh a result you already trust**
 

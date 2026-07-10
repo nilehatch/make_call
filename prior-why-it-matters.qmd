@@ -75,8 +75,6 @@ Your prior is yours — it is your experience, and the AI has none of it. But it
 - **Keep the prior yours.** The AI supplies the reference class; only you can say how your particular experience should bend it. Hand over the arithmetic, not the judgment.
 :::
 
-## Try this {#sec-try-this}
-
 ::: {.try-this}
 **Try This — Put a number on what you already believe**
 
