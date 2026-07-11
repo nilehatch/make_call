@@ -103,8 +103,10 @@ Show me, with my own numbers, how my posterior would move as I run more of the s
 </details>
 :::
 
+## Try This {#sec-try-this}
+
 ::: {.try-this}
-**Try This — Split your confidence**
+**Split your confidence**
 
 Take a decision you feel fairly sure about.
 

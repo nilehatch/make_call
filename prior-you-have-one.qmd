@@ -83,8 +83,10 @@ I'm about to make this decision: [state it]. Interview me to surface my prior â€
 :::
 :::
 
+## Try This {#sec-try-this}
+
 ::: {.try-this}
-**Try This â€” Write your "before"**
+**Write your "before"**
 
 Take the decision in front of you and write three lines.
 

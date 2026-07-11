@@ -116,8 +116,10 @@ I'm about to test this assumption: [state your one assumption]. Here's the decis
 :::
 :::
 
+## Try This {#sec-try-this}
+
 ::: {.try-this}
-**Try This — Design one experiment**
+**Design one experiment**
 
 Take the decision in front of you right now.
 
