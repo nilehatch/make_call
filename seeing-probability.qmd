@@ -173,10 +173,10 @@ Build me a natural-frequency tree out of 1,000 for this decision: [state it]. My
 :::
 :::
 
-## Try This {#sec-try-this}
+## Putting It to Work {#sec-putting-to-work}
 
 ::: {.try-this}
-**Draw your own thousand**
+**Try This — Draw your own thousand**
 
 Take a test you're about to trust, and build the tree by hand.
 

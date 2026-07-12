@@ -98,10 +98,10 @@ Here's a result I just got: [paste the result and how you got it]. Here's the de
 :::
 :::
 
-## Try This {#sec-try-this}
+## Putting It to Work {#sec-putting-to-work}
 
 ::: {.try-this}
-**Weigh a result you already trust**
+**Try This — Weigh a result you already trust**
 
 Take a result you have already acted on, or are about to.
 

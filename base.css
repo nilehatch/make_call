@@ -244,6 +244,18 @@ hr.method-divider {
 .checklist ul { list-style: none; padding-left: 0.25rem; }
 .checklist .task-list-item input { margin-right: 0.5rem; }
 
+/* Key Action — the chapter's one-move takeaway: the emphatic member of the DO
+   family. Same gold hue, but a full frame + deeper fill so the eye lands on it
+   as the punchline, distinct from the pale .try-this box beside it. Differentiated
+   by FORM (frame + weight), which survives print and grayscale — not by a new hue
+   (it is still a "do"), and not by the white inner card, which is reserved for AI
+   prompts. Mirrors the .running-case precedent: heavier border = more weight. */
+.key-action {
+  border: 1.5px solid var(--brand-accent);
+  border-left-width: 6px;
+  background: #FAEBC8;
+}
+
 /* WORK WITH AI (violet — deliberately outside the brand triad; themeable) */
 .ask-ai, .checkpoint {
   border-left-color: var(--brand-ai, #7C3AED);
