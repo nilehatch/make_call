@@ -51,10 +51,10 @@ book:
 
     - part: "Part IV · Evidence — gather what exists, test what doesn't"
       chapters:
-        - ch12-gathering-evidence.qmd
+        - evidence-enough.qmd
         - gathering-whats-known.qmd
         - designing-the-experiment.qmd
-        - wrap3-gathering-data.qmd
+        - seeing-in-depth.qmd
 
     - part: "Part V · Sense — is it credible, and what do you now believe?"
       chapters:

@@ -1,0 +1,101 @@
+---
+title: "Evidence Enough to Act"
+subtitle: "Two moves, and how high you need to climb"
+---
+
+Most ventures don't die for want of an idea. They die because a founder was wrong about something that mattered and had no evidence to catch it before betting everything on it. Being sure is not the same as being right, and evidence is how you tell them apart in time. You have already framed the decision and taken your prior seriously. Now comes the work of putting that prior to the test, of going out into the world and bringing back evidence good enough to act on.
+
+This is the Evidence gate, and it is one question asked in two moves. First you gather what already exists, the cheap secondhand evidence someone else has collected. Then you test what doesn't yet exist, generating the firsthand evidence no one has by running an experiment of your own. The next two chapters take those moves in turn. This one is about the ground beneath both, what counts as evidence and how much of it you actually need.
+
+## Think like a scientist {#sec-scientist}
+
+You don't need a lab coat, but you do need a method. Like a scientist, you form a question, gather evidence to answer it, interpret what the evidence means, and act on it, then go around again with a sharper question. The goal is never certainty. Certainty is not on offer here, and waiting for it is how ventures die of caution. The goal is clarity strong enough to make the call.
+
+## The evidence ladder {#sec-ladder}
+
+Not all evidence costs the same or carries the same weight. Picture a ladder. The low rungs are fast and cheap, a quick search or a question to someone who already knows, good for getting your bearings. The high rungs are slow and costly, a real test with real stakes, but they carry the strongest signal, because they show what people actually do rather than what they say they will.
+
+```{r}
+#| label: fig-evidence-ladder
+#| fig-cap: "The evidence ladder. Rungs climb from cheap and weak at the bottom to costly and strong at the top. The lower rungs *gather* evidence that already exists; the upper rungs *generate* evidence you have to make. Climb only as high as the decision is worth."
+#| echo: false
+#| fig-width: 8
+#| fig-height: 3.5
+#| out-width: "760px"
+library(ggplot2)
+rungs <- data.frame(
+  y = 1:4,
+  name = c("1 · Desk research", "2 · Ask the knowing", "3 · Small tests", "4 · Real behavior"),
+  ex   = c("public data, signals", "experts, your records",
+           "surveys, smoke tests", "pre-orders, pilots"),
+  cost = c("minutes, free", "hours, low", "days, moderate", "weeks, real money"),
+  use  = c("get your bearings", "sharpen, benchmark", "measure, compare", "see real choices")
+)
+ggplot(rungs) +
+  geom_rect(aes(xmin = 0, xmax = 12.9, ymin = y - 0.42, ymax = y + 0.42, fill = y),
+            color = "white", linewidth = 1) +
+  scale_fill_gradient(low = "#F2F8FB", high = "#A9D0E0", guide = "none") +
+  geom_text(aes(x = 0.3, y = y, label = name), hjust = 0, fontface = 2,
+            size = 4.3, color = "#0B3C52") +
+  geom_text(aes(x = 3.6, y = y, label = ex), hjust = 0, size = 4.0, color = "#1F2937") +
+  geom_text(aes(x = 6.9, y = y, label = cost), hjust = 0, size = 4.0, color = "#1F2937") +
+  geom_text(aes(x = 9.9, y = y, label = use), hjust = 0, size = 4.0, color = "#1F2937") +
+  annotate("text", x = 3.6, y = 4.75, label = "examples", hjust = 0, fontface = 3,
+           size = 3.3, color = "#9CA3AF") +
+  annotate("text", x = 6.9, y = 4.75, label = "cost", hjust = 0, fontface = 3,
+           size = 3.3, color = "#9CA3AF") +
+  annotate("text", x = 9.9, y = 4.75, label = "use it to", hjust = 0, fontface = 3,
+           size = 3.3, color = "#9CA3AF") +
+  annotate("segment", x = 0, xend = 12.9, y = 2.5, yend = 2.5,
+           linetype = "dashed", color = "#9CA3AF") +
+  annotate("label", x = 6.2, y = 2.5, label = "stop harvesting · start generating",
+           size = 3.3, fontface = 3, color = "#6B7280", fill = "white", label.size = 0) +
+  annotate("text", x = -0.55, y = 1.5, label = "GATHER", angle = 90, fontface = 2,
+           size = 4.2, color = "#007BA7") +
+  annotate("text", x = -0.55, y = 3.5, label = "GENERATE", angle = 90, fontface = 2,
+           size = 4.2, color = "#B8860B") +
+  coord_cartesian(xlim = c(-1.0, 13.1), ylim = c(0.5, 5.05), expand = FALSE) +
+  theme_void()
+```
+
+The two moves map straight onto the ladder. Gathering what's known lives on the low rungs, the evidence that already exists and costs almost nothing to collect. Testing lives on the high rungs, the evidence you have to generate because no one has it yet. You climb from cheap and weak toward costly and strong, and the whole art is knowing when to stop.
+
+## Climb only as high as the decision is worth {#sec-stop}
+
+Every rung up costs more time and money than the last, and not every decision earns the expense. So climb only as high as the decision is worth. If the next rung would not change what you do, you are already high enough, and the right move is to stop and act. A small, easily reversed choice rarely justifies more than a rung or two. A large, hard-to-undo commitment may demand the very top. The question is never "how much evidence could I gather?" but "how much does this decision need?"
+
+::: {.running-case}
+**Halo Alert — at the foot of the ladder**
+
+By the time the Halo Alert team reached this point, they had a problem worth solving and a prior worth trusting, built from lived fear and real base rates. What they lacked was the evidence they would want before building the thing and betting the venture on it. Their informed prior told them the fear was real and widely shared; it could not tell them whether these particular people would buy their particular answer to it. That gap is what evidence closes. So they started at the foot of the ladder, with what they could read and hear for nothing, and climbed only when a real decision demanded a firmer signal. The next two chapters follow them up, first through what already existed, then into the one test they had to run for themselves.
+:::
+
+::: {.trap}
+**Trap to Avoid — Evidence that flatters**
+
+Not all evidence is honest, and the friendliest evidence is the most dangerous. Watch for three flatterers:
+
+- **Bias** — you ask agreeable people agreeable questions and hear the yes you came for.
+- **Vanity metrics** — the likes and views that feel like progress but never pay a bill.
+- **False certainty** — the single confident chart you treat as the last word.
+
+Each one feels like evidence. None of it is worth much until it survives a harder look, which is what the rest of this part will teach you to give it.
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Put your decision on the ladder**
+
+Take the decision in front of you.
+
+1. Name what you would need to see before you would commit.
+2. Decide how high this decision is worth climbing. A cheap, reversible move earns only a rung or two; a costly, hard-to-undo one may earn the whole climb.
+3. Start on the low rungs and work upward, gathering as you go. Stop the moment you have enough to act, or when you reach the height the decision is worth, whichever comes first.
+:::
+
+::: {.key-action}
+**The move:** Gather what already exists before you test what doesn't, and climb the ladder only as high as the decision is worth. Evidence is not about reaching certainty. It is about reaching the rung where you can act with your eyes open.
+:::
+
+The two moves wait just ahead. The cheapest evidence is the evidence someone has already gathered for you, so that is where a careful founder starts, low on the ladder, searching before spending. That is the next chapter.
