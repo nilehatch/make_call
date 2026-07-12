@@ -19,6 +19,57 @@ The difference between a launch and an experiment is the difference between char
 
 This is the move that separates entrepreneurs who guess from entrepreneurs who learn. It is not caution — a good experiment is often faster and bolder than a launch, because it refuses to wait months for an answer it could have in a week. It is *design*: the discipline of asking the world a question sharp enough that its answer means something.
 
+It helps to see where this sits. Gathering what already exists carried you up the low rungs of the evidence ladder, but the strongest evidence, what your customer actually *does*, waits at the top, and no one has collected it for you. Designing an experiment is how you climb the last rungs and generate it yourself.
+
+```{r}
+#| label: fig-generate-ladder
+#| fig-cap: "You are here, at the top of the evidence ladder. The lower rungs gathered what already existed; now you generate the strongest evidence there is, what your customer does in a test you design."
+#| echo: false
+#| fig-width: 8
+#| fig-height: 3.5
+#| out-width: "760px"
+#| warning: false
+#| message: false
+library(ggplot2)
+rungs <- data.frame(
+  y = 1:4,
+  name = c("1 · Desk research", "2 · Ask the knowing", "3 · Small tests", "4 · Real behavior"),
+  ex   = c("public data, signals", "experts, your records",
+           "surveys, smoke tests", "pre-orders, pilots"),
+  cost = c("minutes, free", "hours, low", "days, moderate", "weeks, real money"),
+  use  = c("get your bearings", "sharpen, benchmark", "measure, compare", "see real choices"),
+  fill    = c("#F3F4F6", "#F3F4F6", "#C4DEEB", "#A9D0E0"),
+  namecol = c("#AEB3BA", "#AEB3BA", "#0B3C52", "#0B3C52"),
+  cellcol = c("#AEB3BA", "#AEB3BA", "#1F2937", "#1F2937")
+)
+ggplot(rungs) +
+  geom_rect(aes(xmin = 0, xmax = 12.9, ymin = y - 0.42, ymax = y + 0.42, fill = fill),
+            color = "white", linewidth = 1) +
+  scale_fill_identity() +
+  geom_text(aes(x = 0.3, y = y, label = name), hjust = 0, fontface = 2,
+            size = 4.3, color = rungs$namecol) +
+  geom_text(aes(x = 3.6, y = y, label = ex), hjust = 0, size = 4.0, color = rungs$cellcol) +
+  geom_text(aes(x = 6.9, y = y, label = cost), hjust = 0, size = 4.0, color = rungs$cellcol) +
+  geom_text(aes(x = 9.9, y = y, label = use), hjust = 0, size = 4.0, color = rungs$cellcol) +
+  annotate("text", x = 3.6, y = 4.75, label = "examples", hjust = 0, fontface = 3,
+           size = 3.3, color = "#9CA3AF") +
+  annotate("text", x = 6.9, y = 4.75, label = "cost", hjust = 0, fontface = 3,
+           size = 3.3, color = "#9CA3AF") +
+  annotate("text", x = 9.9, y = 4.75, label = "use it to", hjust = 0, fontface = 3,
+           size = 3.3, color = "#9CA3AF") +
+  annotate("segment", x = 0, xend = 12.9, y = 2.5, yend = 2.5,
+           linetype = "dashed", color = "#CBD0D6") +
+  annotate("rect", xmin = 3.75, xmax = 8.65, ymin = 2.33, ymax = 2.67, fill = "white") +
+  annotate("text", x = 6.2, y = 2.5, label = "stop harvesting · start generating",
+           size = 3.3, fontface = 3, color = "#9CA3AF") +
+  annotate("text", x = -0.55, y = 1.5, label = "GATHER", angle = 90, fontface = 2,
+           size = 4.2, color = "#C2C6CC") +
+  annotate("text", x = -0.55, y = 3.5, label = "GENERATE", angle = 90, fontface = 2,
+           size = 4.2, color = "#B8860B") +
+  coord_cartesian(xlim = c(-1.0, 13.1), ylim = c(0.5, 5.05), expand = FALSE) +
+  theme_void()
+```
+
 ## The one rule: test only what could change your mind {#sec-the-one-rule}
 
 Here is the rule that governs every experiment worth running, and it is easy to say and hard to obey:

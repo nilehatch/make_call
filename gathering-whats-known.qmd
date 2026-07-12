@@ -24,43 +24,37 @@ And keep one distinction sharp. Some of what you don't know, someone else alread
 It helps to line the sources up in a single order, from the ones that only tell you what people *said* to the ones that show you what they *did*. The climb is the point. Each step costs a little more effort and returns a little more truth, and the top of what's already known sits just below the evidence you will have to generate yourself.
 
 ```{r}
-#| label: fig-evidence-gradient
-#| fig-cap: "The evidence gradient. Already-existing sources climb from what people *said* (cheap, weak) toward what they *did* (costlier, stronger). The strongest evidence of all — what your customer does in a test you design — sits past the edge of what is already known. You have to generate it."
+#| label: fig-gather-sources
+#| fig-cap: "The gather move, up close — the low rungs of the evidence ladder. What's already known climbs from what people *said* (published reports, expert opinion) toward what they *did* (rivals' moves, your own customers' behavior): weakest at the bottom, strongest at the top. Past the top lies the evidence you must generate, the next chapter."
 #| echo: false
-#| fig-width: 9
-#| fig-height: 3
-#| out-width: "720px"
+#| fig-width: 8
+#| fig-height: 3.5
+#| out-width: "760px"
+#| warning: false
+#| message: false
 library(ggplot2)
-band <- data.frame(x = seq(0.3, 8.4, length.out = 300))
-pts <- data.frame(
-  x = c(1.3, 3.4, 5.5, 7.6),
-  lab = c("Published\ndata", "Human\nexperts", "Market &\ncompetitor\nsignals", "Your own\nnumbers")
+src <- data.frame(
+  y = 1:4,
+  name = c("Published data", "Human experts", "Market signals", "Your own numbers"),
+  what = c("reports, trends", "advice, stories", "hiring, launches", "churn, referrals"),
+  sig  = c("already recorded", "opinion, not proof", "what rivals do", "what your buyers do"),
+  fill = c("#F0F7FA", "#D3E7F0", "#B6D6E5", "#9AC6DA")
 )
-gen <- data.frame(x = 9.7, lab = "Designed\nexperiments")
-ggplot() +
-  geom_tile(data = band, aes(x = x, y = 1, fill = x), width = 0.04, height = 0.5) +
-  scale_fill_gradient(low = "#EAF4F7", high = "#007BA7", guide = "none") +
-  annotate("segment", x = 8.4, xend = 8.4, y = 0.55, yend = 1.5,
-           linetype = "dashed", color = "#9CA3AF") +
-  geom_point(data = pts, aes(x, 1), size = 5, color = "white") +
-  geom_point(data = pts, aes(x, 1), size = 3.3, color = "#007BA7") +
-  geom_text(data = pts, aes(x, 1.36, label = lab), size = 3,
-            lineheight = 0.9, fontface = 2, color = "#1F2937") +
-  geom_point(data = gen, aes(x, 1), size = 5, color = "white") +
-  geom_point(data = gen, aes(x, 1), size = 3.3, color = "#E3A008") +
-  geom_text(data = gen, aes(x, 1.36, label = lab), size = 3,
-            lineheight = 0.9, fontface = 2, color = "#8A6D1A") +
-  annotate("text", x = 0.3, y = 0.32, hjust = 0,
-           label = "what people SAID  ·  cheap  ·  weak", size = 2.9,
-           fontface = 3, color = "#6B7280") +
-  annotate("text", x = 8.4, y = 0.32, hjust = 1,
-           label = "what people DID  ·  costly  ·  strong", size = 2.9,
-           fontface = 3, color = "#374151") +
-  annotate("text", x = 4.35, y = 1.74, label = "GATHER WHAT'S ALREADY KNOWN",
-           size = 3, fontface = 2, color = "#007BA7") +
-  annotate("text", x = 9.7, y = 1.74, label = "GENERATE",
-           size = 3, fontface = 2, color = "#8A6D1A") +
-  coord_cartesian(xlim = c(0, 11), ylim = c(0.2, 1.9), expand = FALSE) +
+ggplot(src) +
+  geom_rect(aes(xmin = 0, xmax = 12.8, ymin = y - 0.42, ymax = y + 0.42, fill = fill),
+            color = "white", linewidth = 1) +
+  scale_fill_identity() +
+  geom_text(aes(x = 0.3, y = y, label = name), hjust = 0, fontface = 2,
+            size = 4.3, color = "#0B3C52") +
+  geom_text(aes(x = 4.2, y = y, label = what), hjust = 0, size = 4.0, color = "#1F2937") +
+  geom_text(aes(x = 8.2, y = y, label = sig), hjust = 0, size = 4.0, color = "#1F2937") +
+  annotate("text", x = 4.2, y = 4.72, label = "what you get", hjust = 0, fontface = 3,
+           size = 3.3, color = "#9CA3AF") +
+  annotate("text", x = 8.2, y = 4.72, label = "the signal", hjust = 0, fontface = 3,
+           size = 3.3, color = "#9CA3AF") +
+  annotate("text", x = -0.5, y = 2.5, label = "GATHER", angle = 90, fontface = 2,
+           size = 4.4, color = "#007BA7") +
+  coord_cartesian(xlim = c(-0.95, 13.0), ylim = c(0.5, 5.0), expand = FALSE) +
   theme_void()
 ```
 
