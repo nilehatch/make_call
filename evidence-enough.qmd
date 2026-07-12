@@ -22,6 +22,8 @@ Not all evidence costs the same or carries the same weight. Picture a ladder. Th
 #| fig-width: 8
 #| fig-height: 3.5
 #| out-width: "760px"
+#| warning: false
+#| message: false
 library(ggplot2)
 rungs <- data.frame(
   y = 1:4,
@@ -48,8 +50,9 @@ ggplot(rungs) +
            size = 3.3, color = "#9CA3AF") +
   annotate("segment", x = 0, xend = 12.9, y = 2.5, yend = 2.5,
            linetype = "dashed", color = "#9CA3AF") +
-  annotate("label", x = 6.2, y = 2.5, label = "stop harvesting · start generating",
-           size = 3.3, fontface = 3, color = "#6B7280", fill = "white", label.size = 0) +
+  annotate("rect", xmin = 3.75, xmax = 8.65, ymin = 2.33, ymax = 2.67, fill = "white") +
+  annotate("text", x = 6.2, y = 2.5, label = "stop harvesting · start generating",
+           size = 3.3, fontface = 3, color = "#6B7280") +
   annotate("text", x = -0.55, y = 1.5, label = "GATHER", angle = 90, fontface = 2,
            size = 4.2, color = "#007BA7") +
   annotate("text", x = -0.55, y = 3.5, label = "GENERATE", angle = 90, fontface = 2,
