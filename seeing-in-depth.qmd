@@ -1,110 +1,79 @@
-# Wrapping Up {#sec-triangulating-evidence}
-
-## Triangulating Evidence 
-
-Entrepreneurs can rarely see the full picture.  
-Every piece of evidence — a dataset, an interview, a financial report — is partial, biased, or incomplete.  
-The real skill isn’t finding one perfect source. It’s learning how to make sense of several imperfect ones together.  
-
-That’s what triangulation does.  
-It doesn’t remove uncertainty. It *shapes* it — giving you direction and confidence from the overlap of multiple signals.  
-
-
-## Seeing in Depth
-
-Each evidence source shows a different dimension of reality:  
-
-| **Type** | **Strength** | **Blind Spot** |
-|-----------|---------------|----------------|
-| **Quantitative data** (public, private, internal) | Scale and precision | Misses context and motivation |
-| **Qualitative evidence** (customer, expert, team) | Context and meaning | Small sample, subjective |
-| **Behavioral data** (experiments, operational patterns) | Revealed preferences and outcomes | Narrow scope, expensive to run |
-
-Alone, each view is flat — like a single photo.  
-Together, they give depth perception.  
-
-When your **public data**, **customer evidence**, and **internal metrics** all point in the same direction, you’re seeing in three dimensions.
-
-
-## The Evidence Triangle
-
-You can think of your sources as corners of a triangle:
-
-- **Quantitative evidence** — what’s measurable.  
-- **Qualitative evidence** — what’s understandable.  
-- **Behavioral evidence** — what’s testable.
-
-Triangulation means connecting all three.  
-You’re not chasing truth; you’re cross-checking stories.  
-When the numbers, the people, and the behavior agree, the signal is strong.  
-When they conflict, the disagreement shows where to dig next.
-
-
-
-## When Sources Disagree
-
-Conflicting evidence isn’t failure — it’s a clue.  
-
-If survey data says customers love your product,  
-but renewal rates show they quietly leave,  
-the contradiction *is* the insight.  
-
-That tension between what people say and what they do is often where the next hypothesis lives.  
-Triangulation makes those tensions visible.  
-
-
-
-## Traps and Boosts
-
-::: {.callout-warning appearance="minimal"}
-### Trap: Overweighting One Source  
-Entrepreneurs often cling to the source that feels most comfortable — the spreadsheet, the expert, or the customer quote.  
-That’s not confidence; that’s bias in disguise.  
-:::
-
-::: {.callout-note appearance="minimal"}
-### Boost: Look for Convergence  
-Three weak signals pointing in the same direction are often stronger than one loud headline.  
-Patterns matter more than points.  
-:::
-
-
-
-## Mini-Case: The Fitness App that Almost Misread Its Market  
-
-A student venture built an app for at-home workouts.  
-**Survey data** said demand was high.  
-**Google Trends** showed rising searches for “home fitness.”  
-But **beta test behavior** told a different story — users quit after the first week.  
-
-Triangulation revealed the truth: workouts were too long for real routines.  
-They shortened sessions to 15 minutes, relaunched, and doubled retention.  
-
-Their insight didn’t come from one dataset — it came from seeing where evidence overlapped and where it diverged.
-
-
-
-## Entrepreneur’s Checklist — Triangulating Evidence  
-
-::: {.callout-tip appearance="minimal"}
-1. **Combine one human, one quantitative, and one behavioral source.**  
-   Each adds a dimension of understanding.  
-
-2. **Log agreements and contradictions.**  
-   Convergence increases confidence; divergence reveals unknowns.  
-
-3. **Respect the limits of each source.**  
-   A clear bias is better than a hidden one.  
-
-4. **Act when stories align.**  
-   Waiting for perfect agreement is paralysis.  
-
-5. **Design your next test from the disagreement.**  
-   Where the data fight, your next discovery lives.  
-:::
-
+---
+title: "Seeing in Depth"
+subtitle: "Why three imperfect views beat one clean one"
 ---
 
-Triangulation is how entrepreneurs make judgment scientific.  
-It turns scattered facts into coherent stories, and disagreement into learning.  
-It’s how you move from guessing to knowing enough — not certain, but confident — to make the call.  
+By now you have evidence. You gathered what was already known and generated what wasn't, and you are holding a handful of findings: a market number, a few interviews, a scrappy test, a competitor's move. Here is the uncomfortable truth about all of it. Every piece is partial. Every source is biased in its own way, blind to something, true only from one angle. The founder's skill is not finding the one perfect source, because there isn't one. It is learning to see what several imperfect sources show when you hold them up together.
+
+That is **triangulation**, and it is how you turn a scatter of flawed findings into a picture you can act on.
+
+::: {.column-margin .def-margin}
+**Triangulation** — reading several imperfect sources together, so their overlap points somewhere no single source could point on its own.
+:::
+
+## Three angles, one picture {#sec-three-angles}
+
+Evidence comes in three kinds, and each sees something the others miss:
+
+- **Numbers** (the quantitative sources, public and private) show you scale and pattern, but never *why*.
+- **People** (interviews and experts) show you meaning and motive, but from a small and subjective sample.
+- **Behavior** (what customers actually do, in a test or in your own data) shows you the truth, but only in the narrow slice you managed to watch.
+
+The ladder you just climbed handed you all three: the low rungs gave you numbers and the voices of people, and the top rungs gave you behavior. Any one of them alone is a flat photograph. Hold all three up at once and they give you depth, the way two slightly different views give your eyes distance. When the numbers, the people, and the behavior all point the same way, you are no longer guessing. You are seeing in three dimensions.
+
+## When they agree, and when they don't {#sec-agree-disagree}
+
+Convergence is what you are hoping for. Three weak signals pointing the same direction are worth more than one loud headline, because a single source can be wrong in a big way while three independent ones rarely fail together. So look for the pattern across your sources, not the strongest single point, and when they line up, trust the direction even if no one of them is airtight.
+
+But the more useful moment is the one most founders shrink from: when the sources disagree. A survey says customers love the product; the renewal numbers say they quietly leave. That contradiction is not noise to be smoothed away. It *is* the finding. The gap between what people say and what they do is almost always where the next question lives, and triangulation is what makes that gap visible. Disagreement is not the failure of your evidence. It is your evidence telling you where to look next.
+
+::: {.trap}
+**Trap to Avoid — The comfortable source**
+
+Everyone has a favorite kind of evidence. One founder trusts the spreadsheet, another the customer quote, another the seasoned expert. When the sources conflict, the temptation is to believe the one that feels most like home and quietly discount the rest. That is not confidence; it is bias wearing confidence's clothes. The source you least want to believe is often the one with the most to teach you.
+:::
+
+::: {.running-case}
+**Halo Alert — reading three angles**
+
+The Halo Alert team had gathered three kinds of evidence, and they read them together. The numbers said the fear was real and widespread. The people, their interviews and an hour with a former dispatcher, said the same, and added when and where the fear spikes. So far, convergence, and they could trust it. The problem was real. But the behavior in their small test disagreed with what people had told them. Users who swore they would wear the device reached, in the moment, for whatever was already in their hand. That gap between the saying and the doing did not sink the idea. It handed them their next question, the one worth testing: not whether people wanted safety, but what would make them reach for *this*.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your AI is good at laying sources side by side. You are the one who reads what their disagreement means.
+
+- **Line them up.** Have it collect your numbers, your interviews, and your behavioral results in one place and mark where they agree and where they clash.
+- **Weigh the convergence.** Ask which conclusions hold across several independent sources, rather than resting on the loudest single one.
+- **Mine the conflict.** When two sources disagree, don't let it average them into a bland middle. Have it name the contradiction sharply, because that is your next question.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+Here is the evidence I've gathered on this decision, from different sources: [paste your numbers, your interview notes, your test results]. Lay them side by side and tell me where they converge and where they contradict each other. For each contradiction, tell me what it might mean and what single test would resolve it.
+:::
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Triangulate one belief**
+
+Take a belief you're leaning on to make this call.
+
+1. Find three sources for it: one number, one person, one piece of real behavior.
+2. Write what each one says, plainly, side by side.
+3. Mark where they agree. That agreement is where your confidence belongs.
+4. Mark where they disagree. That gap is your next experiment, and probably the sharpest one you could run.
+:::
+
+::: {.key-action}
+**The move:** Never rest a decision on one source. Read your numbers, your people, and your behavior together, trust what they agree on, and treat what they contradict not as a mess to tidy but as the next question to test.
+:::
+
+This is where the work of gathering ends. You came into this part with a prior and a decision to make. You gathered what the world already knew, generated what it didn't, and now you have read the results in depth, from every angle you could afford. You have a picture. What you do not yet have is a verdict on how far to trust it, or on what exactly it should do to your belief. That is the next gate. Having gathered your evidence and seen it in the round, you turn now to weighing it.
