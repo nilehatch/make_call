@@ -29,7 +29,7 @@ Credibility is a dial. Five questions turn it, and you can ask all five in the t
 
 **Could it still have come back "no"?** A test can be well designed and still run leaky — a question that led the witness, a demo you steered, a success line quietly redrawn after the numbers came in. Look back at the conditions and ask whether a real "no" was still possible at the moment of measurement. If it was not, you are reading a result that was settled before the test began.
 
-**Does it agree with what else you know?** A single result is a single witness. When it converges with other sources it earns weight; when it contradicts them, the disagreement is not noise to be smoothed away — it is your next question. [Triangulate](seeing-in-depth.qmd) before you trust.
+**Does it agree with what else you know?** A single result is a single witness. Set it beside the evidence you already [triangulated](seeing-in-depth.qmd). A result that converges with independent sources has earned weight; one that stands alone, or contradicts the rest, has not yet earned it. Corroboration is part of credibility.
 
 ::: {.for-curious}
 <details>
