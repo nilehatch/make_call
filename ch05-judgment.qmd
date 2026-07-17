@@ -31,7 +31,7 @@ So what’s the alternative to paralysis or recklessness?
 
 Judgment.
 
-Judgment is the entrepreneur’s superpower — the ability to act without full clarity, using the strongest mix of belief, justification, and evidence you’ve assembled so far.^[Nicolai Foss and Peter Klein [-@foss2012organizing] developed a formal definition of judgment as decision-making under uncertainty that cannot be modeled or parameterized as a set of formal decision rules. Judgment is midway between the “rational decision-making” of neoclassical economics models and blind luck or random guessing. We sometimes call it intuition, gut feeling, or understanding.]
+Judgment is the entrepreneur’s superpower — the ability to act without full clarity, using the strongest mix of belief, justification, and evidence you’ve assembled so far.^[Nicolai Foss and Peter Klein [-@fossOrganizingEntrepreneurialJudgment2012] developed a formal definition of judgment as decision-making under uncertainty that cannot be modeled or parameterized as a set of formal decision rules. Judgment is midway between the “rational decision-making” of neoclassical economics models and blind luck or random guessing. We sometimes call it intuition, gut feeling, or understanding.]
 
 Judgment is not guessing. Guessing ignores evidence. Judgment weighs what you know, what you believe, and what you can reasonably assume — then acts, knowing some uncertainty will always remain.
 

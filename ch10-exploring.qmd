@@ -31,7 +31,7 @@ Think of it as shifting your position on @fig-groundedness-threshold, the *groun
 
 ## What Exploration Looks Like  
 
-Exploration is structured wandering. Philosopher Ian Hacking [-@hacking2006emergence] described this type of experiment as **adventure** — deliberately stepping into the world, not to confirm what you know, but to experience it and then shape it by what you discover.  
+Exploration is structured wandering. Philosopher Ian Hacking [-@hackingEmergenceProbabilityPhilosophical2006] described this type of experiment as **adventure** — deliberately stepping into the world, not to confirm what you know, but to experience it and then shape it by what you discover.  
 
 Exploration is how you reduce uncertainty when you can’t yet devise a well-informed hypothesis to run a clean experiment.  
 
@@ -102,7 +102,7 @@ Exploration comes first.
 
 ## What Exploration Looks Like  
 
-Exploration is structured wandering. Philosopher Ian Hacking [-@hacking2006emergence] described this type of experiment as **adventure** — deliberately stepping into the world, not to confirm what you know, but to experience it and then shape it  by what you discover.
+Exploration is structured wandering. Philosopher Ian Hacking [-@hackingEmergenceProbabilityPhilosophical2006] described this type of experiment as **adventure** — deliberately stepping into the world, not to confirm what you know, but to experience it and then shape it  by what you discover.
 
 Exploration is how you reduce uncertainty when you can’t yet devise a well-informed hypothesis to run a clean experiment.
 
