@@ -1,6 +1,8 @@
 project:
   type: book
   output-dir: _book
+  pre-render:
+    - scripts/sync-refs.py
 
 book:
   title: "Make the Call"
