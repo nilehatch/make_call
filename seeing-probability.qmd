@@ -19,7 +19,7 @@ Now the answer is just one number read against another. Of the 98 women who test
 
 ## The problem is the format, not you {#sec-format}
 
-You are not bad at this. The percentages are. A figure like "90% sensitivity" or "9% false-positive rate" hides the one thing you need to see: how many actual people sit in each group. Your mind did not evolve doing percentages. It evolved counting things, and when you hand it counts instead of fractions, the answer falls out on its own.
+You are not bad at this. The percentages are.[^ellenberg] A figure like "90% sensitivity" or "9% false-positive rate" hides the one thing you need to see: how many actual people sit in each group. Your mind did not evolve doing percentages. It evolved counting things, and when you hand it counts instead of fractions, the answer falls out on its own.
 
 That is the whole trick of seeing probability: stop computing and start counting. Replace the percentages with **natural frequencies**, real tallies of real cases, and a problem that defeats trained experts becomes something you can do at a stoplight.
 
@@ -118,7 +118,7 @@ Each dot is one of the thousand products. The 260 that got a yes are the colored
 
 ## This is the update {#sec-update}
 
-What you just did by counting is exactly what the last chapters asked of you. The base rate, 1 in 10, was your prior. The yes was your evidence. The number you read off the tree, about 1 in 3, is your posterior: your belief after the evidence. You updated a prior into a posterior and never touched an equation.
+What you just did by counting is exactly what the last chapters asked of you. The base rate, 1 in 10, was your prior. The yes was your evidence. The number you read off the tree, about 1 in 3, is your posterior: your belief after the evidence. You updated a prior into a posterior and never touched an equation.[^chivers]
 
 And notice what the picture would not let you do. It would not let you forget the base rate, because the base rate *was* the picture: the 100 against the 900, the blue against the gold. The doctors went wrong, and founders go wrong, in exactly the spot where the base rate drops out of view. Draw the tree and it cannot drop out, because you started by counting it.
 
@@ -195,3 +195,7 @@ If the number startles you, the tree is working. It's showing you the base rate 
 One thing in that tree should nag at you: a strong positive result still left you at only one in three, and the reason was the low base rate. When the base rate is low and the data is thin, the prior keeps its grip on the answer no matter how the evidence comes back. That is not a flaw in the method. It is the entrepreneur's everyday condition, and it is [where we turn next](priors-small-world.qmd).
 
 [^natfreq]: The finding that natural-frequency formats make Bayesian reasoning intuitive, where percentages defeat even experts, is @gigerenzerHowImproveBayesian1995; the general-audience case is @gigerenzerCalculatedRisksHow2015.
+
+[^ellenberg]: The idea that mathematical trouble is usually a failure of *format* rather than of the person, and that rigor can be made to feel like common sense extended, runs throughout @ellenbergHowNotBe2015 — the animating spirit of this whole book.
+
+[^chivers]: For an accessible tour of how far this single move, updating a prior into a posterior, reaches across science and everyday life, see @chiversEverythingPredictableHow2024.
