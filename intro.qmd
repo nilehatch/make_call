@@ -13,7 +13,15 @@ The second trap is the opposite, and just as fashionable: move fast, break thing
 
 This book takes a third path, and it is neither of those. You cannot remove the uncertainty, so you stop trying to. But you are not helpless inside it either. Between blind conviction and blind action lies the actual craft of entrepreneurship: deciding well on incomplete information — learning what can be learned, being honest about what cannot, and committing in proportion to what you genuinely know. The founder this book is written for is neither a gambler nor a prophet. They are a disciplined learner, moving through the unknown with evidence, reason, and a clear-eyed kind of nerve.
 
-What follows is a way to do that, deliberately and repeatably. Every hard decision, it turns out, travels through the same five questions — a loop you will learn to walk: frame the real question, own what you already believe, gather and test what you can, weigh what comes back, and make the call. None of it clears the fog. All of it helps you see and act inside it.
+What follows is a way to do that, deliberately and repeatably. Every hard decision, it turns out, travels through the same five moves — a loop you will learn to walk:
+
+- **Frame** — find the real question, and what you most need to learn.
+- **Prior** — name what you already believe, and how much it can bear.
+- **Evidence** — gather what is known, and generate what is not.
+- **Sense** — weigh what comes back, and trust it only as far as it is earned.
+- **Call** — judge whether it is enough, and choose which way to move.
+
+None of it clears the fog. All of it helps you see and act inside it.
 
 And it arrives at a strange, lucky moment. The tool now sitting on every founder's desk can gather, model, compute, and argue at a level that would have taken a team not long ago. It changes what one person can do. It does not change what a person is *for*. An AI can run the analysis; it cannot own the decision, feel the stakes, or answer for being wrong. The reasoning in this book is exactly what you need to aim that tool well and to catch it when it is confidently mistaken, which, you will find, it often is. Used rightly, it does not replace your judgment. It multiplies it.
 
