@@ -60,7 +60,7 @@ book:
       chapters:
         - weighing-the-evidence.qmd
         - moving-your-belief.qmd
-        - ch06-update-revise.qmd
+        - when-the-frame-cracks.qmd
 
     - part: "Part VI · Call — is it enough, and which way?"
       chapters:

@@ -1,0 +1,111 @@
+---
+title: "When the Frame Cracks"
+subtitle: "Redrawing the map when the world stops fitting it"
+---
+
+The last chapter left one door unopened. Almost every result you meet is a move inside your game, and you handle it by turning the [dial](moving-your-belief.qmd) — a little, a lot, or not at all. But now and then a result arrives that the dial cannot touch, because it does not report a value your map has a place for. It reports that the map is wrong.
+
+This is the rarer surprise, and the more dangerous, because at first it wears the same clothes as an ordinary bad result. A number comes in far from where you expected. You reach for the dial out of habit and start to move your belief. And it will not settle, because the problem is not that your estimate was off. The problem is that you are measuring a possibility your frame never drew — and no adjustment inside a wrong frame can make it right. When that happens, you are not updating anymore. You are being asked to revise.
+
+## Two kinds of surprise {#sec-two-surprises}
+
+It helps to separate the two, because they call for opposite moves and the cost of confusing them is high.
+
+An *update-surprise* is a value you did not expect but your frame can hold. You thought twenty percent would convert; eight percent did. That is lower than you hoped, but "how many convert" was always a question on your map, and the answer simply landed somewhere you did not predict. You turn the dial.
+
+A *frame-surprise* is a possibility your map had no room for at all. Not a worse number on a question you were already asking, but a question you did not know to ask. The board still has all its old squares, and the result belongs to none of them. No dial reaches it, because the dial can only move belief among possibilities you have already drawn.
+
+::: {.column-margin .def-margin}
+**Belief revision** — rebuilding the frame itself when the world delivers a possibility it had no room for, rather than adjusting your confidence within a frame you keep.
+:::
+
+The world produces frame-surprises more often than it feels like, especially at the frontier where founders work. A pandemic cancels the gatherings your whole business assumed. A pair of strangers turn spare bedrooms into a lodging industry that no hotel model predicted. A regulation you never tracked doubles your costs in a week. In each case the honest response is not a better estimate. It is a redrawn map.
+
+::: {.mini-case}
+**Mini-case — Airbnb before Airbnb**
+
+In 2007, a careful investor could have assigned sharp odds to every lodging question that existed: better hotels, cheaper hostels, smarter booking software. Ask that same investor to price "strangers renting each other air mattresses," and the honest answer was near zero — not because the odds were long, but because the category was not on the map. The arrival of home-sharing was not a data point to update on. It was a new square on the board, and only once it existed could anyone update within it: how large, how priced, how regulated. Revision drew the square. Updating filled it in.
+:::
+
+## Revision has rules {#sec-rules}
+
+The word *revision* can sound like permission to throw everything out and start from feeling — and that fear is exactly why founders avoid it, clinging to a broken map because the alternative looks like chaos. It is not chaos. Revising a frame is a disciplined move with a small number of legal steps, and knowing them turns a frightening act into a skill you can practice.
+
+You do only three things. You *add* a possibility the map was missing, when it fits without contradicting what you already know. You *revise* in the strict sense — take on the new possibility and adjust the old beliefs it collides with, so the whole set hangs together again. Or you *drop* a belief that the new possibility has made impossible to keep. The goal in every case is the same. Your picture of the world should stay consistent after the surprise, not sprawl into a pile of contradictions you never reconcile.
+
+::: {.for-curious}
+<details>
+<summary>For the Curious — The logic of revising a belief</summary>
+
+Philosophers have formalized these moves as the AGM framework, named for its authors.[^agm] It defines belief change as three operations — *expansion* (add a belief that raises no conflict), *revision* (add a belief and repair the conflicts it creates), and *contraction* (give up a belief that no longer holds) — and it insists on one discipline throughout: change as little as you must to stay consistent. You do not burn the map because one region was wrong. You redraw the region and keep the rest. The point is not the vocabulary. It is that changing your mind at the level of the frame is a governed act, not a surrender, and it has a shape you can learn.
+
+</details>
+:::
+
+That last rule is the quiet one worth holding onto. Revision is not demolition. You change the part of the frame the surprise broke and you keep everything that still holds, because a founder who tears up the whole map at every shock never builds anything long enough to test it.
+
+## Telling an update from a revision {#sec-telling}
+
+The hard part is not performing a revision. It is knowing you are in one. The tell is a single question, asked honestly. *Does this result fit somewhere on my map, even badly — or does it fit nowhere?* If it fits badly, you have an update, and you turn the dial. If it fits nowhere, no dial will help, and forcing it onto the map only hides the crack.
+
+Getting this call wrong goes bad in two directions, and they mirror the two errors of updating. Move too little at the frame level and you *cling*: you keep patching a map the world has already left, reading every frame-surprise as one more bad number, adjusting estimates inside a model that is quietly dead. Move too much and you *thrash*: you tear up the frame at every jolt, chase each new possibility as though it rewrote everything, and never stay inside one map long enough to learn what it can tell you. Clinging feels like conviction. Thrashing feels like being open-minded. Both are ways of refusing to do the patient work of telling a dial-turn from a map-crack.
+
+::: {.trap}
+**Trap to Avoid — Patching a dead frame**
+
+The most expensive mistake in this chapter is not revising too wildly. It is refusing to revise at all — taking a frame-surprise, filing it as a disappointing update, and turning the dial one more time on a map the world has already abandoned. The tell is that your adjustments keep getting larger and the results keep defying them. When a belief needs a bigger and bigger correction every time the evidence comes in, stop adjusting the number and ask whether the question itself is wrong.
+:::
+
+::: {.running-case}
+**Halo Alert — update or revision?**
+
+The team's evidence had split. Women said, warmly, that they wanted the ring, and then in the small test reached for the phone already in their hand. Before they ran the sharper test, they had to decide what *kind* of surprise this was, because it changed what the sharper test was even for.
+
+Read one way, it is an update. Women want safety, and that belief still sits squarely on the map, so the ring simply is not compelling enough yet to pull them off their workaround. The move is to turn the switching dial down and iterate the device until it earns the switch. Read the other way, it is a frame-surprise. Maybe women do not want a *separate object* at all, and safety belongs in the phone they are already holding, which would put the team's whole "dedicated wearable" frame on the wrong square. So they applied the test of this chapter. Reaching for the phone still fits the map. She was choosing not to switch, not rejecting the very idea of a safety device. For now they read it as an update and kept iterating. But they held the frame-crack in view. If the sharper test showed women wanting no wearable on any terms, that would not be a lower number to update on. It would send them back to the Frame, to redraw the whole idea around the device already in her hand.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your AI is quick to update and slow to revise, in the same way you are — it will keep refining an estimate inside the frame you gave it long after the frame has stopped fitting, because nothing in the request told it the map itself was in question. Revision is the move you have to initiate.
+
+- **Ask it to name the frame.** Have it state the assumptions your current question takes for granted — the possibilities your map allows and, harder, the ones it silently rules out.
+- **Ask what would break it.** Give it the surprising result and ask whether it fits your frame badly or not at all, and what new possibility would explain it that your frame never included.
+- **Make it change as little as it must.** If revision is called for, ask it to redraw only the broken region and tell you which of your existing beliefs still stand — so you revise the map, not burn it.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+Here is the frame I've been working inside: [state the question and the assumptions behind it]. Here is a result that surprised me: [paste it]. Tell me honestly whether this fits my frame badly — a number to update — or fits nowhere, which would mean my frame is missing a possibility. If it's the second, propose the smallest redrawing of the frame that would make room for it, and tell me which of my current beliefs I get to keep.
+:::
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Update or revise?**
+
+For each surprise below, decide whether it calls for turning the dial inside your frame or redrawing the frame itself — and be ready to say what told you which.
+
+1. Your "Buy Now" button gets fifteen percent more clicks in green than in blue.
+2. Your forecast said five hundred signups and you got four hundred and fifty.
+3. A competitor ships a feature that makes customers expect something you never imagined offering.
+4. A change in the world cancels the one channel your business was built on.
+5. The same unasked-for pain keeps surfacing in interviews, and it is not the pain you set out to solve.
+
+Then take a live belief of your own, and one recent result that unsettled it. Ask the chapter's question out loud: does it fit your map badly, or nowhere? Your answer decides whether your next move is a dial or a redraw.
+:::
+
+::: {.key-action}
+**The move:** When a result will not settle no matter how you turn the dial, stop adjusting the number and ask whether the frame is wrong — then redraw only the part the surprise broke, and keep the rest.
+:::
+
+Most of the time your frame holds. You weighed the result, moved your belief by its weight, and the map you started with still describes the world well enough to act on. That is the ordinary way out of this gate, and it carries your belief forward to the decision itself — to the [Call](ch24-decision-rules.qmd), where you finally ask whether what you now believe is enough, and which way to move.
+
+But keep the other door in sight, because it is the one founders walk past to their cost. When a result reports not a surprising value but a missing possibility, the honest move is not to force it onto the map and not to burn the map down. It is to go back and draw the square that was never there — back to the [Frame](ch08-urgent-unknowns.qmd), where this book began, carrying something the first pass could not have known. The gates are not a line you cross once. They are a loop you travel as the fog lifts, and revision is the turn that sends you around again, wiser, to ask a better question.
+
+[^agm]: The framework is named for its originators, @alchourron1985logic, whose initials give it the name AGM.
