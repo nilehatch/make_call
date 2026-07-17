@@ -3,6 +3,69 @@ title: "Supervising Your AI"
 subtitle: "The conceptual rigor you must own"
 ---
 
-*Draft pending — placeholder for the gate-sequence rebuild.*
+The capacity you have been building all along is timeless; founders have needed judgment in the fog since the first one bet on the first uncertain thing. This last one is not. It belongs to your moment in particular, because your moment hands every founder a tool of startling power and a temptation to match it. The AI beside you can frame options, pull evidence, run the arithmetic of Bayes, design a test, draft the pitch, and argue every side. It is fair to wonder what is left for you to do. The answer is the most important part of all, and it is the part the tool cannot touch: own the call, and catch the tool when it is wrong. Learning to do both, to direct this power without being captured by it, is where the book ends.
 
-**Planned:** the human-owned gates; the conceptual rigor you must own to direct and judge the AI — so you can catch a wrong posterior or a confounded design.
+## The confident wrong answer {#sec-confident-wrong}
+
+Here is what makes supervising an AI different from supervising a calculator. When a calculator is wrong, it looks broken. When an AI is wrong, it looks brilliant. It produces the same fluent, confident, well-ordered output whether it is right or badly mistaken: a posterior computed off a base rate you fed it carelessly, a test design with a confound no one flagged, a market figure quoted to three digits and drawn from nothing. Nothing on the surface tells you which output to trust. The fluency is constant; only the truth varies.
+
+This is why you cannot supervise an AI by feel, and why the conceptual spine of this book matters more in the age of these tools, not less. The founder who never learned what makes a posterior sound will accept a beautiful wrong one. The founder who cannot tell stated preference from revealed will let the AI count enthusiasm as evidence. The machine will not catch these for you, because to it they are not errors; they are simply the confident continuation of whatever you handed it. The catch has to come from you, and you can only catch what you understand.
+
+## What you must own at each gate {#sec-own}
+
+Think of the AI as amplifying one half of every gate and leaving the other half squarely yours. It is superb at the mechanical half: the gathering, the computing, the drafting, the tireless generation of options. It is blind at the half that takes judgment, and that half is exactly where its confident errors hide. So at each gate there is something you have to own well enough to check the machine.
+
+At the **frame**, the AI will answer the question you asked, flawlessly, even when it is the wrong question; deciding what actually needs deciding is yours, and nothing it produces will tell you that you framed it wrong. At the **prior**, it will compute a posterior all day, but on the base rate you supplied, so feed it a flattering one and it returns confident nonsense: the base rate and the sanity check are yours. At the **evidence** gate, it cannot see that your sample was your friends or that your number measured what people said rather than what they did, because it takes your data at its word; the quality of that data is yours to judge. At the **sense** gate, its lack of a stake is a gift, since it feels none of your hope, but it also cannot feel what a wrong call would cost *you*, so the weighing against real stakes stays yours. And at the **call**, it has no conviction and nothing at risk, so the decision, and the ownership of it, will always be yours alone.
+
+Read that list one way and it is a division of labor. Read it another and it is the reason this book exists: everything it taught you to understand is exactly what you now need to stay in command of a tool that can out-compute you at every turn and still walk you, confidently, off a cliff.
+
+## Reading the Halo call {#sec-halo}
+
+::: {.running-case}
+**Halo Alert — catching the machine**
+
+When the Halo team turned to their AI to design the sharper test, it gave them something clean and fast: a well-worded survey asking women how likely they would be to wear a safety ring. It was a good survey. It was also, quietly, the wrong instrument, and the only reason they caught it is that they understood a distinction the AI had not weighed.
+
+They had learned to tell saying from doing. The survey, however elegant, would have measured stated preference one more time, the warm and weightless evidence they already had too much of. So they redirected the tool: not a survey of intentions but a test of behavior, one that asked women to actually set a workaround aside. The AI built that too, just as capably, once it was pointed the right way. The machine supplied the horsepower. The judgment about what to measure, the thing that decided whether the whole test was worth running, came from founders who knew enough to overrule a confident, plausible, wrong suggestion.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+This whole book has been drawing the line between what to hand your AI and what to keep. Here it is in one place, as the working division of a founder who stays in charge.
+
+- **Give it the mechanical half.** The gathering, the computing, the drafting, the generating of options and counterarguments: hand all of it over, and ask for its full power.
+- **Keep the judged half.** The framing, the base rates, the read on evidence quality, the weighing against your stakes, and the call itself: own every one, because these are where its confident errors live and where nothing but your understanding will catch them.
+- **Stay able to check it.** The day you can no longer tell whether its answer is sound is the day it stopped being your tool and became your boss. Keep enough of the rigor live in your own head to overrule it.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+Here's a piece of work you did for me — an analysis, a design, a recommendation: [paste it]. Walk me through the assumptions it rests on that I, not you, have to validate: what base rates or numbers you took as given, what about my evidence you couldn't actually assess, and where a confident-looking output might be standing on something shaky. Show me exactly where I need to check you.
+:::
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Find the load-bearing assumption**
+
+Take a piece of AI work you are about to act on.
+
+1. Find the one number or assumption the whole output rests on: the base rate, the sample, the definition of success.
+2. Ask where it came from. Did the AI derive it, inherit it from you, or simply assert it?
+3. Check that one thing yourself, with what this book taught you. Most confident wrong answers fail right here, at a foundation no one examined.
+4. Only then act on the rest.
+
+If you cannot find the load-bearing assumption, you do not yet understand the output well enough to act on it — and that, not the AI's answer, is the real finding.
+:::
+
+::: {.key-action}
+**The move:** Hand the AI the mechanical work and keep the judgment — the frame, the base rates, the read on your evidence, the stakes, and the call. Understand enough to catch it when it is confidently wrong, because it will be, and it will not look it.
+:::
+
+And there the method comes to rest, back where it began, in the fog. You came to this book, most likely, wanting the uncertainty gone: a way to know before you act, to be sure before you bet. That was never on offer, from anyone, and the promises that say otherwise are among the most dangerous things in a founder's world. What is on offer is better, because it is real. You can frame the true question, build an honest prior, gather what can be gathered and test what cannot, weigh what comes back, choose which way to move, commit with earned conviction, and carry the call to others without a lie in it. You can measure whether you are getting better, and get better. You can learn to work in the fog with a clear head, and to direct the most powerful tool ever built without surrendering the one thing that must stay yours. The fog does not lift. But you are no longer lost in it. You know what you know, you learn what you can, and then — this was always the whole of it — you make the call.
