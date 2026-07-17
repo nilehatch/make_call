@@ -3,6 +3,36 @@ title: "The Loop"
 subtitle: "The whole method, walked once"
 ---
 
-*Draft pending — placeholder for the gate-sequence rebuild.*
+You have seen the fog for what it is: entrepreneurship runs on decisions made before the facts are in, and the discomfort of not knowing is exactly what tempts founders into false certainty. The rest of this book is a method for making good decisions anyway. Before we take it apart piece by piece, it helps to watch it work all at once, on one real decision, from start to finish — because the method is not a checklist you run down. It is a loop you travel, again and again, and the fastest way to understand it is to walk it once.
 
-**Planned:** the whole loop walked end-to-end on one concrete venture decision (Frame → Prior → Evidence → Sense → Call) — the spiral's first pass, so the reader holds the whole process before meeting each gate in depth.
+## Five gates {#sec-five-gates}
+
+Every decision that matters, made in the fog, passes through the same five questions. Think of them as gates: you go through each in turn, and each hands you what you need for the next.
+
+- **Frame** — *what are we really deciding, and what must we learn?* Find the true question, the one the decision actually turns on, and the urgent unknowns you most need to resolve.
+- **Prior** — *what do we already believe, and how strongly?* You never start from zero. Name the belief you bring in, and how much weight it can bear.
+- **Evidence** — *what can we gather, and what must we generate?* Some of what you need is already known and can be found; the decisive part usually is not, and has to be generated.
+- **Sense** — *is it credible, and what do we now believe?* Weigh what came back, give it the trust it has earned and no more, and let it move your belief by exactly that much.
+- **Call** — *is it enough, and which way?* Decide whether your confidence clears the bar the decision sets, and if it does, which way to move.
+
+That is the whole path: frame the question, own your prior, gather and test, weigh the result, make the call. Walk it once here, on a real venture, quickly, and the shape will be yours before we slow down and take each gate in depth.
+
+## One decision, all the way through {#sec-halo-walk}
+
+Meet the venture we will follow through the whole book. A small team has an idea they are calling **Halo Alert**: a discreet wearable ring that lets a woman signal for help without reaching for her phone. The founders believe there is something real here. The question is whether belief is enough to build on. Watch them walk the loop.
+
+**Frame.** Their first instinct is to ask "will people buy a safety ring?" — but that is not the real question, and the Frame gate is where they find the one that is. Women who feel unsafe already carry a tool: the phone in their pocket. So the decision does not turn on whether the fear is real. It turns on something narrower and harder: whether that fear is sharp enough, and the phone useless enough in the worst moments, that women would actually switch to something new. They explore the problem, talking with women and spending an hour with a former emergency dispatcher, and a hard truth surfaces. The phone is often the first thing an attacker grabs or knocks away, and reaching for it openly can make a woman more of a target, not less. Out of that they abduct a working hypothesis: the danger is real, the phone fails exactly when it is needed most, and a faster, quieter signal might close the gap. That hypothesis is their frame.
+
+**Prior.** They do not walk in empty-handed. On the problem itself their prior is strong and grounded: the fear is widespread and well-documented, the kind of thing national surveys have measured for decades. On the question that actually decides the venture, whether women will adopt the ring, their prior is thin, real hope and little more. Naming both honestly is what the Prior gate is for, and it shows them exactly where the uncertainty lives.
+
+**Evidence.** Some of what they need is already on the shelf, the fear statistics and the market size, and they gather it. But the belief the venture rests on, that women will switch, is sitting in no report; no one has run that test for them. So the Evidence gate splits their work in two: gather what is known, and set out to generate what is not, beginning with conversations and moving toward a real behavioral test.
+
+**Sense.** The early conversations come back warm. Nearly every woman says she likes the idea and would want one. It would be easy to read that as a green light, and the Sense gate is what stops them. Who did they ask? Mostly friends and friends of friends, the easiest and most flattering sample. Did those women *do* anything, or only *say*? Only say. Weighed honestly, the warm words are real evidence that the idea is *likable*, and only weak, unreliable evidence that anyone will actually switch. Their belief in the problem holds firm. Their confidence in adoption has barely moved.
+
+**Call.** Now the decision. Building the ring is neither small nor reversible: tooling, a production run, inventory, a launched product with the company's name on it. That sets a high bar, and their confidence on the one question that matters has not come close to clearing it. So the call is not *act* and not *quit*. It is *loop*: run one sharper test, women asked to set their workaround aside and reach for the ring instead, before betting anything irreversible. And when the team carries that call to their advisor, they carry it honestly: the problem is real, the demand is unproven, here is the test that will settle it.
+
+## Why walk it first {#sec-spiral}
+
+Notice where that leaves Halo. Not at a triumphant "yes," not at a defeated "no," but mid-loop, one honest test away from a call they cannot yet make. That is where most real decisions actually sit, and it is why this is a loop and not a line. You rarely pass through the five gates once and come out finished. You pass through, learn something, and often go back (reframing, gathering more, updating your belief) as the fog shifts and thins.
+
+You have now held the whole method in your hand once, fast and shallow. Everything that follows is the same five gates, taken slowly and seriously, one at a time, with the tools each gate demands. Keep Halo in view; we will meet the team at every gate. And keep the shape of the loop in mind, because by the end the aim is not to run the checklist faster. It is to have walked it so many times that it becomes the way you see.
