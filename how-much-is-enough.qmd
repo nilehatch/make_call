@@ -123,7 +123,7 @@ Most decisions that feel stuck are not short on confidence. They are oversized f
 **The move:** Judge *enough* against the decision, not the belief. Read the confidence you have against the confidence the decision needs, and when they fall short, shrink the decision before you gather more or walk away.
 :::
 
-Knowing whether you have enough tells you whether to move. It does not tell you where. When the confidence clears the bar, do you go all in, or in by halves? When it falls short, do you gather, reshape, or let the idea go? *Enough* answers only the first, quiet question at the threshold. The louder one is still waiting: of all the ways you could move from here, which is the call? That is where we turn next.
+Knowing whether you have enough tells you whether to move. It does not tell you where. When the confidence clears the bar, do you go all in, or in by halves? When it falls short, do you gather, reshape, or let the idea go? *Enough* answers only the first, quiet question at the threshold. The louder one is still waiting: of all the ways you could move from here, which is [the call](making-the-call.qmd)? That is where we turn next.
 
 [^doors]: The framing of decisions as one-way doors (irreversible) versus two-way doors (reversible) is Jeff Bezos's, in @bezos2015LetterShareholders2016. The economics beneath it — how irreversibility under uncertainty creates real value in waiting and in keeping options open — is developed in @dixitInvestmentUncertainty1994.
 

@@ -104,7 +104,7 @@ Then take a live belief of your own, and one recent result that unsettled it. As
 **The move:** When a result will not settle no matter how you turn the dial, stop adjusting the number and ask whether the frame is wrong — then redraw only the part the surprise broke, and keep the rest.
 :::
 
-Most of the time your frame holds. You weighed the result, moved your belief by its weight, and the map you started with still describes the world well enough to act on. That is the ordinary way out of this gate, and it carries your belief forward to the decision itself — to the [Call](ch24-decision-rules.qmd), where you finally ask whether what you now believe is enough, and which way to move.
+Most of the time your frame holds. You weighed the result, moved your belief by its weight, and the map you started with still describes the world well enough to act on. That is the ordinary way out of this gate, and it carries your belief forward to the decision itself — to the [Call](how-much-is-enough.qmd), where you finally ask whether what you now believe is enough, and which way to move.
 
 But keep the other door in sight, because it is the one founders miss and pay for. When a result reports not a surprising value but a missing possibility, the honest move is not to force it onto the map and not to burn the map down. It is to go back and draw the square that was never there — back to the [Frame](ch08-urgent-unknowns.qmd), where this book began, carrying something the first pass could not have known. The gates are not a line you cross once. They are a loop you travel as the fog lifts, and revision is the turn that sends you around again, wiser, to ask a better question.
 

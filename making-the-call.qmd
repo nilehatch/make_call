@@ -1,0 +1,106 @@
+---
+title: "Making the Call"
+subtitle: "The four ways to move, and the judgment that picks one"
+---
+
+The last chapter handed you a yes or no to a narrow question: is what I believe enough for what I am about to do? That answer tells you whether to move. It does not tell you where. And where is not the simple fork it first appears, because moving forward is only one of the directions open to you, and often not the right one. The call you actually have to make has four doors, not two.
+
+This is the judgment the gate is named for. The dials and thresholds of the last chapter were rules, and rules can carry you to the edge of a decision. They cannot walk you through it. The final step, choosing which door, is judgment exercised on the uncertainty that always remains after the evidence is in.
+
+## The four ways to move {#sec-four-ways}
+
+Standing at the threshold with a weighed belief, you can do one of four things.
+
+You can **act** — commit, and put real resources behind the belief. This is the door everyone pictures when they imagine a decision, and it is the right one when the confidence you have has cleared the bar the decision set.
+
+You can **pivot** — keep the goal but change the path. The evidence has told you that this version of the bet is wrong while the opportunity behind it is still real, so you do not abandon the mission, you change the vehicle. A pivot is a small act of [revision](when-the-frame-cracks.qmd), aimed not at one belief but at the shape of the venture.
+
+You can **stop** — end the bet. The evidence says the opportunity is not there, or not worth what it would cost, and the honest move is to close the door and walk away with what you learned and whatever you did not spend.
+
+You can **loop** — go back and learn more before you choose. The confidence you have has not cleared the bar, but the gap is closable: another test could carry you across, and it is worth its cost. So you return to an earlier gate, gather, and come back to this threshold better armed.
+
+::: {.column-margin .def-margin}
+**The call** — the choice of which way to move on what you now believe: to act, pivot, stop, or loop. Not a yes or no, but one of four directions.
+:::
+
+Notice that only one of the four is "go." The other three are the calls founders make worst, because each one feels, from the inside, like a failure to decide, and the culture of entrepreneurship reads anything but charging forward as weakness. It is not. Choosing the right door among four is a harder and more valuable skill than working up the nerve to run through the first one.
+
+## Reading which one is the call {#sec-reading}
+
+The four doors are easy to name and hard to tell apart in the moment, because the same disappointing result can point to three of them at once. A test comes back weak. Do you loop, because the evidence was thin? Pivot, because the bet was wrong but the opportunity real? Stop, because there is nothing here? The result rarely says. What separates the three is a judgment about *why* it fell short.
+
+That judgment has a shape you can hold onto:
+
+- If the shortfall is **thin evidence**, a faint but not negative signal that a sharper look could resolve, the call is **loop**.
+- If the shortfall is **the approach, not the aim**, so they do not want *this* but plainly want the thing behind it, the call is **pivot**.
+- If the shortfall is **the opportunity itself**, a want that is not there or is too small or too dear to serve, the call is **stop**.
+- And if there is no shortfall, if what you have clears what the decision needs, the call is **act**, and the discipline then is to make it rather than loop once more out of nerves.
+
+This is the reading the rules cannot do for you. Two founders can study the identical result and one sees a pivot where the other sees a stop, because the reading rests on a belief about the world that the evidence underdetermines. That gap, where the data runs out and you must still choose, is not a defect in your process. It is where judgment lives, and it is why the call is yours and not the spreadsheet's.
+
+## Why stop and pivot are wins {#sec-not-failure}
+
+Much of the suffering in entrepreneurship comes from treating three of these four doors as failure. Stop feels like defeat, pivot like an admission of error, loop like cowardice. So founders act when they should stop, and the stop arrives anyway, later, as a crash instead of a choice.
+
+Turn it around. A stop made on good evidence is one of the most valuable calls a founder ever makes, because it ends a losing bet while there is still money, time, and standing left to put behind a better one. The resource a clean stop frees is the seed of the next venture. A pivot is learning that paid for itself: you spent evidence to find the wrong path and keep the right goal. And a loop, made honestly, is the whole argument of this book in a single move — a refusal to bet more than you know, and a decision to go and learn the rest.
+
+The real failures are not stop and pivot. They are the two calls that dress themselves as boldness: acting on confidence you have not earned, and looping forever because deciding is uncomfortable.
+
+::: {.trap}
+**Trap to Avoid — The endless loop**
+
+Loop is the honest call when another round of evidence would change your decision and is worth its cost. It turns into a trap the moment it is neither — when you keep gathering not because the next test would move you but because choosing feels dangerous and gathering feels safe. The tell is that your loops stop changing your mind. The evidence keeps arriving and the call keeps not getting made. When one more look would not change what you do, the looking is finished, and the only honest doors left are act, pivot, and stop.
+:::
+
+## Reading the Halo call {#sec-halo}
+
+::: {.running-case}
+**Halo Alert — which way?**
+
+The Halo team stood exactly where this chapter begins. What they held was an informed prior on the fear and warm but behavior-free evidence on whether women would switch, and it had not cleared the high bar that building the ring set. So *act* was off the table. They would not walk through the locked door on a belief that thin.
+
+Was it stop, pivot, or loop? They read the shortfall. The opportunity was not absent, since the fear was real and well-grounded, so *stop* was wrong. It was not yet clear that the wearable was the wrong form, so *pivot* was premature. The shortfall was simply evidence: they had warm words where they needed proven behavior, and the sharper test they had already designed could supply exactly that, cheaply, ahead of any irreversible spend. So the call was **loop** — run the behavioral test, then come back to this threshold.
+
+But they made the loop honest. They named in advance what it had to produce, a real signal of switching or its absence, and they agreed that whatever it showed, they would not loop again on the same question. If women left their workarounds behind, they would act. If they would not, and the reason was the device itself, they would pivot to the phone already in her hand. If the want simply was not there, they would stop. One more loop, and then a real call.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your AI can hold all four doors open at once, which is exactly what a nervous founder cannot. It will map your evidence to each branch without flinching toward the comfortable one, and it will notice when you are looping in place.
+
+- **Ask it to argue all four.** Have it make the strongest case for act, pivot, stop, and loop on your evidence, so you choose against real alternatives rather than the one you already favored.
+- **Ask why the result fell short.** Loop, pivot, and stop all turn on that single question. Have it lay out which reading the evidence actually supports and which you are supplying yourself.
+- **Make it police your loops.** Tell it what your last round of gathering was meant to change, and have it tell you plainly whether it did. If your loops have stopped moving you, it should say so.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+Here's my decision and the evidence I've gathered: [describe both]. My confidence and the bar the decision needs are [state them]. Make the strongest case for each of the four calls (act, pivot, stop, and loop) on this evidence. Then tell me which the evidence best supports, where I'm filling the gap with what I want to be true, and, if it's loop, exactly what the next round would have to show to move me and when I should stop looping.
+:::
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Put your decision on the branch**
+
+Take a decision you are carrying right now.
+
+1. Name where you stand: does the confidence you have clear the bar the decision needs? If yes, your call is **act** — say what acting looks like this week.
+2. If no, read the shortfall. Is it thin evidence (**loop**), the wrong approach to a real goal (**pivot**), or an opportunity that is not there (**stop**)?
+3. If you chose loop, write the one thing the next round must show to change your call, and the date by which you will stop looping and choose.
+4. Say the call out loud, in a single sentence, as a commitment rather than a maybe.
+
+If you cannot clear step one without reaching for loop, ask whether the next round would really change anything, or whether you are gathering to put off deciding.
+:::
+
+::: {.key-action}
+**The move:** Treat the call as a choice among four doors — act, pivot, stop, loop — not a yes or no. Read *why* the evidence fell short to tell them apart, and never let loop become the door you hide behind.
+:::
+
+Choosing the door is not the same as walking through it. Even a call to act, made cleanly and for good reasons, leaves a distance between the decision and the deed, because the evidence that justified it was never certainty and never will be. Something has to carry you across that last gap into committed action while the fog still hangs. That something is conviction, and it is where we turn next.
