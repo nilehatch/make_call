@@ -3,6 +3,87 @@ title: "Calibration"
 subtitle: "Does your confidence track your hit rate?"
 ---
 
-*Draft pending — placeholder for the gate-sequence rebuild.*
+You have been all the way through the gate now, once. Frame, prior, evidence, sense, call — a single honest passage from a question in the fog to a decision you could stand behind. But one clean passage does not make you good at this, any more than one steady landing makes a pilot. The last question this book asks is not how to make a call. It is how to become someone who makes them well, across a whole working life of them, in fog that never lifts. And *well* is a word that means nothing until you can measure it. Getting better has to be more than a feeling, or it is only confidence about your confidence, which is exactly the thing this book has taught you to distrust. The measure is calibration.
 
-**Planned:** the measure of "better" — does your confidence track your hit rate? Gate-density shrinks as you improve.
+## What calibration is {#sec-what}
+
+Calibration is the match between how sure you are and how often you are right. A well-calibrated founder's confidence is honest all the way down: the calls they make with ninety percent confidence come true about nine times in ten, and the ones they rate a coin flip come true about half the time. Their sureness is not decoration. It is information, because it tracks reality.
+
+Miscalibration is what happens when it stops tracking, and it runs in two directions. The common one, the entrepreneur's native disease, is overconfidence: your ninety-percent calls come true six times in ten, your certainties fail far more often than they should, and your confidence has quietly detached from the world it is supposed to describe. The rarer one is underconfidence, hedging everything, rating sure things coin flips, leaving good bets on the table out of a timidity that wears the costume of rigor. Both are one failure at root, a confidence that has come loose from the truth, and calibration is the work of pulling the two back into line.
+
+::: {.column-margin .def-margin}
+**Calibration** — the agreement between your stated confidence and your actual accuracy: when the things you call "70 percent" turn out true about seventy percent of the time, you are calibrated; when they don't, you are over- or under-confident.
+:::
+
+## Why it is the honest measure {#sec-measure}
+
+You might expect the measure of a good decision-maker to be obvious: how often were they right? But outcomes, taken alone, lie about the judgment behind them. A good decision can end badly — you read the odds correctly, bet well, and the unlikely disaster happened anyway. A terrible decision can end well — you ignored every warning, bet the company on a whim, and got lucky. Judge yourself only by how things turned out and you will reward your luck and punish your discipline, learning precisely the wrong lessons from a world noisy enough to teach them.[^resulting]
+
+Calibration is the honest measure because it looks past any single result to the *relationship* between your confidence and reality across many calls. One lucky hit cannot fake it and one unlucky miss cannot destroy it. It asks the question that actually separates skill from fortune: when you claimed to know how likely something was, were you right about how likely it was? That is a thing you can genuinely get better at, and improving it is what getting better at judgment honestly means.
+
+## Building the habit {#sec-habit}
+
+Calibration stays abstract until you make it concrete, and the way you make it concrete is almost embarrassingly simple. You write your predictions down, with a number on your confidence, *before* you know how they turn out. Then, later, you go back and score them.[^superforecasting]
+
+That is the whole practice, and its power is in the *before*. Memory is a gifted liar; ask anyone after the fact and they were "pretty sure all along," whichever way it broke. A prediction written down in advance cannot be quietly rewritten by hindsight. Keep such a log across a season of decisions and your patterns surface on their own: the domains where your confidence can be trusted, and the ones where it runs hot. Almost every founder who does this meets the same first lesson — they are more overconfident than they believed, and in nameable, correctable ways. You cannot fix a bias you cannot see, and the log is how you finally see yours.
+
+## The gates get quieter {#sec-quieter}
+
+There is a reward on the far side of this practice, and it is worth naming, because the method in this book can look, laid out in full, like a great deal of machinery to haul into every decision. It is not meant to stay that heavy. As your judgment calibrates, the gates get quieter. The questions you once had to ask on purpose stop being a checklist you walk and become reflexes you have: what is my prior, what would change my mind, is this enough for a bet this size. The scaffolding comes down as the building learns to stand.
+
+This is what improvement really looks like here. Not a founder who runs the whole apparatus faster, but one who has absorbed it so completely that most calls need only a light touch, and the full deliberate passage is saved for the decisions big and strange enough to deserve it. The fog does not thin. You get better at seeing in it.
+
+## Reading the Halo call {#sec-halo}
+
+::: {.running-case}
+**Halo Alert — catching their own overconfidence**
+
+Somewhere along the way the Halo team started keeping a simple log: for each call that mattered, what they expected and how sure they were, written down before they knew. It was less a system than a shared note, but it did one thing for them nothing else had.
+
+It caught a pattern. Their predictions about the *problem* were well-calibrated — they had said the fear was real and widespread, and the base rates bore them out. But every prediction they had made about *adoption*, about whether people would actually switch, had run hot. They had been ninety-percent sure women would wear the ring, sure the warm interviews meant demand, and reality kept coming back cooler than their confidence. The log did not tell them the venture was doomed. It told them something more useful: on this particular question their gut ran optimistic, so they should trust their own adoption forecasts less and test them more. That is calibration doing its quiet work, not a verdict but a correction.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your AI is a natural keeper of your calibration, if you let it. It has a perfect memory for what you predicted and no incentive to help you forget the misses.
+
+- **Make it your prediction log.** Tell it the call and your confidence before the outcome is known, and have it store them and hold you to them later.
+- **Have it score your patterns.** Over time, ask it where your confidence tracks your hit rate and where it drifts, broken out by kind of decision, so your specific biases get names.
+- **Let it check you in the moment.** When you announce a confidence, have it set that against the base rate and against your own record on similar calls, and flag the gap before you act.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+I want to start tracking my calibration. Here are some predictions I'm making right now, each with the confidence I'd put on it and how I'll know the outcome: [list them with percentages and resolution dates]. Store these. As each resolves, help me score it, and once there are enough, tell me honestly where my confidence matches reality and where it runs high or low — and in which kinds of decisions.
+:::
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Start your log**
+
+You can begin calibrating today, with a notebook or a note on your phone.
+
+1. Write down five things you currently believe about your venture that will resolve one way or the other in the next few months.
+2. Put a confidence on each — a real number, somewhere from fifty percent to ninety-nine.
+3. Write the date you expect to know, and what will count as right or wrong.
+4. Set a reminder. When each comes due, score it honestly, and notice: did the things you were ninety percent sure of come true about nine times in ten?
+
+Do this for a season and you will learn something most founders never learn about themselves — not whether they were right, but whether their confidence could be trusted.
+:::
+
+::: {.key-action}
+**The move:** Measure your judgment by calibration, not by outcomes. Write your confidence down before you know, score it after, and hunt the gap between how sure you were and how often you were right.
+:::
+
+Calibration tells you whether you are improving. It does not, by itself, make you improve; a scorecard is not a skill. Underneath the number sits the thing the number measures — judgment, the capacity to read an uncertain world and act in it well, which no one is born with and anyone can build. How that capacity is cultivated, across the long seasons of a working life, is where we turn next.
+
+[^resulting]: The poker player and decision theorist Annie Duke calls the error of judging a decision by its outcome *resulting*; the antidote is to grade the quality of the decision separately from the luck of the result. See @dukeThinkingBetsMaking2018.
+
+[^superforecasting]: The finding that calibration is a trainable skill, built through exactly this discipline of recording predictions and scoring them, is the core result of @tetlockSuperforecastingArtScience2015.
