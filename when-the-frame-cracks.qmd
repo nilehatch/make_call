@@ -24,7 +24,7 @@ The world produces frame-surprises more often than it feels like, especially at 
 ::: {.mini-case}
 **Mini-case — Airbnb before Airbnb**
 
-In 2007, a careful investor could have assigned sharp odds to every lodging question that existed: better hotels, cheaper hostels, smarter booking software. Ask that same investor to price "strangers renting each other air mattresses," and the honest answer was near zero — not because the odds were long, but because the category was not on the map. The arrival of home-sharing was not a data point to update on. It was a new square on the board, and only once it existed could anyone update within it: how large, how priced, how regulated. Revision drew the square. Updating filled it in.
+In 2007, a careful investor could have priced every lodging question that existed: better hotels, cheaper hostels, even whole-home vacation rentals, which agencies had brokered for years. What that map had no square for was paying to sleep on a stranger's air mattress in their occupied apartment, arranged through a website that somehow made it feel safe. Asked to price *that*, the honest answer was near zero — not because the odds were long, but because the possibility was not on the board. Airbnb's founders did not update a lodging estimate. They drew a new square: a way for strangers to transact trust that no hotel model predicted. And once the square existed, it reached further than anyone first saw — from air mattresses to spare rooms to whole homes, an old adjacent need now served in an entirely new way. Revision drew the square. Updating filled it in.
 :::
 
 ## Revision has rules {#sec-rules}
