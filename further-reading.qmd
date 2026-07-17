@@ -1,0 +1,26 @@
+# Further Reading {.unnumbered}
+
+This book grew out of a small tradition of writers who take uncertainty seriously and refuse to make it either mystical or dull — who insist that reasoning in the fog can be taught, and taught plainly. If a chapter here left you wanting to go deeper, these are the doors I would send you through. Each earns its place; none is here to pad a list.
+
+## Deciding under uncertainty
+
+- **Annie Duke, *Thinking in Bets* (2018).** The clearest popular case for judging a decision by its quality rather than its outcome — the "resulting" error, and the habit of thinking in probabilities instead of certainties.
+- **Saras Sarasvathy, "Causation and Effectuation" (2001).** The entrepreneur's-eye view: how expert founders decide under true uncertainty by controlling what they can rather than predicting what they can't. The scholarly root of a great deal of how this book thinks about the frontier.
+- **David Spiegelhalter, *The Art of Uncertainty* (2024).** A first-rank statistician on how to navigate chance, ignorance, risk, and luck — the widest and most humane single survey of this book's subject.
+- **Nassim Nicholas Taleb, *Antifragile* (2012).** On payoff asymmetry, and building so that disorder helps rather than ruins you — why a capped downside against an open upside changes what you should dare.
+- **Avinash Dixit and Robert Pindyck, *Investment Under Uncertainty* (1994).** The rigorous root of irreversibility and the value of waiting, where the "one-way door" intuition earns its economics. Technical, but foundational.
+
+## Bayesian reasoning
+
+- **Tom Chivers, *Everything Is Predictable* (2024).** A general-audience tour of how far one idea — updating a prior with evidence — reaches across science and everyday life.
+- **Gerd Gigerenzer, *Calculated Risks* (2015).** Why natural frequencies make probability intuitive where percentages defeat even experts. The engine behind this book's "draw the thousand."
+- **Andy Clark, *Surfing Uncertainty* (2015).** The deep version: the mind itself as a prediction machine, forever testing its priors against what the world sends back. Cognitive science, and heavier going, but it reframes everything.
+
+## Judgment and its traps
+
+- **Daniel Kahneman, *Thinking, Fast and Slow* (2011).** The definitive map of the biases that ambush judgment, including the overconfidence this book keeps warning you about.
+- **Philip Tetlock and Dan Gardner, *Superforecasting* (2015).** The evidence that good judgment is trainable, and that calibration — scoring your own predictions — is how you train it.
+
+## Rigor without fear
+
+- **Jordan Ellenberg, *How Not to Be Wrong* (2014).** Mathematical thinking as common sense made precise. Its spirit — that rigor can be made to feel natural, and that the trouble is usually the format, not you — is the animating principle of this whole book.

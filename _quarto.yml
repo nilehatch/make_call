@@ -77,6 +77,8 @@ book:
         - cultivated-judgment.qmd
         - supervising-your-ai.qmd
 
+    - further-reading.qmd
+
     - part: "Companion · The Method Layer (for your AI)"
       chapters:
         - method-layer.qmd
