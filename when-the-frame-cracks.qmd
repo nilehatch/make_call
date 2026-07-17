@@ -108,4 +108,4 @@ Most of the time your frame holds. You weighed the result, moved your belief by 
 
 But keep the other door in sight, because it is the one founders miss and pay for. When a result reports not a surprising value but a missing possibility, the honest move is not to force it onto the map and not to burn the map down. It is to go back and draw the square that was never there — back to the [Frame](ch08-urgent-unknowns.qmd), where this book began, carrying something the first pass could not have known. The gates are not a line you cross once. They are a loop you travel as the fog lifts, and revision is the turn that sends you around again, wiser, to ask a better question.
 
-[^agm]: The framework is named for its originators, @alchourron1985logic, whose initials give it the name AGM.
+[^agm]: The framework is named for its originators, @alchourronLogicTheoryChange1985, whose initials give it the name AGM.
