@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
-"""Top up references.bib from the master Zotero export.
+"""Mirror references.bib to the master Zotero export for every cited key.
 
-Scans the project's .qmd files for citation keys and appends any that are
-cited but missing from references.bib, pulling the entries out of the
-master Better BibTeX export. Keeps the book's bibliography self-contained
-and current without a manual copy step.
+Scans the project's .qmd files for citation keys and makes references.bib
+match the master Better BibTeX export for each one: appends cited entries
+that are missing, and refreshes cited entries whose master version has
+changed (e.g. after a metadata cleanup in Zotero). Keeps the book's
+bibliography self-contained and always current without a manual step.
 
 Runs as a Quarto pre-render hook. Design choices:
-  - Append-only: never rewrites or reorders existing entries, so diffs stay
-    minimal and a hand-edited references.bib is safe.
+  - Mirror, not append-only: a cited entry edited in Zotero (cleaned Extra
+    field, fixed metadata) propagates on the next render.
+  - Minimal diff: only changed/added entry blocks are rewritten; everything
+    else in references.bib is left byte-for-byte, including uncited entries
+    and cited entries that exist only locally (not in the master).
   - Graceful: if the master export is absent (a fresh clone, CI), it prints
     a notice and exits 0 so the build proceeds on the committed bib.
   - Never fails the build: unresolved keys are warned about, not fatal.
@@ -20,8 +24,6 @@ import re
 import sys
 import glob
 
-# Quarto sets QUARTO_PROJECT_DIR during pre-render; fall back to the repo root
-# (this script lives in <repo>/scripts/).
 ROOT = os.environ.get("QUARTO_PROJECT_DIR") or os.path.dirname(
     os.path.dirname(os.path.abspath(__file__))
 )
@@ -73,38 +75,69 @@ def parse_entries(text):
     return entries
 
 
-def main():
-    refs_text = open(REFS, encoding="utf-8").read() if os.path.exists(REFS) else ""
-    have = set(re.findall(r"@[a-zA-Z]+\{([^,]+),", refs_text))
-    missing = sorted(cited_keys() - have)
+def normws(s):
+    return " ".join(s.split())
 
-    if not missing:
-        print("[sync-refs] references.bib is up to date.")
-        return 0
+
+def main():
+    ref_text = open(REFS, encoding="utf-8").read() if os.path.exists(REFS) else ""
+    local = parse_entries(ref_text)
+    cited = cited_keys()
+    missing = sorted(cited - set(local))
 
     if not os.path.exists(MASTER):
-        print(
-            f"[sync-refs] NOTE: master bib not found at {MASTER}; "
-            f"building on the committed references.bib.\n"
-            f"           Uncited-in-bib keys: {', '.join(missing)}"
-        )
+        if missing:
+            print(
+                f"[sync-refs] NOTE: master bib not found at {MASTER}; "
+                f"building on the committed references.bib.\n"
+                f"           Not in bib: {', '.join(missing)}"
+            )
+        else:
+            print("[sync-refs] references.bib is up to date (master not present).")
         return 0
 
     master = parse_entries(open(MASTER, encoding="utf-8").read())
-    appended, unresolved = [], []
-    chunks = []
+    new_text = ref_text
+    refreshed, added, local_only, unresolved = [], [], [], []
+
+    # Refresh cited entries already present whose master version differs.
+    for k in sorted(cited):
+        if k in local:
+            if k in master:
+                if normws(local[k]) != normws(master[k]):
+                    new_text = new_text.replace(local[k], master[k], 1)
+                    refreshed.append(k)
+            else:
+                local_only.append(k)
+
+    # Append cited entries missing from references.bib.
+    to_append = []
     for k in missing:
         if k in master:
-            chunks.append(master[k])
-            appended.append(k)
+            to_append.append(master[k])
+            added.append(k)
         else:
             unresolved.append(k)
+    if to_append:
+        new_text = new_text.rstrip() + "\n\n" + "\n\n".join(to_append) + "\n"
 
-    if chunks:
-        with open(REFS, "a", encoding="utf-8") as fh:
-            fh.write("\n" + "\n\n".join(chunks) + "\n")
-        print(f"[sync-refs] added {len(appended)} entry(ies): {', '.join(appended)}")
+    if new_text != ref_text:
+        with open(REFS, "w", encoding="utf-8") as fh:
+            fh.write(new_text)
 
+    if not refreshed and not added:
+        print("[sync-refs] references.bib is up to date.")
+    else:
+        if added:
+            print(f"[sync-refs] added {len(added)}: {', '.join(added)}")
+        if refreshed:
+            print(f"[sync-refs] refreshed {len(refreshed)}: {', '.join(refreshed)}")
+
+    if local_only:
+        print(
+            "[sync-refs] NOTE: cited entries kept as-is (in references.bib but "
+            f"not in the master): {', '.join(local_only)}"
+        )
     if unresolved:
         print(
             "[sync-refs] WARNING: cited but not in master export "
