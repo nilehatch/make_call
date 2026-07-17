@@ -74,7 +74,7 @@ book:
     - part: "Part VII · Becoming — someone who navigates the fog"
       chapters:
         - calibration.qmd
-        - ch29-lifelong-learning.qmd
+        - cultivated-judgment.qmd
         - supervising-your-ai.qmd
 
     - part: "Companion · The Method Layer (for your AI)"
