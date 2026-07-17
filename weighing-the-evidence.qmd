@@ -3,7 +3,7 @@ title: "Weighing the Evidence"
 subtitle: "Whether a result has earned the right to change your mind"
 ---
 
-You ran the test. The result is in. The temptation now is to read it the way you read a verdict — final, settled, true — and especially to read it that way when it tells you what you hoped to hear. That reflex is the most expensive one left in this book.
+You ran the test. The result is in. The temptation now is to read it the way you read a verdict: final, settled, true. And especially to read it that way when it tells you what you hoped to hear. That reflex is the most expensive one left in this book.
 
 A result is not a fact. It is a signal, arriving through noise, produced by particular people under particular conditions, and it carries exactly as much weight as its making can bear — no more. The fog does worse than hide the answer — it disguises weak answers as strong ones. And a weak answer believed is worse than no answer at all, because you will act on it.
 
@@ -21,9 +21,9 @@ Reading a result is not collecting it. It is interrogating it. A credible result
 
 Credibility is a dial. Five questions turn it, and you can ask all five in the time it takes to reread the result.
 
-**Who produced it — and what did they want to be true?** Every result comes from someone with a stake, and the someone to watch most closely is yourself. A founder reading her own results is the least neutral judge in the room. Ask what the source hoped to find before you trust what they found.
+**Who produced it — and what did they want to be true?** Every result comes from someone with a stake, and the someone to watch most closely is yourself. A founder reading their own results is the least neutral judge in the room. Ask what the source hoped to find before you trust what they found.
 
-**How much, and how representative?** Five warm replies from people who resemble you are not evidence about the market; they are evidence about your friends. Weigh how many, drawn from where, and who was left out — the customers who never answered, the trials that quietly failed, the cases that did not survive to be counted.
+**How much, and how representative?** Five warm replies from people who resemble you are not evidence about the market; they are evidence about your friends. Weigh how many, drawn from where, and who was left out — the customers who never answered, and the quiet failures that never survived to be counted.
 
 **Did they say, or did they do?** This is the question entrepreneurs get wrong most often and pay for most dearly. Stated enthusiasm is cheap; behavior is dear. "I would absolutely buy this" weighs almost nothing against a refused pre-order, a closed wallet, a workaround they went back to the next day. Weight what people did over what they said they would do.
 
@@ -50,9 +50,9 @@ I just read about revealed versus stated preference. Explain the difference usin
 
 ## The result you *want* to believe {#sec-wysiati}
 
-There is one more force working against you, and it is not in the data — it is in you. The mind treats the evidence in front of it as the whole of the evidence, and quietly forgets everything it cannot see: the customers who never replied, the version you did not test, the trial that failed before you started counting. Psychologists have a name for it — *what you see is all there is*[^wysiati] — and it is strongest exactly when the visible evidence flatters you.
+There is one more force working against you, and it is not in the data — it is in you. The mind treats the evidence in front of it as the whole of the evidence, and quietly forgets everything it cannot see: the customers who never replied, the version you did not test, the trial that failed before you started counting. Psychologists have a name for it, *what you see is all there is*,[^wysiati] and it is strongest exactly when the visible evidence flatters you.
 
-This is why the convenient result is the dangerous one. A result that confirms what you hoped slides past every check; you feel relief, and relief feels like proof. A result that threatens the venture gets interrogated mercilessly — you find the small sample, the leading question, the confound — while a flattering result of identical quality walks straight in. The discipline is to spend your skepticism evenly: interrogate the welcome result exactly as hard as the unwelcome one.
+This is why the convenient result is the dangerous one. A result that confirms what you hoped slides past every check; you feel relief, and relief feels like proof. A result that threatens the venture gets interrogated mercilessly. You find the small sample, the leading question, the confound. A flattering result of identical quality walks straight in. The discipline is to spend your skepticism evenly: interrogate the welcome result exactly as hard as the unwelcome one.
 
 ::: {.trap}
 **Trap to Avoid — The convenient result**
@@ -71,7 +71,7 @@ The conversations came back warm. Nearly every woman the team spoke with said th
 
 Then they weighed it. *Who did they talk to?* Mostly women in the founders' own networks — **convenience sampling**: the easiest people to reach, and the most likely to flatter. *Did they say, or did they do?* They said. Not one had been asked to give anything up — no pre-order, no deposit, not even the small effort of setting a current workaround aside. And on the question that actually decided the venture — whether the free phone workaround left a residual pain sharp enough to switch — the warm answers were nearly silent. The women had praised the idea; almost none had described abandoning what they already did.
 
-Weighed honestly, the result was thin. It was real evidence that the concept was *likable*, which is not the evidence the team needed. So they did not let a likable result move a belief it had not earned. They held the call open and set up a sharper test — one that would ask women to actually leave a workaround behind for a week — where a "no" would be genuinely possible and behavior, not enthusiasm, would be the measure.
+Weighed honestly, the result was thin. It was real evidence that the concept was *likable*, which is not the evidence the team needed. So they did not let a likable result move a belief it had not earned. They held the call open and set up a sharper test, one that would ask women to actually leave a workaround behind for a week, where a "no" would be genuinely possible and behavior, not enthusiasm, would be the measure.
 
 Notice what the weighing bought them. An unweighed "yes" would have sent them to build. The weighed "yes" sent them back for the evidence that could actually carry the decision.
 :::
@@ -108,7 +108,7 @@ Take a result you have already acted on, or are about to.
 1. Write what it claims and what you did to get it.
 2. Run the five questions: source, sample, said-or-did, could-it-have-failed, does-it-converge.
 3. Mark, honestly, whether you scrutinized it more or less because you liked it.
-4. Give it a weight — heavy, moderate, or barely any — and decide whether the action you took (or planned) matches that weight.
+4. Give it a weight, heavy or moderate or barely any, and decide whether the action you took (or planned) matches that weight.
 
 If the action outruns the weight, you have found a decision built on evidence that has not earned it.
 :::
