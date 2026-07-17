@@ -23,7 +23,7 @@ Far along what? The same scale you have used since the [Prior gate](seeing-proba
 **Updating** — moving your belief the distance the evidence has earned: far for a heavy result, slightly for a light one, and not at all only when it carries no weight.
 :::
 
-Miss this and you make one of two errors, and they are the same error facing opposite directions. The founder who waits for proof before she moves has set the dial to a switch and is holding it at *no* until something forces it to *yes*. The founder who pivots the whole company on one loud afternoon has done the same thing from the other side, letting a single result throw the switch to *yes*. Both have mistaken a matter of degree for a matter of kind. The result almost never proves or refutes. It shifts, and you are meant to shift with it, by that much.
+Miss this and you make one of two errors, and they are the same error facing opposite directions. The founder who waits for proof before they move has set the dial to a switch and is holding it at *no* until something forces it to *yes*. The founder who pivots the whole company on one loud afternoon has done the same thing from the other side, letting a single result throw the switch to *yes*. Both have mistaken a matter of degree for a matter of kind. The result almost never proves or refutes. It shifts, and you are meant to shift with it, by that much.
 
 ## Two ways to get it wrong {#sec-two-errors}
 
@@ -38,11 +38,11 @@ The disciplined move sits between them, and the weight you already assigned is w
 ::: {.worked-example}
 **Worked example — Two hundred people, and how far to move**
 
-A founder believes there is a good chance customers will pay twenty dollars a month for her tool. She puts the price in front of two hundred people. Twenty sign up.
+A founder believes there is a good chance customers will pay twenty dollars a month for their tool. They put the price in front of two hundred people. Twenty sign up.
 
 The switch-thrower reads this as a verdict — *twenty dollars is dead* — and tears up the pricing overnight. The anchor reads it as noise — *wrong crowd, bad week* — and changes nothing. Neither weighed it. Two hundred is a real sample, drawn from real traffic; ten percent is a real signal, not a rumor. But it is one price, one page, one moment, and it cannot by itself know whether the problem is the number, the tier, or the person who arrived to see it.
 
-So she moves by degrees. Her confidence that twenty dollars, *as shown*, converts a broad audience drops hard — that belief took the full weight of the result. Her broader belief that the tool is worth paying for barely moves, because nothing here tested it. She comes out of the test believing something more textured than she went in with, which is what a real update leaves behind — not a reversal, not a shrug, but a belief with a new and specific shape.
+So they move by degrees. Their confidence that twenty dollars, *as shown*, converts a broad audience drops hard — that belief took the full weight of the result. Their broader belief that the tool is worth paying for barely moves, because nothing here tested it. They come out of the test believing something more textured than they went in with, which is what a real update leaves behind — not a reversal, not a shrug, but a belief with a new and specific shape.
 :::
 
 ## Reading it into the Halo call {#sec-worked-halo}
