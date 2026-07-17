@@ -59,7 +59,7 @@ book:
     - part: "Part V · Sense — is it credible, and what do you now believe?"
       chapters:
         - weighing-the-evidence.qmd
-        - ch22-updating.qmd
+        - moving-your-belief.qmd
         - ch06-update-revise.qmd
 
     - part: "Part VI · Call — is it enough, and which way?"
