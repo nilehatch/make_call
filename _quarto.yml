@@ -64,7 +64,7 @@ book:
 
     - part: "Part VI · Call — is it enough, and which way?"
       chapters:
-        - ch24-decision-rules.qmd
+        - how-much-is-enough.qmd
         - ch25-judgment.qmd
         - ch28-conviction.qmd
         - ch26-presenting.qmd

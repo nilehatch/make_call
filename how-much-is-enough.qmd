@@ -1,0 +1,107 @@
+---
+title: "How Much Is Enough?"
+subtitle: "Why enough is set by the decision, not the belief"
+---
+
+You have a belief, and now you know what it is worth. You gathered what the world knew, generated what it didn't, weighed the results, and moved your conviction by exactly the weight it earned. You are standing where this whole book has been pointing, holding a belief that is honest about its own strength: not certainty, but a grounded sense of how likely you are to be right. And here the oldest question in entrepreneurship finally arrives. Is that enough to act on?
+
+Almost everyone treats *enough* as a fact about the belief, as though somewhere on the dial there is a mark labeled "sure enough," and once your confidence crosses it you are cleared to move. There is no such mark. The same confidence that is plenty for one decision is reckless for another, and nothing about the belief has changed between them. What changed is what you were about to do with it. That is the reframe this gate turns on, and getting it right is the difference between boldness and recklessness, which are not the same thing and never were.
+
+## Enough for what? {#sec-enough-for-what}
+
+Suppose you are seventy percent sure a particular feature will win customers. Is that enough? You cannot answer, because the question is only half-asked. Seventy percent is more than enough to spend a weekend building a rough version and putting it in front of ten people. It is nowhere near enough to borrow against your house, sign a two-year lease, and stake the company on it. Your confidence did not move between those two sentences. The decision did.
+
+So the question is never *am I sure enough?* in the abstract. It is always *sure enough for this?* Confidence is one number; the decision is another; and acting wisely means holding them up against each other rather than staring at either one alone. A founder who waits to feel "sure enough" before any move will wait forever, because certainty never comes and the bar they are waiting to clear was never fixed in the first place.
+
+## The two dials {#sec-two-dials}
+
+It helps to see the two things you are actually comparing, because they move independently and it is their relationship, not either one alone, that tells you whether to act.
+
+The first is the **confidence you have**. This is everything the earlier gates built: your prior, informed by experience and base rates, updated by whatever evidence you gathered and weighed. It is your honest current sense of how likely you are to be right, and it is the one dial the last several chapters have been turning.
+
+The second is the **confidence you need**. This one has nothing to do with your belief and everything to do with the decision in front of you. It is the height of the bar: how sure you must be before the cost of being wrong is a cost you can bear. A tiny, undoable decision sets the bar on the floor. A large, permanent one sets it near the ceiling.
+
+::: {.column-margin .def-margin}
+**Enough** — not a fixed level of confidence, but a relationship: the confidence you *have* meets or clears the bar the decision *needs*. Set by the decision, not the belief.
+:::
+
+Everything you did in the Evidence gate was, in the end, an effort to close the distance between these two dials, to raise the confidence you have until it reaches the confidence the decision needs. That is the whole logic of the call, and it is almost embarrassingly simple to state: **act when what you have meets what you need.** The difficulty was never the rule. It is reading the two dials honestly, especially the second one, which founders routinely misjudge because they are looking at their belief when they should be looking at their bet.
+
+## What sets the bar {#sec-what-sets-bar}
+
+If the confidence you need is set by the decision, then you have to know what about a decision raises the bar or lowers it. Three things do most of the work.
+
+The first is **reversibility**. Can you undo it? Some decisions are a door you can walk back through if the room disappoints — a trial you can end, a feature you can pull, a price you can change next week. Others are a door that locks behind you. The reversible door needs very little confidence, because being wrong costs you a walk back. The locked door needs a great deal, because being wrong costs you everything on the far side of it. Notice what reversibility does and does not touch. It does not change your belief by a hair. It changes only the bar your belief has to clear.
+
+The second is **stakes** — the size of the bet against what you can afford to lose. The same odds that would be foolish with the rent are fine with lunch money. Weigh the loss not in the abstract but against your own capacity to survive it, because a bet that would merely sting one founder can end another.
+
+The third, and the one entrepreneurs most often miss, is **asymmetry** — the shape of being wrong. Some bets are built so the downside is small and capped while the upside is large and open: a cheap experiment, a modest option, a limited first batch. When a bet is shaped that way, you can act on thin confidence, because you can be wrong cheaply and right enormously. Other bets are the reverse: a small and likely gain against a rare catastrophe. There you demand near-certainty no matter how good the common case looks. The asymmetry of what you stand to win and lose can matter more than the probability itself, and a founder who reads only the odds and never the shape will eventually take the one bet that cannot be recovered from.
+
+::: {.worked-example}
+**Worked example — Same odds, different bar**
+
+Two founders each put their confidence at a coin-flip: fifty-fifty the idea works. The first is deciding whether to run a two-week paid pilot with ten customers, cancelable anytime, for the cost of a few evenings. The second is deciding whether to sign a year's lease on a storefront to serve the same idea.
+
+Same belief, opposite calls. For the first, fifty-fifty is plenty — the downside is a couple of lost weeks, the upside is real evidence and possibly a business, and the door swings both ways. Acting is obviously right. For the second, fifty-fifty is nowhere near enough, because a wrong guess means twelve months of rent owed on a room full of a mistake. The honest move is not to sign. Nothing about the idea changed. Only the bar did, and the same confidence cleared it in one case and fell far short in the other.
+:::
+
+## When you don't have enough {#sec-not-enough}
+
+Often you will hold the two dials up and find the confidence you have sitting below the confidence the decision needs. That gap is not a verdict. It is a fork, and it offers three moves, not one.
+
+The move founders reach for last is usually the best. **Lower the need.** Ask whether the decision has to be this big, this permanent, this soon — or whether you can reshape it into something smaller and more reversible that your current confidence already clears. Turn the locked door back into a swinging one: run a pilot instead of a launch, pre-sell instead of build, commit in stages instead of all at once. You have not gathered a single new fact, and yet the call is suddenly makeable, because you lowered the bar to where you already stand. This is one of the most powerful and least used instincts in entrepreneurship, and much of the discipline of building under uncertainty is really the habit of making your decisions smaller until your evidence can carry them.
+
+The second move is to **raise what you have** — go back and gather more. But only for evidence that could actually move you across the bar, and only when it is worth its cost. Evidence that would be interesting but would not change the call is not worth a day. The test to run is the one whose result could flip the decision; anything else is procrastination wearing the costume of diligence.
+
+The third move is to **wait, or to walk.** Sometimes the decision cannot be shrunk, the evidence cannot be had cheaply, and the honest answer is *not yet* — or simply *no*. Choosing not to bet is itself a call, and often the bravest one.
+
+::: {.running-case}
+**Halo Alert — reading the two dials**
+
+The Halo team laid their dials side by side. The confidence they *had* was mixed and they knew it: a genuinely informed prior on the problem (the fear was real, widespread, and grounded in hard base rates) but only thin, [weighed-light evidence](weighing-the-evidence.qmd) on the question that decided the venture, whether women would actually switch to the ring. Warm words, no proven behavior.
+
+The confidence they *needed* was high, and reversibility was why. Building the ring meant tooling, a first production run, inventory, a launched product with the company's name on it — a door that locks behind you. Fifty-fifty would not clear that bar; a mostly-warm set of conversations came nowhere close.
+
+Have below need, they worked the fork. They did not gather blindly, and they did not abandon a problem they had good reason to believe in. First they looked for a way to **lower the need** — to make the first real commitment a swinging door rather than a locked one, a small pre-sale or a limited pilot that risked little and could be walked back. And where they still needed more, they **raised what they had** with the one test whose result could flip the call: the sharper test of behavior they had already set up. What they refused to do was the thing an unweighed "yes" would have tempted — walk through the locked door on the strength of a belief that had not earned the passage.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your AI is good at the arithmetic of the bar and blind to what it costs you. It will lay out the expected value of a bet, estimate whether more evidence is worth gathering, and map how reversibility and asymmetry should move your threshold. Hand it the structure. What it cannot know is what *ruin* means for you, the loss you could not come back from, and that is the number that sets the real bar.
+
+- **Make it separate the two dials.** Ask it to state your honest confidence and, separately, how much confidence the specific decision demands. Watch that it never lets one slide to meet the other.
+- **Ask it to shrink the decision.** Before you gather or abandon, have it propose three smaller, more reversible versions of the move (a pilot, a pre-sale, a staged commitment) that your current confidence might already clear.
+- **Ask what evidence would flip the call.** Have it name the one result that would move you across the bar, so you gather only that and skip the diligence that changes nothing.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+Here's a decision I'm facing: [describe it]. Here's my honest confidence that it works, and why: [state it]. First, tell me how high the bar should be for *this* decision, given how reversible it is, what's at stake for me, and how the downside compares to the upside. Then tell me whether my confidence clears that bar. If it doesn't, give me three ways to shrink the decision so it might, and name the single piece of evidence that would most change the call.
+:::
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Read your own two dials**
+
+Take a decision you are genuinely weighing right now.
+
+1. Write the confidence you *have* — your honest sense of how likely you are to be right, in plain words.
+2. Write the confidence you *need*, and say what sets it: how reversible the decision is, what is truly at stake for you, and whether the downside and upside are lopsided.
+3. Hold them up together. Does what you have clear what you need?
+4. If not, work the fork before you gather or quit: can you **shrink the decision** until your current confidence carries it? If not, what single piece of evidence would move you across the bar?
+
+Most decisions that feel stuck are not short on confidence. They are oversized for the confidence you have, and shrinking them is the move you have not tried.
+:::
+
+::: {.key-action}
+**The move:** Judge *enough* against the decision, not the belief. Read the confidence you have against the confidence the decision needs, and when they fall short, shrink the decision before you gather more or walk away.
+:::
+
+Knowing whether you have enough tells you whether to move. It does not tell you where. When the confidence clears the bar, do you go all in, or in by halves? When it falls short, do you gather, reshape, or let the idea go? *Enough* answers only the first, quiet question at the threshold. The louder one is still waiting: of all the ways you could move from here, which is the call? That is where we turn next.
