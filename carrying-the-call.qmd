@@ -1,0 +1,91 @@
+---
+title: "Carrying the Call"
+subtitle: "Making the honest case to the people who have to share it"
+---
+
+You have made the call and found the conviction to stand behind it. If a venture were a solitary act, you would be done: decide, commit, go. But it is not. The moment you move, you move other people with you — the cofounder who has to build what you decided, the investor who has to fund it, the teammate who has to keep believing at the low points, and the version of you who has to wake up and execute it tomorrow. Before any of that, you have to tell them the call. And the telling is where a founder's honesty meets its sharpest test.
+
+## The pressure to overclaim {#sec-pressure}
+
+Something changes the instant a private decision becomes a public claim. Alone, you could hold the call for what it honestly was, a good bet, well made, still uncertain. Spoken aloud to people whose support you need, that same call suddenly feels dangerously weak. Entrepreneurship rewards confidence and punishes visible doubt. Investors write checks to founders who *know*, not to founders who "think, with a few caveats." Teams want to follow someone who is sure. So every incentive in the room pushes the same direction: present the call as more certain than it is.
+
+Give in and you win the moment and lose more than you gained. You have told a story you now have to keep defending, which turns the next honest update, the pivot, the disconfirming result, the [revision](when-the-frame-cracks.qmd), into a public reversal instead of a quiet course correction. And the people who signed on for certainty feel misled when reality proves uncertain, so the trust you will need most in the hard months is exactly the trust you spent buying the easy yes. Overclaiming is a loan against a future you cannot afford.
+
+## The honest case {#sec-honest-case}
+
+The way out is not to hedge, and it is not to fake a confidence you lack. It is to separate two things founders constantly run together, and then to be fully honest about each.
+
+There is your confidence in the **decision** — that this is the right bet to make, given everything you know. And there is your confidence in the **outcome** — that the bet will actually pay off. The first can be high and firm even when the second is genuinely uncertain, and holding both at once is not weakness. It is the posture this whole book has been building toward. You can say, without contradiction and without flinching, *I am certain this is the right move to make now; I am not certain it will work; and here is how we will know.* That is stronger than any bluff, because it is the sound of someone who has actually done the work.
+
+::: {.column-margin .def-margin}
+**The honest case** — presenting a decision with its uncertainty intact: resolute about the bet being right to make, candid about whether it will pay off, and clear about what would change your mind.
+:::
+
+An honest case says what you believe and how strongly, shows the evidence beneath it, names what would change your mind, and states the bet and why it is worth making anyway. It trades the fragile power of certainty for the durable power of credibility. The right cofounder and the right investor are not looking for a prophet. They are looking for someone whose read of reality they can trust when the ground shifts, and nothing signals that better than a founder who can name the uncertainty in their own plan and commit to it regardless.
+
+## Three audiences, one honesty {#sec-audiences}
+
+The honest case is owed, in a slightly different key, to three audiences.
+
+Your **cofounders and team** have to act on the call too, so they need the real picture, not the pitch. Hide the uncertainty from them and you strip them of the judgment they need for their own hundred smaller decisions, and you all but guarantee a rupture the day reality parts ways with the confidence you performed. The people building the thing have to know where the ground is soft.
+
+Your **backers** are the audience founders most want to deceive and least can afford to. Good investors have met a thousand certain founders and know that certainty is a tell, not a virtue; an honest case with a credible plan to resolve the uncertainty is more fundable, not less. And the founder who oversells to raise money has locked themselves inside a story they can no longer afford to update, which is the most expensive trap there is.
+
+The last audience is **yourself**, and it is the hardest, because the pitch you tell others has a way of colonizing what you actually believe. Sell certainty long enough and you start to buy it, and the honest read you need most quietly goes missing. Carrying the call to yourself honestly means refusing to become your own mark.
+
+::: {.trap}
+**Trap to Avoid — Believing your own pitch**
+
+The overclaim you make to others rarely stays out there. You say "customers love it" to an investor, then to your team, then to yourself, and somewhere in the repetition the careful, weighed belief you started with is quietly replaced by the marketing copy. The tell is that you can no longer say out loud what would prove you wrong, because you have stopped being a person weighing a bet and become a person defending a story. When you catch yourself selling to yourself, stop, and go back to what the evidence actually said.
+:::
+
+## Reading the Halo call {#sec-halo}
+
+::: {.running-case}
+**Halo Alert — carrying the call**
+
+The Halo team had to explain a call that was easy to make sound like a stall. They had chosen to *loop*, to run one more test before building, and the overclaim version sat right there, tempting: tell the advisor and the prospective backer that women loved the ring and the company was moving to production.
+
+They made the honest case instead. The problem is real and well-grounded, they said, and we have the base rates to show it. Demand is another matter: the interest is encouraging, but it is talk, not behavior, and we will not bet a production run on talk. So here is the one test that will settle whether women actually switch, here is what it costs, and here is exactly what we will do if it comes back yes and if it comes back no. It was not the sound of a team that had lost its nerve. It was the sound of a team that knew precisely what it knew and what it did not, and the advisor trusted the next thing they said more than they would ever have trusted a confident lie.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your AI is a good rehearsal partner for the honest case and a good detector of the dishonest one. It has no stake in the story you want to tell, so it can hear the overclaim you have stopped hearing.
+
+- **Have it hunt your overclaims.** Give it your pitch or your update and ask it to flag every place you state as certain something the evidence leaves open.
+- **Have it separate your two confidences.** Ask it to rewrite your case so the certainty about the decision and the uncertainty about the outcome both stand plainly, neither collapsing into the other.
+- **Have it play the hard audience.** Let it be the skeptical investor or the worried cofounder and put the questions you are hoping no one asks, so you answer them honestly before the room does.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+Here's how I'm planning to present a decision to [cofounders / an investor / my team]: [paste your pitch or message]. Here's what I actually know and don't know: [state it honestly]. Find every place I'm claiming more certainty than my evidence supports. Then rewrite it as an honest case: resolute about why this is the right bet to make now, candid about what's still uncertain, and clear about what would change my mind and how we'll find out.
+:::
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Build the honest case**
+
+Take a call you have to present to someone whose support you need.
+
+1. Write your confidence in the **decision** (why this is the right bet to make now) as strongly as you honestly can.
+2. Write your confidence in the **outcome** (whether it will actually work) just as honestly, including what you don't know.
+3. Name what would change your mind, and how you will find out.
+4. Now write the case using all three, in your own voice. Read it back and mark every place you have quietly upgraded a hope into a certainty. Cut each one.
+
+If the honest version feels weaker than the bluff, sit with why, and remember which of the two you would want to hear from someone asking you to bet alongside them.
+:::
+
+::: {.key-action}
+**The move:** Carry the call to others as an honest case — certain about why the bet is worth making, candid about what you don't yet know, clear about what would change your mind. Never sell a certainty you don't have, least of all to yourself.
+:::
+
+With that, you have been all the way through the gate. You asked whether what you believed was enough, chose which way to move, found the conviction to commit, and carried the call to the people who share it, honestly. That is one full passage through the Call, and through the sequence that led to it: frame, prior, evidence, sense, call. But a founder is not made by a single good decision, however well made. They are made by doing this again, and again, through a fog that never fully lifts, until the whole disciplined passage stops feeling like a checklist and starts to feel like a way of seeing. What it takes to become that person, someone who navigates the fog rather than merely surviving one trip through it, is where the book turns last.
