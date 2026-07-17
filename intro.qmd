@@ -1,21 +1,20 @@
-# Making the Call
-
-This chapter is a placeholder for the introductory chapter of *Making the Call: Knowing what you know, learning what you can, and acting under uncertainty in entrepreneurship*. Content will fill in quickly.
-
-> testing block quotes
-
-::: {.pull-quote}
-Knowledge is never perfect — but it can be sufficient to act.
-:::
-
-Some explanation...
-
+---
+title: "Deciding Before You Know"
+subtitle: "Why certainty was never on offer, and what to do instead"
 ---
 
-:::{.method-divider}
-:::
+Every founder faces the same impossible order of operations. To act wisely you need to know; to know you need to act. The market will not tell you whether people want the thing until you have built enough of it to ask, and by then you have already spent what you were trying to protect. You are asked to commit — money, months, your name — on the strength of things you cannot yet see. That gap between what you must decide and what you can know is the fog, and it does not lift because you are talented or determined. It is the permanent weather of building something new.
 
-Now a new statistical concept begins...
+The culture of entrepreneurship offers two ways to pretend the fog is not there. Both are traps.
 
+The first is the myth of the visionary: the founder who simply *knew*, who saw the future and bet on it while lesser mortals asked for evidence. It is a wonderful story, and it is survivorship talking. For every celebrated seer who was right, a hundred equally certain founders were just as sure and simply wrong, and you never hear from them. Certainty that comes from conviction instead of knowledge is not vision. It is the most expensive mistake in this book, and it wears the face of confidence.
 
-## test
+The second trap is the opposite, and just as fashionable: move fast, break things, *fail fast*. If you cannot know in advance, the reasoning goes, then stop trying to — act, crash, and let the wreckage teach you. There is a grain of truth in it, because action really does produce information that thinking alone cannot. But as a philosophy it is mostly a permission slip to skip the hard part, and it is brutally expensive, because most failures teach you far less than they cost and a few of them you do not get up from. "Fail fast" is what people say when they have confused motion with learning.
+
+This book takes a third path, and it is neither of those. You cannot remove the uncertainty, so you stop trying to. But you are not helpless inside it either. Between blind conviction and blind action lies the actual craft of entrepreneurship: deciding well on incomplete information — learning what can be learned, being honest about what cannot, and committing in proportion to what you genuinely know. The founder this book is written for is neither a gambler nor a prophet. They are a disciplined learner, moving through the unknown with evidence, reason, and a clear-eyed kind of nerve.
+
+What follows is a way to do that, deliberately and repeatably. Every hard decision, it turns out, travels through the same five questions — a loop you will learn to walk: frame the real question, own what you already believe, gather and test what you can, weigh what comes back, and make the call. None of it clears the fog. All of it helps you see and act inside it.
+
+And it arrives at a strange, lucky moment. The tool now sitting on every founder's desk can gather, model, compute, and argue at a level that would have taken a team not long ago. It changes what one person can do. It does not change what a person is *for*. An AI can run the analysis; it cannot own the decision, feel the stakes, or answer for being wrong. The reasoning in this book is exactly what you need to aim that tool well and to catch it when it is confidently mistaken, which, you will find, it often is. Used rightly, it does not replace your judgment. It multiplies it.
+
+So we begin where every real decision begins, in the fog: what it is, why it hurts, and how to keep your head inside it. Then we will walk the whole loop once, on a real venture, so you hold the shape of the method before we take it apart. Bring your decision. Let us get to work.
