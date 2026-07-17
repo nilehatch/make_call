@@ -13,13 +13,13 @@ It helps to separate the two, because they call for opposite moves and the cost 
 
 An *update-surprise* is a value you did not expect but your frame can hold. You thought twenty percent would convert; eight percent did. That is lower than you hoped, but "how many convert" was always a question on your map, and the answer simply landed somewhere you did not predict. You turn the dial.
 
-A *frame-surprise* is a possibility your map had no room for at all. Not a worse number on a question you were already asking, but a question you did not know to ask. The board still has all its old squares, and the result belongs to none of them. No dial reaches it, because the dial can only move belief among possibilities you have already drawn.
+A *frame-surprise* is a possibility your map had no room for at all. Not a worse number on a question you were already asking, but a question you did not know to ask. The board still has all its old squares, and the result belongs to none of them. No dial reaches it, because the dial can only move belief among possibilities you have already drawn. Answering it takes a different act, **belief revision**, and that is the work of this chapter.
 
 ::: {.column-margin .def-margin}
 **Belief revision** — rebuilding the frame itself when the world delivers a possibility it had no room for, rather than adjusting your confidence within a frame you keep.
 :::
 
-The world produces frame-surprises more often than it feels like, especially at the frontier where founders work. A pandemic cancels the gatherings your whole business assumed. A pair of strangers turn spare bedrooms into a lodging industry that no hotel model predicted. A regulation you never tracked doubles your costs in a week. In each case the honest response is not a better estimate. It is a redrawn map.
+The world produces frame-surprises more often than it feels like, especially at the frontier where founders work. A pandemic cancels the gatherings your whole business was built on. A pair of strangers turn spare bedrooms into a lodging industry that no hotel model predicted. A regulation you never tracked doubles your costs in a week. In each case the honest response is not a better estimate. It is a redrawn map.
 
 ::: {.mini-case}
 **Mini-case — Airbnb before Airbnb**
@@ -29,7 +29,7 @@ In 2007, a careful investor could have assigned sharp odds to every lodging ques
 
 ## Revision has rules {#sec-rules}
 
-The word *revision* can sound like permission to throw everything out and start from feeling — and that fear is exactly why founders avoid it, clinging to a broken map because the alternative looks like chaos. It is not chaos. Revising a frame is a disciplined move with a small number of legal steps, and knowing them turns a frightening act into a skill you can practice.
+The word *revision* can sound like permission to throw everything out and start over on instinct — and that fear is exactly why founders avoid it, clinging to a broken map because the alternative looks like chaos. It is not chaos. Revising a frame is a disciplined act with a small number of permitted moves, and knowing them turns a frightening prospect into a skill you can practice.
 
 You do only three things. You *add* a possibility the map was missing, when it fits without contradicting what you already know. You *revise* in the strict sense — take on the new possibility and adjust the old beliefs it collides with, so the whole set hangs together again. Or you *drop* a belief that the new possibility has made impossible to keep. The goal in every case is the same. Your picture of the world should stay consistent after the surprise, not sprawl into a pile of contradictions you never reconcile.
 
@@ -71,7 +71,7 @@ Read one way, it is an update. Women want safety, and that belief still sits squ
 
 Your AI is quick to update and slow to revise, in the same way you are — it will keep refining an estimate inside the frame you gave it long after the frame has stopped fitting, because nothing in the request told it the map itself was in question. Revision is the move you have to initiate.
 
-- **Ask it to name the frame.** Have it state the assumptions your current question takes for granted — the possibilities your map allows and, harder, the ones it silently rules out.
+- **Ask it to name the frame.** A frame is just the set of assumptions your question takes for granted. Halo's frame, for instance: women want safety, a wearable is the right form, and the phone workaround hurts enough to switch. Have the AI lay yours out the same way, including the possibilities it silently rules out.
 - **Ask what would break it.** Give it the surprising result and ask whether it fits your frame badly or not at all, and what new possibility would explain it that your frame never included.
 - **Make it change as little as it must.** If revision is called for, ask it to redraw only the broken region and tell you which of your existing beliefs still stand — so you revise the map, not burn it.
 :::
@@ -80,7 +80,7 @@ Your AI is quick to update and slow to revise, in the same way you are — it wi
 **Ask Your AI**
 
 ::: {.prompt}
-Here is the frame I've been working inside: [state the question and the assumptions behind it]. Here is a result that surprised me: [paste it]. Tell me honestly whether this fits my frame badly — a number to update — or fits nowhere, which would mean my frame is missing a possibility. If it's the second, propose the smallest redrawing of the frame that would make room for it, and tell me which of my current beliefs I get to keep.
+Here is the frame I've been working inside: [state the question and the assumptions behind it]. Here is a result that surprised me: [paste it]. Tell me honestly whether this fits my frame badly, which means I just need to update a number, or fits nowhere, which means my frame is missing a possibility and needs revising. If it's the second, propose the smallest redrawing of the frame that would make room for it, and tell me which of my current beliefs I get to keep.
 :::
 :::
 
@@ -106,6 +106,6 @@ Then take a live belief of your own, and one recent result that unsettled it. As
 
 Most of the time your frame holds. You weighed the result, moved your belief by its weight, and the map you started with still describes the world well enough to act on. That is the ordinary way out of this gate, and it carries your belief forward to the decision itself — to the [Call](ch24-decision-rules.qmd), where you finally ask whether what you now believe is enough, and which way to move.
 
-But keep the other door in sight, because it is the one founders walk past to their cost. When a result reports not a surprising value but a missing possibility, the honest move is not to force it onto the map and not to burn the map down. It is to go back and draw the square that was never there — back to the [Frame](ch08-urgent-unknowns.qmd), where this book began, carrying something the first pass could not have known. The gates are not a line you cross once. They are a loop you travel as the fog lifts, and revision is the turn that sends you around again, wiser, to ask a better question.
+But keep the other door in sight, because it is the one founders miss and pay for. When a result reports not a surprising value but a missing possibility, the honest move is not to force it onto the map and not to burn the map down. It is to go back and draw the square that was never there — back to the [Frame](ch08-urgent-unknowns.qmd), where this book began, carrying something the first pass could not have known. The gates are not a line you cross once. They are a loop you travel as the fog lifts, and revision is the turn that sends you around again, wiser, to ask a better question.
 
 [^agm]: The framework is named for its originators, @alchourron1985logic, whose initials give it the name AGM.
