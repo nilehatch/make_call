@@ -15,7 +15,9 @@ So the work left here is not the math. It is the part no formula reaches — the
 
 ## Belief moves by degrees {#sec-degrees}
 
-A belief is not a switch. It is closer to the [dial](weighing-the-evidence.qmd) you just used to weigh the result — a strength of conviction that can sit anywhere between *no idea* and *sure of it*, and that is exactly where a well-built prior already lives. Evidence, almost all evidence, does not throw the switch. It turns the dial. A strong result turns it far. A thin one turns it a little. Both turn it, and the skill is reading how far.
+A belief is not a switch. It is closer to the [dial](weighing-the-evidence.qmd) you just used to weigh the result — a strength of conviction that can sit anywhere between *no idea* and *sure of it*, and that is exactly where a well-built prior already lives. Almost no evidence throws the switch. It turns the dial. A strong result turns it far. A thin one turns it a little. Both turn it, and the skill is reading how far.
+
+Far along what? The same scale you have used since the [Prior gate](seeing-probability.qmd) — your confidence, running from *no idea* to *sure of it*, the very ruler you counted along to turn a base rate into a posterior. Here you rarely need the number, only the honesty to say whether the dial moved a lot, a little, or not at all. The measure is real even when you leave it in words.
 
 ::: {.column-margin .def-margin}
 **Updating** — moving your belief the distance the evidence has earned: far for a heavy result, slightly for a light one, and not at all only when it carries no weight.
@@ -29,7 +31,7 @@ The two errors are worth naming, because you will feel the pull of each on diffe
 
 The first is moving too little. A prior has a grip — the more it cost you to build, the harder it holds — and a founder who has lived inside a belief for a year will discount the evidence that threatens it and wave through the evidence that flatters it.[^anchoring] The result comes in soft against the theory, and the theory wins, not because it was weighed and found heavier but because it got there first. This is the more common failure, and the more expensive, because it wears the face of conviction.
 
-The second is moving too much. A single vivid result — one furious customer, one dazzling demo, one number that leaps off the dashboard — overwrites a prior that a hundred quieter observations built. The evidence is real, but it is *one* draw, and you have let it speak as though it were the whole sample. Whiplash feels like open-mindedness. It is closer to having no mind to change.
+The second is moving too much. A single vivid result — one furious customer, one dazzling demo, one number that leaps off the dashboard — swings the dial hard against a prior that a hundred quieter observations built. The mistake is not that you updated on one point. A single point is real evidence, and one of the quiet powers of updating is that one draw can and should move you. The mistake is the *distance* — letting a light result turn the dial as far as a heavy one would, so a slight draw overwrites everything the prior earned. Whiplash feels like open-mindedness. It is closer to having no mind to change.
 
 The disciplined move sits between them, and the weight you already assigned is what sets the distance.
 
@@ -94,6 +96,6 @@ If you cannot say how far you moved, you have not updated. You have only reacted
 **The move:** Let a weighed result shift each belief by the distance it earned — far, a little, or not at all — and refuse to round that distance up to certainty or down to nothing.
 :::
 
-Updating like this assumes something you have not yet questioned: that the game is the same game, and the result is a move inside it. You are refining the odds on a board whose squares you already drew. Most of the time that assumption holds, and proportional updating is the whole of the work. But every so often a result does not fit anywhere on the board — not a surprising value, but a square that was never there. When that happens, no amount of moving the dial will help, because the dial is measuring the wrong thing. That is not a bigger update. It is a different act, and it is where we turn next.
+Updating like this assumes something you have not yet questioned: that the game is the same game, and the result is a move inside it. You are refining the odds among possibilities you have already mapped. Most of the time that assumption holds, and proportional updating is the whole of the work. But every so often a result belongs to no possibility on your map — not a surprising value, but one the map never had room for. When that happens, no amount of turning the dial will help, because the dial is measuring against a map that has gone wrong. That is not a bigger update. It is a different act, and it is where we turn next.
 
 [^anchoring]: The pull of the belief that got there first is a form of anchoring, one of the most durable findings in the study of judgment: an initial value holds the mind near it even as evidence accumulates against it. See @kahnemanThinkingFastSlow2011.
