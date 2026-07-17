@@ -31,11 +31,11 @@ Everything you did in the Evidence gate was, in the end, an effort to close the 
 
 If the confidence you need is set by the decision, then you have to know what about a decision raises the bar or lowers it. Three things do most of the work.
 
-The first is **reversibility**. Can you undo it? Some decisions are a door you can walk back through if the room disappoints — a trial you can end, a feature you can pull, a price you can change next week. Others are a door that locks behind you. The reversible door needs very little confidence, because being wrong costs you a walk back. The locked door needs a great deal, because being wrong costs you everything on the far side of it. Notice what reversibility does and does not touch. It does not change your belief by a hair. It changes only the bar your belief has to clear.
+The first is **reversibility**. Can you undo it? Some decisions are a door you can walk back through if the room disappoints — a trial you can end, a feature you can pull, a price you can change next week. Others are a door that locks behind you.[^doors] The reversible door needs very little confidence, because being wrong costs you a walk back. The locked door needs a great deal, because being wrong costs you everything on the far side of it. Notice what reversibility does and does not touch. It does not change your belief by a hair. It changes only the bar your belief has to clear.
 
 The second is **stakes** — the size of the bet against what you can afford to lose. The same odds that would be foolish with the rent are fine with lunch money. Weigh the loss not in the abstract but against your own capacity to survive it, because a bet that would merely sting one founder can end another.
 
-The third, and the one entrepreneurs most often miss, is **asymmetry** — the shape of being wrong. Some bets are built so the downside is small and capped while the upside is large and open: a cheap experiment, a modest option, a limited first batch. When a bet is shaped that way, you can act on thin confidence, because you can be wrong cheaply and right enormously. Other bets are the reverse: a small and likely gain against a rare catastrophe. There you demand near-certainty no matter how good the common case looks. The asymmetry of what you stand to win and lose can matter more than the probability itself, and a founder who reads only the odds and never the shape will eventually take the one bet that cannot be recovered from.
+The third, and the one entrepreneurs most often miss, is **asymmetry** — the shape of being wrong. Some bets are built so the downside is small and capped while the upside is large and open: a cheap experiment, a modest option, a limited first batch. When a bet is shaped that way, you can act on thin confidence, because you can be wrong cheaply and right enormously. Other bets are the reverse: a small and likely gain against a rare catastrophe. There you demand near-certainty no matter how good the common case looks. The asymmetry of what you stand to win and lose can matter more than the probability itself,[^asym] and a founder who reads only the odds and never the shape will eventually take the one bet that cannot be recovered from.
 
 ::: {.worked-example}
 **Worked example — Same odds, different bar**
@@ -54,6 +54,25 @@ The move founders reach for last is usually the best. **Lower the need.** Ask wh
 The second move is to **raise what you have** — go back and gather more. But only for evidence that could actually move you across the bar, and only when it is worth its cost. Evidence that would be interesting but would not change the call is not worth a day. The test to run is the one whose result could flip the decision; anything else is procrastination wearing the costume of diligence.
 
 The third move is to **wait, or to walk.** Sometimes the decision cannot be shrunk, the evidence cannot be had cheaply, and the honest answer is *not yet* — or simply *no*. Choosing not to bet is itself a call, and often the bravest one.
+
+::: {.for-curious}
+<details>
+<summary>For the Curious — Putting a number on the bar</summary>
+
+The two dials can be made literal, and decision theory does exactly that. The confidence a decision *needs* rests on **expected value**: weigh each way the decision could turn out by how likely it is, and sum them into one figure for what the bet is worth on average.[^ev] That is the skeleton under *is it enough* — but only the skeleton, because expected value is blind to ruin. A bet can be positive on average and still be one you must refuse, when a single outcome is a loss you could not come back from. Averages assume you get to keep playing; ruin ends the game. That is why the stakes dial is never optional.
+
+The gather-more move has a number too. The **value of information** is how much better your decision becomes because you ran a test: nothing at all if the result could not change your call, and potentially large if it could flip a costly, irreversible one.[^voi] It is the formal version of the rule this chapter gives in words — run only the test whose result could move you across the bar. You never have to compute either figure by hand. The point is that *enough*, *worth gathering*, and *too big to risk* are not only feelings. They have arithmetic underneath, and your AI can run it.
+
+::: {.learn-ai}
+**Learn From Your AI**
+
+::: {.prompt}
+I'm weighing a decision: [describe it, with the possible outcomes and your rough odds and payoff for each]. Compute its expected value, then flag whether any single outcome is a loss I couldn't recover from. Separately, estimate the value of information of running one more test before I commit: how much it could change the call, and whether that's worth its cost.
+:::
+:::
+
+</details>
+:::
 
 ::: {.running-case}
 **Halo Alert — reading the two dials**
@@ -105,3 +124,11 @@ Most decisions that feel stuck are not short on confidence. They are oversized f
 :::
 
 Knowing whether you have enough tells you whether to move. It does not tell you where. When the confidence clears the bar, do you go all in, or in by halves? When it falls short, do you gather, reshape, or let the idea go? *Enough* answers only the first, quiet question at the threshold. The louder one is still waiting: of all the ways you could move from here, which is the call? That is where we turn next.
+
+[^doors]: The framing of decisions as one-way doors (irreversible) versus two-way doors (reversible) is Jeff Bezos's, in @bezosLetterShareholders2016.
+
+[^asym]: On payoff asymmetry, a capped downside against an open upside, see @talebAntifragileThingsThat2012.
+
+[^ev]: The treatment of decisions by their expected value, and more precisely expected *utility*, is set out in @vonNeumannTheoryGamesEconomic1944.
+
+[^voi]: The value of information was formalized by @howardInformationValueTheory1966.
