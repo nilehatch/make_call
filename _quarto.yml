@@ -68,7 +68,7 @@ book:
       chapters:
         - how-much-is-enough.qmd
         - making-the-call.qmd
-        - ch28-conviction.qmd
+        - conviction.qmd
         - ch26-presenting.qmd
 
     - part: "Part VII · Becoming — someone who navigates the fog"
