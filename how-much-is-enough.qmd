@@ -59,7 +59,7 @@ The third move is to **wait, or to walk.** Sometimes the decision cannot be shru
 <details>
 <summary>For the Curious — Putting a number on the bar</summary>
 
-The two dials can be made literal, and decision theory does exactly that. The confidence a decision *needs* rests on **expected value**: weigh each way the decision could turn out by how likely it is, and sum them into one figure for what the bet is worth on average.[^ev] That is the skeleton under *is it enough* — but only the skeleton, because expected value is blind to ruin. A bet can be positive on average and still be one you must refuse, when a single outcome is a loss you could not come back from. Averages assume you get to keep playing; ruin ends the game. That is why the stakes dial is never optional.
+The two dials can be made literal, and decision theory does exactly that. The confidence a decision *needs* rests on **expected value**: weigh each way the decision could turn out by how likely it is, and sum them into one figure for what the bet is worth on average.[^ev] That is the skeleton under *is it enough* — but only the skeleton, because expected value is blind to ruin. A bet can be positive on average and still be one you must refuse, when a single outcome is a loss you could not come back from. Averages assume you get to keep playing; ruin ends the game. That is why the stakes dial is never optional. It is also why the idea's oldest form weighs each outcome not in raw dollars but in what it is worth *to you*: your last dollar matters far more than your thousandth, so a loss near ruin counts for far more than the averages admit.[^utility]
 
 The gather-more move has a number too. The **value of information** is how much better your decision becomes because you ran a test: nothing at all if the result could not change your call, and potentially large if it could flip a costly, irreversible one.[^voi] It is the formal version of the rule this chapter gives in words — run only the test whose result could move you across the bar. You never have to compute either figure by hand. The point is that *enough*, *worth gathering*, and *too big to risk* are not only feelings. They have arithmetic underneath, and your AI can run it.
 
@@ -125,10 +125,12 @@ Most decisions that feel stuck are not short on confidence. They are oversized f
 
 Knowing whether you have enough tells you whether to move. It does not tell you where. When the confidence clears the bar, do you go all in, or in by halves? When it falls short, do you gather, reshape, or let the idea go? *Enough* answers only the first, quiet question at the threshold. The louder one is still waiting: of all the ways you could move from here, which is the call? That is where we turn next.
 
-[^doors]: The framing of decisions as one-way doors (irreversible) versus two-way doors (reversible) is Jeff Bezos's, in @bezosLetterShareholders2016.
+[^doors]: The framing of decisions as one-way doors (irreversible) versus two-way doors (reversible) is Jeff Bezos's, in @bezos2015LetterShareholders2016. The economics beneath it — how irreversibility under uncertainty creates real value in waiting and in keeping options open — is developed in @dixitInvestmentUncertainty1994.
 
 [^asym]: On payoff asymmetry, a capped downside against an open upside, see @talebAntifragileThingsThat2012.
 
-[^ev]: The treatment of decisions by their expected value, and more precisely expected *utility*, is set out in @vonNeumannTheoryGamesEconomic1944.
+[^ev]: The treatment of decisions by their expected value, and more precisely expected *utility*, is set out in @vonneumannTheoryGamesEconomic1944.
+
+[^utility]: The insight that outcomes should be weighed by their worth to the decider rather than their face value — the root of why a loss near ruin counts for far more than its dollar amount — is @bernoulliExpositionNewTheory2011.
 
 [^voi]: The value of information was formalized by @howardInformationValueTheory1966.
