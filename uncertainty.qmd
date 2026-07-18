@@ -29,9 +29,15 @@ Staring into it, everything can feel uncertain at once. It helps to see that alm
 
 These do not arrive politely, one at a time. They pile up, which is why the fog feels so thick: you are judging unknown customers, an unproven solution, and untested execution all at once, and each unknown moves the others.
 
-## The fog is the feature {#sec-feature}
+## The fog hides the peaks {#sec-feature}
 
-Here is the turn most people miss. If you could take the uncertainty away, you would take the entrepreneurship with it. Picture a world where every preference is mapped, every model already tested, every technology fully understood — there is no room left in it for a new venture, because the future is already settled. The fog is not a defect in the work. It is the opening that makes the work possible. If the market were obvious, someone would already own it; if the product were certain, it would already exist; if the path were clear, a bigger player would already be running it. Uncertainty is what keeps the space unclaimed long enough for you to step into it. You do not have to love the fog. But it is the one place where something new can still be made, and that is worth remembering on the nights it keeps you awake.
+It helps to picture what the fog is hanging over. Imagine a vast mountain landscape, ridge behind ridge as far as you can see, most of it wrapped in a fog that never fully lifts. The peaks are the valuable places: a real problem worth solving, a product people will pay for, a business that actually works. A few stand in the clear, already found and already climbed. The rest are out in the fog, and no one yet knows they are there.
+
+Most of business is the work of the peaks already in the clear. Nearly every other path through a business school trains you to climb a known mountain well — to run the marketing, or the operations, or the finance of a summit someone else discovered, reliably and a little faster than the last person. That is real work, and it matters. It is not the work of finding new ground.
+
+Entrepreneurs go into the fog. They are the ones who walk past the mapped summits to find peaks no one has climbed, and sometimes peaks no one knew were there. That is where genuinely new value comes from: not from optimizing a known mountain, but from discovering one. And it carries a responsibility that is easy to miss. Some of those peaks will not be found unless someone goes looking, and if you do not go out into the fog, the mountain you would have found may simply stay hidden.
+
+So the uncertainty that frightens most people is, for the entrepreneur, the whole point. If the market were obvious, its peak would already be climbed; if the product were certain, it would already exist. The fog is not a flaw in the work. It is the cover under which undiscovered value waits, and going into it is neither reckless nor lesser. It is one of the few kinds of work that leaves the world with something that was not there before, and that is worth holding onto on the nights the fog keeps you awake.
 
 ## From fog to method {#sec-method}
 
