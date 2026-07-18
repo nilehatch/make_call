@@ -84,6 +84,6 @@ Do this for a season and you will learn something most founders never learn abou
 
 Calibration tells you whether you are improving. It does not, by itself, make you improve; a scorecard is not a skill. Underneath the number sits the thing the number measures — judgment, the capacity to read an uncertain world and act in it well, which no one is born with and anyone can build. How that capacity is cultivated, across the long seasons of a working life, is where we turn next.
 
-[^resulting]: The poker player and decision theorist Annie Duke calls the error of judging a decision by its outcome *resulting*; the antidote is to grade the quality of the decision separately from the luck of the result. See @dukeThinkingBetsMaking2019.
+[^resulting]: The poker player and decision theorist Annie Duke calls the error of judging a decision by its outcome *resulting*; the antidote is to grade the quality of the decision separately from the luck of the result. See @dukeThinkingBetsMaking2018.
 
-[^superforecasting]: The finding that calibration is a trainable skill, built through exactly this discipline of recording predictions and scoring them, is the core result of @tetlockSuperforecastingArtScience2016.
+[^superforecasting]: The finding that calibration is a trainable skill, built through exactly this discipline of recording predictions and scoring them, is the core result of @tetlockSuperforecastingArtScience2015.

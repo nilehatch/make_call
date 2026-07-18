@@ -196,6 +196,6 @@ One thing in that tree should nag at you: a strong positive result still left yo
 
 [^natfreq]: The finding that natural-frequency formats make Bayesian reasoning intuitive, where percentages defeat even experts, is @gigerenzerHowImproveBayesian1995; the general-audience case is @gigerenzerCalculatedRisksHow2015.
 
-[^ellenberg]: The idea that mathematical trouble is usually a failure of *format* rather than of the person, and that rigor can be made to feel like common sense extended, runs throughout @ellenbergHowNotBe2015 — the animating spirit of this whole book.
+[^ellenberg]: The idea that mathematical trouble is usually a failure of *format* rather than of the person, and that rigor can be made to feel like common sense extended, runs throughout @ellenbergHowNotBe2014 — the animating spirit of this whole book.
 
 [^chivers]: For an accessible tour of how far this single move, updating a prior into a posterior, reaches across science and everyday life, see @chiversEverythingPredictableHow2024.

@@ -1,0 +1,83 @@
+---
+title: "Urgent Unknowns"
+subtitle: "Finding the one question worth answering first"
+---
+
+In the loop, you watched framing happen in a single sentence. The Halo team looked past "will people buy a safety ring?" to the question underneath, whether women would actually switch from the phone in their pocket to something new. That quick pivot, from the obvious question to the real one, is the whole of the Frame gate, and it is far harder than it looked going by. This part slows it down.
+
+Frame is the first gate, and its question is deceptively plain: *what are we really deciding, and what must we learn to decide it?* You cannot hold a prior, gather evidence, or make a call until you know which question you are answering, and more ventures die here than anywhere else, because a brilliant answer to the wrong question is still a dead end. Framing is the work of finding the right question before you spend a year answering the wrong one. It begins with an uncomfortable admission: you do not yet know what you most need to know.
+
+## The real question is an unknown, not an answer {#sec-real-question}
+
+Every new venture sits on a mountain of unknowns. Who is the customer? What do they actually want? Will they pay? Can you reach them, make it, deliver it? The list has no end, and both ways of dealing with the whole of it fail. Try to answer everything and you drown before you start. Ignore it and charge ahead, and you find out too late that you built the wrong thing. The discipline is neither. It is triage: sorting the mountain down to the few unknowns that matter right now, and chasing those.
+
+Call the ones that matter your **urgent unknowns**. An urgent unknown is a gap in what you know that is both *critical* and *answerable*. Critical means that being wrong about it costs you dearly, months or cash or the venture itself. Answerable means you can get real evidence on it soon enough to change your next move, not in five years and not for millions. A gap that is critical but unanswerable is a fear to live with. A gap that is answerable but not critical is a distraction. The urgent unknowns sit in the overlap, and they are where framing tells you to point.
+
+::: {.column-margin .def-margin}
+**Urgent unknown** — a gap in what you know that is both *critical* (being wrong wastes months or cash) and *answerable* (you can get evidence in time to shape your next move). The real question, triaged out of the noise.
+:::
+
+## Spotting yours {#sec-spotting}
+
+Finding them is less mysterious than it sounds. List every uncertainty you can name, about customers, product, market, operations, with no filter. Mark the ones that would be fatal or venture-changing if you had them wrong. Mark, separately, the ones you could actually get evidence on in the next week or two. The gaps that carry both marks are your urgent unknowns, and there are usually only one or two of them.
+
+When the marking stalls, there is a shortcut that almost never fails: **ask what you are about to spend real money or real months on, and whatever assumption that spending rests on is your urgent unknown.** That single question cuts through most of the fog, because it ties urgency to consequence. You are not looking for the most interesting unknown or the most tractable one. You are looking for the one your next irreversible move is quietly betting on.
+
+## Known versus genuine unknowns {#sec-known-genuine}
+
+There is a trap hidden in the word *unknown*, and it wastes an enormous amount of founder energy. Much of what feels unknown is only unknown to *you* — someone else already knows it, and it sits waiting in a report, a dataset, an industry benchmark, a supplier's catalog. That is a **known unknown**: unknown to you today, but answerable by an afternoon of looking, not an experiment.
+
+The gaps that deserve elevation are the **genuine unknowns**, the questions no report or dataset can settle because they turn on your specific product, your specific customer, your specific moment. No one has run that test for you, and no one can. Confusing the two is expensive in both directions: you burn scarce experiments rediscovering what a database already holds, and you leave the genuine unknowns, the ones only you can answer, untouched. When you reach the [Evidence gate](evidence-enough.qmd), this same line will divide the work in two, what you can gather versus what you must generate. Framing is where you first learn to tell them apart.
+
+## Sequencing the queue {#sec-sequencing}
+
+Even among genuine, urgent unknowns, not all of them come due at once. Urgency is partly a matter of order, because some questions cannot be answered until earlier ones are settled. Entering a new market with a new product, the queue usually runs like this. First, validation: does anyone beyond your own circle want something like this at all? Then fit: which version of it best matches what they want? Then economics: does the price clear the costs, and do the margins hold as you grow? Only last, scaling: which channels, which packaging, which path to more. Answer them out of order, perfecting your pricing model before you know anyone will buy, and you have done rigorous work on a question that did not matter yet.
+
+::: {.running-case}
+**Halo Alert — one unknown that mattered**
+
+The Halo team's list of unknowns looked like every founder's. How many women feel unsafe walking alone? How big is the personal-safety market? What would the ring cost to manufacture at volume? Would women actually switch to it from their phones?
+
+Sorted honestly, most of the list fell away. How many women feel unsafe, and how large the market is, were real questions, but they were *known* unknowns: national surveys and market reports already held the answers, and an afternoon of reading would settle them. Manufacturing cost was a supplier quote away. Only the last question was genuine, and it was also the one their next real spend, tooling and a production run, was quietly betting on. Would a woman, in the moment that mattered, reach for a new device instead of the phone already in her hand? No report could answer that. It was theirs to find out, and it was urgent because everything downstream depended on it. Framing, for Halo, was the discipline of setting the other questions down and elevating that one.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your AI is excellent at the part of framing that is mechanical, and blind to the part that is judgment. Use it for the first and keep the second.
+
+- **Dump the whole mountain on it.** Have it help you list every uncertainty in your venture without filtering, so nothing critical hides simply because you forgot to write it down.
+- **Let it sort known from genuine.** Ask which of your unknowns are already answerable from public data, reports, or benchmarks. It will often know, or find out, in seconds, and hand you back a shorter list of the genuinely open questions.
+- **Judge criticality yourself.** Which of the genuine unknowns your next move is actually betting on is a question about your stakes and your plan, and only you can answer it. Ask the AI to argue for each; make the call yourself.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+Here is my venture and what I'm about to spend the next few months and dollars building: [describe it]. Help me list every uncertainty it rests on, with no filter. Then sort them: which are already answerable from existing data or reports (so I shouldn't run an experiment on them), and which are genuine unknowns that only a test in my own context could settle? For the genuine ones, ask me which my next real spend is betting on — that's the one I need to frame first.
+:::
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Find your urgent unknown**
+
+Take the venture or decision in front of you.
+
+1. List every uncertainty you can name, fast and unfiltered.
+2. Cross off the ones a report, dataset, or expert could answer in an afternoon. Those are real, but they are not urgent, and they belong to gathering, not framing.
+3. Of what remains, mark the ones that would cost you dearly to get wrong.
+4. Now name the single unknown your next real spend is betting on. That is where framing starts.
+
+If your list still has ten urgent unknowns on it, you have not finished triaging. Keep cutting until one or two are left.
+:::
+
+::: {.key-action}
+**The move:** Before you chase answers, find the question. Triage your unknowns down to the one or two that are both critical and answerable, set aside everything a report could settle, and frame the genuine unknown your next move is betting on.
+:::
+
+Naming the urgent unknown is the first move of framing, not the last. Sometimes the question arrives already sharp enough to state as a claim you could test, and you can move straight toward evidence. But often it arrives fogged, too big or too strange to phrase as a clean hypothesis, and any hypothesis you forced onto it now would be a guess dressed up as a plan. When that happens, you are not ready to test. You are ready to look. That is exploring, and it is where we turn next.

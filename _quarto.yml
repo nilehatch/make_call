@@ -39,7 +39,7 @@ book:
 
     - part: "Part II · Frame — what are we really deciding?"
       chapters:
-        - ch08-urgent-unknowns.qmd
+        - urgent-unknowns.qmd
         - ch20-modeling.qmd
         - ch09-hypothesizing.qmd
         - ch10-exploring.qmd

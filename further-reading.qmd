@@ -4,7 +4,7 @@ This book grew out of a small tradition of writers who take uncertainty seriousl
 
 ## Deciding under uncertainty
 
-- **Annie Duke, *Thinking in Bets*** [-@dukeThinkingBetsMaking2019]. The clearest popular case for judging a decision by its quality rather than its outcome — the "resulting" error, and the habit of thinking in probabilities instead of certainties.
+- **Annie Duke, *Thinking in Bets*** [-@dukeThinkingBetsMaking2018]. The clearest popular case for judging a decision by its quality rather than its outcome — the "resulting" error, and the habit of thinking in probabilities instead of certainties.
 - **Saras Sarasvathy, "Causation and Effectuation"** [-@sarasvathyCausationEffectuationTheoretical2001]. The entrepreneur's-eye view: how expert founders decide under true uncertainty by controlling what they can rather than predicting what they can't. The scholarly root of a great deal of how this book thinks about the frontier.
 - **David Spiegelhalter, *The Art of Uncertainty*** [-@spiegelhalterArtUncertaintyHow2024]. A first-rank statistician on how to navigate chance, ignorance, risk, and luck — the widest and most humane single survey of this book's subject.
 - **Nassim Nicholas Taleb, *Antifragile*** [-@talebAntifragileThingsThat2012]. On payoff asymmetry, and building so that disorder helps rather than ruins you — why a capped downside against an open upside changes what you should dare.
@@ -19,8 +19,8 @@ This book grew out of a small tradition of writers who take uncertainty seriousl
 ## Judgment and its traps
 
 - **Daniel Kahneman, *Thinking, Fast and Slow*** [-@kahnemanThinkingFastSlow2011]. The definitive map of the biases that ambush judgment, including the overconfidence this book keeps warning you about.
-- **Philip Tetlock and Dan Gardner, *Superforecasting*** [-@tetlockSuperforecastingArtScience2016]. The evidence that good judgment is trainable, and that calibration — scoring your own predictions — is how you train it.
+- **Philip Tetlock and Dan Gardner, *Superforecasting*** [-@tetlockSuperforecastingArtScience2015]. The evidence that good judgment is trainable, and that calibration — scoring your own predictions — is how you train it.
 
 ## Rigor without fear
 
-- **Jordan Ellenberg, *How Not to Be Wrong*** [-@ellenbergHowNotBe2015]. Mathematical thinking as common sense made precise. Its spirit — that rigor can be made to feel natural, and that the trouble is usually the format, not you — is the animating principle of this whole book.
+- **Jordan Ellenberg, *How Not to Be Wrong*** [-@ellenbergHowNotBe2014]. Mathematical thinking as common sense made precise. Its spirit — that rigor can be made to feel natural, and that the trouble is usually the format, not you — is the animating principle of this whole book.
