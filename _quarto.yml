@@ -31,7 +31,7 @@ book:
 
     - part: "Part I · Into the Fog — the terrain and the method"
       chapters:
-        - ch02-uncertainty.qmd
+        - uncertainty.qmd
         - ch04-epistemology.qmd
         - ch03-knowledge.qmd
         - the-loop.qmd

@@ -1,0 +1,65 @@
+---
+title: "Uncertainty"
+subtitle: "The risk you can compute, and the fog you can't"
+---
+
+The introduction named the fog and the two false ways of pretending it isn't there. Before we build a method for working in it, it is worth looking at the terrain itself, because "uncertainty" turns out to be two very different things wearing one word, and the whole of this book depends on telling them apart.
+
+Spend five minutes in a real venture and you feel it. You look at the market and it will not resolve. Customers say one thing and do another. The numbers in your spreadsheet swing on which assumption you tweak. Every expert sounds certain, and each one contradicts the last. That is the fog, and the decision is still yours to make inside it.
+
+## Risk you can compute, and the fog you can't {#sec-risk}
+
+People call entrepreneurship risky, and they are not wrong, but they usually mean the wrong thing. **Risk** has odds you can compute. Flip a fair coin enough times and you know almost exactly how many heads will land; casinos and insurance companies build entire industries on that predictability. Risk is a known distribution of known outcomes. It can be priced.
+
+Entrepreneurs rarely get the casino version. They get **true uncertainty** — not a die whose faces you can count, but a fog where you do not even know all the outcomes, let alone their odds.
+
+::: {.column-margin .def-margin}
+**True uncertainty** — not-knowing with no computable odds, unlike risk. Some of it is irreducible randomness; much of it is gaps in knowledge you can actually close. The fog is mostly the second kind.
+:::
+
+And that fog comes in two kinds, which is the distinction the rest of the book turns on. Some of it is pure **randomness**, and no amount of work will remove it: whether a pandemic hits, whether the next craze is pickleball or padel, whether a key hire quits in year two. You can prepare for randomness, but you cannot dissolve it. Most entrepreneurial uncertainty, though, is not random at all. It is a **gap in knowledge**: you do not yet know whether customers will care, whether the thing will work, whether you can pull it off. And gaps in knowledge are addressable. You can learn. You can gather evidence. You can shrink the fog, even if you can never quite clear it. Telling randomness from ignorance is the first discipline of deciding well, because it tells you which unknowns to fight and which to simply carry.
+
+## The three faces of the fog {#sec-faces}
+
+Staring into it, everything can feel uncertain at once. It helps to see that almost all of what troubles a founder falls into three kinds of not-knowing.
+
+- **Market** — *will they care?* You can build the slickest product alive, and if the problem is not painful enough, no one moves. Markets are thick with false signals: polite nods, survey answers that behavior contradicts, hype that evaporates overnight.
+- **Solution** — *will it work?* Prototypes break, features flop, whole categories get leapfrogged by something no one saw coming. How your idea behaves once it leaves your laptop and meets the world is genuinely unknown until it does.
+- **Execution** — *can we pull it off?* Even with a real market and a working product, there is the team, the money, the timing, the thousand moving parts. Plenty of good ideas die here, not because they were wrong, but because turning possibility into a running business is its own hard thing.
+
+These do not arrive politely, one at a time. They pile up, which is why the fog feels so thick: you are judging unknown customers, an unproven solution, and untested execution all at once, and each unknown moves the others.
+
+## The fog is the feature {#sec-feature}
+
+Here is the turn most people miss. If you could take the uncertainty away, you would take the entrepreneurship with it. Picture a world where every preference is mapped, every model already tested, every technology fully understood — there is no room left in it for a new venture, because the future is already settled. The fog is not a defect in the work. It is the opening that makes the work possible. If the market were obvious, someone would already own it; if the product were certain, it would already exist; if the path were clear, a bigger player would already be running it. Uncertainty is what keeps the space unclaimed long enough for you to step into it. You do not have to love the fog. But it is the one place where something new can still be made, and that is worth remembering on the nights it keeps you awake.
+
+## From fog to method {#sec-method}
+
+You cannot erase uncertainty, and this book will never pretend to. What it offers instead is a way to move through the fog with your head clear: to tell randomness from ignorance so you spend your effort on the unknowns you can actually close; to turn those unknowns into questions you can investigate; to gather evidence where the signals are noisy; and to make the call when certainty refuses to come. That is the whole of the method, and the rest of this part lays the ground it stands on. It begins with an even more basic question than *what should I do?* — namely, *how can I ever know enough to act at all?*
+
+::: {.reflect}
+**Reflect**
+
+- Which kind of uncertainty weighs on you most right now — market, solution, or execution?
+- Which of your unknowns is genuine randomness you must carry, and which is a gap in knowledge you could actually close?
+- Does the fog, for your venture, feel like a wall or like open space?
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Map your fog**
+
+Uncertainty is overwhelming as a cloud in your head and manageable on a page.
+
+1. Divide a sheet into three columns: *Market*, *Solution*, *Execution*.
+2. Under each, write two or three things you genuinely don't know yet. Don't soften them.
+3. Circle the one in each column that feels most urgent.
+4. Mark each circled unknown *R* or *G*: is it **randomness** you can only prepare for, or a **gap** you could shrink by learning? The G's are where the rest of this book goes to work.
+:::
+
+::: {.key-action}
+**The move:** Treat uncertainty as two things, not one. Separate the randomness you can only carry from the gaps in knowledge you can close, and spend your effort on the second — because those are the unknowns a method can actually move.
+:::
+
+Naming the fog is not the same as knowing how to act in it. To do that, you need to be honest about a harder thing: what it even means to *know* something when certainty is off the table, and how much any of us can know at all. That is where we turn next.
