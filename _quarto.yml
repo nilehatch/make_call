@@ -41,7 +41,7 @@ book:
       chapters:
         - urgent-unknowns.qmd
         - exploring.qmd
-        - ch09-hypothesizing.qmd
+        - hypothesizing.qmd
 
     - part: "Part III · Prior — what you already believe (and why you can't ignore it)"
       chapters:

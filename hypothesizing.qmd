@@ -1,0 +1,86 @@
+---
+title: "Hypothesizing"
+subtitle: "Turning what you noticed into a claim the world can prove wrong"
+---
+
+Exploration handed you something. A surprise, a pattern, a remark that didn't fit — a signal that the frame you walked in with was not quite the right one. What it did not hand you is a claim. Between *I noticed this* and *I bet that* lies a leap, and making it well is the last move of framing, the one that turns a foggy unknown into a question the world can finally answer.
+
+## The abductive leap {#sec-abduction}
+
+Most hypotheses do not descend from a tidy theory. They start with something odd (a customer who asked for the thing you don't sell, a behavior you didn't predict) and a guess about what would explain it. The philosopher Charles Sanders Peirce named this move **abduction**: not deduction, which grinds out what must be true, and not induction, which tallies what usually is, but the leap to the *best available explanation* of a surprise. You take the puzzling thing you saw and propose the simplest story that would make sense of it.
+
+A team selling grain bowls from a food truck kept getting asked whether they sold smoothies. That is a surprise, not a plan. But abduction turns it into one: *maybe what these customers want isn't lunch at all, but quick portable nutrition.* That guess is not proven, and it is not meant to be. It is a starting point sharp enough to test, drawn from something real rather than imagined. Every hypothesis worth writing begins with a leap like that.
+
+## From guess to claim {#sec-claim}
+
+A hypothesis is not a fancier word for a guess. It is a guess with enough spine to be *wrong in a useful way*. Compare the two. A guess says, *"people will love our product."* A hypothesis says, *"at least thirty percent of the gym members we offer a sample will buy one unit at two dollars fifty within a week."* The first can never fail, so it can never teach. The second can fail precisely, and a precise failure is worth more than a vague success.
+
+::: {.column-margin .def-margin}
+**Hypothesis** — a claim specific enough to be proven wrong: it names an action, a measurable result, and a timeframe, so a test can come back "no."
+:::
+
+What gives a claim that spine is a short list of properties, easy to check once you know to look. A good hypothesis is **focused** on one urgent unknown rather than everything at once; **measurable**, naming the outcome you will actually count; **time-bound**, with a horizon for the test; **falsifiable**, able to come back "no"; and **grounded**, connected to something you genuinely observed rather than something you hope. Most weak hypotheses fail on one of these — too broad to test in a week, too vague to measure, too absolute to leave room to learn, or resting on nothing you can point to. The fix is usually the same simple form:
+
+*If we [take this action], then [this measurable result] will happen within [this timeframe].*
+
+Fill that in honestly and the five properties tend to fall into place on their own.
+
+## Grounded, not plucked {#sec-grounded}
+
+Of the five, grounding is the one entrepreneurs skip, and it is the one that sends you back a chapter. A hypothesis you cannot trace to something real is not a hypothesis you are ready to test; it is a guess you have dressed in a test's clothing, and running an experiment on it burns a real cost to answer a made-up question. This is the [groundedness threshold](exploring.qmd) again, seen from the other side. Exploration was how you climbed above it. Now, before you commit to a test, you check that you are still above it: can you point to the observation, the conversation, the surprise that your claim rests on? If you cannot, that is not a small flaw to paper over. It is the signal to stop writing hypotheses and go look some more.
+
+Grounding is also what makes a hypothesis the seed of everything that follows. When you write a clear, grounded, testable claim, you are doing more than picking a guess to check. You are defining what will count as evidence, and setting up the belief the rest of the book operates on: a hypothesis is what you form a [prior](seeing-probability.qmd) about, and then update. Without one, you are collecting opinions. With one, you are building knowledge.
+
+## Name the mechanism {#sec-mechanism}
+
+One habit sharpens a hypothesis faster than any other: before you write it, draw the simplest picture of what you think drives what. Two boxes and an arrow will do — *discreet signal → faster response → willingness to switch.* A rough model like that is not decoration; it forces you to say out loud the mechanism you are betting on, and it shows you exactly where your claim is load-bearing. If you cannot sketch why the result would follow from the action, your hypothesis is hiding an assumption you have not examined, and that assumption, not the number you planned to measure, is usually the real thing to test.
+
+::: {.running-case}
+**Halo Alert — the leap, and the claim**
+
+Exploration had left the Halo team holding a surprise: women avoided the phone in the worst moments not because they didn't want safety, but because reaching for it was slow and exposing, the first thing an attacker grabbed. The abductive leap followed. *Maybe what these women want isn't another safety app, but a way to signal for help that is instant and invisible — and maybe that, not price or features, is what would make them switch.*
+
+That leap named the mechanism: a discreet, hands-free signal would earn the switch only if it was genuinely faster and less exposing than the phone. And it turned the venture's urgent unknown into a claim they could finally test: *if women who feel unsafe are given a discreet wearable alternative, a meaningful share of them will reach for it instead of their phone when a threat feels real.* Focused, measurable, falsifiable, and grounded in what they had actually heard. It was, at last, a hypothesis, and it was exactly the one their sharper test would go on to put to reality.
+:::
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your AI is a strong editor of hypotheses and a weak source of them. The leap is yours; the sharpening it can help with.
+
+- **Make it stress-test the claim.** Hand it your hypothesis and ask where it is vague, unmeasurable, or unfalsifiable — where it could quietly be right no matter what happens. Then tighten until it can truly fail.
+- **Ask for rival explanations.** For any surprise you're abducting from, have it propose two or three other stories that would also explain it. Abduction picks the *best* explanation, and you cannot pick the best of one.
+- **Own the leap and the grounding.** Which explanation to bet on, and whether you have really seen enough to bet at all, are judgments the AI cannot make for you. It can list the options; you choose, and you answer for the choice.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+Here's a surprise from my exploration: [describe what you noticed]. First, give me three plausible explanations for it, not just the one I'm drawn to. For the explanation I choose, help me write it as a testable hypothesis in the form "if we [action], then [measurable result] within [timeframe]," then stress-test it: where is it vague, unmeasurable, or unable to fail? Tighten it with me until it could genuinely come back "no."
+:::
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Write a hypothesis you could lose**
+
+Take one surprise from your exploration, and one urgent unknown it bears on.
+
+1. Abduct: write the best explanation you can for the surprise, in a sentence. Then list one or two rival explanations, so you know you chose.
+2. Sketch the mechanism, two boxes and an arrow, so the assumption you are betting on is out in the open.
+3. Write the claim in the template: *if we [action], then [measurable result] within [timeframe].*
+4. Check it against the five: focused, measurable, time-bound, falsifiable, grounded. Fix whichever it fails.
+5. Ask the honest question: could this actually come back "no"? If not, it is not yet a hypothesis.
+
+By the end you will have turned a foggy unknown into a claim you could genuinely lose — which is the only kind worth testing.
+:::
+
+::: {.key-action}
+**The move:** Turn a surprise into a testable claim: abduct the best explanation, name the mechanism you're betting on, and write it so it names an action, a measurable result, and a timeframe — grounded in what you saw, and able to come back "no."
+:::
+
+With that, framing is done. You came into this gate with a flood of unknowns and walked out with one grounded, testable hypothesis — the real question, sharpened to the point where reality can answer it. That claim does not arrive on a blank slate, though. You already believe something about whether it will hold, and how strongly, and that belief is not nothing; it is the starting point for everything the evidence will do to you. Naming it honestly is the next gate. Having framed the question, you turn now to the prior you bring to it.
