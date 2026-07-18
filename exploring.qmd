@@ -15,7 +15,39 @@ A hypothesis cannot be plucked from thin air. To be worth testing, it has to res
 **Groundedness** — how much real contact with the world a belief rests on. Low groundedness is a hunch; high groundedness is a claim shaped by what you have actually observed.
 :::
 
-Framing has a threshold hiding in it. When your uncertainty about an unknown is high and your groundedness is low, you are below the line: any hypothesis you write will be a guess, and testing it wastes a real experiment on a made-up question. When you have seen enough that the shape of the answer is starting to show, you cross the line, and a hypothesis worth testing becomes possible. Exploration is simply the work of crossing that threshold — of trading assumptions for observations until you know enough to ask something sharp. You do not explore forever. You explore until the question comes into focus, and then you stop.
+Framing has a threshold hiding in it. When your uncertainty about an unknown runs well ahead of what you have actually seen, any hypothesis you write is a guess, and testing it wastes a real experiment on a made-up question. As observation accumulates and the shape of the answer starts to show, you cross into territory where a hypothesis is finally worth testing. Exploration is simply the work of crossing that threshold, of trading assumptions for observations until you know enough to ask something sharp. You do not explore forever; you explore until the question comes into focus, and then you stop.
+
+```{r}
+#| label: fig-groundedness-threshold
+#| fig-cap: "The groundedness threshold. When uncertainty runs ahead of what you have actually observed, you sit in the *explore* region and any hypothesis is a guess. Exploration builds groundedness and carries you across the line, into territory where a claim is finally worth testing."
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 6
+#| fig-height: 6
+#| out-width: "540px"
+library(ggplot2)
+explore <- data.frame(x = c(0, 0, 1), y = c(0, 1, 1))
+hypo    <- data.frame(x = c(0, 1, 1), y = c(0, 0, 1))
+ggplot() +
+  geom_polygon(data = explore, aes(x, y), fill = "#FBF0D9") +
+  geom_polygon(data = hypo,    aes(x, y), fill = "#E6F2F7") +
+  geom_segment(aes(x = 0, y = 0, xend = 1, yend = 1), color = "#007BA7", linewidth = 1.6) +
+  annotate("text", x = 0.30, y = 0.74, label = "Explore", color = "#B8860B", fontface = 2, size = 6.5) +
+  annotate("text", x = 0.30, y = 0.63, label = "grounding too thin\nfor the uncertainty", color = "#8A6D1F", size = 3.3, lineheight = 0.95) +
+  annotate("text", x = 0.70, y = 0.26, label = "Hypothesize & test", color = "#006B90", fontface = 2, size = 6.5) +
+  annotate("text", x = 0.70, y = 0.15, label = "grounded enough\nto risk a claim", color = "#2B6A86", size = 3.3, lineheight = 0.95) +
+  annotate("segment", x = 0.20, y = 0.47, xend = 0.60, yend = 0.47, color = "#1F2937", linewidth = 0.7, arrow = arrow(length = unit(0.18, "cm"), type = "closed")) +
+  annotate("text", x = 0.40, y = 0.525, label = "exploration builds groundedness", color = "#1F2937", size = 3, fontface = 3) +
+  scale_x_continuous("Groundedness  (low → high)", limits = c(0, 1), expand = c(0, 0)) +
+  scale_y_continuous("Uncertainty  (low → high)", limits = c(0, 1), expand = c(0, 0)) +
+  coord_fixed() +
+  theme_minimal(base_size = 13) +
+  theme(axis.text = element_blank(), axis.ticks = element_blank(),
+        panel.grid = element_blank(),
+        axis.title = element_text(face = 2, color = "#374151"),
+        plot.margin = margin(6, 10, 6, 6))
+```
 
 ## What exploring looks like {#sec-forms}
 
