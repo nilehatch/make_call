@@ -40,9 +40,8 @@ book:
     - part: "Part II · Frame — what are we really deciding?"
       chapters:
         - urgent-unknowns.qmd
-        - ch20-modeling.qmd
+        - exploring.qmd
         - ch09-hypothesizing.qmd
-        - ch10-exploring.qmd
 
     - part: "Part III · Prior — what you already believe (and why you can't ignore it)"
       chapters:
@@ -86,6 +85,7 @@ book:
     - part: "Holding · source drafts — pending compression, split, or retirement"
       chapters:
         - ch05-judgment.qmd
+        - ch20-modeling.qmd
         - wrap1-knowing-revising.qmd
         - wrap2-asking-right-questions.qmd
         - ch13-public-data.qmd

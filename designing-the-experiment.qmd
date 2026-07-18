@@ -121,7 +121,7 @@ Not every experiment is a clean test of a stated hypothesis, and trying to force
 
 An exploratory experiment is generative. You step into the world to widen what you can see: open-ended conversations, observation, small scrappy probes that don't prove anything on their own but surface the surprise that becomes your real question. A confirmatory experiment is the opposite. Once exploration has given you a grounded hypothesis, you narrow: you design the sharp, discriminating test that moves your belief up or down.
 
-The mistake is to run a confirmatory test on an unexplored question. You will get a crisp, confident answer to the wrong question — efficient failure. If you cannot yet write a grounded hypothesis (you saw how in the chapter on [writing a proper hypothesis](ch09-hypothesizing.qmd), and how to build the grounding through [exploration](ch10-exploring.qmd)), your next experiment is an exploration, not a test. Confirm only what exploration has earned.
+The mistake is to run a confirmatory test on an unexplored question. You will get a crisp, confident answer to the wrong question — efficient failure. If you cannot yet write a grounded hypothesis (you saw how in the chapter on [writing a proper hypothesis](ch09-hypothesizing.qmd), and how to build the grounding through [exploration](exploring.qmd)), your next experiment is an exploration, not a test. Confirm only what exploration has earned.
 
 ## Isolate the one thing {#sec-isolate}
 

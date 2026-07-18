@@ -72,7 +72,7 @@ Without grounding, you’re not really testing a hypothesis. You’re just pluck
 Groundedness also connects back to [uncertainty](ch02-uncertainty.qmd).\
 In low-uncertainty situations, you often have plenty of prior knowledge, data, or industry norms to ground a hypothesis right away.
 
-But in high-uncertainty situations, you don’t. Hypotheses there will feel flimsy until you do some [exploration](ch10-exploring.qmd) — talking to people, noticing patterns, gathering small clues. That’s not a flaw. It’s simply a reminder that in uncertain spaces, exploration is the work that makes hypotheses possible.
+But in high-uncertainty situations, you don’t. Hypotheses there will feel flimsy until you do some [exploration](exploring.qmd) — talking to people, noticing patterns, gathering small clues. That’s not a flaw. It’s simply a reminder that in uncertain spaces, exploration is the work that makes hypotheses possible.
 
 ```{r}
 #| label: fig-groundedness-threshold
@@ -176,7 +176,7 @@ That’s why every hypothesis is a launchpad for updating. Without it, you’re 
 Writing hypotheses forces discipline. It moves you from hand-waving to clarity.\
 It gives you a specific outcome to check — one that keeps you honest about whether you’re really learning.
 
-Every urgent unknown deserves a grounded hypothesis. In @sec-exploration-chapter, we’ll explore how to *add grounding through exploration* — gathering the evidence that shrinks uncertainty and guides your next move.
+Every urgent unknown deserves a grounded hypothesis. In [the exploring chapter](exploring.qmd), we’ll explore how to *add grounding through exploration* — gathering the evidence that shrinks uncertainty and guides your next move.
 
 ## Try This: Write a Proper Hypothesis
 
