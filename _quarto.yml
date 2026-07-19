@@ -89,8 +89,7 @@ format:
     css:
       - base.css
       - custom_mtc.css
-    number-sections: true
-    number-depth: 1
+    number-sections: false
     fig-cap-location: margin
     tbl-cap-location: margin
 
