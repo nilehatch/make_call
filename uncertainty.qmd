@@ -68,4 +68,4 @@ Uncertainty is overwhelming as a cloud in your head and manageable on a page.
 **The move:** Treat uncertainty as two things, not one. Separate the randomness you can only carry from the gaps in knowledge you can close, and spend your effort on the second — because those are the unknowns a method can actually move.
 :::
 
-Naming the fog is not the same as knowing how to act in it. To do that, you need to be honest about a harder thing: what it even means to *know* something when certainty is off the table, and how much any of us can know at all. That is where we turn next.
+Naming the fog is not the same as knowing how to act in it. To do that, you need to be honest about a harder thing: [what it even means to *know* something](ways-of-knowing.qmd) when certainty is off the table, and how much any of us can know at all. That is where we turn next.

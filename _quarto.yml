@@ -32,10 +32,9 @@ book:
     - part: "Part I · Into the Fog — the terrain and the method"
       chapters:
         - uncertainty.qmd
-        - ch04-epistemology.qmd
-        - ch03-knowledge.qmd
-        - the-loop.qmd
+        - ways-of-knowing.qmd
         - why-the-fog-hurts.qmd
+        - the-loop.qmd
 
     - part: "Part II · Frame — what are we really deciding?"
       chapters:
@@ -86,6 +85,7 @@ book:
       chapters:
         - ch05-judgment.qmd
         - ch20-modeling.qmd
+        - ch03-knowledge.qmd
         - wrap1-knowing-revising.qmd
         - wrap2-asking-right-questions.qmd
         - ch13-public-data.qmd

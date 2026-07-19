@@ -1,0 +1,112 @@
+---
+title: "Ways of Knowing"
+subtitle: "Why no single way of knowing is enough, and what to do about it"
+---
+
+The last chapter said the valuable peaks are out in the fog, waiting for someone to find them. This one asks the harder question that follows: once you are out there, past the mapped ground, how do you *know* anything at all? When certainty is gone, what separates knowing from guessing — and how do you tell them apart in the moment, with money on the line?
+
+## What knowing is {#sec-knowing}
+
+Start with what it even means to know something. Underneath the word sit three things, and a claim is only as strong as its weakest leg. There is **belief** — you actually hold the thing to be true. There is **justification** — you have a reason, not merely a feeling. And there is **evidence** — something out in the world backs the reason up. "Customers want this" is knowledge of a wholly different grade when it rests on *I have a hunch* than when it rests on *five of six people I interviewed said so, unprompted*, than when it rests on *forty percent of visitors clicked the buy button.* Same sentence, three different depths of knowing.
+
+::: {.column-margin .def-margin}
+**Knowing** — belief supported by justification and evidence. It comes in degrees, from a thin hunch to a claim you have tested; treating one grade as another is the most common error in the fog.
+:::
+
+That is the real point: knowing is not a switch but a dial. A **thin** knowing is a hunch, a single comment, a gut pull. A **thicker** knowing has been checked against evidence you actually gathered. And at the far end is **conviction**, a belief you hold past what the evidence can yet prove. Each has its place. The danger is confusing them — acting on a hunch as though it were tested, or throwing out a conviction because you cannot put a number on it. Much of deciding well under uncertainty is just being honest about which grade of knowing you really have.
+
+## The edge of the map {#sec-edge}
+
+Here is the same landscape from the last chapter, drawn a different way. Picture everything that could possibly be known as a vast circle. Human knowledge, everything our whole species has ever worked out, is a small speck inside it. Your own knowledge is a speck within that speck. Most of what there is to know, no one knows yet.[^might]
+
+The comforting news is that the *inside* of the speck is astonishingly well covered now, and covered by something sitting on your desk. An AI has read a staggering share of what humanity has written down; it can teach you almost any established field nearly to its frontier, faster than any tutor in history. Inside the circle of the known, it is a genuine superpower, and you should use it shamelessly.
+
+But the fog begins exactly where the speck ends. Everything that makes your venture a venture, whether *these* customers will switch or *this* peak is real, lives outside the known, where no one has been and no dataset reaches, the AI included. And here is the strange, hopeful part: the more the speck grows, the more edge there is to stand on. Every answer opens new questions; knowledge does not so much shrink the unknown as reveal more of its border. The people who work that border have always been few — the researchers and doctoral students in Matt Might's drawing, pushing their tiny bump outward. The entrepreneur is one of them. Going past the known to find what is not yet there is not a lesser kind of work than running a known business well. It is one of the only kinds of work that adds to the circle at all — and some of what waits out there will never be found unless someone like you goes looking.
+
+## Every lens shines, and every lens breaks {#sec-lenses}
+
+So how do you know anything past the edge? Not with one method, because there isn't one. We have a **toolkit** of ways to know, and the entrepreneur's real skill is not choosing the single right tool but grasping that *every one of them reveals some things and hides others.* Each shines in certain light and breaks in certain light. Learn where each breaks, and no single one can fool you.
+
+**Authority** — knowing because someone trusted says so. It is fast, and out of your depth it is often the best you have. It breaks when the someone's world is not yours.
+
+::: {.mini-case}
+**The mentor's trap**
+
+A founder prices their subscription at twenty dollars a month because a celebrated mentor swears that's the sweet spot. They launch, and nobody bites. When they finally ask their own customers, the answer comes back: people would pay eight to ten, and twenty feels absurd. The mentor's confidence wasn't malice. It came from a different market. *Authority gives speed, not certainty.*
+:::
+
+**Reason** — knowing because it follows logically from your premises. It is how spreadsheets, forecasts, and unit economics work, and its clarity is real. It breaks because logic cannot repair a bad input: a flawless calculation on a false premise fails flawlessly.
+
+::: {.mini-case}
+**The runway mirage**
+
+A founder builds a twelve-month runway model, and every formula ties out. Buried in it is one untested premise: *we'll sell a thousand units a month starting in May.* May comes, sales stall at two hundred, and the runway evaporates. The math was perfect. The premise was fantasy. *Logic sharpens assumptions; it doesn't prove them.*
+:::
+
+**Observation** — knowing because you saw it. Behavior watched in the wild is the crispest evidence there is. It breaks because observation shows you *what* happened and never *why*, and the why is where you go wrong.
+
+::: {.mini-case}
+**The busy café**
+
+An entrepreneur watches two ice-cream shops, one packed and one empty, and concludes the busy one has better ice cream. Later they learn it sits across from a university, while the quiet one is buried in a residential block. The observation was true. The interpretation wasn't. *Observation shows what is, not why it is.*
+:::
+
+**Imagination** — knowing by inventing: the story, the model, the *what if* that fills a gap evidence has not reached yet. It is the entrepreneur's first move, and nothing gets tested without it. It breaks because an imagined thing is a hypothesis, not a fact, and it is dangerously easy to fall in love with your own.
+
+::: {.mini-case}
+**The market that wasn't**
+
+A founder imagines a booming market for smart toasters: busy parents wanting fresh bread timed to their mornings. The story drives the pitch, the prototype, the excitement. Then they run real surveys and find almost no one wants to upgrade a toaster. The vision was vivid. Reality wasn't. *Imagination is the spark; it only matters if you test the fire it lights.*
+:::
+
+**Conviction** — knowing past what you can prove, the inner certainty that carries you when the evidence is still thin. Every venture needs it; wait for proof and you never begin. It breaks when it stops checking itself against the world and curdles into stubbornness. *Conviction is fuel, not proof.* We return to it at the very end of the method, where acting on it honestly becomes its own hard skill.
+
+## So you cross-check {#sec-triangulate}
+
+Notice what all five failures share: each founder trusted a *single* lens. The mentor alone. The model alone. The busy shop alone. The vivid story alone. That is the mistake, and its cure is the most important habit in this book.
+
+Because every lens breaks somewhere, you never rest a real decision on one. You hold them up against each other and look for where they agree and where they clash. The mentor says raise the price; your own watching of customers says the opposite; your unit economics says something else again. When independent lenses point the same way, you can trust the direction, since it is unlikely they all broke in the same direction at once. When they disagree, the disagreement is not noise to settle by picking your favorite — it is a signal that one of them is breaking, and finding out which is your next question. This is what "science" really is, under the lab coat: not a sixth tool but the disciplined weaving of the others (imagine, reason, observe, doubt, repeat) into a rope sturdier than any single strand. And it is the seed of a move we will make in earnest much later, once the evidence is in and you learn to [triangulate](seeing-in-depth.qmd) it deliberately.
+
+## Working with your AI {#sec-ai}
+
+::: {.checkpoint}
+**Working with your AI — where you step in**
+
+Your AI is the most powerful authority lens ever built, and, like every lens, it breaks in a specific place. Knowing where is the whole game.
+
+- **Use it inside the circle without hesitation.** For anything already known (a field, a framework, a standard practice) it is faster and broader than you, and holding back there is only pride.
+- **Distrust it at the edge.** On the questions that make your venture yours, the ones about your customers and your unclimbed peak, it has no more real knowledge than you do, only more fluent guesses, and it will offer them with exactly the confidence it uses for facts. Past the frontier, its authority is a costume.
+- **Triangulate it like any other lens.** Treat its answer as one voice among several, never the verdict. Set it against what you have actually seen and against your own reasoning before you let it move you.
+:::
+
+::: {.ask-ai}
+**Ask Your AI**
+
+::: {.prompt}
+I believe this about my venture: [state the belief]. Help me interrogate it through several ways of knowing rather than one. Who is the authority behind it, and could their context differ from mine? What premises is my reasoning assuming? What have I actually *observed* customers do, as opposed to imagined? And be honest about your own limits: which parts of this are genuinely known, and which are past the edge of what anyone, including you, can know yet?
+:::
+:::
+
+## Putting It to Work {#sec-putting-to-work}
+
+::: {.try-this}
+**Try This — Run a belief through the lenses**
+
+Take one belief your venture is leaning on.
+
+1. **Authority** — who told you, and does their world match yours?
+2. **Reason** — what premises are you assuming, and which is untested?
+3. **Observation** — what have you actually seen people *do*, not say?
+4. **Imagination** — what part of this is a story you invented and haven't tested?
+5. **Conviction** — what are you holding past the evidence, and are you willing to test it?
+
+Now line the answers up. Where do the lenses agree? Where do they clash? Write down the one clash worth resolving next: that disagreement is where your knowing is thinnest.
+:::
+
+::: {.key-action}
+**The move:** Treat every way of knowing as a lens that reveals some things and hides others. Never rest a decision on one. Cross-check the mentor against the behavior against the math, trust what they agree on, and chase down what they don't.
+:::
+
+You now know what knowing is, and how to do it honestly out past the edge of the map: hold your imperfect lenses up together and read them against each other. That is the method's whole epistemic engine. But knowing *how* to do a thing is not the same as being able to make yourself do it, and staying in the fog long enough to cross-check, instead of grabbing the first lens that soothes you, turns out to be one of the hardest things a founder ever does. Why it is so hard, and what it costs when you fail, is the last thing to understand before we walk the method itself.
+
+[^might]: The image of all human knowledge as a small circle you push outward by a pinprick is Matt Might's, from @mightIllustratedGuidePhD2010.
