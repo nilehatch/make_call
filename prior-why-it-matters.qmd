@@ -5,7 +5,7 @@ subtitle: "And what breaks if you ignore them"
 
 Every entrepreneur has heard the advice, and most have repeated it: *let the data speak.* Come to the decision with an open mind. Don't prejudge. Don't let your assumptions color what the evidence is trying to tell you. It sounds like rigor itself. It is the opposite.
 
-Watch what happens when a founder tries to meet a decision with an empty mind. Three customers say they love the idea, and because he brought no sense of how often three enthusiastic strangers turn into a business, those three voices fill the whole screen. He feels validated. He commits. He has been stampeded by a sliver of evidence — and the thing that would have steadied him, the thing he threw out in the name of objectivity, was his prior.
+Watch what happens when a founder tries to meet a decision with an empty mind. Three customers say they love the idea, and because the founder brought no sense of how often three enthusiastic strangers turn into a business, those three voices fill the whole screen. They feel validated. They commit. They have been stampeded by a sliver of evidence, and the thing that would have steadied them, the thing they threw out in the name of objectivity, was their prior.
 
 ## You cannot empty your mind {#sec-no-empty-mind}
 
@@ -53,14 +53,14 @@ The second time, the same thing happened: an admired investor, an on-the-spot ye
 
 ## Your prior is your experience {#sec-who-we-are}
 
-There is a deeper reason not to throw away your prior: it is not noise, and it is not a bias to be scrubbed off. It is the compressed residue of everything you have already learned — every venture you watched win or die, every customer who surprised you, every pattern your field has burned into you. The seasoned founder's "gut" is a prior, earned the hard way, and on most questions it is worth more than the thin data a newcomer could gather in a week. To tell her to ignore it is to tell her to be a novice again on purpose.
+There is a deeper reason not to throw away your prior: it is not noise, and it is not a bias to be scrubbed off. It is the compressed residue of everything you have already learned — every venture you watched win or die, every customer who surprised you, every pattern your field has burned into you. The seasoned founder's "gut" is a prior, earned the hard way, and on most questions it is worth more than the thin data a newcomer could gather in a week. To tell them to ignore it is to tell them to be a novice again on purpose.
 
 That is why your prior sits closer to identity than to opinion: it is part of who you have become by paying attention. So the work of this part of the book is not to talk you out of your prior. It is to help you haul it into the light, say it plainly, and hold it somewhere the evidence can reach it.
 
 ::: {.trap}
 **Trap to Avoid — The unshakeable prior**
 
-A prior held too tightly fails in the other direction. The founder so certain of his read that no result can move him hasn't escaped the problem of priors — he has surrendered to it. He explains away each disappointing test, calls the market "not ready," and protects the belief instead of the venture. A prior is a starting point, not a fortress. If no evidence could ever lower it, it has stopped being a belief and become a wish.
+A prior held too tightly fails in the other direction. The founder so certain of their read that no result can move them hasn't escaped the problem of priors — they have surrendered to it. They explain away each disappointing test, call the market "not ready," and protect the belief instead of the venture. A prior is a starting point, not a fortress. If no evidence could ever lower it, it has stopped being a belief and become a wish.
 :::
 
 ## Working with your AI {#sec-ai}
