@@ -1,43 +1,43 @@
-# Make the Call: Knowing What You Know, Learning What You Can, and Acting Under Uncertainty in Entrepreneurship
+# Make the Call
 
-This is the working book project for **_Make the Call_** — a practical guide for entrepreneurs who want to build knowledge, sharpen judgment, and make smart decisions under uncertainty.
+**Knowing What You Know, Learning What You Can, and Acting Under Uncertainty in Entrepreneurship**
 
-## What This Book Covers
+The source for *Make the Call*, a practical book on entrepreneurial decision-making under uncertainty — a disciplined alternative to "fail fast," built on learning and judgment rather than luck. Read it at **https://mc.nilehatch.com**.
 
-- Why uncertainty is the entrepreneur’s starting point — not a bug
-- How to think like a knowledge-seeker (not just a guesser)
-- Epistemologies for entrepreneurs: rationalism, empiricism, pragmatism, testimony, and faith
-- Bayesian reasoning, belief revision, and the value of information
-- How to ask better questions, design smarter experiments, and judge evidence wisely
-- The spiritual and intellectual growth of the decision-maker
+## The method: five gates
 
-## Getting Started Locally
+The book walks a decision from a question in the fog to a call you can stand behind, through five gates:
 
-To build or preview the book locally:
+- **Frame** — what are we really deciding?
+- **Prior** — what you already believe, and why you can't ignore it
+- **Evidence** — gather what exists, test what doesn't
+- **Sense** — is it credible, and what do you now believe?
+- **Call** — is it enough, and which way?
 
-1. Clone this repository:
-   git clone git@github.com:nilehatch/make_call.git
-   cd make_call
+Two framing parts bracket the gates — *Into the Fog* (the terrain and the method) and *Becoming* (someone who navigates the fog) — and a companion **Method Layer** turns the reader's AI into a gate-aware partner.
 
-2. Install Quarto if you haven’t already: https://quarto.org/
+## Build it locally
 
-3. Preview the book:
-   quarto preview
+Requires [Quarto](https://quarto.org/). A handful of figures are drawn in R (ggplot2 / ggforce).
 
-4. Render to static files:
-   quarto render
+```
+git clone git@github.com:nilehatch/make_call.git
+cd make_call
+quarto preview      # live local preview
+quarto render       # build to _book/
+```
+
+Figure results are cached in `_freeze/` (`execute: freeze: true`), so a normal build does **not** re-run R. To refresh a figure after changing its code, render that one file — `quarto render <file>.qmd`, which always executes — then commit the updated `_freeze/`.
 
 ## Deployment
 
-This book will be published at:  
-https://mc.nilehatch.com
+Published at **https://mc.nilehatch.com** via Netlify.
 
-Deployed via Netlify using `quarto publish netlify`.
+Deployment is automatic: every push to `main` triggers a GitHub Actions workflow (`.github/workflows/publish.yml`) that renders the book and deploys `_book/` with the Netlify CLI. Because figures are frozen, CI never installs R. **Do not run `quarto publish` by hand** — the Action owns deploys, and a second path would race it. (`_publish.yml` is retained only as a manual-publish fallback.)
 
-##  License and Contributions
+## Status
 
-This project is currently private and under active development. If you're collaborating on this project or would like to contribute, please contact **@nilehatch** directly.
+Public working draft, under active revision and open for friendly review. To collaborate, contact **@nilehatch**.
 
 ---
-
-Made with Quarto (https://quarto.org/)
+Made with [Quarto](https://quarto.org/).
