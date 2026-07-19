@@ -3,18 +3,19 @@ name: Publish to Netlify
 # Deploy the book to Netlify on every push to main.
 #
 # The book contains R figure chunks, but this workflow never installs R:
-# execute.freeze is `true` in _quarto.yml, so a project render uses the
+# execute.freeze is `true` in _quarto.yml, so `quarto render` uses the
 # committed _freeze/ results instead of re-executing. To refresh a figure,
 # render that single .qmd locally (a single-file render always executes),
 # then commit the updated _freeze/.
 #
-# Requires one repo secret: NETLIFY_AUTH_TOKEN (a Netlify personal access
-# token). The target site is pinned in _publish.yml.
+# We render, then deploy _book/ with Netlify's own CLI rather than
+# quarto-actions/publish. That composite action silently dropped
+# NETLIFY_AUTH_TOKEN inside its internal step (it resolved empty there and
+# the deploy was skipped while the job still passed). Setting the token on
+# our own run step below is deterministic.
 #
-# NOTE: NETLIFY_AUTH_TOKEN MUST be set at JOB level (below), not on the
-# publish step. quarto-actions/publish is a composite action, and a token
-# set only on the step does not propagate into its internal steps — the
-# Netlify deploy then silently skips while the job still reports success.
+# Requires repo secret: NETLIFY_AUTH_TOKEN. Site id is public (also in
+# _publish.yml), so it is inlined below.
 
 on:
   push:
@@ -27,8 +28,6 @@ permissions:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    env:
-      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -38,9 +37,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Render and publish to Netlify
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: netlify
+      - name: Render book
+        run: quarto render
+
+      - name: Deploy _book to Netlify
+        run: |
+          npm install --no-save netlify-cli
+          npx netlify deploy --prod --dir=_book --site="$NETLIFY_SITE_ID" --message "CI: ${GITHUB_SHA::7}"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: 46745e1b-964a-422c-bbfa-31e90646c676
