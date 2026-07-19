@@ -19,6 +19,52 @@ That is the real point: knowing is not a switch but a dial. A **thin** knowing i
 
 Here is the same landscape from the last chapter, drawn a different way. Picture everything that could possibly be known as a vast circle. Human knowledge, everything our whole species has ever worked out, is a small speck inside it. Your own knowledge is a speck within that speck. Most of what there is to know, no one knows yet.[^might]
 
+```{r}
+#| label: fig-circle-of-knowledge
+#| fig-cap: "Everything that could be known, and the speck of it humanity has mapped. Zoom to the edge of that speck, and the entrepreneur's work comes into view: pushing the boundary of the known a little further out into the fog."
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 8
+#| fig-height: 4.1
+#| out-width: "720px"
+library(ggplot2)
+library(ggforce)
+teal <- "#007BA7"; darkteal <- "#006B90"; grey <- "#6B7280"; ink <- "#1F2937"; fill_known <- "#E6F2F7"
+big   <- data.frame(x0 = 2.5, y0 = 2.7, r = 2.1)
+speck <- data.frame(x0 = 3.45, y0 = 3.65, r = 0.30)
+cx <- 7.7; cy <- -3.9; cr <- 7.0
+xs <- seq(5.75, 9.55, length.out = 80)
+ys <- cy + sqrt(pmax(0, cr^2 - (xs - cx)^2))
+arc <- data.frame(x = xs, y = ys)
+known_poly <- rbind(data.frame(x = 5.75, y = 0.8), arc, data.frame(x = 9.55, y = 0.8))
+topy <- cy + cr; br <- 0.40
+bx <- seq(-br, br, length.out = 40); by <- sqrt(pmax(0, br^2 - bx^2))
+bump      <- data.frame(x = 7.7 + bx, y = topy + by)
+bump_fill <- rbind(data.frame(x = 7.7 - br, y = topy), data.frame(x = 7.7 + bx, y = topy + by), data.frame(x = 7.7 + br, y = topy))
+frame <- data.frame(xmin = 5.7, xmax = 9.9, ymin = 0.8, ymax = 4.6)
+ggplot() +
+  annotate("segment", x = 3.62, y = 3.93, xend = 5.7, yend = 4.6, linetype = "dashed", color = grey, linewidth = 0.4) +
+  annotate("segment", x = 3.62, y = 3.37, xend = 5.7, yend = 0.8, linetype = "dashed", color = grey, linewidth = 0.4) +
+  geom_circle(data = big, aes(x0 = x0, y0 = y0, r = r), fill = "#F7FBFD", color = teal, linewidth = 1.0) +
+  geom_circle(data = speck, aes(x0 = x0, y0 = y0, r = r), fill = teal, color = darkteal, linewidth = 0.5) +
+  annotate("text", x = 2.5, y = 1.15, label = "everything that\ncould be known", color = grey, size = 3.2, lineheight = 0.9) +
+  annotate("text", x = 2.15, y = 4.35, label = "everything\nhumanity knows", color = darkteal, size = 3.0, fontface = 2, lineheight = 0.9) +
+  annotate("segment", x = 2.6, y = 4.15, xend = 3.25, yend = 3.75, color = darkteal, linewidth = 0.4) +
+  geom_rect(data = frame, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax), fill = NA, color = grey, linewidth = 0.4) +
+  geom_polygon(data = known_poly, aes(x, y), fill = fill_known) +
+  geom_polygon(data = bump_fill, aes(x, y), fill = teal) +
+  geom_path(data = arc, aes(x, y), color = teal, linewidth = 1.2) +
+  geom_path(data = bump, aes(x, y), color = darkteal, linewidth = 1.0) +
+  annotate("text", x = 7.7, y = 1.7, label = "the known", color = darkteal, size = 3.8, fontface = 2) +
+  annotate("text", x = 6.35, y = 4.15, label = "the fog", color = grey, size = 3.6, fontface = 3) +
+  annotate("text", x = 6.35, y = 3.82, label = "not yet known", color = grey, size = 2.7, fontface = 3) +
+  annotate("segment", x = 8.75, y = 4.05, xend = 8.02, yend = topy + 0.34, color = ink, linewidth = 0.5, arrow = arrow(length = unit(0.16, "cm"), type = "closed")) +
+  annotate("text", x = 8.95, y = 4.2, label = "you push\nthe edge", color = ink, size = 3.0, fontface = 3, lineheight = 0.9) +
+  coord_fixed(xlim = c(0.2, 10), ylim = c(0.5, 5.0), expand = FALSE) +
+  theme_void() + theme(plot.margin = margin(4, 4, 4, 4))
+```
+
 The comforting news is that the *inside* of the speck is astonishingly well covered now, and covered by something sitting on your desk. An AI has read a staggering share of what humanity has written down; it can teach you almost any established field nearly to its frontier, faster than any tutor in history. Inside the circle of the known, it is a genuine superpower, and you should use it shamelessly.
 
 But the fog begins exactly where the speck ends. Everything that makes your venture a venture, whether *these* customers will switch or *this* peak is real, lives outside the known, where no one has been and no dataset reaches, the AI included. And here is the strange, hopeful part: the more the speck grows, the more edge there is to stand on. Every answer opens new questions; knowledge does not so much shrink the unknown as reveal more of its border. The people who work that border have always been few — the researchers and doctoral students in Matt Might's drawing, pushing their tiny bump outward. The entrepreneur is one of them. Going past the known to find what is not yet there is not a lesser kind of work than running a known business well. It is one of the only kinds of work that adds to the circle at all — and some of what waits out there will never be found unless someone like you goes looking.
