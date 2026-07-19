@@ -9,7 +9,7 @@ Before you build a survey, run a test, or spend a dollar to learn something, ask
 **Secondary evidence** — anything already gathered by someone else, for their own purpose, that you can look up rather than generate. Its opposite, *primary evidence*, you produce yourself: the subject of the next chapter.
 :::
 
-This is the cheap half of gathering evidence, which comes in two moves. First you gather what already exists; then you test what doesn't. Searching for secondary evidence is that first move — the reading, the asking, the desk work — and it comes first for a plain reason. It is the fastest and least expensive evidence you will ever get. To skip it is to pay full price, in time and money, for answers you could have had for the cost of an afternoon.
+This is the cheap half of gathering evidence, which comes in two moves. First you gather what already exists; then you test what doesn't. Searching for secondary evidence is that first move (the reading, the asking, the desk work) and it comes first for a plain reason. It is the fastest and least expensive evidence you will ever get. To skip it is to pay full price, in time and money, for answers you could have had for the cost of an afternoon.
 
 ## But cheap evidence is usually weak evidence {#sec-caveat}
 

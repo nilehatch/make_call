@@ -125,12 +125,12 @@ Most decisions that feel stuck are not short on confidence. They are oversized f
 
 Knowing whether you have enough tells you whether to move. It does not tell you where. When the confidence clears the bar, do you go all in, or in by halves? When it falls short, do you gather, reshape, or let the idea go? *Enough* answers only the first, quiet question at the threshold. The louder one is still waiting: of all the ways you could move from here, which is [the call](making-the-call.qmd)? That is where we turn next.
 
-[^doors]: The framing of decisions as one-way doors (irreversible) versus two-way doors (reversible) is Jeff Bezos's, in @bezos2015LetterShareholders2016. The economics beneath it — how irreversibility under uncertainty creates real value in waiting and in keeping options open — is developed in @dixitInvestmentUncertainty1994.
+[^doors]: The framing of decisions as one-way doors (irreversible) versus two-way doors (reversible) is Jeff Bezos's, in @bezos2015LetterShareholders2016. The economics beneath it, how irreversibility under uncertainty creates real value in waiting and in keeping options open, is developed in @dixitInvestmentUncertainty1994.
 
 [^asym]: On payoff asymmetry, a capped downside against an open upside, see @talebAntifragileThingsThat2012.
 
 [^ev]: The treatment of decisions by their expected value, and more precisely expected *utility*, is set out in @vonneumannTheoryGamesEconomic1944.
 
-[^utility]: The insight that outcomes should be weighed by their worth to the decider rather than their face value — the root of why a loss near ruin counts for far more than its dollar amount — is @bernoulliExpositionNewTheory2011.
+[^utility]: The insight that outcomes should be weighed by their worth to the decider rather than their face value, the root of why a loss near ruin counts for far more than its dollar amount, is @bernoulliExpositionNewTheory2011.
 
 [^voi]: The value of information was formalized by @howardInformationValueTheory1966.

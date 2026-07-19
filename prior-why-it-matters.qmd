@@ -11,7 +11,7 @@ Watch what happens when a founder tries to meet a decision with an empty mind. T
 
 Start with the fact that [you already have a prior](prior-you-have-one.qmd), whether you admit it or not. *Let the data speak* is a fiction, because data never speaks for itself. A number is mute until a mind decides what it means, and the mind that decides always arrives with beliefs already in place — about your customer, your market, what tends to work and what usually fails. There is no view from nowhere.
 
-So the choice was never between having a prior and not having one. It is between a prior you have made explicit — written down, looked at, open to challenge — and a prior that runs you from the dark. The hidden one is the dangerous one. It still bends every judgment you make; you just can't see it, so you can't correct it. Making your prior explicit doesn't cost you your objectivity. It is the only way to have any.
+So the choice was never between having a prior and not having one. It is between a prior you have made explicit (written down, looked at, open to challenge) and a prior that runs you from the dark. The hidden one is the dangerous one. It still bends every judgment you make; you just can't see it, so you can't correct it. Making your prior explicit doesn't cost you your objectivity. It is the only way to have any.
 
 ## The sliver that stampedes you {#sec-base-rate-neglect}
 

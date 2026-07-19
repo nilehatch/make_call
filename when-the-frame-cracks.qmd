@@ -37,7 +37,7 @@ You do only three things. You *add* a possibility the map was missing, when it f
 <details>
 <summary>For the Curious — The logic of revising a belief</summary>
 
-Philosophers have formalized these moves as the AGM framework, named for its authors.[^agm] It defines belief change as three operations — *expansion* (add a belief that raises no conflict), *revision* (add a belief and repair the conflicts it creates), and *contraction* (give up a belief that no longer holds) — and it insists on one discipline throughout: change as little as you must to stay consistent. You do not burn the map because one region was wrong. You redraw the region and keep the rest. The point is not the vocabulary. It is that changing your mind at the level of the frame is a governed act, not a surrender, and it has a shape you can learn.
+Philosophers have formalized these moves as the AGM framework, named for its authors.[^agm] It defines belief change as three operations: *expansion* (add a belief that raises no conflict), *revision* (add a belief and repair the conflicts it creates), and *contraction* (give up a belief that no longer holds). It insists on one discipline throughout: change as little as you must to stay consistent. You do not burn the map because one region was wrong. You redraw the region and keep the rest. The point is not the vocabulary. It is that changing your mind at the level of the frame is a governed act, not a surrender, and it has a shape you can learn.
 
 </details>
 :::
