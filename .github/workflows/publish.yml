@@ -10,6 +10,11 @@ name: Publish to Netlify
 #
 # Requires one repo secret: NETLIFY_AUTH_TOKEN (a Netlify personal access
 # token). The target site is pinned in _publish.yml.
+#
+# NOTE: NETLIFY_AUTH_TOKEN MUST be set at JOB level (below), not on the
+# publish step. quarto-actions/publish is a composite action, and a token
+# set only on the step does not propagate into its internal steps — the
+# Netlify deploy then silently skips while the job still reports success.
 
 on:
   push:
@@ -22,6 +27,8 @@ permissions:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    env:
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -36,5 +43,4 @@ jobs:
         with:
           target: netlify
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
