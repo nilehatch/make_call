@@ -100,3 +100,4 @@ editor: source
 
 execute:
   echo: false
+  freeze: true

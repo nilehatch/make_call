@@ -38,3 +38,13 @@ netlify.toml
 /.quarto/
 
 **/*.quarto_ipynb
+
+# Netlify local state (created by quarto publish)
+.netlify/
+
+# Frozen Quarto computational results — MUST be committed so CI can render
+# figures without R. This negation overrides the global *.png / *.html
+# ignores above; without it the frozen figures would be dropped and every
+# plot on the deployed site would break.
+!_freeze/
+!_freeze/**

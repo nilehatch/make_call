@@ -1,0 +1,40 @@
+name: Publish to Netlify
+
+# Deploy the book to Netlify on every push to main.
+#
+# The book contains R figure chunks, but this workflow never installs R:
+# execute.freeze is `true` in _quarto.yml, so a project render uses the
+# committed _freeze/ results instead of re-executing. To refresh a figure,
+# render that single .qmd locally (a single-file render always executes),
+# then commit the updated _freeze/.
+#
+# Requires one repo secret: NETLIFY_AUTH_TOKEN (a Netlify personal access
+# token). The target site is pinned in _publish.yml.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render and publish to Netlify
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
