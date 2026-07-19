@@ -53,7 +53,7 @@ That cuts both ways, and honestly. A good prior, earned from real experience and
 ::: {.running-case}
 **Halo Alert — acting on a good prior**
 
-The Halo Alert team never had much data, and never would: a few dozen conversations, a couple of sharp tests, a small world by any measure. What let them move anyway was not the data; it was a prior worth trusting. Two founders had lived the fear, they knew the base rates of the space, and they had surfaced their belief and separated the grounded part from the hopeful. So when a handful of interviews leaned their way, that thin evidence was enough. Not because it proved anything on its own, but because it updated a prior that was already carrying most of the weight, honestly.
+The Halo Alert team never had much data, and never would: a few dozen conversations and one sharper test still ahead of them, a small world by any measure. What let them move anyway was not the data; it was a prior worth trusting. Two founders had lived the fear, they knew the base rates of the space, and they had surfaced their belief and separated the grounded part from the hopeful. So when a handful of interviews leaned their way, that thin evidence was enough to press on, not enough to build, because it updated a prior that was already carrying most of the weight, honestly.
 :::
 
 ## Spend your scarce evidence where it moves you most {#sec-spend}

@@ -36,7 +36,7 @@ Everyone has a favorite kind of evidence. One founder trusts the spreadsheet, an
 ::: {.running-case}
 **Halo Alert — reading three angles**
 
-The Halo Alert team had gathered three kinds of evidence, and they read them together. The numbers said the fear was real and widespread. The people, their interviews and an hour with a former dispatcher, said the same, and added when and where the fear spikes. So far, convergence, and they could trust it. The problem was real. But the behavior in their small test disagreed with what people had told them. Users who swore they would wear the device reached, in the moment, for whatever was already in their hand. That gap between the saying and the doing did not sink the idea. It handed them their next question, the one worth testing: not whether people wanted safety, but what would make them reach for *this*.
+The Halo Alert team had gathered three kinds of evidence, and they read them together. The numbers said the fear was real and widespread. The people, their interviews and an hour with a former dispatcher, said the same, and added when and where the fear spikes. So far, convergence, and they could trust it. The problem was real. But the behavior they had watched in the field sat against what people said. Women who told them they wanted a dedicated device still, in the moment, reached for the phone already in their hand, the very workaround the ring was meant to replace. That gap between the saying and the doing did not sink the idea. It handed them their next question, the one worth testing: not whether people wanted safety, but what would make them reach for *this*.
 :::
 
 ## Working with your AI {#sec-ai}
