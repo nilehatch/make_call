@@ -137,6 +137,15 @@ body.nav-sidebar #title-block-header { margin-bottom: 2.25rem !important; }
   background: linear-gradient(to right, rgba(255,255,255,0.25), rgba(255,255,255,0));
 }
 
+/* Show the gate breadcrumb on phones/tablets too. Quarto hides it below the
+   lg breakpoint (Bootstrap d-none d-lg-block), leaving mobile readers with no
+   gate/part indicator anywhere. Re-show it under 992px so landing at a
+   chapter top orients you to the gate. (!important beats Bootstrap's
+   .d-none { display:none !important }.) */
+@media (max-width: 991.98px) {
+  .quarto-title-block .quarto-title-breadcrumbs { display: block !important; }
+}
+
 /* ====== Section Divider (Asterism) ====== */
 .asterism {
   display: block;
