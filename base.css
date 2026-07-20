@@ -73,6 +73,13 @@ h4 { margin-top: 1.4rem; font-weight: 600; }
   margin-bottom: 2.25rem;
 }
 
+/* Quarto's theme forcibly zeroes the banner's bottom margin for sidebar
+   layouts (body.nav-sidebar #title-block-header{margin-block-end:0}), an
+   id-level rule that outranks .quarto-title-block. Re-assert the gap below
+   the banner with matching specificity + !important, or it sits glued to
+   the first line of text. */
+body.nav-sidebar #title-block-header { margin-bottom: 2.25rem !important; }
+
 .quarto-title-block h1.title,
 .quarto-title-block .subtitle {
   color: white;
