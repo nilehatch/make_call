@@ -9,10 +9,10 @@ That looking is exploration, and it is the second move of framing. It is what yo
 
 ## The groundedness threshold {#sec-threshold}
 
-A hypothesis cannot be plucked from thin air. To be worth testing, it has to rest on some real understanding of the thing it is about — call that **groundedness**, the amount of genuine contact with reality behind a belief. A belief with high groundedness is built from things you have actually seen; one with low groundedness is built from what you assume, hope, or half-remember.
+A hypothesis cannot be plucked from thin air. To be worth testing, it has to rest on some real understanding of the thing it is about — call that **groundedness**, the amount of genuine contact with reality behind a belief. A belief with high groundedness is built from things you have actually seen or lived through; one with low groundedness is built from what you assume, hope, or half-remember.
 
 ::: {.column-margin .def-margin}
-**Groundedness** — how much real contact with the world a belief rests on. Low groundedness is a hunch; high groundedness is a claim shaped by what you have actually observed.
+**Groundedness** — how much real contact with the world a belief rests on. Low groundedness is a hunch; high groundedness is a claim shaped by what you have actually seen, heard, or lived.
 :::
 
 Framing has a threshold hiding in it. When your uncertainty about an unknown runs well ahead of what you have actually seen, any hypothesis you write is a guess, and testing it wastes a real experiment on a made-up question. As observation accumulates and the shape of the answer starts to show, you cross into territory where a hypothesis is finally worth testing. Exploration is simply the work of crossing that threshold, of trading assumptions for observations until you know enough to ask something sharp. You do not explore forever; you explore until the question comes into focus, and then you stop.
@@ -29,6 +29,7 @@ Framing has a threshold hiding in it. When your uncertainty about an unknown run
 library(ggplot2)
 explore <- data.frame(x = c(0, 0, 1), y = c(0, 1, 1))
 hypo    <- data.frame(x = c(0, 1, 1), y = c(0, 0, 1))
+lab     <- data.frame(x = 0.50, y = 0.485, t = "exploration builds groundedness")
 ggplot() +
   geom_polygon(data = explore, aes(x, y), fill = "#FBF0D9") +
   geom_polygon(data = hypo,    aes(x, y), fill = "#E6F2F7") +
@@ -37,8 +38,9 @@ ggplot() +
   annotate("text", x = 0.30, y = 0.63, label = "grounding too thin\nfor the uncertainty", color = "#8A6D1F", size = 3.3, lineheight = 0.95) +
   annotate("text", x = 0.70, y = 0.26, label = "Hypothesize & test", color = "#006B90", fontface = 2, size = 6.5) +
   annotate("text", x = 0.70, y = 0.15, label = "grounded enough\nto risk a claim", color = "#2B6A86", size = 3.3, lineheight = 0.95) +
-  annotate("segment", x = 0.20, y = 0.47, xend = 0.60, yend = 0.47, color = "#1F2937", linewidth = 0.7, arrow = arrow(length = unit(0.18, "cm"), type = "closed")) +
-  annotate("text", x = 0.40, y = 0.525, label = "exploration builds groundedness", color = "#1F2937", size = 3, fontface = 3) +
+  annotate("segment", x = 0.28, y = 0.42, xend = 0.72, yend = 0.42, color = "#1F2937", linewidth = 0.7, arrow = arrow(length = unit(0.18, "cm"), type = "closed")) +
+  geom_label(data = lab, aes(x, y, label = t), fill = "white", color = "#1F2937", size = 3, fontface = 3,
+             label.size = 0, label.r = unit(0.5, "lines"), label.padding = unit(0.45, "lines")) +
   scale_x_continuous("Groundedness  (low → high)", limits = c(0, 1), expand = c(0, 0)) +
   scale_y_continuous("Uncertainty  (low → high)", limits = c(0, 1), expand = c(0, 0)) +
   coord_fixed() +
@@ -51,9 +53,9 @@ ggplot() +
 
 ## What exploring looks like {#sec-forms}
 
-Exploration is structured wandering. The philosopher Ian Hacking called this kind of inquiry *adventure* [-@hackingEmergenceProbabilityPhilosophical2006]: deliberately stepping into the world not to confirm what you already believe, but to experience it and let it reshape what you believe. You go out without a hypothesis on purpose, because a hypothesis this early would only tell you what to ignore.
+Exploration is structured wandering. The philosopher Ian Hacking called this kind of inquiry *adventure* [-@hackingEmergenceProbabilityPhilosophical2006]: deliberately stepping into the world to experience it and let it reshape your beliefs, rather than to confirm the ones you walked in with. You go out without a hypothesis on purpose, because a hypothesis this early would only tell you what to ignore.
 
-It takes a few familiar forms, and most explorations mix them.
+Exploration takes a few familiar forms, and most mix them.
 
 - **Observation.** Watch how people actually behave, in their world rather than your survey. What they do rarely matches what they would tell you.
 - **Conversations.** Ask open questions and follow the answers, without pitching. The moment you start selling, you stop learning.
