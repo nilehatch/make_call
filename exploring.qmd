@@ -3,7 +3,7 @@ title: "Exploring"
 subtitle: "Building the ground a hypothesis can stand on"
 ---
 
-You have your urgent unknown. Sometimes it arrives already sharp — a clean question you could state as a claim and test tomorrow. More often it arrives fogged, too big or too strange to phrase without guessing at half the words. And a hypothesis built on a guess is not a hypothesis; it is a hope with a hypothesis's grammar. When the question is still that unformed, you are not ready to test it. You are ready to look.
+You have your [urgent unknown](urgent-unknowns.qmd). Sometimes it arrives already sharp — a clean question you could state as a claim and test tomorrow. More often it arrives fogged, too big or too strange to phrase without guessing at half the words. And a hypothesis built on a guess is not a hypothesis; it is a hope with a hypothesis's grammar. When the question is still that unformed, you are not ready to test it. You are ready to look.
 
 That looking is exploration, and it is the second move of framing. It is what you do when you do not yet know enough to ask a good question, let alone answer one.
 

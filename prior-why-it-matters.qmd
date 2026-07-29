@@ -1,6 +1,6 @@
 ---
-title: "Why Priors Matter"
-subtitle: "And what breaks if you ignore them"
+title: "What a Prior Is For"
+subtitle: "It sets the worth of every piece of evidence"
 ---
 
 Every entrepreneur has heard the advice, and most have repeated it: *let the data speak.* Come to the decision with an open mind. Don't prejudge. Don't let your assumptions color what the evidence is trying to tell you. It sounds like rigor itself. It is the opposite.
@@ -23,7 +23,7 @@ Picture a kind of venture where nine in ten fail — nothing unusual about that.
 **Base rate** — how often something happens across the whole class of similar cases, before you look at the particular one in front of you.
 :::
 
-This is **base-rate neglect**, and it is the most expensive habit of the hopeful founder. Strip the base rate away and weak evidence swells into overwhelming evidence: one rave review, one competitor's flameout, one big logo grows until it fills the decision. Hold the base rate, and that same signal shrinks to its proper size. A prior is not pessimism. It is scale — the thing that keeps a thumb held at arm's length from blotting out the sun.
+This is **base-rate neglect**, and it is one of the costliest habits of the hopeful founder. Strip the base rate away and weak evidence swells into overwhelming evidence: one rave review, one competitor's flameout, one big logo grows until it fills the decision. Hold the base rate, and that same signal shrinks to its proper size. A prior is not pessimism. It is scale — the thing that keeps a thumb held at arm's length from blotting out the sun.
 
 ::: {.for-curious}
 <details>
