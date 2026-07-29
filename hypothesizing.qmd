@@ -7,7 +7,11 @@ Exploration handed you something. A surprise, a pattern, a remark that didn't fi
 
 ## The abductive leap {#sec-abduction}
 
-Most hypotheses do not descend from a tidy theory. They start with something odd (a customer who asked for the thing you don't sell, a behavior you didn't predict) and a guess about what would explain it. The philosopher Charles Sanders Peirce named this move **abduction**: not deduction, which grinds out what must be true, and not induction, which tallies what usually is, but the leap to the *best available explanation* of a surprise. You take the puzzling thing you saw and propose the simplest story that would make sense of it.
+Most hypotheses do not descend from a tidy theory. They start with something odd (a customer who asked for the thing you don't sell, a behavior you didn't predict) and a guess about what would explain it. The philosopher Charles Sanders Peirce named this move **abduction**[^peirce]: not deduction, which grinds out what must be true, and not induction, which tallies what usually is, but the leap to the *best available explanation* of a surprise. You take the puzzling thing you saw and propose the simplest story that would make sense of it.
+
+::: {.column-margin .def-margin}
+**Abduction** — reasoning from a surprising observation to the simplest explanation that would account for it. It is the leap that *generates* a hypothesis, distinct from deduction (what must follow) and induction (what usually holds).
+:::
 
 A team selling grain bowls from a food truck kept getting asked whether they sold smoothies. That is a surprise, not a plan. But abduction turns it into one: *maybe what these customers want isn't lunch at all, but quick portable nutrition.* That guess is not proven, and it is not meant to be. It is a starting point sharp enough to test, drawn from something real rather than imagined. Every hypothesis worth writing begins with a leap like that.
 
@@ -19,7 +23,15 @@ A hypothesis is not a fancier word for a guess. It is a guess with enough spine 
 **Hypothesis** — a claim specific enough to be proven wrong: it names an action, a measurable result, and a timeframe, so a test can come back "no."
 :::
 
-What gives a claim that spine is a short list of properties, easy to check once you know to look. A good hypothesis is **focused** on one urgent unknown rather than everything at once; **measurable**, naming the outcome you will actually count; **time-bound**, with a horizon for the test; **falsifiable**, able to come back "no"; and **grounded**, connected to something you genuinely observed rather than something you hope. Most weak hypotheses fail on one of these — too broad to test in a week, too vague to measure, too absolute to leave room to learn, or resting on nothing you can point to. The fix is usually the same simple form:
+What gives a claim that spine is a short list of properties, easy to check once you know to look. A good hypothesis is:
+
+- **Focused** — on one urgent unknown, not everything at once.
+- **Measurable** — naming the outcome you will actually count.
+- **Time-bound** — with a horizon for the test.
+- **Falsifiable** — able to come back "no."
+- **Grounded** — connected to something you genuinely observed, not something you hope.
+
+Most weak hypotheses fail on one of these — too broad to test in a week, too vague to measure, too absolute to leave room to learn, or resting on nothing you can point to. The fix is usually the same simple form:
 
 *If we [take this action], then [this measurable result] will happen within [this timeframe].*
 
@@ -27,9 +39,9 @@ Fill that in honestly and the five properties tend to fall into place on their o
 
 ## Grounded, not plucked {#sec-grounded}
 
-Of the five, grounding is the one entrepreneurs skip, and it is the one that sends you back a chapter. A hypothesis you cannot trace to something real is not a hypothesis you are ready to test; it is a guess you have dressed in a test's clothing, and running an experiment on it burns a real cost to answer a made-up question. This is the [groundedness threshold](exploring.qmd) again, seen from the other side. Exploration was how you climbed above it. Now, before you commit to a test, you check that you are still above it: can you point to the observation, the conversation, the surprise that your claim rests on? If you cannot, that is not a small flaw to paper over. It is the signal to stop writing hypotheses and go look some more.
+Of the five, grounding is the one entrepreneurs skip, and it is the one that sends you back a chapter. A hypothesis you cannot trace to something real is not a hypothesis you are ready to test; it is a guess you have dressed in a test's clothing, and running an experiment on it burns a real cost to answer a made-up question. This is the [groundedness threshold](exploring.qmd) again, seen from the other side. Exploration was how you crossed it. Now, before you commit to a test, you check that you are still on the grounded side: can you point to the observation, the conversation, the surprise that your claim rests on? If you cannot, that is not a small flaw to paper over. It is the signal to stop writing hypotheses and go look some more.
 
-Grounding is also what makes a hypothesis the seed of everything that follows. When you write a clear, grounded, testable claim, you are doing more than picking a guess to check. You are defining what will count as evidence, and setting up the belief the rest of the book operates on: a hypothesis is what you form a [prior](seeing-probability.qmd) about, and then update. Without one, you are collecting opinions. With one, you are building knowledge.
+Grounding is also what makes a hypothesis the seed of everything that follows. When you write a clear, grounded, testable claim, you are doing more than picking a guess to check. You are defining what will count as evidence, and setting up the belief the rest of the book operates on: a hypothesis is what you form a [prior belief](prior-you-have-one.qmd) about, and then update. Without one, you are collecting opinions. With one, you are building knowledge.
 
 ## Name the mechanism {#sec-mechanism}
 
@@ -40,7 +52,7 @@ One habit sharpens a hypothesis faster than any other: before you write it, draw
 
 Exploration had left the Halo team holding a surprise: women avoided the phone in the worst moments not because they didn't want safety, but because reaching for it was slow and exposing, the first thing an attacker grabbed. The abductive leap followed. *Maybe what these women want isn't another safety app, but a way to signal for help that is instant and invisible — and maybe that, not price or features, is what would make them switch.*
 
-That leap named the mechanism: a discreet, hands-free signal would earn the switch only if it was genuinely faster and less exposing than the phone. And it turned the venture's urgent unknown into a claim they could finally test: *if women who feel unsafe are given a discreet wearable alternative, a meaningful share of them will reach for it instead of their phone when a threat feels real.* Focused, measurable, falsifiable, and grounded in what they had actually heard. It was, at last, a hypothesis, and it was exactly the one their sharper test would go on to put to reality.
+That leap named the mechanism: a discreet, hands-free signal would earn the switch only if it was genuinely faster and less exposing than the phone. And it turned the venture's urgent unknown into a claim they could finally test: *if women who feel unsafe are given a discreet wearable alternative, more than half of them will reach for it instead of their phone when a threat feels real.* Focused, measurable, falsifiable, and grounded in what they had actually heard. It was, at last, a hypothesis, and it was exactly the one their sharper test would go on to put to reality.
 :::
 
 ## Working with your AI {#sec-ai}
@@ -73,7 +85,7 @@ Take one surprise from your exploration, and one urgent unknown it bears on.
 1. Abduct: write the best explanation you can for the surprise, in a sentence. Then list one or two rival explanations, so you know you chose.
 2. Sketch the mechanism, two boxes and an arrow, so the assumption you are betting on is out in the open.
 3. Write the claim in the template: *if we [action], then [measurable result] within [timeframe].*
-4. Check it against the five: focused, measurable, time-bound, falsifiable, grounded. Fix whichever it fails.
+4. Check it against the five: focused, measurable, time-bound, falsifiable, grounded. Fix any it fails.
 5. Ask the honest question: could this actually come back "no"? If not, it is not yet a hypothesis.
 
 By the end you will have turned a foggy unknown into a claim you could genuinely lose — which is the only kind worth testing.
@@ -84,3 +96,5 @@ By the end you will have turned a foggy unknown into a claim you could genuinely
 :::
 
 With that, framing is done. You came into this gate with a flood of unknowns and walked out with one grounded, testable hypothesis — the real question, sharpened to the point where reality can answer it. That claim does not arrive on a blank slate, though. You already believe something about whether it will hold, and how strongly, and that belief is not nothing; it is the starting point for everything the evidence will do to you. Naming it honestly is the next gate. Having framed the question, you turn now to the prior you bring to it.
+
+[^peirce]: Peirce developed abduction across decades of writing, distinguishing it from deduction and induction as the only mode of inference that introduces a new idea. A compact entry point is @peirceCharlesPeirceEssential1972.
