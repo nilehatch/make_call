@@ -29,19 +29,19 @@ That is the whole trick of seeing probability: stop computing and start counting
 
 ## Build the tree {#sec-tree}
 
-Put your own decision through it. Start with the population your product belongs to: the new products launched in a category like yours over a year, say a thousand IoT gadgets or a thousand new consumer apps. Most of them fail. History suggests that of every 1,000, only about 100 turn out to be genuinely wanted; the other 900 flop. That 100-in-1,000 is your **base rate**, the prior you carried in from the last chapters: one in ten.
+Put your own decision through it. Start with the population your product belongs to: the new products launched in a category like yours over a year, say a thousand IoT gadgets or a thousand new consumer apps. Most of them fail. Suppose that of every 1,000, only about 100 turn out to be genuinely wanted; the other 900 flop. That 100-in-1,000 is your **base rate**, the [prior](prior-you-have-one.qmd) you carried in from the last chapters: one in ten. (The one-in-ten here is illustrative; the real figure varies by category and is notoriously slippery to pin down, so use the best number you can actually defend for yours.)
 
 ::: {.column-margin .def-margin}
 **Base rate** — how often something happens across a whole population, before you look at the one case in front of you. Here, 100 genuinely-wanted products in every 1,000: one in ten.
 :::
 
-Now bring in the test. You've run a customer test on your product, and it's a decent one: when a product is genuinely wanted, the test says yes 8 times in 10. But it isn't perfect. When a product would actually flop, the test still says yes about 2 times in 10, because people are polite, or curious, or the test itself was leaky. Your product just got a yes. How likely is it to be one of the hundred that are genuinely wanted?
+Now bring in the test. You've run a customer test on your product, and it's a decent one: when a product is genuinely wanted, the test says “yes” 8 times in 10. But it isn't perfect. When a product would actually flop, the test still says “yes” about 2 times in 10, because people are polite, or curious, or the test itself was leaky. Your product just got a “yes.” How likely is it to be one of the hundred that are genuinely wanted?
 
 Don't reach for a formula. Build a tree. Start with the thousand, split them by the base rate, split each branch by the test result, and count.
 
 ```{r}
 #| label: fig-freq-tree
-#| fig-cap: "A natural-frequency tree. Start with 1,000, split by the base rate (wanted vs. flop), then by the test (yes vs. no), and count. The two shaded boxes are the products that get a yes."
+#| fig-cap: "A natural-frequency tree. Start with 1,000, split by the base rate (wanted vs. flop), then by the test (“yes” vs. “no”), and count. The two shaded boxes are the products that get a “yes.”"
 #| echo: false
 #| fig-width: 9
 #| fig-height: 4.5
@@ -83,9 +83,9 @@ ggplot() +
   theme_void() + theme(plot.margin = margin(2, 2, 2, 2))
 ```
 
-Now read it off the branches. A yes came back. How many products get a yes at all? Eighty of the genuinely-wanted ones, plus 180 of the flops: 260 in total. And of those 260, how many are actually any good? Just the 80. So a yes means good 80 times in 260 — about one in three.
+Now read it off the branches. A “yes” came back. How many products get a “yes” at all? Eighty of the genuinely-wanted ones, plus 180 of the flops: 260 in total. And of those 260, how many are actually any good? Just the 80. So a “yes” means good 80 times in 260 — about one in three.
 
-Sit with that. A positive result on a test that catches 8 of every 10 good products still leaves you only about a third likely to have a good one. The yes was real evidence: it nearly tripled your odds, from 1 in 10 to roughly 1 in 3. That is genuine movement, not nothing. But a third is still a minority, and no single test hands a Bayesian certainty; it only makes you more or less sure. The reason you can see that at all is the base rate sitting in the tree, refusing to be forgotten.
+Sit with that. A positive result on a test that catches 8 of every 10 good products still leaves you only about a third likely to have a good one. The “yes” was real evidence: it nearly tripled your odds, from 1 in 10 to roughly 1 in 3. That is genuine movement, not nothing. But a third is still a minority, and no single test hands a Bayesian certainty; it only makes you more or less sure. The reason you can see that at all is the base rate sitting in the tree, refusing to be forgotten.
 
 ## The same thousand, made visible {#sec-array}
 
@@ -93,7 +93,7 @@ If the tree shows the logic, a picture of the whole thousand shows the weight.
 
 ```{r}
 #| label: fig-icon-array
-#| fig-cap: "The same 1,000 products. A yes lights up 260 of them, but only the 80 blue dots are genuinely wanted; the 180 gold are flops that passed anyway. Among the dots that got a yes, gold outnumbers blue more than two to one."
+#| fig-cap: "The same 1,000 products. A “yes” lights up 260 of them, but only the 80 blue dots are genuinely wanted; the 180 gold are flops that passed anyway. Among the dots that got a “yes,” gold outnumbers blue more than two to one."
 #| echo: false
 #| fig-width: 10
 #| fig-height: 4
@@ -114,11 +114,11 @@ ggplot(d) +
   theme_void() + theme(plot.margin = margin(0, 0, 0, 0))
 ```
 
-Each dot is one of the thousand products. The 260 that got a yes are the colored band across the top; everything grey got a no. Now look only at the color in that band. The blue, the genuinely good products the test correctly flagged, is a thin stripe. The gold, flops that got a yes anyway, is more than twice as thick. That gold is the base rate made visible: there are so many more flops to begin with that even a low false-alarm rate produces a flood of false yeses. Your one positive result is far more likely to be a drop in the gold than a drop in the blue.
+Each dot is one of the thousand products. The 260 that got a “yes” are the colored band across the top; everything grey got a “no.” Now look only at the color in that band. The blue, the genuinely good products the test correctly flagged, is a thin stripe. The gold, flops that got a “yes” anyway, is more than twice as thick. That gold is the base rate made visible: there are so many more flops to begin with that even a low false-alarm rate produces a flood of false yeses. Your one positive result is far more likely to be a drop in the gold than a drop in the blue.
 
 ## This is the update {#sec-update}
 
-What you just did by counting is exactly what the last chapters asked of you. The base rate, 1 in 10, was your prior. The yes was your evidence. The number you read off the tree, about 1 in 3, is your posterior: your belief after the evidence. You updated a prior into a posterior and never touched an equation.[^chivers]
+What you just did by counting is what a prior is *for*. The base rate, 1 in 10, was your prior. The “yes” was your evidence. The number you read off the tree, about 1 in 3, is your posterior: your belief after the evidence. You updated a prior into a posterior and never touched an equation.[^chivers]
 
 And notice what the picture would not let you do. It would not let you forget the base rate, because the base rate *was* the picture: the 100 against the 900, the blue against the gold. The doctors went wrong, and founders go wrong, in exactly the spot where the base rate drops out of view. Draw the tree and it cannot drop out, because you started by counting it.
 
@@ -150,7 +150,7 @@ I just learned to do Bayesian updating by counting cases out of 1,000. Now teach
 ::: {.trap}
 **Trap to Avoid — The percentage that fools you**
 
-The test catches 80% of good products, so a yes means you're 80% likely to be good — right? That is the mistake that beat the doctors. The 80% describes how the test treats good products; it is not the chance you're good once you've gotten a yes. Those two numbers only match when the base rate is 50-50, which it almost never is. Whenever someone quotes you a single impressive percentage, ask the question the tree forces: *out of how many, and against what base rate?*
+The test catches 80% of good products, so a “yes” means you're 80% likely to be good — right? That is the mistake that beat the doctors. The 80% describes how the test treats good products; it is not the chance you're good once you've gotten a yes. Those two numbers only match when the base rate is 50-50, which it almost never is. Whenever someone quotes you a single impressive percentage, ask the question the tree forces: *out of how many, and against what base rate?*
 :::
 
 ## Working with your AI {#sec-ai}
@@ -161,7 +161,7 @@ The test catches 80% of good products, so a yes means you're 80% likely to be go
 Your AI will build this tree in seconds and do the counting flawlessly. Hand it the arithmetic. But the tree is only as honest as two numbers you have to supply, and the AI cannot find them for you.
 
 - **The base rate is yours.** How often do products like yours actually succeed? That's your prior from the last chapters, and a tree built on a flattering base rate lies cleanly and convincingly.
-- **The false-positive rate is yours too.** Be honest about how often your test says yes to something that would flop. Optimists set it near zero; that's how the amber disappears and the posterior lies.
+- **The false-positive rate is yours too.** Be honest about how often your test says “yes” to something that would flop. Optimists set it near zero; that's how the amber disappears and the posterior lies.
 - **Read the posterior as movement, not verdict.** The number tells you how far the evidence moved you, not whether you've arrived. Deciding whether it's far enough is the next gate, not this one.
 :::
 
