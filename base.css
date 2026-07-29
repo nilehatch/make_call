@@ -64,6 +64,15 @@ h3 {
 
 h4 { margin-top: 1.4rem; font-weight: 600; }
 
+/* When a .column-margin note (e.g. a def-margin) is the last element before
+   a section header, its out-of-flow shift eats the header's collapsing
+   top margin and the gap looks cramped. Give those sections non-collapsing
+   padding instead, so every header keeps the same breathing room. */
+.column-margin + section.level2 { padding-top: 2.5rem; }
+.column-margin + section.level2 > h2 { margin-top: 0; }
+.column-margin + section.level3 { padding-top: 1.75rem; }
+.column-margin + section.level3 > h3 { margin-top: 0; }
+
 /* ====== Chapter Banner ====== */
 .quarto-title-block {
   background: linear-gradient(90deg, var(--brand-primary) 0%, var(--brand-secondary) 100%);
