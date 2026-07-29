@@ -124,6 +124,19 @@ And notice what the picture would not let you do. It would not let you forget th
 
 One caution before you move on. A low posterior is not permission to ignore a result — a small chance of a catastrophe can still demand action, and what a belief is worth acting on depends on what is at stake. That coupling of odds with stakes is a later gate; here, the only task was to see the number clearly.
 
+::: {.worked-example}
+**Worked example — Halo's update, part by part**
+
+The same four pieces, on the venture we have been following. Halo's question: *will women switch from their phone to the ring?*
+
+- **Prior** — their honest starting belief before the interviews, built from two founders' lived fear and the base rates of the space. Well-grounded on *the problem* (women feel unsafe), but only hopeful on *the switch* (that they would adopt a device).
+- **Evidence** — a handful of interviews leaning their way.
+- **Likelihood** — how much that evidence *discriminates*: whether a warm interview is likelier from a woman who would switch than from one who would not. Warm words come from both, so the interviews fit the two stories almost equally — a weak signal, like a test with a high false-yes rate.
+- **Posterior** — the belief after the evidence: the prior nudged, not moved. A weak signal against a prior already carrying the weight leaves you close to where you started — *enough to press on, not enough to build.*
+
+There is no new number here, because the decisive test is still ahead. But the shape is already clear: a soft likelihood and thin evidence leave the posterior sitting close to the prior. Which piece is which is the thing to hold onto — name them on your own decision and the arithmetic takes care of itself.
+:::
+
 ::: {.for-curious}
 <details>
 <summary>For the Curious — The formula you just avoided</summary>
