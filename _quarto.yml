@@ -92,6 +92,11 @@ format:
     number-sections: false
     fig-cap-location: margin
     tbl-cap-location: margin
+    include-in-header:
+      - text: |
+          <!-- Cloudflare Web Analytics -->
+          <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8ed41b52f5d44b378f0a7cfa59f8224d"}'></script>
+          <!-- End Cloudflare Web Analytics -->
 
 editor: source
 
