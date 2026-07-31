@@ -454,3 +454,15 @@ th { background-color: #f8f8f8; text-align: left; }
     margin: 1em 0 !important;
   }
 }
+
+/* ====== Utilities: print widths ====== */
+/* Constrain an image in print, e.g. ![](x.svg){.print-w-25 .wrapfig_right_25}.
+   Screen width is handled by the wrapfig utilities above; these apply only to
+   the printed page. */
+@media print {
+  img.print-w-25  { width: 25% !important; }
+  img.print-w-33  { width: 33% !important; }
+  img.print-w-40  { width: 40% !important; }
+  img.print-w-50  { width: 50% !important; }
+  img.print-w-4in { width: 4in  !important; }
+}
