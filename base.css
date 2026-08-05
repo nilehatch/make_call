@@ -209,7 +209,8 @@ hr.method-divider {
 .definition, .for-curious,
 .mini-case, .worked-example, .running-case, .voice-customer,
 .try-this, .reflect, .checklist, .key-action,
-.ask-ai, .learn-ai, .checkpoint, .trap {
+.ask-ai, .learn-ai, .checkpoint, .trap, .limit,
+.threshold, .see-demo, .see-guide {
   border-left: 4px solid var(--brand-muted);
   border-radius: 6px;
   padding: 0.8rem 1rem;
@@ -223,7 +224,8 @@ hr.method-divider {
 .try-this > :first-child, .reflect > :first-child,
 .checklist > :first-child, .key-action > :first-child,
 .ask-ai > :first-child, .learn-ai > :first-child, .checkpoint > :first-child,
-.trap > :first-child {
+.trap > :first-child, .limit > :first-child, .threshold > :first-child,
+.see-demo > :first-child, .see-guide > :first-child {
   font-weight: 700;
   margin-top: 0;
 }
@@ -465,4 +467,66 @@ th { background-color: #f8f8f8; text-align: left; }
   img.print-w-40  { width: 40% !important; }
   img.print-w-50  { width: 50% !important; }
   img.print-w-4in { width: 4in  !important; }
+}
+
+/* ====== GATE: .threshold — what counts as passing (settled 2026-08-05) ======
+   States the evidentiary bar a test must clear before you may proceed. Not a
+   .try-this (no exercise), not a .trap (no mistake), not a .checkpoint (which
+   supervises an AI). It is the standard you judge against, and in a book built
+   on gates it earns its own look.
+
+   Family-level, not EI-only: Make the Call's whole subject is when evidence is
+   enough, so it has more use for this than EI does.
+
+   Differentiated by FORM as well as hue — a rule above and below, so it still
+   reads as a gate in grayscale and for readers who cannot separate the green
+   from .trap's red. */
+.threshold {
+  border-left-color: #2E7D57;
+  border-top: 2px solid #2E7D57;
+  border-bottom: 2px solid #2E7D57;
+  border-radius: 0;
+  background: #EEF6F1;
+}
+.threshold > :first-child { color: #1F5C3F; }
+
+/* ====== AVOID splits in two (settled 2026-08-05) ======
+   .trap and .limit fail differently and a reader responds to them differently.
+   A trap is something you might DO and should not; a limit is a boundary of the
+   instrument, which no amount of care removes. Keeping both under one red box
+   told the reader to be careful about something that is not their fault.
+
+   .trap keeps the red. .limit is deliberately calm — muted, no alarm — because
+   its message is "this is the tool, not you." */
+.trap {
+  border-left-color: #B3261E;
+  background: #FDF0EF;
+}
+.limit {
+  border-left-color: var(--brand-muted);
+  background: #F4F4F5;
+  font-size: 0.97rem;
+}
+.limit > :first-child { color: var(--brand-muted); }
+
+/* ====== SEE family: layer pointers (settled 2026-08-05) ======
+   EI is a three-layer book — chapter, toolkit guide, demo — and sends the
+   reader down a layer constantly. .running-case is the wrong home: it is
+   defined as CONTENT about the spine venture, and these are CROSS-REFERENCES
+   to it. Two classes rather than one because they point at different layers
+   for different reasons: a worked instance versus a procedure.
+
+   Light by design. A pointer should be skippable at a glance; it is furniture,
+   not an interruption. Make the Call has no use for these and will simply
+   carry them unused, which is the price of keeping base.css byte-identical. */
+.see-demo, .see-guide {
+  border-left-width: 3px;
+  padding: 0.55rem 0.9rem;
+  background: #F2F7FA;
+  font-size: 0.97rem;
+}
+.see-demo  { border-left-color: var(--brand-secondary); }
+.see-guide { border-left-color: var(--brand-primary); }
+.see-demo > :first-child, .see-guide > :first-child {
+  color: var(--brand-primary);
 }
