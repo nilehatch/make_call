@@ -83,7 +83,7 @@ ggplot() +
   theme_void() + theme(plot.margin = margin(2, 2, 2, 2))
 ```
 
-Now read it off the branches. A “yes” came back. How many products get a “yes” at all? Eighty of the genuinely-wanted ones, plus 180 of the flops: 260 in total. And of those 260, how many are actually any good? Just the 80. So a “yes” means good 80 times in 260 — about one in three.
+Now read it off the branches. A “yes” came back. How many products get a “yes” at all? Eighty of the genuinely-wanted ones, plus 180 of the flops: 260 in total. And of those 260, how many are actually any good? Just the 80. So a “yes” means good 80 times in 260, about one in three.
 
 Sit with that. A positive result on a test that catches 8 of every 10 good products still leaves you only about a third likely to have a good one. The “yes” was real evidence: it nearly tripled your odds, from 1 in 10 to roughly 1 in 3. That is genuine movement, not nothing. But a third is still a minority, and no single test hands a Bayesian certainty; it only makes you more or less sure. The reason you can see that at all is the base rate sitting in the tree, refusing to be forgotten.
 
@@ -122,7 +122,7 @@ What you just did by counting is what a prior is *for*. The base rate, 1 in 10, 
 
 And notice what the picture would not let you do. It would not let you forget the base rate, because the base rate *was* the picture: the 100 against the 900, the blue against the gold. The doctors went wrong, and founders go wrong, in exactly the spot where the base rate drops out of view. Draw the tree and it cannot drop out, because you started by counting it.
 
-One caution before you move on. A low posterior is not permission to ignore a result — a small chance of a catastrophe can still demand action, and what a belief is worth acting on depends on what is at stake. That coupling of odds with stakes is a later gate; here, the only task was to see the number clearly.
+One caution before you move on. A low posterior is not permission to ignore a result: a small chance of a catastrophe can still demand action, and what a belief is worth acting on depends on what is at stake. That coupling of odds with stakes is a later gate; here, the only task was to see the number clearly.
 
 ::: {.worked-example}
 **Worked example — Halo's update, part by part**
@@ -131,10 +131,10 @@ The same four pieces, on the venture we have been following. Halo's question: *w
 
 - **Prior** — their honest starting belief before the interviews, built from two founders' lived fear and the base rates of the space. Well-grounded on *the problem* (women feel unsafe), but only hopeful on *the switch* (that they would adopt a device).
 - **Evidence** — a handful of interviews leaning their way.
-- **Likelihood** — how much that evidence *discriminates*: whether a warm interview is likelier from a woman who would switch than from one who would not. Warm words come from both, so the interviews fit the two stories almost equally — a weak signal, like a test with a high false-yes rate.
+- **Likelihood** — how much that evidence *discriminates*: whether a warm interview is likelier from a woman who would switch than from one who would not. Warm words come from both, so the interviews fit the two stories almost equally: a weak signal, like a test with a high false-yes rate.
 - **Posterior** — the belief after the evidence: the prior nudged, not moved. A weak signal against a prior already carrying the weight leaves you close to where you started — *enough to press on, not enough to build.*
 
-There is no new number here, because the decisive test is still ahead. But the shape is already clear: a soft likelihood and thin evidence leave the posterior sitting close to the prior. Which piece is which is the thing to hold onto — name them on your own decision and the arithmetic takes care of itself.
+There is no new number here, because the decisive test is still ahead. But the shape is already clear: a soft likelihood and thin evidence leave the posterior sitting close to the prior. Which piece is which is the thing to hold onto. Name them on your own decision and the arithmetic takes care of itself.
 :::
 
 ::: {.for-curious}
@@ -147,7 +147,7 @@ $$
 \textsf{posterior} = \frac{\textsf{prior} \times \textsf{likelihood}}{\textsf{total probability of the evidence}}
 $$
 
-Your **prior** is the base rate: how likely the product was to be good before the test, 1 in 10 (100 in 1000). The **likelihood** is how well a yes fits a genuinely good product, 8 in 10. The **evidence** in the denominator is every way a yes could arise: the good-and-yes cases plus the flop-and-yes cases. Drop your counts in and it is the arithmetic you already did: 80 / (80 + 180). The formula only says this — shift your belief in proportion to how well the evidence fits it, then rescale so the possibilities still add to one. Researchers teach it with counts not because the algebra is wrong but because almost no one reasons well in fractions.[^natfreq] You never have to write the equation. But now you have seen it, and you can see it is only bookkeeping.
+Your **prior** is the base rate: how likely the product was to be good before the test, 1 in 10 (100 in 1000). The **likelihood** is how well a yes fits a genuinely good product, 8 in 10. The **evidence** in the denominator is every way a yes could arise: the good-and-yes cases plus the flop-and-yes cases. Drop your counts in and it is the arithmetic you already did: 80 / (80 + 180). The formula only says this: shift your belief in proportion to how well the evidence fits it, then rescale so the possibilities still add to one. Researchers teach it with counts not because the algebra is wrong but because almost no one reasons well in fractions.[^natfreq] You never have to write the equation. But now you have seen it, and you can see it is only bookkeeping.
 
 ::: {.learn-ai}
 **Learn From Your AI**
@@ -163,7 +163,7 @@ I just learned to do Bayesian updating by counting cases out of 1,000. Now teach
 ::: {.trap}
 **Trap to Avoid — The percentage that fools you**
 
-The test catches 80% of good products, so a “yes” means you're 80% likely to be good — right? That is the mistake that beat the doctors. The 80% describes how the test treats good products; it is not the chance you're good once you've gotten a yes. Those two numbers only match when the base rate is 50-50, which it almost never is. Whenever someone quotes you a single impressive percentage, ask the question the tree forces: *out of how many, and against what base rate?*
+The test catches 80% of good products, so a “yes” means you're 80% likely to be good, right? That is the mistake that beat the doctors. The 80% describes how the test treats good products; it is not the chance you're good once you've gotten a yes. Those two numbers only match when the base rate is 50-50, which it almost never is. Whenever someone quotes you a single impressive percentage, ask the question the tree forces: *out of how many, and against what base rate?*
 :::
 
 ## Working with your AI {#sec-ai}
@@ -202,13 +202,13 @@ If the number startles you, the tree is working. It's showing you the base rate 
 :::
 
 ::: {.key-action}
-**The move:** When a result tempts you, don't trust the percentage — draw the thousand. Split by the base rate, split by the test, and count the branch you care about. The posterior is a ratio you can see.
+**The move:** When a result tempts you, don't trust the percentage. Draw the thousand. Split by the base rate, split by the test, and count the branch you care about. The posterior is a ratio you can see.
 :::
 
 One thing in that tree should nag at you: a strong positive result still left you at only one in three, and the reason was the low base rate. When the base rate is low and the data is thin, the prior keeps its grip on the answer no matter how the evidence comes back. That is not a flaw in the method. It is the entrepreneur's everyday condition, and it is [where we turn next](priors-small-world.qmd).
 
 [^natfreq]: The finding that natural-frequency formats make Bayesian reasoning intuitive, where percentages defeat even experts, is @gigerenzerHowImproveBayesian1995; the general-audience case is @gigerenzerCalculatedRisksHow2015.
 
-[^ellenberg]: The idea that mathematical trouble is usually a failure of *format* rather than of the person, and that rigor can be made to feel like common sense extended, runs throughout @ellenbergHowNotBe2014 — the animating spirit of this whole book.
+[^ellenberg]: The idea that mathematical trouble is usually a failure of *format* rather than of the person, and that rigor can be made to feel like common sense extended, runs throughout @ellenbergHowNotBe2014, and is the animating spirit of this whole book.
 
 [^chivers]: For an accessible tour of how far this single move, updating a prior into a posterior, reaches across science and everyday life, see @chiversEverythingPredictableHow2024.

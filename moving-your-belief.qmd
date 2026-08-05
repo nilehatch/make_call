@@ -5,17 +5,17 @@ subtitle: "By exactly what the evidence is worth — no more, no less"
 
 You have weighed the result. You know what it is worth. What remains is the act the whole gate has been building toward, and it is smaller than it sounds and harder than it looks. You have to let the result move you.
 
-The trouble is that *move* collapses, almost without your noticing, into one of two reflexes. Either the result settles the matter — you read it as proof, and flip to certain. Or it means nothing yet — you file it away and go on believing exactly what you believed this morning. Both feel like judgment. Neither is. One overpays for the evidence and one refuses to pay at all. Updating is the discipline in between: you shift your conviction by the weight the result has earned, and then you stop.
+The trouble is that *move* collapses, almost without your noticing, into one of two reflexes. Either the result settles the matter, so you read it as proof, and flip to certain. Or it means nothing yet — you file it away and go on believing exactly what you believed this morning. Both feel like judgment. Neither is. One overpays for the evidence and one refuses to pay at all. Updating is the discipline in between: you shift your conviction by the weight the result has earned, and then you stop.
 
 ## You already know how to do this {#sec-already}
 
 You did it once already, back in the [Prior gate](seeing-probability.qmd), and you did it without an equation. You took a base rate, met a piece of evidence, and read a new number off a picture you drew. A prior became a posterior. The arithmetic of updating is settled, and when it isn't, your AI will do it flawlessly in seconds.
 
-So the work left here is not the math. It is the part no formula reaches — the willingness to actually be moved, and the discipline to move the right distance. That turns out to be where founders fail, and they fail in a way arithmetic cannot catch, because the numbers are never the thing they are defending.
+So the work left here is not the math. It is the part no formula reaches: the willingness to actually be moved, and the discipline to move the right distance. That turns out to be where founders fail, and they fail in a way arithmetic cannot catch, because the numbers are never the thing they are defending.
 
 ## Belief moves by degrees {#sec-degrees}
 
-A belief is not a switch. It is closer to the [dial](weighing-the-evidence.qmd) you just used to weigh the result — a strength of conviction that can sit anywhere between *no idea* and *sure of it*, and that is exactly where a well-built prior already lives. Almost no evidence throws the switch. It turns the dial. A strong result turns it far. A thin one turns it a little. Both turn it, and the skill is reading how far.
+A belief is not a switch. It is closer to the [dial](weighing-the-evidence.qmd) you just used to weigh the result, a strength of conviction that can sit anywhere between *no idea* and *sure of it*, and that is exactly where a well-built prior already lives. Almost no evidence throws the switch. It turns the dial. A strong result turns it far. A thin one turns it a little. Both turn it, and the skill is reading how far.
 
 Far along what? The same scale you have used since the [Prior gate](seeing-probability.qmd) — your confidence, running from *no idea* to *sure of it*, the very ruler you counted along to turn a base rate into a posterior. Here you rarely need the number, only the honesty to say whether the dial moved a lot, a little, or not at all. The measure is real even when you leave it in words.
 
@@ -31,7 +31,7 @@ The two errors are worth naming, because you will feel the pull of each on diffe
 
 The first is moving too little. A prior has a grip, and the more it cost you to build, the harder it holds. A founder who has lived inside a belief for a year will discount the evidence that threatens it and wave through the evidence that flatters it.[^anchoring] The result comes in soft against the theory, and the theory wins, not because it was weighed and found heavier but because it got there first. This is the more common failure, and the more expensive, because it wears the face of conviction.
 
-The second is moving too much. A single vivid result — one furious customer, one dazzling demo, one number that leaps off the dashboard — swings the dial hard against a prior that a hundred quieter observations built. The mistake is not that you updated on one point. A single point is real evidence, and one of the quiet powers of updating is that one draw can and should move you. The mistake is the *distance* — letting a light result turn the dial as far as a heavy one would, so a slight draw overwrites everything the prior earned. Whiplash feels like open-mindedness. It is closer to having no mind to change.
+The second is moving too much. A single vivid result (one furious customer, one dazzling demo, one number that leaps off the dashboard) swings the dial hard against a prior that a hundred quieter observations built. The mistake is not that you updated on one point. A single point is real evidence, and one of the quiet powers of updating is that one draw can and should move you. The mistake is the *distance*: letting a light result turn the dial as far as a heavy one would, so a slight draw overwrites everything the prior earned. Whiplash feels like open-mindedness. It is closer to having no mind to change.
 
 The disciplined move sits between them, and the weight you already assigned is what sets the distance.
 
@@ -42,7 +42,7 @@ A founder believes there is a good chance customers will pay twenty dollars a mo
 
 The switch-thrower reads this as a verdict, *twenty dollars is dead*, and tears up the pricing overnight. The anchor reads it as noise, *wrong crowd, bad week*, and changes nothing. Neither weighed it. Two hundred is a real sample, drawn from real traffic; ten percent is a real signal, not a rumor. But it is one price, one page, one moment, and it cannot by itself know whether the problem is the number, the tier, or the person who arrived to see it.
 
-So they move by degrees. Their confidence that twenty dollars, *as shown*, converts a broad audience drops hard — that belief took the full weight of the result. Their broader belief that the tool is worth paying for barely moves, because nothing here tested it. They come out of the test believing something more textured than they went in with, which is what a real update leaves behind — not a reversal, not a shrug, but a belief with a new and specific shape.
+So they move by degrees. Their confidence that twenty dollars, *as shown*, converts a broad audience drops hard, because that belief took the full weight of the result. Their broader belief that the tool is worth paying for barely moves, because nothing here tested it. They come out of the test believing something more textured than they went in with, which is what a real update leaves behind: not a reversal, not a shrug, but a belief with a new and specific shape.
 :::
 
 ## Reading it into the Halo call {#sec-worked-halo}
@@ -50,11 +50,11 @@ So they move by degrees. Their confidence that twenty dollars, *as shown*, conve
 ::: {.running-case}
 **Halo Alert — moving the belief**
 
-The team had [weighed the warm conversations](weighing-the-evidence.qmd) and found them thin — real evidence that the ring was *likable*, not evidence that anyone would switch to it. The question was what to do with a result that light.
+The team had [weighed the warm conversations](weighing-the-evidence.qmd) and found them thin: real evidence that the ring was *likable*, not evidence that anyone would switch to it. The question was what to do with a result that light.
 
 They did not throw it away. The numbers underneath still stood. The fear was real, widespread, and already known, so the belief that *the problem is worth solving* held firm, untouched by a soft conversation because it never rested on one. What moved was smaller and more exact. The belief that *the ring is likable* ticked up a notch and no further, because likability was all the result had earned. And the belief that actually gated the venture, that women would leave the free phone workaround behind and switch, did not move at all. Nothing in warm talk had touched it.
 
-So they came out of the weighing with their conviction redrawn, not overturned. Problem, solid. Appeal, mildly encouraged. Switching, still unknown and now clearly the thing to test. That last unmoved dial is what pointed them at the sharper test — the one that would ask women to leave a workaround behind and let behavior, not enthusiasm, turn it.
+So they came out of the weighing with their conviction redrawn, not overturned. Problem, solid. Appeal, mildly encouraged. Switching, still unknown and now clearly the thing to test. That last unmoved dial is what pointed them at the sharper test, the one that would ask women to leave a workaround behind and let behavior, not enthusiasm, turn it.
 :::
 
 ## Working with your AI {#sec-ai}
@@ -73,7 +73,7 @@ Your AI can do the part that looks hard and cannot do the part that is. Hand it 
 **Ask Your AI**
 
 ::: {.prompt}
-Here is what I believed before this result, stated as a rough confidence: [state your prior belief and how sure you were]. Here is the result and what I did to get it: [paste it]. Tell me, belief by belief, how far this should actually move me — which convictions it bears on, which it doesn't touch, and where you think I'm about to move too far or refuse to move at all.
+Here is what I believed before this result, stated as a rough confidence: [state your prior belief and how sure you were]. Here is the result and what I did to get it: [paste it]. Tell me, belief by belief, how far this should actually move me, which convictions it bears on, which it doesn't touch, and where you think I'm about to move too far or refuse to move at all.
 :::
 :::
 
@@ -84,18 +84,18 @@ Here is what I believed before this result, stated as a rough confidence: [state
 
 Take one belief a recent result speaks to.
 
-1. Write where you stood before the result — not yes or no, but how sure, in plain words.
+1. Write where you stood before the result. Not yes or no, but how sure, in plain words.
 2. Write the result and the weight you gave it in the last chapter.
-3. Now state the move as a distance: did this belief shift far, a little, or not at all — and say why the weight justifies exactly that far and no farther.
+3. Now state the move as a distance: did this belief shift far, a little, or not at all, and say why the weight justifies exactly that far and no farther.
 4. Check the neighbors. Name one belief the result did *not* test, and confirm you left it where it was.
 
 If you cannot say how far you moved, you have not updated. You have only reacted.
 :::
 
 ::: {.key-action}
-**The move:** Let a weighed result shift each belief by the distance it earned — far, a little, or not at all — and refuse to round that distance up to certainty or down to nothing.
+**The move:** Let a weighed result shift each belief by the distance it earned (far, a little, or not at all) and refuse to round that distance up to certainty or down to nothing.
 :::
 
-Updating like this assumes something you have not yet questioned: that the game is the same game, and the result is a move inside it. You are refining the odds among possibilities you have already mapped. Most of the time that assumption holds, and proportional updating is the whole of the work. But every so often a result belongs to no possibility on your map — not a surprising value, but one the map never had room for. When that happens, no amount of turning the dial will help, because the dial is measuring against a map that has gone wrong. That is not a bigger update. It is a different act, and it is where we turn next.
+Updating like this assumes something you have not yet questioned: that the game is the same game, and the result is a move inside it. You are refining the odds among possibilities you have already mapped. Most of the time that assumption holds, and proportional updating is the whole of the work. But every so often a result belongs to no possibility on your map: not a surprising value, but one the map never had room for. When that happens, no amount of turning the dial will help, because the dial is measuring against a map that has gone wrong. That is not a bigger update. It is a different act, and it is where we turn next.
 
 [^anchoring]: The pull of the belief that got there first is a form of anchoring, one of the most durable findings in the study of judgment: an initial value holds the mind near it even as evidence accumulates against it. See @kahnemanThinkingFastSlow2011.

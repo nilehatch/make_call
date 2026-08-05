@@ -5,13 +5,13 @@ subtitle: "Whether a result has earned the right to change your mind"
 
 You ran the test. The result is in. The temptation now is to read it the way you read a verdict: final, settled, true. And especially to read it that way when it tells you what you hoped to hear. That reflex is the most expensive one left in this book.
 
-A result is not a fact. It is a signal, arriving through noise, produced by particular people under particular conditions, and it carries exactly as much weight as its making can bear — no more. The fog does worse than hide the answer — it disguises weak answers as strong ones. And a weak answer believed is worse than no answer at all, because you will act on it.
+A result is not a fact. It is a signal, arriving through noise, produced by particular people under particular conditions, and it carries exactly as much weight as its making can bear, and no more. The fog does worse than hide the answer — it disguises weak answers as strong ones. And a weak answer believed is worse than no answer at all, because you will act on it.
 
 ## A result is not a fact {#sec-result-not-fact}
 
 Between running a test and changing your mind sits a step almost everyone skips: deciding whether the result deserves to be believed. You [designed the experiment](designing-the-experiment.qmd) so that reality could tell you "no." Now you have an answer in hand. But before you let it move you, you have to ask a harder one: *can I trust this enough to act on it?*
 
-Reading a result is not collecting it. It is interrogating it. A credible result earns the right to change your belief; a flimsy one has to be caught before it does. The work of this gate is to tell them apart — to give each result the **weight** it has actually earned, and then to let it move you by that much and no more.
+Reading a result is not collecting it. It is interrogating it. A credible result earns the right to change your belief; a flimsy one has to be caught before it does. The work of this gate is to tell them apart, to give each result the **weight** it has actually earned, and then to let it move you by that much and no more.
 
 ::: {.column-margin .def-margin}
 **Weight** — how much a piece of evidence should move your belief: set not by how much you like the result, but by how much trust its source, method, and conditions can bear.
@@ -23,11 +23,11 @@ Credibility is a dial. Five questions turn it, and you can ask all five in the t
 
 **Who produced it — and what did they want to be true?** Every result comes from someone with a stake, and the someone to watch most closely is yourself. A founder reading their own results is the least neutral judge in the room. Ask what the source hoped to find before you trust what they found.
 
-**How much, and how representative?** Five warm replies from people who resemble you are not evidence about the market; they are evidence about your friends. Weigh how many, drawn from where, and who was left out — the customers who never answered, and the quiet failures that never survived to be counted.
+**How much, and how representative?** Five warm replies from people who resemble you are not evidence about the market; they are evidence about your friends. Weigh how many, drawn from where, and who was left out: the customers who never answered, and the quiet failures that never survived to be counted.
 
 **Did they say, or did they do?** This is the question entrepreneurs get wrong most often and pay for most dearly. Stated enthusiasm is cheap; behavior is dear. "I would absolutely buy this" weighs almost nothing against a refused pre-order, a closed wallet, a workaround they went back to the next day. Weight what people did over what they said they would do.
 
-**Could it still have come back "no"?** A test can be well designed and still run leaky — a question that led the witness, a demo you steered, a success line quietly redrawn after the numbers came in. Look back at the conditions and ask whether a real "no" was still possible at the moment of measurement. If it was not, you are reading a result that was settled before the test began.
+**Could it still have come back "no"?** A test can be well designed and still run leaky: a question that led the witness, a demo you steered, a success line quietly redrawn after the numbers came in. Look back at the conditions and ask whether a real "no" was still possible at the moment of measurement. If it was not, you are reading a result that was settled before the test began.
 
 **Does it agree with what else you know?** A single result is a single witness. Set it beside the evidence you already [triangulated](seeing-in-depth.qmd). A result that converges with independent sources has earned weight; one that stands alone, or contradicts the rest, has not yet earned it. Corroboration is part of credibility.
 
@@ -35,13 +35,13 @@ Credibility is a dial. Five questions turn it, and you can ask all five in the t
 <details>
 <summary>For the Curious — Revealed vs. stated preference</summary>
 
-Economists draw a hard line between what people *say* they prefer and what their choices *reveal* they prefer.[^revealed] Stated preference is what a survey captures; revealed preference is what a purchase, a click, or a signed pre-order captures — a preference made costly, and therefore credible. The whole "say versus do" rule is this distinction in working clothes: a result built on revealed preference can carry weight a stated-preference result never can, because the respondent had to give something up to produce it.
+Economists draw a hard line between what people *say* they prefer and what their choices *reveal* they prefer.[^revealed] Stated preference is what a survey captures; revealed preference is what a purchase, a click, or a signed pre-order captures: a preference made costly, and therefore credible. The whole "say versus do" rule is this distinction in working clothes: a result built on revealed preference can carry weight a stated-preference result never can, because the respondent had to give something up to produce it.
 
 ::: {.learn-ai}
 **Learn From Your AI**
 
 ::: {.prompt}
-I just read about revealed versus stated preference. Explain the difference using my product, [describe it], and give me three cheap signals that would count as *revealed* preference for the exact thing I'm testing — not just what a customer would say.
+I just read about revealed versus stated preference. Explain the difference using my product, [describe it], and give me three cheap signals that would count as *revealed* preference for the exact thing I'm testing, not just what a customer would say.
 :::
 :::
 
@@ -50,7 +50,7 @@ I just read about revealed versus stated preference. Explain the difference usin
 
 ## The result you *want* to believe {#sec-wysiati}
 
-There is one more force working against you, and it is not in the data — it is in you. The mind treats the evidence in front of it as the whole of the evidence, and quietly forgets everything it cannot see: the customers who never replied, the version you did not test, the trial that failed before you started counting. Psychologists have a name for it, *what you see is all there is*,[^wysiati] and it is strongest exactly when the visible evidence flatters you.
+There is one more force working against you, and it is not in the data; it is in you. The mind treats the evidence in front of it as the whole of the evidence, and quietly forgets everything it cannot see: the customers who never replied, the version you did not test, the trial that failed before you started counting. Psychologists have a name for it, *what you see is all there is*,[^wysiati] and it is strongest exactly when the visible evidence flatters you.
 
 This is why the convenient result is the dangerous one. A result that confirms what you hoped slides past every check; you feel relief, and relief feels like proof. A result that threatens the venture gets interrogated mercilessly. You find the small sample, the leading question, the confound. A flattering result of identical quality walks straight in. The discipline is to spend your skepticism evenly: interrogate the welcome result exactly as hard as the unwelcome one.
 
@@ -67,9 +67,9 @@ The team ran the residual-pain test they designed earlier. Here is what reading 
 ::: {.running-case}
 **Halo Alert — Reading the result**
 
-The conversations came back warm. Nearly every woman the team spoke with said the idea was a good one and that she would want something like it — a strong "yes" to the question of whether the ring should exist. The relief in the room was immediate.
+The conversations came back warm. Nearly every woman the team spoke with said the idea was a good one and that she would want something like it: a strong "yes" to the question of whether the ring should exist. The relief in the room was immediate.
 
-Then they weighed it. *Who did they talk to?* Mostly women in the founders' own networks — **convenience sampling**: the easiest people to reach, and the most likely to flatter. *Did they say, or did they do?* They said. Not one had been asked to give anything up — no pre-order, no deposit, not even the small effort of setting a current workaround aside. And on the question that actually decided the venture, whether the free phone workaround left a residual pain sharp enough to switch, the warm answers were nearly silent. The women had praised the idea; almost none had described abandoning what they already did.
+Then they weighed it. *Who did they talk to?* Mostly women in the founders' own networks. **Convenience sampling**: the easiest people to reach, and the most likely to flatter. *Did they say, or did they do?* They said. Not one had been asked to give anything up: no pre-order, no deposit, not even the small effort of setting a current workaround aside. And on the question that actually decided the venture, whether the free phone workaround left a residual pain sharp enough to switch, the warm answers were nearly silent. The women had praised the idea; almost none had described abandoning what they already did.
 
 Weighed honestly, the result was thin. It was real evidence that the concept was *likable*, which is not the evidence the team needed. So they did not let a likable result move a belief it had not earned. They held the call open and set up a sharper test, one that would ask women to actually leave a workaround behind for a week, where a "no" would be genuinely possible and behavior, not enthusiasm, would be the measure.
 
@@ -83,10 +83,10 @@ Notice what the weighing bought them. An unweighed "yes" would have sent them to
 
 Much of credibility-weighing is mechanical, and your AI is good at the mechanics: it will flag a sample too small to mean anything, spot a leading question in your survey, notice a missing comparison group, and ask for the base rate you skipped. Hand it those checks.
 
-But the check that matters most is one the AI is strangely better suited to than you are: it has no hope invested in the answer. It does not feel the relief of a flattering result, so it does not lower its guard for one. Use that — ask it to weigh the welcome result as hard as it would weigh an unwelcome one, and to tell you plainly where you are reading what you wish were true.
+But the check that matters most is one the AI is strangely better suited to than you are: it has no hope invested in the answer. It does not feel the relief of a flattering result, so it does not lower its guard for one. Use that: ask it to weigh the welcome result as hard as it would weigh an unwelcome one, and to tell you plainly where you are reading what you wish were true.
 
 - **Whether the source is you.** Name your own stake out loud; ask the AI to argue the result is wrong.
-- **Whether you'd accept this result if it hurt.** If not, you are not weighing — you are hoping.
+- **Whether you'd accept this result if it hurt.** If not, you are not weighing; you are hoping.
 - **Whether to trust words or wait for behavior.** The AI can tell you the difference; only you can decide to pay for the costlier, truer test.
 :::
 
@@ -94,7 +94,7 @@ But the check that matters most is one the AI is strangely better suited to than
 **Ask Your AI**
 
 ::: {.prompt}
-Here's a result I just got: [paste the result and how you got it]. Here's the decision it informs: [state the call]. Weigh its credibility as if you were trying to talk me out of trusting it — sample, source, my own bias, said-versus-did, and whether a "no" was ever possible. Then tell me how much this should actually move my belief, and what cheaper-but-truer test would carry more weight.
+Here's a result I just got: [paste the result and how you got it]. Here's the decision it informs: [state the call]. Weigh its credibility as if you were trying to talk me out of trusting it: sample, source, my own bias, said-versus-did, and whether a "no" was ever possible. Then tell me how much this should actually move my belief, and what cheaper-but-truer test would carry more weight.
 :::
 :::
 
@@ -114,10 +114,10 @@ If the action outruns the weight, you have found a decision built on evidence th
 :::
 
 ::: {.key-action}
-**The move:** Before a result changes your mind, decide what it's worth — by its source, its method, and whether you'd believe it if it hurt — and let it move you only that much.
+**The move:** Before a result changes your mind, decide what it's worth, by its source, its method, and whether you'd believe it if it hurt — and let it move you only that much.
 :::
 
-A weighed result is not yet a decision. You now know how much to trust what you learned; the next move is to do something with it — to let it shift what you believe by exactly its weight, neither ignoring it nor surrendering to it. That is updating, and it is where we turn next.
+A weighed result is not yet a decision. You now know how much to trust what you learned; the next move is to do something with it: to let it shift what you believe by exactly its weight, neither ignoring it nor surrendering to it. That is updating, and it is where we turn next.
 
 [^revealed]: The distinction comes from @samuelsonNotePureTheory1938: a person's choices, made at a cost, reveal preferences more reliably than their stated answers do.
 

@@ -7,7 +7,7 @@ The advice to "let the data decide" carries a quiet assumption: that you have da
 
 This is the **small world**, and it is where you live. Not the data-rich world of the labs and the tech giants, where a million users settle a question overnight, but the data-poor world of the founder, where every observation is slow, costly, and scarce. And the small world has a consequence most people get exactly backwards: the less data you have, the more your prior decides the answer.
 
-This is not a counsel against data. It is the reason to gather it with unusual care — the discipline the rest of this book is built on. Scarcity doesn't make evidence useless; it makes every scrap of it matter more.
+This is not a counsel against data. It is the reason to gather it with unusual care: the discipline the rest of this book is built on. Scarcity doesn't make evidence useless; it makes every scrap of it matter more.
 
 ::: {.column-margin .def-margin}
 **Small world** — the entrepreneur's normal condition: so few observations that no amount of gathering, in the time and money you have, can overrule the belief you started with.
@@ -48,7 +48,7 @@ That picture (@fig-prior-grip) is the whole point. From a 1-in-10 prior it takes
 
 Here is where the instinct misleads. Faced with little data, the natural move is to distrust your own judgment and wait for evidence to settle the question, as if objectivity were a matter of waiting. But waiting doesn't deliver objectivity in the small world; it delivers a slightly updated version of the same prior. You cannot out-data your way to a good answer on a startup's budget. The quality of your decision is set, mostly, by the quality of the belief you started with.
 
-That cuts both ways, and honestly. A good prior, earned from real experience and grounded in real base rates, lets you act well before the evidence is in, which is the seasoned founder's edge. A bad prior — hope dressed as knowledge — cannot be rescued by the trickle of data you can afford: garbage in, garbage barely updated, garbage out. So in the small world your prior is not a bias to apologize for. It is the main instrument, and it had better be good.
+That cuts both ways, and honestly. A good prior, earned from real experience and grounded in real base rates, lets you act well before the evidence is in, which is the seasoned founder's edge. A bad prior, hope dressed as knowledge, cannot be rescued by the trickle of data you can afford: garbage in, garbage barely updated, garbage out. So in the small world your prior is not a bias to apologize for. It is the main instrument, and it had better be good.
 
 ::: {.running-case}
 **Halo Alert — acting on a good prior**
@@ -63,7 +63,7 @@ If data is precious, waste none of it. The small world is the strongest argument
 ::: {.trap}
 **Trap to Avoid — "The data said so"**
 
-The small world tempts a particular dishonesty: dressing a handful of observations in the authority of Data. Three interviews become "the research"; one good week becomes "traction." You point to the data to avoid admitting how little of it there is, and how much of your confidence is really your prior. In one business-model competition I judged, "we talked to thirty people" became a credential that certified itself — no word on who they were, how they were chosen, or what they actually said. It let the room mistake a number for knowledge, and let good teams fail on schedule. Name the split instead. A decision that is 80% prior and 20% data can be perfectly sound; it may even be the best available. What is not sound is not knowing that's what it is.
+The small world tempts a particular dishonesty: dressing a handful of observations in the authority of Data. Three interviews become "the research"; one good week becomes "traction." You point to the data to avoid admitting how little of it there is, and how much of your confidence is really your prior. In one business-model competition I judged, "we talked to thirty people" became a credential that certified itself: no word on who they were, how they were chosen, or what they actually said. It let the room mistake a number for knowledge, and let good teams fail on schedule. Name the split instead. A decision that is 80% prior and 20% data can be perfectly sound; it may even be the best available. What is not sound is not knowing that's what it is.
 :::
 
 ## Working with your AI {#sec-ai}
@@ -117,7 +117,7 @@ Take a decision you feel fairly sure about.
 :::
 
 ::: {.key-action}
-**The move:** When data is scarce, the prior decides — so make the prior good, spend each scarce test on the sharpest question you can pose, and be honest about how much of your confidence is belief and how much is evidence.
+**The move:** When data is scarce, the prior decides, so make the prior good, spend each scarce test on the sharpest question you can pose, and be honest about how much of your confidence is belief and how much is evidence.
 :::
 
 You have spent this part of the book learning to take your prior seriously: to surface it, to defend it, to see it, and now to recognize that in the small world you live in, it carries most of the weight. That is not a reason to stop gathering evidence. It is a reason to gather it well. A prior worth trusting is the platform; the next part is about what you build on it — the evidence you go out and get, and how to wring the most from the little you can afford.

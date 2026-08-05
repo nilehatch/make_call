@@ -21,6 +21,7 @@ Enforces two settled rules from the family style guide:
 What is NOT counted, because it is structure rather than prose:
   - YAML front matter, fenced code, HTML comments
   - `**Term** — gloss` definition lists and margin glosses
+  - bold-only label lines (`**Trap to Avoid — The confirmation test**`)
   - `<summary>For the Curious — …` drawer labels
   - headings
   - bold at the start of a line or list item (run-in labels)
@@ -53,6 +54,13 @@ SKIP = {"references.qmd"}
 # are the speaker's. Checked only with --all.
 TRANSCRIPT_DIRS = ("demo/",)
 
+# A different register, exempt by design rather than by neglect. The method
+# layer is written FOR an AI to execute, and says so in its own opening: "not
+# written for you... optimized for a machine to execute, not for you to read"
+# (family style guide §3, the dual layer). The em-dash rule exists because a
+# human reader registers dash density as an AI tell. A machine does not.
+EXEMPT = {"method-layer.qmd"}
+
 
 def prose_only(text):
     """Strip everything that is not running prose."""
@@ -63,6 +71,11 @@ def prose_only(text):
     text = re.sub(r"^:::.*$", "", text, flags=re.M)               # div fences
     text = re.sub(r"^<(summary|details|/details)[^>]*>.*$", "", text, flags=re.M)
     text = re.sub(r"^\s*\|.*$", "", text, flags=re.M)             # table rows
+    # Block labels: a bold-only line such as "**Trap to Avoid — The confirmation
+    # test**" or "**Halo Alert — A first test**". Same Label — Name form as a
+    # definition gloss, but with the dash inside the bold, so it is structure
+    # rather than prose and must not count against the density budget.
+    text = re.sub(r"^\s*\*\*[^*\n]*\*\*\s*$", "", text, flags=re.M)
     return text
 
 
@@ -142,7 +155,8 @@ def main(argv):
             print("prose-check — nothing changed; use --all to sweep the book")
             return 0
 
-    targets = [t for t in targets if os.path.basename(t) not in SKIP]
+    targets = [t for t in targets
+               if os.path.basename(t) not in SKIP | EXEMPT]
     if "--all" not in flags:
         targets = [t for t in targets
                    if not any(t.startswith(d) for d in TRANSCRIPT_DIRS)]

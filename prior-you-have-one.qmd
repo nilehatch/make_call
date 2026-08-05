@@ -13,7 +13,7 @@ You carry those odds too. You did not come to this decision empty. You came beli
 
 ## The question that drags it out {#sec-surface}
 
-Surfacing a prior is mostly a matter of asking yourself one uncomfortable question and refusing to flinch: *before any new evidence, how likely is this to work — and why?*
+Surfacing a prior is mostly a matter of asking yourself one uncomfortable question and refusing to flinch: *before any new evidence, how likely is this to work, and why?*
 
 The discomfort is the whole point. A vague hope can never be wrong, which is exactly why founders keep their hopes vague. Say "I have a good feeling about this" and you have committed to nothing; no result can ever catch you out. Say "I think there's maybe a one-in-three chance this lands, and here are my three reasons" and you have put something on the table that the world can confirm or break. That trade, the comfort of vagueness for a belief you can examine, is the method's first honest act.
 
@@ -50,9 +50,9 @@ This is also where a founder's conviction earns its keep, or doesn't. Sometimes 
 ::: {.running-case}
 **Halo Alert — what the team already believed**
 
-Before a single interview, the Halo Alert team believed women would wear a discreet safety device on their walk home. Where did that belief come from? Partly from something solid: two of the founders had walked home afraid, keys laced through their fingers, and knew dozens of women who did the same — a prior grounded in lived experience. Partly, though, it came from somewhere softer. They *wanted* it to be true, and had pitched it enough times to feel sure.
+Before a single interview, the Halo Alert team believed women would wear a discreet safety device on their walk home. Where did that belief come from? Partly from something solid: two of the founders had walked home afraid, keys laced through their fingers, and knew dozens of women who did the same: a prior grounded in lived experience. Partly, though, it came from somewhere softer. They *wanted* it to be true, and had pitched it enough times to feel sure.
 
-Surfacing the prior meant pulling those apart. One half was grounded: the fear is real and widespread, and that they could defend. The other was only hope: that women would adopt a *device* rather than keep the free workaround they already had. They could not defend that — and naming it honestly is what told them where the first test had to aim.
+Surfacing the prior meant pulling those apart. One half was grounded: the fear is real and widespread, and that they could defend. The other was only hope: that women would adopt a *device* rather than keep the free workaround they already had. They could not defend that, and naming it honestly is what told them where the first test had to aim.
 :::
 
 ::: {.trap}
@@ -79,7 +79,7 @@ Two judgments stay yours. The AI can lay your reasons side by side, but only you
 **Ask Your AI**
 
 ::: {.prompt}
-I'm about to make this decision: [state it]. Interview me to surface my prior — ask how likely I think this is to work and why, and keep pressing until I've given a rough number and the reasons behind it. Then help me sort those reasons into two piles: what I can actually defend, and what is hope or habit. Don't let me off easy.
+I'm about to make this decision: [state it]. Interview me to surface my prior: ask how likely I think this is to work and why, and keep pressing until I've given a rough number and the reasons behind it. Then help me sort those reasons into two piles: what I can actually defend, and what is hope or habit. Don't let me off easy.
 :::
 :::
 
@@ -101,4 +101,4 @@ If the *earned* column is empty, you haven't found your prior yet. You've found 
 **The move:** Before you gather a shred of new evidence, write your "before" (the claim, how strongly you hold it, and the honest reasons behind it) so you have something real to defend, and to change.
 :::
 
-You have a prior now: named, written, sorted into what you can defend and what you only hoped. That can feel like an admission of weakness — a confession that you prejudged. It is the opposite. Next we'll see why this "before" is [not a bias to apologize for](prior-why-it-matters.qmd) but the most valuable thing you bring to the decision — and what it quietly costs you to pretend you don't have one.
+You have a prior now: named, written, sorted into what you can defend and what you only hoped. That can feel like an admission of weakness, a confession that you prejudged. It is the opposite. Next we'll see why this "before" is [not a bias to apologize for](prior-why-it-matters.qmd) but the most valuable thing you bring to the decision — and what it quietly costs you to pretend you don't have one.
