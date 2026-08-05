@@ -345,7 +345,8 @@ hr.method-divider {
   margin: 0.8rem 0 0;
 }
 
-/* AVOID — caution (single box; warnings + cautions merged) */
+/* AVOID — a mistake you might make. Boundaries of the method are .limit,
+   defined below; these two were one box until 2026-08-05. */
 .trap {
   border-left-color: #DC2626;
   background: #FDECEC;
@@ -496,12 +497,8 @@ th { background-color: #f8f8f8; text-align: left; }
    instrument, which no amount of care removes. Keeping both under one red box
    told the reader to be careful about something that is not their fault.
 
-   .trap keeps the red. .limit is deliberately calm — muted, no alarm — because
-   its message is "this is the tool, not you." */
-.trap {
-  border-left-color: #B3261E;
-  background: #FDF0EF;
-}
+   .trap is unchanged and keeps its red, defined above. .limit is deliberately
+   calm — muted, no alarm — because its message is "this is the tool, not you." */
 .limit {
   border-left-color: var(--brand-muted);
   background: #F4F4F5;
