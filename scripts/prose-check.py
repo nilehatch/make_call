@@ -6,7 +6,7 @@ were violated three times in one session by the same person who had just
 written them — including twice within an hour. A habit did not work; a check
 does.
 
-Enforces two settled rules from the family style guide:
+Enforces four settled rules from the family style guide:
 
   §15  em-dash density  — target <= 4.0 per 1000 words of prose, i.e. roughly
        one per 250 words. Parenthetical pairs (— like this —) are called out
@@ -18,6 +18,18 @@ Enforces two settled rules from the family style guide:
        again. Never a whole sentence or clause, and never for stress (that is
        italic's job).
 
+  contrastive negation — "The problem is not X. It is Y." Defines a thing by
+       what it isn't and then often stops. It has the shape of a distinction
+       without the substance of one, which is why a model reaches for it and
+       why a reader stops trusting it. Threshold 6.0/1k is calibrated, not
+       chosen: no file in Make the Call exceeds 5.8 after its sweep, while
+       Is This Worth Doing runs a median of 7.5 and a worst file of 13.9.
+
+  forward-pointer endings — "The chapters that follow take up that task
+       directly." One is fine prose. Nine chapters in a row ending the same
+       way is a template. Reported as a warning per file, with a tally across
+       a --all run, because the defect is the repetition and not the instance.
+
 What is NOT counted, because it is structure rather than prose:
   - YAML front matter, fenced code, HTML comments
   - `**Term** — gloss` definition lists and margin glosses
@@ -27,7 +39,8 @@ What is NOT counted, because it is structure rather than prose:
   - bold at the start of a line or list item (run-in labels)
 
 Exit status is 1 if any hard violation is found, so it can gate a commit.
-Shared verbatim with Make the Call; fix bugs in both, or in neither.
+Shared verbatim across Make the Call, Expeditionary Innovation, and Is This
+Worth Doing; fix bugs in all three, or in none.
 
     python3 scripts/prose-check.py              # default: only what this pass touched
     python3 scripts/prose-check.py Chapter.qmd  # named files
@@ -43,9 +56,40 @@ import re
 import sys
 
 DASH_PER_1K = 4.0          # §15
+NEG_PER_1K = 6.0           # contrastive negation; MtC's worst post-sweep file is 5.8
 SENTENCE_BOLD_WORDS = 9    # a bold this long is a clause, not a label
 LABEL_WORDS = 4            # "**Weak.**" is a label; a period does not make it a sentence
 MIN_WORDS = 400            # below this the per-1k rate is noise, not signal
+
+# Contrastive negation, in the four forms that actually show up. The first is
+# the classic sentence pair; the rest are its compressed variants. Kept as
+# separate patterns rather than one alternation so that a false positive can be
+# traced to the clause that produced it.
+NEG_PATTERNS = (
+    # "Demand is not market size. It is a relationship."
+    r"\b(?:is|are|was|were|do|does|did|can|will|has|have)\s+not\b"
+    r"[^.!?\n]{0,90}[.!?]\s+(?:It|They|This|That|The\s+\w+)\s+(?:is|are|was|were|does|do)\b",
+    # "not a failure of planning, but a feature of acting in unfamiliar territory"
+    r"\bnot\s+(?:because\s+)?[^,.\n]{2,60},\s*but\b",
+    # "The problem is not that the decision is irrational."
+    r"^\s*(?:The|This|That|It|Its)\b[^.\n]{0,40}\bis\s+not\b",
+    r"\bis\s+not\s+(?:that|simply|merely|about)\b",
+)
+
+# Formulaic forward-pointers, matched only against the tail of a file. A
+# chapter may legitimately say where it is going; the tell is that every
+# chapter says it the same way.
+SIGNPOST = re.compile(
+    r"(?:the\s+(?:chapters?|sections?|toolkits?)\s+that\s+follows?"
+    r"|(?:in\s+)?the\s+next\s+(?:chapter|section|toolkit|part)"
+    r"|that\s+(?:step|question|task|work)\s+comes\s+next"
+    r"|takes?\s+up\s+(?:that|this)\s+(?:task|question|tension)"
+    r"|we\s+(?:will\s+)?(?:now\s+)?turn\s+to"
+    r"|turns?\s+to\s+that\s+(?:question|task)"
+    r"|only\s+then\s+does\s+it\s+make\s+sense)",
+    re.I,
+)
+SIGNPOST_TAIL = 500        # characters of prose from the end to inspect
 
 SKIP = {"references.qmd"}
 
@@ -84,6 +128,26 @@ def structural_dashes(text):
     return len(re.findall(r"\*\*[^*]+\*\*\s+—", text))
 
 
+def contrastive(text):
+    """Every contrastive-negation hit, as (pattern index, matched text)."""
+    hits = []
+    for i, pat in enumerate(NEG_PATTERNS):
+        for m in re.finditer(pat, text, flags=re.M):
+            hits.append((i, " ".join(m.group(0).split())))
+    return hits
+
+
+def signpost_ending(text):
+    """The formulaic forward-pointer, if the file ends on one."""
+    tail = text.rstrip()[-SIGNPOST_TAIL:]
+    # last non-empty block, so a closing paragraph is judged on its own
+    blocks = [b for b in re.split(r"\n\s*\n", tail) if b.strip()]
+    if not blocks:
+        return None
+    last = " ".join(blocks[-1].split())
+    return last if SIGNPOST.search(last) else None
+
+
 def audit(path):
     raw = open(path, encoding="utf-8").read()
     body = prose_only(raw)
@@ -96,14 +160,29 @@ def audit(path):
     density = dashes / (words / 1000) if words else 0
     budget = int(words / 250)
 
+    negs = contrastive(body)
+    neg_density = len(negs) / (words / 1000) if words else 0
+    signpost = signpost_ending(body)
+
     violations, warnings = [], []
     if density > DASH_PER_1K and words >= MIN_WORDS:
         violations.append(
             f"em-dash density {density:.1f}/1k exceeds {DASH_PER_1K} "
             f"({dashes} in prose, budget {budget})"
         )
+    if neg_density > NEG_PER_1K and words >= MIN_WORDS:
+        violations.append(
+            f"contrastive negation {neg_density:.1f}/1k exceeds {NEG_PER_1K} "
+            f"({len(negs)} in prose, budget {int(words / 1000 * NEG_PER_1K)})"
+        )
+        for _, s in negs[:4]:
+            violations.append(f"    “{s[:72]}…”")
+        if len(negs) > 4:
+            violations.append(f"    …and {len(negs) - 4} more")
     for p in pairs:
         warnings.append(f"parenthetical pair: {p[:66].strip()}…")
+    if signpost:
+        warnings.append(f"forward-pointer ending: “{signpost[:66]}…”")
 
     # --- bold audit: only inline bolds; run-in labels are legitimate ---
     for line in body.split("\n"):
@@ -120,7 +199,8 @@ def audit(path):
                 violations.append(f'whole sentence/clause in bold: "{s[:64]}…"')
 
     return dict(path=path, words=words, density=density, dashes=dashes,
-                budget=budget, violations=violations, warnings=warnings)
+                budget=budget, neg_density=neg_density, signpost=bool(signpost),
+                violations=violations, warnings=warnings)
 
 
 def changed_files():
@@ -162,22 +242,36 @@ def main(argv):
                    if not any(t.startswith(d) for d in TRANSCRIPT_DIRS)]
 
     failed = False
-    print(f"prose-check — em-dash <= {DASH_PER_1K}/1k, no sentence-length bold\n")
+    audited, signposts = 0, 0
+    print(f"prose-check — em-dash <= {DASH_PER_1K}/1k, "
+          f"contrastive negation <= {NEG_PER_1K}/1k, no sentence-length bold\n")
     for t in targets:
         r = audit(t)
         if not r:
             continue
+        audited += 1
+        signposts += r["signpost"]
         flag = "FAIL" if r["violations"] else ("warn" if r["warnings"] else "ok")
         if r["violations"]:
             failed = True
         if flag == "ok" and len(targets) > 6:
             continue                            # keep a full-book run readable
         print(f"[{flag:4}] {r['path']}  {r['words']}w  "
-              f"em-dash {r['density']:.1f}/1k ({r['dashes']}/{r['budget']})")
+              f"em-dash {r['density']:.1f}/1k ({r['dashes']}/{r['budget']})  "
+              f"neg {r['neg_density']:.1f}/1k")
         for v in r["violations"]:
             print(f"         ✗ {v}")
         for w in r["warnings"]:
             print(f"         · {w}")
+
+    # The forward-pointer defect is repetition, so it is only legible in the
+    # aggregate. One chapter closing on "the next chapter turns to" is prose;
+    # most of them doing it is a template.
+    if audited > 3 and signposts:
+        share = signposts / audited
+        print(f"\n{signposts} of {audited} files end on a forward-pointer "
+              f"({share:.0%})" + ("  — that is a template, not a transition"
+                                  if share > 0.25 else ""))
 
     print("\nclean" if not failed else "\nviolations found — fix before committing")
     return 1 if failed else 0
