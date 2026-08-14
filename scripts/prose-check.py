@@ -30,6 +30,19 @@ Enforces four settled rules from the family style guide:
        way is a template. Reported as a warning per file, with a tally across
        a --all run, because the defect is the repetition and not the instance.
 
+  §2   stub bullets — a bullet that carries an idea is a sentence; a bullet
+       that only names where an idea would sit is three words. That is §2's
+       own test ("does this bullet carry the idea, or only name the place the
+       idea would sit?") made measurable, and it is what makes a draft read as
+       an outline of its content rather than the content. Bullet COUNT does
+       not discriminate — Make the Call runs a 26% median list density and
+       Is This Worth Doing 29%. Bullet LENGTH separates them completely:
+       median bullet 22 words against 6, and 3% of bullets under seven words
+       against 60%. Run-in bold labels are stripped before counting, so
+       "**Keep the reps yours.** Use the AI to..." is scored on its
+       explanation; a bare label with no explanation scores zero and is
+       correctly flagged.
+
 What is NOT counted, because it is structure rather than prose:
   - YAML front matter, fenced code, HTML comments
   - `**Term** — gloss` definition lists and margin glosses
@@ -91,6 +104,11 @@ SIGNPOST = re.compile(
 )
 SIGNPOST_TAIL = 500        # characters of prose from the end to inspect
 
+STUB_WORDS = 6             # a bullet this short names a place, it does not carry an idea
+STUB_SHARE = 0.25          # fail above this share; MtC's worst file sits at 0.10
+MIN_BULLETS = 8            # below this the share is noise, not signal
+BULLET_RE = re.compile(r"^\s*(?:[-*+]|\d+\.)\s+(.*)$")
+
 SKIP = {"references.qmd"}
 
 # Demo files are verbatim transcripts, worksheets and field notes. They are
@@ -137,6 +155,25 @@ def contrastive(text):
     return hits
 
 
+def stub_bullets(text):
+    """(stub_list, total) — bullets whose body is too short to carry an idea.
+
+    The run-in bold label is stripped first: a label plus its explanation is
+    the legitimate `<dl>` form (§12a), so only the explanation is scored. A
+    bullet that is nothing but a label scores zero words, which is the case
+    this rule exists to catch.
+    """
+    lengths = []
+    for line in text.split("\n"):
+        m = BULLET_RE.match(line)
+        if not m:
+            continue
+        body = re.sub(r"\*\*[^*]+\*\*", "", m.group(1))    # drop run-in label
+        body = re.sub(r"[`*_\[\]()]", "", body).strip()
+        lengths.append((len(body.split()), " ".join(m.group(1).split())))
+    return [t for n, t in lengths if n <= STUB_WORDS], len(lengths)
+
+
 def signpost_ending(text):
     """The formulaic forward-pointer, if the file ends on one."""
     tail = text.rstrip()[-SIGNPOST_TAIL:]
@@ -179,6 +216,17 @@ def audit(path):
             violations.append(f"    “{s[:72]}…”")
         if len(negs) > 4:
             violations.append(f"    …and {len(negs) - 4} more")
+    stubs, n_bullets = stub_bullets(body)
+    stub_share = len(stubs) / n_bullets if n_bullets else 0
+    if n_bullets >= MIN_BULLETS and stub_share > STUB_SHARE:
+        violations.append(
+            f"stub bullets {stub_share:.0%} of {n_bullets} are ≤{STUB_WORDS} words "
+            f"(ceiling {STUB_SHARE:.0%}) — naming ideas instead of carrying them"
+        )
+        for s in stubs[:4]:
+            violations.append(f"    • {s[:66]}")
+        if len(stubs) > 4:
+            violations.append(f"    …and {len(stubs) - 4} more")
     for p in pairs:
         warnings.append(f"parenthetical pair: {p[:66].strip()}…")
     if signpost:
@@ -244,7 +292,8 @@ def main(argv):
     failed = False
     audited, signposts = 0, 0
     print(f"prose-check — em-dash <= {DASH_PER_1K}/1k, "
-          f"contrastive negation <= {NEG_PER_1K}/1k, no sentence-length bold\n")
+          f"contrastive negation <= {NEG_PER_1K}/1k, "
+          f"stub bullets <= {STUB_SHARE:.0%}, no sentence-length bold\n")
     for t in targets:
         r = audit(t)
         if not r:
