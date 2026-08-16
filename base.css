@@ -479,6 +479,23 @@ th { background-color: #f8f8f8; text-align: left; }
    Family-level, not EI-only: Make the Call's whole subject is when evidence is
    enough, so it has more use for this than EI does.
 
+   Sharpened 2026-08-16, when Is This Worth Doing adopted it. The .checkpoint
+   boundary was being read wrongly, because both callouts can open "before you
+   accept X". The test is WHO CLEARS THE BAR, not who produced the artifact:
+
+     .threshold — a HUMAN must clear a bar before proceeding. "Before you accept
+                  a fitted curve, you must be able to do three things." Still a
+                  gate when an AI or an app handed you the curve; the reader is
+                  the one being held to the standard.
+     .checkpoint — an AI's OUTPUT is being supervised, and the box is about the
+                  machine's work rather than the reader's readiness.
+
+   ITWD's two boxes were .checkpoint and are now .threshold on that test. Note
+   for whoever revisits this: Make the Call names five of its parts "The Frame
+   Gate", "The Prior Gate" and so on, and uses .threshold zero times. The
+   concept lives in its part titles and its prose but never in the apparatus, so
+   a reader cannot find the bar. That is an adoption gap, not a design one.
+
    Differentiated by FORM as well as hue — a rule above and below, so it still
    reads as a gate in grayscale and for readers who cannot separate the green
    from .trap's red. */
