@@ -18,6 +18,15 @@ Enforces four settled rules from the family style guide:
        again. Never a whole sentence or clause, and never for stress (that is
        italic's job).
 
+       Two checks. Inline bolds are measured directly. Line-start bolds are
+       run-in labels and exempt — except when the bold opens with a term that
+       has a margin gloss and then runs on into a proposition, e.g.
+       "**Expected profit is conditional rather than speculative.**" where the
+       gloss defines "Expected profit". That form is the term bold and the
+       sentence bold confused for each other, and the fix is to close the bold
+       after the term. Narrow on purpose: the exemption exists because run-in
+       labels are legitimate, and a blanket rule flags over a hundred of them.
+
   contrastive negation — "The problem is not X. It is Y." Defines a thing by
        what it isn't and then often stops. It has the shape of a distinction
        without the substance of one, which is why a model reaches for it and
@@ -185,6 +194,67 @@ def signpost_ending(text):
     return last if SIGNPOST.search(last) else None
 
 
+GLOSS = re.compile(r"\{[^}]*\.def-margin[^}]*\}\s*\n\*\*([^*]+)\*\*\s*[—-]")
+ARTICLE = re.compile(r"^(the|a|an)\s+", re.I)
+
+
+def _stem(word):
+    word = word.lower()
+    for suffix in ("ing", "ies", "es", "ed", "s"):
+        if len(word) > 4 and word.endswith(suffix):
+            return word[: -len(suffix)]
+    return word
+
+
+def term_key(s):
+    """Normalized comparison key: leading article dropped, words stemmed.
+
+    So "Access test" matches "access testing" and "The base rate" matches
+    "base rate" — variants that are the same term, not a violation.
+    """
+    return tuple(_stem(w) for w in re.findall(r"[A-Za-z']+", ARTICLE.sub("", s.strip())))
+
+
+def buried_terms(raw):
+    """A margin-glossed term swallowed inside a whole-sentence bold.
+
+    §12a permits bolding a defined term at first teaching use. The slip this
+    catches is bolding the *proposition* instead of the term —
+    "**Expected profit is conditional rather than speculative.**" where the
+    gloss defines "Expected profit". The fix is always to close the bold after
+    the term.
+
+    Deliberately narrow. A line-start bold is normally a legitimate run-in
+    label, so this fires only when the bold both begins with a glossed term and
+    is sentence-like by the same test used for inline bolds. Across Make the
+    Call, Expeditionary Innovation and Is This Worth Doing it finds one case,
+    which is the point: a general rule on run-in labels flags over a hundred
+    legitimate ones and is useless.
+    """
+    keys = [(m.group(1).strip(), term_key(m.group(1).strip()), m.span())
+            for m in GLOSS.finditer(raw)]
+    found = []
+    for term, key, span in keys:
+        outside = raw[: span[0]] + raw[span[1]:]
+        for line in outside.split("\n"):
+            # A bullet run-in label is the documented <dl> form (§2, §12a) and
+            # is legitimate even when it is a full proposition. The confusion
+            # this rule targets happens in running paragraphs.
+            if BULLET_RE.match(line):
+                continue
+            for bold in re.findall(r"\*\*([^*\n]+)\*\*", line):
+                bold = bold.strip()
+                bkey = term_key(bold)
+                if bkey[: len(key)] != key or len(bkey) <= len(key):
+                    continue
+                n = len(bold.split())
+                if n > SENTENCE_BOLD_WORDS or (
+                    bold.rstrip().endswith((".", "!", "?")) and n > LABEL_WORDS
+                ):
+                    found.append((term, bold))
+    return found
+
+
 def audit(path):
     raw = open(path, encoding="utf-8").read()
     body = prose_only(raw)
@@ -245,6 +315,13 @@ def audit(path):
             )
             if sentence_like:
                 violations.append(f'whole sentence/clause in bold: "{s[:64]}…"')
+
+    # A glossed term bolded as part of a proposition rather than on its own.
+    for term, bold in buried_terms(raw):
+        violations.append(
+            f'glossed term "{term}" bolded inside a sentence: "{bold[:56]}…" '
+            f"— close the bold after the term"
+        )
 
     return dict(path=path, words=words, density=density, dashes=dashes,
                 budget=budget, neg_density=neg_density, signpost=bool(signpost),
