@@ -118,6 +118,53 @@ STUB_SHARE = 0.25          # fail above this share; MtC's worst file sits at 0.1
 MIN_BULLETS = 8            # below this the share is noise, not signal
 BULLET_RE = re.compile(r"^\s*(?:[-*+]|\d+\.)\s+(.*)$")
 
+# --- British spellings (added 2026-08-17, after ITWD's sweep) -----------------
+# Two traps shaped this list, both hit while sweeping ITWD by hand.
+#
+#   A \b after the stem MISSES COMPOUNDS. greyscale, colourblind and
+#   unlabelled all survived a word-anchored pass and the file reported clean.
+#   So most entries below are bare stems with no trailing boundary.
+#
+#   The obvious stem for some pairs MATCHES CORRECT US WORDS. "analys" hits
+#   analysis and analyses; "realis" hits realism and realistic; "emphasis" and
+#   "practice" are correct nouns. Those get explicit suffix groups instead.
+#
+# Prose only: R/ and scripts/ are not scanned, and neither are code chunks,
+# which prose_only() strips. Comments in R sources need their own pass.
+BRITISH = (
+    (r"colour",                            "color"),
+    (r"behaviour",                         "behavior"),
+    (r"favour",                            "favor"),
+    (r"neighbour",                         "neighbor"),
+    (r"centre",                            "center"),
+    (r"defence",                           "defense"),
+    (r"licence",                           "license"),
+    (r"judgement",                         "judgment"),
+    (r"programme",                         "programme -> program"),
+    (r"modelling",                         "modeling"),
+    (r"labell",                            "label-"),
+    (r"travell",                           "travel-"),
+    (r"cancell",                           "cancel-"),
+    (r"organis",                           "organiz-"),
+    (r"whilst",                            "while"),
+    (r"amongst",                           "among"),
+    (r"sceptic",                           "skeptic"),
+    (r"practise",                          "practice"),
+    (r"\blearnt\b",                        "learned"),
+    (r"grey",                              "gray"),
+    (r"\bmetre",                           "meter"),
+    (r"\bfibre",                           "fiber"),
+    (r"\btheatre",                         "theater"),
+    (r"analys(?:e|ed|ing)\b",              "analyz-"),
+    (r"realis(?:e|es|ed|ing|ation)\b",     "realiz-"),
+    (r"recognis(?:e|es|ed|ing|able)\b",    "recogniz-"),
+    (r"summaris(?:e|es|ed|ing)\b",         "summariz-"),
+    (r"emphasis(?:e|es|ed|ing)\b",         "emphasiz-"),
+    (r"specialis(?:e|es|ed|ing|ation)\b",  "specializ-"),
+    (r"prioritis(?:e|es|ed|ing)\b",        "prioritiz-"),
+    (r"criticis(?:e|es|ed|ing)\b",         "criticiz-"),
+)
+
 SKIP = {"references.qmd"}
 
 # Demo files are verbatim transcripts, worksheets and field notes. They are
@@ -181,6 +228,27 @@ def stub_bullets(text):
         body = re.sub(r"[`*_\[\]()]", "", body).strip()
         lengths.append((len(body.split()), " ".join(m.group(1).split())))
     return [t for n, t in lengths if n <= STUB_WORDS], len(lengths)
+
+
+def britishisms(text):
+    """British spellings in prose, collapsed to one entry per distinct token."""
+    found = {}
+    for pat, am in BRITISH:
+        for m in re.finditer(pat, text, re.I):
+            # widen the match to the whole word, so a compound reports as
+            # "colourblind" rather than the bare stem it matched on
+            lo, hi = m.start(), m.end()
+            while lo > 0 and (text[lo - 1].isalpha() or text[lo - 1] == "-"):
+                lo -= 1
+            while hi < len(text) and (text[hi].isalpha() or text[hi] == "-"):
+                hi += 1
+            tok = text[lo:hi]
+            k = tok.lower()
+            if k in found:
+                found[k][1] += 1
+            else:
+                found[k] = [tok, 1, am]
+    return list(found.values())
 
 
 def signpost_ending(text):
@@ -286,6 +354,11 @@ def audit(path):
             violations.append(f"    “{s[:72]}…”")
         if len(negs) > 4:
             violations.append(f"    …and {len(negs) - 4} more")
+    for tok, n, am in britishisms(body):
+        violations.append(
+            f'British spelling "{tok}"' + (f" ({n}\u00d7)" if n > 1 else "")
+            + f" — use {am}"
+        )
     stubs, n_bullets = stub_bullets(body)
     stub_share = len(stubs) / n_bullets if n_bullets else 0
     if n_bullets >= MIN_BULLETS and stub_share > STUB_SHARE:
@@ -370,7 +443,8 @@ def main(argv):
     audited, signposts = 0, 0
     print(f"prose-check — em-dash <= {DASH_PER_1K}/1k, "
           f"contrastive negation <= {NEG_PER_1K}/1k, "
-          f"stub bullets <= {STUB_SHARE:.0%}, no sentence-length bold\n")
+          f"stub bullets <= {STUB_SHARE:.0%}, no sentence-length bold, "
+          f"US spelling\n")
     for t in targets:
         r = audit(t)
         if not r:

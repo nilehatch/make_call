@@ -104,3 +104,24 @@ quarto render && git status --short _freeze    # commit freeze changes with the 
 Per global CLAUDE.md: preserve the author's voice, and cite when changing facts or claims.
 `number-sections: false` here — this book is the family's deliberate outlier on that, where
 ITWD and EI number chapters at depth 1.
+
+## Open: British spellings (found 17 Aug 2026, not fixed)
+
+`scripts/prose-check.py` gained a US-spelling check on 17 Aug, added in the ITWD
+session and copied here byte-identical. Running it surfaces **8 instances of "grey"**
+in this book, none of them fixed:
+
+- `ways-of-knowing.qmd` — lines 37, 56, 57, 60, 68, 70, 71 (seven, clustered; likely one
+  passage about grey areas or a figure description)
+- `seeing-probability.qmd` — line 117
+
+`python3 scripts/prose-check.py --all` lists them. Check whether the `ways-of-knowing`
+cluster is prose or a deliberate reference before a blanket replace — seven in one file
+suggests a single passage, and if it names a colour in a figure the figure needs the same
+change.
+
+**Also here:** this book's `intro.qmd` is numbered, while EI and now ITWD leave their
+opening chapter unnumbered and outside the parts. Family style guide §14 settled the
+unnumbered pattern on 17 Aug and names MtC as the outlier. Changing it renumbers every
+chapter, which is cheap here — MtC already links chapters by descriptive text rather than
+by number, so nothing breaks. ITWD had to convert 20 numeric links first.
