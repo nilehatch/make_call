@@ -487,14 +487,26 @@ tbody td:first-child { font-weight: 600; }
 /* Pandoc drops an all-empty header row rather than emitting empty cells, so
    a `| | |` table simply has no thead and needs no special handling. */
 
-/* Worksheet tables: a grid, because the point is that it looks fillable.
-   The wrapper scrolls so a wide matrix never breaks the page. */
-.worksheet { overflow-x: auto; }
+/* Gridded tables: vertical rules restored, because some tables are read
+   ACROSS as well as down and the eye needs the column to track -- an
+   experience map, a screening matrix. Both scroll rather than breaking the
+   page. `.gridded` keeps prose left-aligned; `.worksheet` adds the centring
+   that suits a table of marks rather than sentences. */
+.gridded, .worksheet { overflow-x: auto; }
+
+.gridded .table > thead > tr > th,
+.gridded .table > tbody > tr > td,
+.gridded th, .gridded td,
+.worksheet .table > thead > tr > th,
+.worksheet .table > tbody > tr > td,
+.worksheet th, .worksheet td {
+  border: 1px solid #e5e7eb;
+}
+
 .worksheet .table > thead > tr > th,
 .worksheet .table > tbody > tr > td,
 .worksheet th,
 .worksheet td {
-  border: 1px solid #e5e7eb;
   text-align: center;
   font-weight: 400;
 }
