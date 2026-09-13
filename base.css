@@ -445,41 +445,50 @@ table {
   font-size: 0.97rem;
 }
 
+/* Quarto emits <table class="table">, and Bootstrap's
+   `.table>:not(caption)>*>*` sets background-color, color and padding at a
+   specificity a bare `thead th` cannot beat. Match its shape and win on the
+   child selectors rather than reaching for !important. */
+.table > thead > tr > th,
 thead th {
-  background: var(--brand-bg-tint);
+  background-color: var(--brand-bg-tint);
   color: var(--brand-primary);
   text-align: left;
   font-weight: 700;
-  padding: 0.55rem 0.8rem;
+  padding: 0.6rem 0.8rem;
   border-bottom: 2px solid var(--brand-primary);
 }
 
-/* A headerless pipe table (| | |) must not show an empty tinted band. */
-thead th:empty {
-  background: transparent;
-  border-bottom-color: #e5e7eb;
-}
-
+.table > tbody > tr > td,
 tbody td {
-  padding: 0.55rem 0.8rem;
+  padding: 0.6rem 0.8rem;
   vertical-align: top;
   border-bottom: 1px solid #eef1f4;
 }
 
+.table > tbody > tr:last-child > td,
 tbody tr:last-child td { border-bottom: none; }
 
 /* The first column is the key in nearly every table here. */
+.table > tbody > tr > td:first-child,
 tbody td:first-child { font-weight: 600; }
+
+/* Pandoc drops an all-empty header row rather than emitting empty cells, so
+   a `| | |` table simply has no thead and needs no special handling. */
 
 /* Worksheet tables: a grid, because the point is that it looks fillable.
    The wrapper scrolls so a wide matrix never breaks the page. */
 .worksheet { overflow-x: auto; }
+.worksheet .table > thead > tr > th,
+.worksheet .table > tbody > tr > td,
 .worksheet th,
 .worksheet td {
   border: 1px solid #e5e7eb;
   text-align: center;
   font-weight: 400;
 }
+.worksheet .table > tbody > tr > td:first-child,
+.worksheet .table > thead > tr > th:first-child,
 .worksheet td:first-child,
 .worksheet th:first-child { text-align: left; font-weight: 600; }
 
