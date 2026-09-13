@@ -429,10 +429,59 @@ figcaption {
   padding-top: 1em;
 }
 
-/* ====== Tables ====== */
-table { border-collapse: collapse; width: 100%; margin: 1em 0; }
-th, td { border: 1px solid #e5e7eb; padding: 0.5em; vertical-align: top; }
-th { background-color: #f8f8f8; text-align: left; }
+/* ====== Tables ======
+   Most tables in this family are CONCEPT tables: two columns, a key and a
+   line of prose. The old full 1px grid made every one of them read as a
+   spreadsheet. Horizontal rules only, a tinted header that takes the book's
+   own brand colour, and a first column carrying a little weight, because in
+   a two-column table it is always the key.
+   Data tables that want real typesetting should use gt() instead.
+   Tables meant to look like something a person filled in -- the screening
+   matrix, a worksheet -- go inside ::: {.worksheet} and keep the grid. */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.25em 0;
+  font-size: 0.97rem;
+}
+
+thead th {
+  background: var(--brand-bg-tint);
+  color: var(--brand-primary);
+  text-align: left;
+  font-weight: 700;
+  padding: 0.55rem 0.8rem;
+  border-bottom: 2px solid var(--brand-primary);
+}
+
+/* A headerless pipe table (| | |) must not show an empty tinted band. */
+thead th:empty {
+  background: transparent;
+  border-bottom-color: #e5e7eb;
+}
+
+tbody td {
+  padding: 0.55rem 0.8rem;
+  vertical-align: top;
+  border-bottom: 1px solid #eef1f4;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+/* The first column is the key in nearly every table here. */
+tbody td:first-child { font-weight: 600; }
+
+/* Worksheet tables: a grid, because the point is that it looks fillable.
+   The wrapper scrolls so a wide matrix never breaks the page. */
+.worksheet { overflow-x: auto; }
+.worksheet th,
+.worksheet td {
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  font-weight: 400;
+}
+.worksheet td:first-child,
+.worksheet th:first-child { text-align: left; font-weight: 600; }
 
 /* ====== Utilities: wrapfig ====== */
 .wrapfig_left_30  { float: left;  margin: 0 20px 10px 10px; width: 30%; }
