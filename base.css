@@ -494,6 +494,19 @@ tbody td:first-child { font-weight: 600; }
    that suits a table of marks rather than sentences. */
 .gridded, .worksheet { overflow-x: auto; }
 
+/* A wide table inside a scrolling wrapper must be allowed to BE wide. With
+   `width: 100%` it squeezes instead, and a column narrower than its longest
+   word breaks the word down the middle. Size to content, fill the container
+   when there is room, and let the wrapper scroll when there is not. */
+.gridded > table, .worksheet > table,
+.gridded .table, .worksheet .table {
+  width: auto;
+  min-width: 100%;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
 .gridded .table > thead > tr > th,
 .gridded .table > tbody > tr > td,
 .gridded th, .gridded td,
