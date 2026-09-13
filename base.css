@@ -216,6 +216,17 @@ hr.method-divider {
   padding: 0.8rem 1rem;
   margin: 1.25rem 0;
   background: #f7f7f8;
+
+  /* A table inside a callout must not drag the page's brand colour into a
+     block that already has its own -- a blue header band inside a red .trap
+     reads as two designs fighting. Custom properties inherit, so declaring
+     them here quiets every table nested in any of these blocks without
+     repeating the selector list. The block supplies the colour; the table
+     supplies structure only. */
+  --tbl-head-bg: transparent;
+  --tbl-head-color: inherit;
+  --tbl-head-rule: rgba(0, 0, 0, 0.28);
+  --tbl-row-rule: rgba(0, 0, 0, 0.10);
 }
 /* the label line (author writes it as the first line) */
 .definition > :first-child, .for-curious > :first-child,
@@ -451,19 +462,19 @@ table {
    child selectors rather than reaching for !important. */
 .table > thead > tr > th,
 thead th {
-  background-color: var(--brand-bg-tint);
-  color: var(--brand-primary);
+  background-color: var(--tbl-head-bg, var(--brand-bg-tint));
+  color: var(--tbl-head-color, var(--brand-primary));
   text-align: left;
   font-weight: 700;
   padding: 0.6rem 0.8rem;
-  border-bottom: 2px solid var(--brand-primary);
+  border-bottom: 2px solid var(--tbl-head-rule, var(--brand-primary));
 }
 
 .table > tbody > tr > td,
 tbody td {
   padding: 0.6rem 0.8rem;
   vertical-align: top;
-  border-bottom: 1px solid #eef1f4;
+  border-bottom: 1px solid var(--tbl-row-rule, #eef1f4);
 }
 
 .table > tbody > tr:last-child > td,
