@@ -266,6 +266,25 @@ hr.method-divider {
 }
 .def-margin strong:first-child { color: var(--brand-primary); }
 
+/* field note (.fieldnote): the researcher's own reading of a transcript, set inside
+   the record rather than beside it. Deliberately NOT a callout. A callout in this
+   family means the book is speaking to the reader; these are the fieldworker
+   annotating their own data, and a demo whose job is to show the shape of a record
+   must not furnish that record with the book's own instructional boxes. Follows the
+   .def-margin pattern -- rule, no fill, no icon, no title bar -- and differentiates
+   by weight rather than by a new hue, on the same principle as .key-action. The
+   identity is carried by the treatment, so these need no "Notes:" label. */
+.fieldnote {
+  border-left: 3px solid var(--brand-primary);
+  padding-left: 0.8rem;
+  margin: 0.9rem 0 1.2rem;
+  font-size: 0.93em;
+  color: var(--brand-muted);
+}
+.fieldnote > :first-child { margin-top: 0; }
+.fieldnote > :last-child  { margin-bottom: 0; }
+.fieldnote strong:first-child { color: var(--brand-primary); }
+
 /* SEE — illustration & demonstration (secondary teal) */
 .mini-case, .worked-example, .running-case, .voice-customer {
   border-left-color: var(--brand-secondary);
