@@ -33,7 +33,7 @@ That judgment has a shape you can hold onto:
 
 - If the shortfall is **thin evidence**, a faint but not negative signal that a sharper look could resolve, the call is **loop**.
 - If the shortfall is **the approach, not the aim**, so they do not want *this* but plainly want the thing behind it, the call is **pivot**.
-- If the shortfall is **the opportunity itself**, a want that is not there or is too small or too dear to serve, the call is **stop**.
+- If the shortfall is **the opportunity itself**, a want that is not there or is too small or too costly to serve, the call is **stop**.
 - And if there is no shortfall, if what you have clears what the decision needs, the call is **act**, and the discipline then is to make it rather than loop once more out of nerves.
 
 This is the reading the rules cannot do for you. Two founders can study the identical result and one sees a pivot where the other sees a stop, because the reading rests on a belief about the world that the evidence underdetermines. That gap, where the data runs out and you must still choose, is not a defect in your process. It is where judgment lives, and it is why the call is yours and not the spreadsheet's.
